@@ -1,5 +1,7 @@
  The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\UserInterface.dll' is:
 --------------------------------------------------------
+Start time : 01:54 PM
+End time   : 03:53 PM
 Export symbols:
 ---------------------------------------------
 	CHARACTERISTICS                   0x00000000
@@ -13,33 +15,6 @@ Export symbols:
 	ADDRESS OF FUNCTIONS              0x000ef568
 	ADDRESS OF NAMES                  0x000f1578
 	ADDRESS OF NAME ORDINALS          0x000f3588
-Private: void __thiscall ObjectViewer::zoom(float)
-Protected: int __thiscall MultiColumnListBox::xToColumn(float)
-Protected: int __thiscall MultiColumnListBox::yToRow(float)
-Protected: virtual void __thiscall Control::updateBorders(void)
-Protected: virtual void __thiscall Control::updatePaintCoordinates(void)
-Protected: virtual void __thiscall Control::updateSelfPaintCoordinates(void)
-Protected: virtual void __thiscall ControlWithScrollBar::updateSelfPaintCoordinates(void)
-Protected: virtual void __thiscall ControlWithVisibleAreas::updateSelfPaintCoordinates(void)
-Protected: virtual void __thiscall Header::updateBorders(void)
-Protected: virtual void __thiscall ObjectViewer::updateSelfPaintCoordinates(void)
-Protected: virtual void __thiscall Plot::updateSelfPaintCoordinates(void)
-Protected: virtual void __thiscall Static::updateBorders(void)
-Protected: void __thiscall Control::updateSelfBorders(void)
-Protected: void __thiscall Header::updateSelfBorders(void)
-Protected: void __thiscall MultilineEditBox::updateCaret(void)
-Protected: void __thiscall ProgressBar::update(void)
-Protected: void __thiscall ProgressBar::updateProgress(void)
-Protected: void __thiscall ProgressBar::updateText(void)
-Protected: void __thiscall Static::updateSelfBorders(void)
-Public: bool __thiscall ObjectViewer::zoomBackward(void)
-Public: bool __thiscall ObjectViewer::zoomForward(void)
-Public: bool __thiscall ObjectViewer::zoomIn(void)
-Public: bool __thiscall ObjectViewer::zoomModeOff(bool)
-Public: bool __thiscall ObjectViewer::zoomModeOn(bool)
-Public: bool __thiscall ObjectViewer::zoomOut(void)
-Public: class Signal::Notifier<class UI::Chart *> & __thiscall UI::Chart::valueChanged(void)
-Public: class UI::Element * __thiscall UI::Dialog::window(void)const 
 Public: int __thiscall MultiStatic::xToColumn(float,int,bool *)const 
 Public: int __thiscall MultiStatic::xyToPos(float,float,bool *)const 
 Public: int __thiscall MultiStatic::xyToSelectionPos(float,float,bool *)const 
@@ -77,9 +52,6 @@ const ComplexTable::`vbtable'
 const ComplexTable::`vftable'{for `Control'}
 const ComplexTable::`vftable'{for `UI::Element'}
 const ComplexTableParameters::`vftable'
-const Control::`vbtable'
-const Control::`vftable'{for `Control'}
-const Control::`vftable'{for `UI::Element'}
 const ControlList::`vftable'
 const ControlManager::`vbtable'{for `Control'}
 const ControlManager::`vbtable'{for `UI::Manager'}
@@ -87,13 +59,7 @@ const ControlManager::`vftable'{for `Control'}
 const ControlManager::`vftable'{for `UI::Element'}
 const ControlManager::`vftable'{for `UI::Manager'}
 const ControlParameters::`vftable'
-const ControlWithScrollBar::`vbtable'
-const ControlWithScrollBar::`vftable'{for `Control'}
-const ControlWithScrollBar::`vftable'{for `UI::Element'}
 const ControlWithScrollBarParameters::`vftable'
-const ControlWithVisibleAreas::`vbtable'
-const ControlWithVisibleAreas::`vftable'{for `Control'}
-const ControlWithVisibleAreas::`vftable'{for `UI::Element'}
 const ControlWithVisibleAreasParameters::`vftable'
 const Dialog::`vbtable'
 const Dialog::`vftable'{for `Control'}
@@ -115,11 +81,6 @@ const EditBoxForDBGTaskDlg::`vftable'{for `Control'}
 const EditBoxForDBGTaskDlg::`vftable'{for `UI::Editor'}
 const EditBoxForDBGTaskDlg::`vftable'{for `UI::Element'}
 const EditBoxForDBGTaskDlg::`vftable'{for `UI::Switch'}
-const Header::`vbtable'{for `Control'}
-const Header::`vbtable'{for `UI::Tuner'}
-const Header::`vftable'{for `Control'}
-const Header::`vftable'{for `UI::Element'}
-const Header::`vftable'{for `UI::Tuner'}
 const HeaderParameters::`vftable'
 const Hint::`vbtable'{for `ControlWithVisibleAreas'}
 const Hint::`vbtable'{for `UI::Button'}
@@ -139,44 +100,23 @@ const MenuButton::`vftable'{for `Control'}
 const MenuButton::`vftable'{for `UI::Element'}
 const MenuButton::`vftable'{for `UI::Switch'}
 const MenuButtonParameters::`vftable'
-const MultiColumnListBox::`vbtable'{for `ControlWithScrollBar'}
-const MultiColumnListBox::`vbtable'{for `UI::Chart'}
-const MultiColumnListBox::`vftable'{for `Control'}
-const MultiColumnListBox::`vftable'{for `UI::Chart'}
-const MultiColumnListBox::`vftable'{for `UI::Element'}
 const MultiColumnListBoxParameters::`vftable'
 const MultiStatic::`vbtable'{for `ControlWithScrollBar'}
 const MultiStatic::`vbtable'{for `UI::Editor'}
 const MultiStatic::`vftable'{for `Control'}
 const MultiStatic::`vftable'{for `UI::Editor'}
 const MultiStatic::`vftable'{for `UI::Element'}
-const MultilineEditBox::`vbtable'{for `ControlWithScrollBar'}
-const MultilineEditBox::`vbtable'{for `UI::Editor'}
-const MultilineEditBox::`vftable'{for `Control'}
-const MultilineEditBox::`vftable'{for `UI::Editor'}
-const MultilineEditBox::`vftable'{for `UI::Element'}
-const ObjectViewer::`vbtable'
-const ObjectViewer::`vftable'{for `Control'}
-const ObjectViewer::`vftable'{for `UI::Element'}
 const PictureViewer::`vbtable'{for `ControlWithScrollBar'}
 const PictureViewer::`vbtable'{for `UI::Chart'}
 const PictureViewer::`vftable'{for `Control'}
 const PictureViewer::`vftable'{for `UI::Chart'}
 const PictureViewer::`vftable'{for `UI::Element'}
 const PictureViewerParameters::`vftable'
-const Plot::`vbtable'
-const Plot::`vftable'{for `Control'}
-const Plot::`vftable'{for `UI::Element'}
 const PlotParameters::`vftable'
 const Processor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
 const Processor::`vftable'{for `System'}
 const ProcessorsManager::`vftable'{for `EagleDynamics::Common::FactoryManager'}
 const ProcessorsManager::`vftable'{for `System'}
-const ProgressBar::`vbtable'{for `ControlWithVisibleAreas'}
-const ProgressBar::`vbtable'{for `UI::Tuner'}
-const ProgressBar::`vftable'{for `Control'}
-const ProgressBar::`vftable'{for `UI::Element'}
-const ProgressBar::`vftable'{for `UI::Tuner'}
 const ProgressBarParameters::`vftable'
 const RadioGroup::`vbtable'{for `Control'}
 const RadioGroup::`vbtable'{for `UI::Selector'}
@@ -209,12 +149,6 @@ const SpinEdit::`vftable'{for `Control'}
 const SpinEdit::`vftable'{for `UI::Element'}
 const SpinEdit::`vftable'{for `UI::Tuner'}
 const SpinEditParameters::`vftable'
-const Static::`vbtable'{for `ControlWithVisibleAreas'}
-const Static::`vbtable'{for `UI::Button'}
-const Static::`vbtable'{for `UI::Switch'}
-const Static::`vftable'{for `Control'}
-const Static::`vftable'{for `UI::Element'}
-const Static::`vftable'{for `UI::Switch'}
 const StaticParameters::`vftable'
 const StaticWithIconParameters::`vftable'
 const SwingButton::`vbtable'{for `ControlWithVisibleAreas'}
@@ -235,27 +169,6 @@ const SwitchWafer::`vbtable'{for `UI::Selector'}
 const SwitchWafer::`vftable'{for `Control'}
 const SwitchWafer::`vftable'{for `UI::Element'}
 const SwitchWafer::`vftable'{for `UI::Selector'}
-const UI::Button::`vbtable'
-const UI::Button::`vftable'
-const UI::Chart::`vbtable'
-const UI::Chart::`vftable'{for `UI::Chart'}
-const UI::Chart::`vftable'{for `UI::Element'}
-const UI::Editor::`vbtable'
-const UI::Editor::`vftable'{for `UI::Editor'}
-const UI::Editor::`vftable'{for `UI::Element'}
-const UI::Element::`vftable'
-const UI::Manager::`vbtable'
-const UI::Manager::`vftable'{for `UI::Element'}
-const UI::Manager::`vftable'{for `UI::Manager'}
-const UI::Selector::`vbtable'
-const UI::Selector::`vftable'{for `UI::Element'}
-const UI::Selector::`vftable'{for `UI::Selector'}
-const UI::Switch::`vbtable'
-const UI::Switch::`vftable'{for `UI::Element'}
-const UI::Switch::`vftable'{for `UI::Switch'}
-const UI::Tuner::`vbtable'
-const UI::Tuner::`vftable'{for `UI::Element'}
-const UI::Tuner::`vftable'{for `UI::Tuner'}
 const `anonymous namespace'::Stub::`vbtable'{for `UI::Button'}
 const `anonymous namespace'::Stub::`vbtable'{for `UI::Chart'}
 const `anonymous namespace'::Stub::`vbtable'{for `UI::Editor'}
@@ -273,13 +186,10 @@ const `anonymous namespace'::Stub::`vftable'{for `UI::Tuner'}
 double __cdecl getDistance(class TPoint<float> const &,class TPoint<float> const &)
 double __cdecl getDistanceToSegment(class TPoint<float> const &,class TPoint<float> const &,class TPoint<float> const &)
 int __cdecl GetNearestInt(double)
-private: bool __thiscall ObjectViewer::checkForRestrictions(class Position3 &)
 private: bool __thiscall PictureViewer::SetTextureName(class Control *,char const *)
 private: bool __thiscall RadioGroup::setPos(int,bool)
 private: bool __thiscall ResParser::isAvailableChar(char)
 private: bool __thiscall ResParser::nextArg(void)
-private: class Box __thiscall ObjectViewer::getBox(class Graphics::Model *)
-private: class Position3 & __thiscall ObjectViewer::d3dMatrixToPosition(struct D3DXMATRIX &,class Position3 &)
 private: class Static * __thiscall RadioGroup::member(int)
 private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Dialog::createResourceName(char const *,int,class MapOfFile *)
 private: int __thiscall SwitchWafer::getDistance(int,int,class Control *)
@@ -290,43 +200,25 @@ private: static int Dialog::dialogsCounter
 private: static struct MSGTABLE_ENTRY const * const ComboBox::messageEntries
 private: static struct MSGTABLE_ENTRY const * const ComboBoxForDBGTaskDlg::messageEntries
 private: static struct MSGTABLE_ENTRY const * const ComplexTable::messageEntries
-private: static struct MSGTABLE_ENTRY const * const Control::messageEntries
-private: static struct MSGTABLE_ENTRY const * const ControlWithScrollBar::messageEntries
-private: static struct MSGTABLE_ENTRY const * const ControlWithVisibleAreas::messageEntries
 private: static struct MSGTABLE_ENTRY const * const Dialog::messageEntries
 private: static struct MSGTABLE_ENTRY const * const EditBox::messageEntries
 private: static struct MSGTABLE_ENTRY const * const EditBoxForDBGTaskDlg::messageEntries
-private: static struct MSGTABLE_ENTRY const * const Header::messageEntries
 private: static struct MSGTABLE_ENTRY const * const Hint::messageEntries
 private: static struct MSGTABLE_ENTRY const * const MainMenu::messageEntries
 private: static struct MSGTABLE_ENTRY const * const MenuButton::messageEntries
-private: static struct MSGTABLE_ENTRY const * const MultiColumnListBox::messageEntries
 private: static struct MSGTABLE_ENTRY const * const MultiStatic::messageEntries
-private: static struct MSGTABLE_ENTRY const * const MultilineEditBox::messageEntries
-private: static struct MSGTABLE_ENTRY const * const ObjectViewer::messageEntries
-private: static struct MSGTABLE_ENTRY const * const Plot::messageEntries
-private: static struct MSGTABLE_ENTRY const * const ProgressBar::messageEntries
 private: static struct MSGTABLE_ENTRY const * const RadioGroup::messageEntries
 private: static struct MSGTABLE_ENTRY const * const ScrollBar::messageEntries
 private: static struct MSGTABLE_ENTRY const * const Slider::messageEntries
 private: static struct MSGTABLE_ENTRY const * const SliderButton::messageEntries
 private: static struct MSGTABLE_ENTRY const * const SpinEdit::messageEntries
-private: static struct MSGTABLE_ENTRY const * const Static::messageEntries
 private: static struct MSGTABLE_ENTRY const * const SwingButton::messageEntries
 private: static struct MSGTABLE_ENTRY const * const SwitchStatic::messageEntries
 private: static struct MSGTABLE_ENTRY const * const SwitchWafer::messageEntries
-private: struct D3DXMATRIX & __thiscall ObjectViewer::positionTod3dMatrix(class Position3 &,struct D3DXMATRIX &)
-private: struct MSGTABLE_ENTRY const * __thiscall Control::findMessageEntry(struct MSGTABLE_ENTRY const *,int,int,int)
 private: virtual void __thiscall ComboBox::showCursor(void)
-private: virtual void __thiscall Control::decreaseDialogCounter(void)
-private: virtual void __thiscall Control::increaseDialogCounter(void)
 private: virtual void __thiscall Dialog::decreaseDialogCounter(void)
 private: virtual void __thiscall Dialog::increaseDialogCounter(void)
 private: void __thiscall ComboBox::thisArrange(struct ComboBoxParameters const &)
-private: void __thiscall Control::dispatchMessage(class Control *,struct Message *,struct MSGTABLE_ENTRY const *)
-private: void __thiscall ControlWithScrollBar::fitScrollBar(void)
-private: void __thiscall ControlWithScrollBar::thisArrange(struct ControlWithScrollBarParameters const &)
-private: void __thiscall ControlWithVisibleAreas::thisArrange(struct ControlWithVisibleAreasParameters const &)
 private: void __thiscall DescriptorTable::delControlOnly(class Control *)
 private: void __thiscall Dialog::createControl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,char const *,int,int,class MainMenu * &)
 private: void __thiscall Dialog::createFromFile(char const *)
@@ -336,21 +228,13 @@ private: void __thiscall Hint::calculateCoordinates(void)
 private: void __thiscall Hint::thisArrange(struct HintParameters const &)
 private: void __thiscall MainMenu::thisArrange(struct MainMenuParameters const &)
 private: void __thiscall MenuButton::thisArrange(struct MenuButtonParameters const &)
-private: void __thiscall MultiColumnListBox::setItemParams(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)
-private: void __thiscall MultiColumnListBox::thisArrange(struct MultiColumnListBoxParameters const &)
-private: void __thiscall MultilineEditBox::thisArrange(struct MultilineEditBoxParameters const &)
-private: void __thiscall ObjectViewer::moveCamera(float,float,int)
-private: void __thiscall ObjectViewer::thisArrange(struct ObjectViewerParameters const &)
-private: void __thiscall Plot::thisArrange(struct PlotParameters const &)
 private: void __thiscall ProcessorsManager::shutdown(class ATL::CComPtr<class Processor>)
 private: void __thiscall ProcessorsManager::startup(class ATL::CComPtr<class Processor>)
-private: void __thiscall ProgressBar::thisArrange(struct ProgressBarParameters const &)
 private: void __thiscall RadioGroup::thisArrange(struct RadioGroupParameters const &)
 private: void __thiscall ScrollBar::thisArrange(struct ScrollBarParameters const &)
 private: void __thiscall Slider::thisArrange(struct SliderParameters const &)
 private: void __thiscall SliderButton::thisArrange(struct SliderButtonParameters const &)
 private: void __thiscall SpinEdit::thisArrange(struct SpinEditParameters const &)
-private: void __thiscall Static::thisArrange(struct StaticParameters const &)
 private: void __thiscall SwingButton::init(void)
 private: void __thiscall SwingButton::thisArrange(struct SwingButtonParameters const &)
 private: void __thiscall SwitchStatic::init(void)
@@ -358,8 +242,6 @@ private: void __thiscall SwitchStatic::thisArrange(struct SwitchStaticParameters
 private: void __thiscall SwitchWafer::thisArrange(struct SwitchWaferParameters const &)
 private: void __thiscall `anonymous namespace'::Stub::call(char const *)const 
 protected: __thiscall AbleToPostponeTheOwnClosing::AbleToPostponeTheOwnClosing(void)
-protected: __thiscall UI::Element::Element(class UI::Element const &)
-protected: __thiscall UI::Element::Element(void)
 protected: bool & __thiscall StaticParameters::initialized(void)
 protected: bool __thiscall ComplexTable::IsLineVisible(int)
 protected: bool __thiscall ControlManager::IsActivatingMessage(int)
@@ -370,22 +252,13 @@ protected: bool __thiscall MultiStatic::getSelectionOn(void)const
 protected: class DrawUIText * __thiscall MultiStatic::createDrawString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const 
 protected: class DrawUIText * __thiscall MultiStatic::createTempDrawString(void)const 
 protected: class GroupDesc * __thiscall ComplexTable::GetActiveGroup(int)
-protected: class std::list<class Control *,class std::allocator<class Control *> >::iterator __thiscall Control::setPaintListPosition(class std::list<class Control *,class std::allocator<class Control *> >::iterator)
 protected: class std::map<int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::less<int>,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > & __thiscall StaticParameters::defaultResourceFiles(void)
 protected: class std::stack<struct UndoRedoAction,class std::deque<struct UndoRedoAction,class std::allocator<struct UndoRedoAction> > > * __thiscall MultiStatic::getCurrentActionStorage(void)
-protected: float __thiscall MultiColumnListBox::calculateNextLTX(int,float)
-protected: float __thiscall MultiColumnListBox::calculateNextLTY(int,float)
-protected: float __thiscall MultiColumnListBox::calculateRBX(int,float)
-protected: float __thiscall MultiColumnListBox::calculateRBY(int,float)
-protected: float __thiscall MultiColumnListBox::getFirstColumnLTX(void)
-protected: float __thiscall MultiColumnListBox::getFirstRowLTY(void)
 protected: float __thiscall MultiStatic::getNextLineY(float)const 
 protected: int __thiscall ComplexTable::DeleteLine(class TableLine * *)
 protected: int __thiscall MultiStatic::getFirstSelectedPos(void)const 
 protected: int __thiscall MultiStatic::getUndoRedoMode(void)
 protected: static bool Cursor::m_IsVisible
-protected: static class TPoint<float> Control::inflateCoeffs
-protected: static class TPoint<float> Control::inverseInflateCoeffs
 protected: static int Cursor::m_Shape
 protected: static int Cursor::m_StoredShape
 protected: static struct HICON__ * Cursor::m_Cursor
@@ -394,93 +267,49 @@ protected: static struct HWND__ * Cursor::m_MainWnd
 protected: static struct MSGTABLE const ComboBox::messageTable
 protected: static struct MSGTABLE const ComboBoxForDBGTaskDlg::messageTable
 protected: static struct MSGTABLE const ComplexTable::messageTable
-protected: static struct MSGTABLE const Control::messageTable
-protected: static struct MSGTABLE const ControlWithScrollBar::messageTable
-protected: static struct MSGTABLE const ControlWithVisibleAreas::messageTable
 protected: static struct MSGTABLE const Dialog::messageTable
 protected: static struct MSGTABLE const EditBox::messageTable
 protected: static struct MSGTABLE const EditBoxForDBGTaskDlg::messageTable
-protected: static struct MSGTABLE const Header::messageTable
 protected: static struct MSGTABLE const Hint::messageTable
 protected: static struct MSGTABLE const MainMenu::messageTable
 protected: static struct MSGTABLE const MenuButton::messageTable
-protected: static struct MSGTABLE const MultiColumnListBox::messageTable
 protected: static struct MSGTABLE const MultiStatic::messageTable
-protected: static struct MSGTABLE const MultilineEditBox::messageTable
-protected: static struct MSGTABLE const ObjectViewer::messageTable
-protected: static struct MSGTABLE const Plot::messageTable
-protected: static struct MSGTABLE const ProgressBar::messageTable
 protected: static struct MSGTABLE const RadioGroup::messageTable
 protected: static struct MSGTABLE const ScrollBar::messageTable
 protected: static struct MSGTABLE const Slider::messageTable
 protected: static struct MSGTABLE const SliderButton::messageTable
 protected: static struct MSGTABLE const SpinEdit::messageTable
-protected: static struct MSGTABLE const Static::messageTable
 protected: static struct MSGTABLE const SwingButton::messageTable
 protected: static struct MSGTABLE const SwitchStatic::messageTable
 protected: static struct MSGTABLE const SwitchWafer::messageTable
 protected: virtual __thiscall AbleToPostponeTheOwnClosing::~AbleToPostponeTheOwnClosing(void)
-protected: virtual __thiscall Control::~Control(void)
-protected: virtual __thiscall UI::Element::~Element(void)
 protected: virtual bool __thiscall EditBox::checkText(void)
 protected: virtual bool __thiscall EditBox::isAvailableChars(char)
 protected: virtual bool __thiscall MultiStatic::refreshText(void)
-protected: virtual bool __thiscall MultilineEditBox::refreshText(void)
-protected: virtual class Control * __thiscall Control::findChildByCoordAskChildren(class TPoint<float> const &,bool)
-protected: virtual class Control * __thiscall MultiColumnListBox::findChildByCoordAskChildren(class TPoint<float> const &,bool)
-protected: virtual class Static * __thiscall MultiColumnListBox::CreateItem(int,int)
 protected: virtual struct MSGTABLE const * __thiscall ComboBox::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall ComboBoxForDBGTaskDlg::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall ComplexTable::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall Control::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall ControlWithScrollBar::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall ControlWithVisibleAreas::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall Dialog::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall EditBox::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall EditBoxForDBGTaskDlg::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall Header::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall Hint::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall MainMenu::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall MenuButton::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall MultiColumnListBox::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall MultiStatic::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall MultilineEditBox::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall ObjectViewer::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall Plot::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall ProgressBar::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall RadioGroup::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall ScrollBar::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall Slider::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall SliderButton::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall SpinEdit::getMessageTable(void)const 
-protected: virtual struct MSGTABLE const * __thiscall Static::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall SwingButton::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall SwitchStatic::getMessageTable(void)const 
 protected: virtual struct MSGTABLE const * __thiscall SwitchWafer::getMessageTable(void)const 
 protected: virtual struct UndoRedoAction __thiscall MultiStatic::undoRedo(int,int)
-protected: virtual struct UndoRedoAction __thiscall MultilineEditBox::undoRedo(int,int)
 protected: virtual void __thiscall ComboBox::onActivate(int,class Control *)
 protected: virtual void __thiscall ComboBox::onPaint(void)
 protected: virtual void __thiscall ComboBox::onStyleChanging(bool,int)
 protected: virtual void __thiscall ComboBoxForDBGTaskDlg::onPaint(void)
 protected: virtual void __thiscall ComplexTable::onPaint(void)
-protected: virtual void __thiscall Control::DoPaint(void)
-protected: virtual void __thiscall Control::inflateChildren(void)
-protected: virtual void __thiscall Control::inflateSelf(void)
-protected: virtual void __thiscall Control::onActivate(int,class Control *)
-protected: virtual void __thiscall Control::onCreate(void)
-protected: virtual void __thiscall Control::onLButtonDblclk(int,int,int)
-protected: virtual void __thiscall Control::onLButtonDown(int,int,int)
-protected: virtual void __thiscall Control::onMouseMove(int,int,int)
-protected: virtual void __thiscall Control::onMove(int,int)
-protected: virtual void __thiscall Control::onPaint(void)
-protected: virtual void __thiscall Control::onStyleChanging(bool,int)
-protected: virtual void __thiscall Control::paintChildren(void)
-protected: virtual void __thiscall Control::showCursor(void)
-protected: virtual void __thiscall ControlWithScrollBar::onCreate(void)
-protected: virtual void __thiscall ControlWithScrollBar::onStyleChanging(bool,int)
-protected: virtual void __thiscall ControlWithVisibleAreas::inflateSelf(void)
-protected: virtual void __thiscall ControlWithVisibleAreas::onMove(int,int)
 protected: virtual void __thiscall Dialog::onActivate(int,class Control *)
 protected: virtual void __thiscall Dialog::onCreate(void)
 protected: virtual void __thiscall Dialog::onLButtonDown(int,int,int)
@@ -496,13 +325,6 @@ protected: virtual void __thiscall EditBox::onPaint(void)
 protected: virtual void __thiscall EditBox::showCursor(void)
 protected: virtual void __thiscall EditBoxForDBGTaskDlg::onLButtonDown(int,int,int)
 protected: virtual void __thiscall EditBoxForDBGTaskDlg::onPaint(void)
-protected: virtual void __thiscall Header::inflateSelf(void)
-protected: virtual void __thiscall Header::onActivate(int,class Control *)
-protected: virtual void __thiscall Header::onCreate(void)
-protected: virtual void __thiscall Header::onLButtonDown(int,int,int)
-protected: virtual void __thiscall Header::onMouseMove(int,int,int)
-protected: virtual void __thiscall Header::onMove(int,int)
-protected: virtual void __thiscall Header::onPaint(void)
 protected: virtual void __thiscall Hint::onPaint(void)
 protected: virtual void __thiscall MainMenu::inflate(void)
 protected: virtual void __thiscall MainMenu::inflateSelf(void)
@@ -510,33 +332,10 @@ protected: virtual void __thiscall MainMenu::onPaint(void)
 protected: virtual void __thiscall MenuButton::onLButtonDblclk(int,int,int)
 protected: virtual void __thiscall MenuButton::onLButtonDown(int,int,int)
 protected: virtual void __thiscall MenuButton::onPaint(void)
-protected: virtual void __thiscall MultiColumnListBox::inflateChildren(void)
-protected: virtual void __thiscall MultiColumnListBox::inflateSelf(void)
-protected: virtual void __thiscall MultiColumnListBox::onCreate(void)
-protected: virtual void __thiscall MultiColumnListBox::onLButtonDblclk(int,int,int)
-protected: virtual void __thiscall MultiColumnListBox::onLButtonDown(int,int,int)
-protected: virtual void __thiscall MultiColumnListBox::onMouseMove(int,int,int)
-protected: virtual void __thiscall MultiColumnListBox::onMove(int,int)
-protected: virtual void __thiscall MultiColumnListBox::onPaint(void)
-protected: virtual void __thiscall MultiColumnListBox::onStyleChanging(bool,int)
-protected: virtual void __thiscall MultiColumnListBox::paintChildren(void)
 protected: virtual void __thiscall MultiStatic::onLButtonDown(int,int,int)
 protected: virtual void __thiscall MultiStatic::onMouseMove(int,int,int)
 protected: virtual void __thiscall MultiStatic::onMove(int,int)
 protected: virtual void __thiscall MultiStatic::onPaint(void)
-protected: virtual void __thiscall MultilineEditBox::drawCaret(void)const 
-protected: virtual void __thiscall MultilineEditBox::onLButtonDblclk(int,int,int)
-protected: virtual void __thiscall MultilineEditBox::onLButtonDown(int,int,int)
-protected: virtual void __thiscall MultilineEditBox::onMouseMove(int,int,int)
-protected: virtual void __thiscall MultilineEditBox::onMove(int,int)
-protected: virtual void __thiscall MultilineEditBox::onPaint(void)
-protected: virtual void __thiscall ObjectViewer::onCreate(void)
-protected: virtual void __thiscall ObjectViewer::onLButtonDown(int,int,int)
-protected: virtual void __thiscall ObjectViewer::onMouseMove(int,int,int)
-protected: virtual void __thiscall ObjectViewer::onPaint(void)
-protected: virtual void __thiscall Plot::inflateSelf(void)
-protected: virtual void __thiscall Plot::onMove(int,int)
-protected: virtual void __thiscall Plot::onPaint(void)
 protected: virtual void __thiscall RadioGroup::onCreate(void)
 protected: virtual void __thiscall RadioGroup::onStyleChanging(bool,int)
 protected: virtual void __thiscall ScrollBar::onLButtonDown(int,int,int)
@@ -551,16 +350,6 @@ protected: virtual void __thiscall SliderButton::onMove(int,int)
 protected: virtual void __thiscall SliderButton::onPaint(void)
 protected: virtual void __thiscall SliderButton::onStyleChanging(bool,int)
 protected: virtual void __thiscall SpinEdit::onPaint(void)
-protected: virtual void __thiscall Static::calculateCaptionParameters(void)
-protected: virtual void __thiscall Static::inflateSelf(void)
-protected: virtual void __thiscall Static::onActivate(int,class Control *)
-protected: virtual void __thiscall Static::onLButtonDblclk(int,int,int)
-protected: virtual void __thiscall Static::onLButtonDown(int,int,int)
-protected: virtual void __thiscall Static::onMove(int,int)
-protected: virtual void __thiscall Static::onPaint(void)
-protected: virtual void __thiscall Static::onStyleChanging(bool,int)
-protected: virtual void __thiscall Static::setOrder(bool,int)
-protected: virtual void __thiscall Static::showCursor(void)
 protected: virtual void __thiscall SwingButton::onActivate(int,class Control *)
 protected: virtual void __thiscall SwingButton::onCreate(void)
 protected: virtual void __thiscall SwingButton::onLButtonDblclk(int,int,int)
@@ -594,16 +383,8 @@ protected: void __thiscall ComplexTable::SelectNext(void)
 protected: void __thiscall ComplexTable::SelectPrev(void)
 protected: void __thiscall ComplexTable::onKeyDown(int,int)
 protected: void __thiscall ComplexTable::onLineActivated(class TableLine *)
-protected: void __thiscall Control::clearPtrs(void)
-protected: void __thiscall Control::init(void)
-protected: void __thiscall Control::setParent(class Control *)
-protected: void __thiscall Control::thisArrange(struct ControlParameters const &)
 protected: void __thiscall ControlManager::finalRelease(void)
 protected: void __thiscall ControlManager::onWindowPosChanged(void)
-protected: void __thiscall ControlWithScrollBar::correctVisibleArea(void)
-protected: void __thiscall ControlWithScrollBar::init(void)
-protected: void __thiscall ControlWithVisibleAreas::changeSizeMessage(void)
-protected: void __thiscall ControlWithVisibleAreas::init(void)
 protected: void __thiscall Dialog::init(void)
 protected: void __thiscall Dialog::onClose(void)
 protected: void __thiscall Dialog::onCloseButton(void)
@@ -619,48 +400,12 @@ protected: void __thiscall EditBox::onSetFocus(class Control *)
 protected: void __thiscall EditBoxForDBGTaskDlg::onKeyDown(int,int)
 protected: void __thiscall EditBoxForDBGTaskDlg::onKillFocus(class Control *)
 protected: void __thiscall EditBoxForDBGTaskDlg::onSetFocus(class Control *)
-protected: void __thiscall Header::CalcCurAngle(void)
-protected: void __thiscall Header::ChangeDirection(double &)
-protected: void __thiscall Header::ChangeValue(double)
-protected: void __thiscall Header::Init(struct HeaderParameters const *)
-protected: void __thiscall Header::UpdateAttachCtrls(double)
-protected: void __thiscall Header::onClose(void)
-protected: void __thiscall Header::onEditChange(void)
-protected: void __thiscall Header::onLButtonUp(int,int,int)
-protected: void __thiscall Header::onSpinEditChange(void)
-protected: void __thiscall Header::setLocation(void)
 protected: void __thiscall MainMenu::init(void)
 protected: void __thiscall MenuButton::init(void)
 protected: void __thiscall MenuButton::onKeyDown(int,int)
 protected: void __thiscall MenuButton::onLButtonUp(int,int,int)
 protected: void __thiscall MenuButton::onSelectionChanged(void)
 protected: void __thiscall MenuButton::rememberFocus(class Control *)
-protected: void __thiscall MultiColumnListBox::adaptMarkerPosition(void)
-protected: void __thiscall MultiColumnListBox::alignColumn(int,int)
-protected: void __thiscall MultiColumnListBox::alignRow(int,int)
-protected: void __thiscall MultiColumnListBox::alignStatic(int,int,int)
-protected: void __thiscall MultiColumnListBox::alignTable(int)
-protected: void __thiscall MultiColumnListBox::calculateCellsPositions(void)
-protected: void __thiscall MultiColumnListBox::calculateLinesCoordinates(void)
-protected: void __thiscall MultiColumnListBox::coordToItem(float,float,int *,int *)
-protected: void __thiscall MultiColumnListBox::findVisibleItems(void)
-protected: void __thiscall MultiColumnListBox::init(void)
-protected: void __thiscall MultiColumnListBox::initializeCell(class Static *)
-protected: void __thiscall MultiColumnListBox::onChar(char,int)
-protected: void __thiscall MultiColumnListBox::onClose(void)
-protected: void __thiscall MultiColumnListBox::onKeyDown(int,int)
-protected: void __thiscall MultiColumnListBox::onKillFocus(class Control *)
-protected: void __thiscall MultiColumnListBox::onMarkerClick(void)
-protected: void __thiscall MultiColumnListBox::onMouseWheel(short,short,int,int)
-protected: void __thiscall MultiColumnListBox::onSetFocus(class Control *)
-protected: void __thiscall MultiColumnListBox::onSize(void)
-protected: void __thiscall MultiColumnListBox::onVScroll(int,int,class Control *)
-protected: void __thiscall MultiColumnListBox::setItemsCoordinates(void)
-protected: void __thiscall MultiColumnListBox::setLinesNumber(int)
-protected: void __thiscall MultiColumnListBox::setMarker1Position(void)
-protected: void __thiscall MultiColumnListBox::setMarker2Position(void)
-protected: void __thiscall MultiColumnListBox::setVisibleItems(void)
-protected: void __thiscall MultiColumnListBox::tuneScrollBar(void)
 protected: void __thiscall MultiStatic::addAction(struct UndoRedoAction const &)
 protected: void __thiscall MultiStatic::addInsertAction(int,int)
 protected: void __thiscall MultiStatic::addRemoveAction(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
@@ -691,22 +436,6 @@ protected: void __thiscall MultiStatic::thisArrange(struct MultiStaticParameters
 protected: void __thiscall MultiStatic::tuneSelection(void)
 protected: void __thiscall MultiStatic::undo(void)
 protected: void __thiscall MultiStatic::undoAction(struct UndoRedoAction const &)
-protected: void __thiscall MultilineEditBox::init(void)
-protected: void __thiscall MultilineEditBox::onChar(char,int)
-protected: void __thiscall MultilineEditBox::onKeyDown(int,int)
-protected: void __thiscall MultilineEditBox::onKillFocus(class Control *)
-protected: void __thiscall MultilineEditBox::onLButtonUp(int,int,int)
-protected: void __thiscall MultilineEditBox::onSetFocus(class Control *)
-protected: void __thiscall MultilineEditBox::setNeedToUpdateCaret(bool)
-protected: void __thiscall ObjectViewer::onClose(void)
-protected: void __thiscall ObjectViewer::onLButtonUp(int,int,int)
-protected: void __thiscall ObjectViewer::onMouseWheel(short,short,int,int)
-protected: void __thiscall ObjectViewer::setRectangle(void)
-protected: void __thiscall Plot::calculateDrawPoints(int,int)
-protected: void __thiscall Plot::calculateIndices(int,int)
-protected: void __thiscall Plot::calculatePlot(int,int)
-protected: void __thiscall Plot::init(void)
-protected: void __thiscall ProgressBar::init(void)
 protected: void __thiscall RadioGroup::init(void)
 protected: void __thiscall RadioGroup::pressed(class UI::Switch *)
 protected: void __thiscall ScrollBar::init(void)
@@ -728,19 +457,8 @@ protected: void __thiscall SpinEdit::init(struct SpinEditParameters const &)
 protected: void __thiscall SpinEdit::onEditChange(void)
 protected: void __thiscall SpinEdit::onEditEndSession(void)
 protected: void __thiscall SpinEdit::onEditKillFocus(void)
-protected: void __thiscall Static::calculateFontPSize(void)
-protected: void __thiscall Static::init(void)
-protected: void __thiscall Static::onClose(void)
-protected: void __thiscall Static::onKeyDown(int,int)
-protected: void __thiscall Static::onKillFocus(class Control *)
-protected: void __thiscall Static::onLButtonUp(int,int,int)
-protected: void __thiscall Static::onMouseWheel(short,short,int,int)
-protected: void __thiscall Static::onSize(void)
-protected: void __thiscall Static::raiseEvent(int)
-protected: void __thiscall Static::setActivationVertices(void)
 protected: void __thiscall SwingButton::onLButtonUp(int,int,int)
 protected: void __thiscall SwitchStatic::onClose(void)
-protected: void __thiscall UI::Element::operator=(class UI::Element const &)
 public: __thiscall AbleToPostponeTheOwnClosing::AbleToPostponeTheOwnClosing(class AbleToPostponeTheOwnClosing const &)
 public: __thiscall ColumnParameters::ColumnParameters(struct ColumnParameters const &)
 public: __thiscall ColumnParameters::ColumnParameters(void)
@@ -758,23 +476,14 @@ public: __thiscall ComplexTable::ComplexTable(class ComplexTable const &)
 public: __thiscall ComplexTable::ComplexTable(struct ControlParameters const &)
 public: __thiscall ComplexTableParameters::ComplexTableParameters(int)
 public: __thiscall ComplexTableParameters::ComplexTableParameters(struct ComplexTableParameters const &)
-public: __thiscall Control::Control(class Control const &)
-public: __thiscall Control::Control(int,float,float,float,float)
-public: __thiscall Control::Control(struct ControlParameters const &)
 public: __thiscall ControlList::ControlList(int)
 public: __thiscall ControlList::ControlList(struct ControlList const &)
 public: __thiscall ControlManager::ControlManager(class ControlManager const &)
 public: __thiscall ControlManager::ControlManager(void)
 public: __thiscall ControlParameters::ControlParameters(int)
 public: __thiscall ControlParameters::ControlParameters(struct ControlParameters const &)
-public: __thiscall ControlWithScrollBar::ControlWithScrollBar(class ControlWithScrollBar const &)
-public: __thiscall ControlWithScrollBar::ControlWithScrollBar(int,float,float,float,float)
-public: __thiscall ControlWithScrollBar::ControlWithScrollBar(struct ControlWithScrollBarParameters const &)
 public: __thiscall ControlWithScrollBarParameters::ControlWithScrollBarParameters(int)
 public: __thiscall ControlWithScrollBarParameters::ControlWithScrollBarParameters(struct ControlWithScrollBarParameters const &)
-public: __thiscall ControlWithVisibleAreas::ControlWithVisibleAreas(class ControlWithVisibleAreas const &)
-public: __thiscall ControlWithVisibleAreas::ControlWithVisibleAreas(int,float,float,float,float)
-public: __thiscall ControlWithVisibleAreas::ControlWithVisibleAreas(struct ControlWithVisibleAreasParameters const &)
 public: __thiscall ControlWithVisibleAreasParameters::ControlWithVisibleAreasParameters(int)
 public: __thiscall ControlWithVisibleAreasParameters::ControlWithVisibleAreasParameters(struct ControlWithVisibleAreasParameters const &)
 public: __thiscall CountriesInfo::CountriesInfo(char const *,char const *)
@@ -795,8 +504,6 @@ public: __thiscall DrawPrimitive::~DrawPrimitive(void)
 public: __thiscall EditBox::EditBox(int,float,float,float,float)
 public: __thiscall EditBox::EditBox(struct EditBoxParameters const &)
 public: __thiscall EditBoxForDBGTaskDlg::EditBoxForDBGTaskDlg(struct EditBoxParameters const &,bool)
-public: __thiscall Header::Header(int,float,float,float,float)
-public: __thiscall Header::Header(struct HeaderParameters const &)
 public: __thiscall HeaderParameters::HeaderParameters(int)
 public: __thiscall HeaderParameters::HeaderParameters(struct HeaderParameters const &)
 public: __thiscall Hint::Hint(struct HintParameters const &)
@@ -816,30 +523,19 @@ public: __thiscall MenuButtonParameters::MenuButtonParameters(struct MenuButtonP
 public: __thiscall Message::Message(int)
 public: __thiscall Message::Message(int,int,int)
 public: __thiscall Message::Message(int,union DWord,union DWord)
-public: __thiscall MultiColumnListBox::MultiColumnListBox(int,float,float,float,float)
-public: __thiscall MultiColumnListBox::MultiColumnListBox(struct MultiColumnListBoxParameters const &)
 public: __thiscall MultiColumnListBoxParameters::MultiColumnListBoxParameters(int)
 public: __thiscall MultiColumnListBoxParameters::MultiColumnListBoxParameters(struct MultiColumnListBoxParameters const &)
 public: __thiscall MultiStatic::MultiStatic(int,float,float,float,float)
 public: __thiscall MultiStatic::MultiStatic(struct MultiStaticParameters const &)
-public: __thiscall MultilineEditBox::MultilineEditBox(int,float,float,float,float)
-public: __thiscall MultilineEditBox::MultilineEditBox(struct MultilineEditBoxParameters const &)
-public: __thiscall ObjectViewer::ObjectViewer(class ObjectViewer const &)
-public: __thiscall ObjectViewer::ObjectViewer(struct ObjectViewerParameters const &)
 public: __thiscall PictureViewer::PictureViewer(struct PictureViewerParameters const &)
 public: __thiscall PictureViewerParameters::PictureViewerParameters(int)
 public: __thiscall PictureViewerParameters::PictureViewerParameters(struct PictureViewerParameters const &)
-public: __thiscall Plot::Plot(class Plot const &)
-public: __thiscall Plot::Plot(int,float,float,float,float)
-public: __thiscall Plot::Plot(struct PlotParameters const &)
 public: __thiscall PlotParameters::PlotParameters(int)
 public: __thiscall PlotParameters::PlotParameters(struct PlotParameters const &)
 public: __thiscall Processor::Processor(class Processor const &)
 public: __thiscall Processor::Processor(void)
 public: __thiscall ProcessorsManager::ProcessorsManager(class ProcessorsManager const &)
 public: __thiscall ProcessorsManager::ProcessorsManager(void)
-public: __thiscall ProgressBar::ProgressBar(int,float,float,float,float)
-public: __thiscall ProgressBar::ProgressBar(struct ProgressBarParameters const &)
 public: __thiscall ProgressBarParameters::ProgressBarParameters(int)
 public: __thiscall ProgressBarParameters::ProgressBarParameters(struct ProgressBarParameters const &)
 public: __thiscall RadioGroup::RadioGroup(struct RadioGroupParameters const &)
@@ -872,8 +568,6 @@ public: __thiscall SpinEdit::SpinEdit(int,float,float,float,float)
 public: __thiscall SpinEdit::SpinEdit(struct SpinEditParameters)
 public: __thiscall SpinEditParameters::SpinEditParameters(int)
 public: __thiscall SpinEditParameters::SpinEditParameters(struct SpinEditParameters const &)
-public: __thiscall Static::Static(int,float,float,float,float)
-public: __thiscall Static::Static(struct StaticParameters const &)
 public: __thiscall StaticParameters::StaticParameters(int)
 public: __thiscall StaticParameters::StaticParameters(struct StaticParameters const &)
 public: __thiscall StaticWithIconParameters::StaticWithIconParameters(int)
@@ -883,18 +577,6 @@ public: __thiscall SwingButtonParameters::SwingButtonParameters(int)
 public: __thiscall SwingButtonParameters::SwingButtonParameters(struct SwingButtonParameters const &)
 public: __thiscall SwitchStatic::SwitchStatic(struct SwitchStaticParameters const &)
 public: __thiscall SwitchWafer::SwitchWafer(struct SwitchWaferParameters const &)
-public: __thiscall UI::Button::Button(void)
-public: __thiscall UI::Chart::Chart(void)
-public: __thiscall UI::Dialog::Dialog(char const *)
-public: __thiscall UI::Dialog::Dialog(class UI::Dialog const &)
-public: __thiscall UI::Dialog::Dialog(class UI::Element *)
-public: __thiscall UI::Dialog::~Dialog(void)
-public: __thiscall UI::Editor::Editor(void)
-public: __thiscall UI::Manager::Manager(class UI::Manager const &)
-public: __thiscall UI::Manager::Manager(void)
-public: __thiscall UI::Selector::Selector(void)
-public: __thiscall UI::Switch::Switch(void)
-public: __thiscall UI::Tuner::Tuner(void)
 public: __thiscall WaitCursor::WaitCursor(int)
 public: __thiscall WaitCursor::~WaitCursor(void)
 public: __thiscall `anonymous namespace'::Stub::Stub(void)
@@ -902,37 +584,15 @@ public: bool __thiscall ComplexTable::GetLineParameters(class std::vector<struct
 public: bool __thiscall ComplexTable::SetLineParameters(class std::vector<struct ControlData,class std::allocator<struct ControlData> > const &,int)
 public: bool __thiscall ComplexTable::onScrollPageDown(void)
 public: bool __thiscall ComplexTable::onScrollPageUp(void)
-public: bool __thiscall Control::belong(class Control const *)const 
-public: bool __thiscall Control::getAcceptMouse(void)const 
-public: bool __thiscall Control::getAlphaChannelPresence(void)const 
-public: bool __thiscall Control::getBorderThickness(void)const 
-public: bool __thiscall Control::getTextureFilterPresence(void)const 
-public: bool __thiscall Control::hasChild(class Control *)const 
-public: bool __thiscall Control::hasChildren(void)const 
-public: bool __thiscall Control::hasFocus(void)const 
-public: bool __thiscall Control::isInStyle(int)const 
-public: bool __thiscall Control::isVisible(void)
-public: bool __thiscall Control::setTexture(char const *)
 public: bool __thiscall ControlManager::isFinished(void)
 public: bool __thiscall ControlManager::isInputEnabled(void)
 public: bool __thiscall ControlManager::isLButtonPressed(void)const 
-public: bool __thiscall ControlWithScrollBar::getVisibleScrollBar(void)
-public: bool __thiscall ControlWithScrollBar::hasScrollBar(void)const 
-public: bool __thiscall ControlWithVisibleAreas::autoVisibleArea(void)
 public: bool __thiscall DescriptorTable::getAutoDelete(void)const 
 public: bool __thiscall DescriptorTable::getFastDelete(void)const 
 public: bool __thiscall Dialog::getFastPointAcceptCheck(void)const 
 public: bool __thiscall MenuButton::isMenuChild(void)
-public: bool __thiscall MultiColumnListBox::columnXSizeCalculated(void)
-public: bool __thiscall MultiColumnListBox::getHasHorizontalLines(void)
-public: bool __thiscall MultiColumnListBox::getHasVerticalLines(void)
-public: bool __thiscall MultiColumnListBox::hasHeader(void)
-public: bool __thiscall MultiColumnListBox::scrollBarNeed(void)
 public: bool __thiscall MultiStatic::hasSelection(void)const 
 public: bool __thiscall MultiStatic::posToXY(int,float &,float &,bool)const 
-public: bool __thiscall MultilineEditBox::getCaretAfterLastSymbol(void)const 
-public: bool __thiscall ObjectViewer::removeShape(unsigned int)
-public: bool __thiscall ObjectViewer::setDefaultZoom(void)
 public: bool __thiscall ResParser::get(bool &)
 public: bool __thiscall ResParser::get(class TPoint<float> &)
 public: bool __thiscall ResParser::get(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
@@ -949,8 +609,6 @@ public: bool __thiscall ResParser::get(int &)
 public: bool __thiscall ResParser::get(long &)
 public: bool __thiscall ResParser::get(unsigned long &)
 public: bool __thiscall ResParser::nextCommand(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
-public: bool __thiscall Static::getAutoStyle(void)
-public: bool __thiscall Static::getIsActive(void)const 
 public: bool __thiscall StringWithoutCaseLess::operator()(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const 
 public: bool const __thiscall ResourceKeeperFlags::NoSerializationFlag::noSerialization(void)const 
 public: char * __thiscall MapOfFile::getFileMap(void)
@@ -959,18 +617,9 @@ public: char const * __thiscall ComboBox::getItemCaption(int)const
 public: char const * __thiscall ComboBox::getItemCaption(int,int)const 
 public: char const * __thiscall ComboBox::getString(int)const 
 public: char const * __thiscall ComboBox::getString(void)const 
-public: char const * __thiscall Control::getControlType(void)const 
-public: char const * __thiscall MultiColumnListBox::getItemCaption(int)
-public: char const * __thiscall MultiColumnListBox::getItemCaption(int,int)const 
-public: char const * __thiscall MultiColumnListBox::getString(int)
 public: class AbleToPostponeTheOwnClosing & __thiscall AbleToPostponeTheOwnClosing::operator=(class AbleToPostponeTheOwnClosing const &)
 public: class AccelerateTable & __thiscall AccelerateTable::operator=(class AccelerateTable const &)
 public: class ComplexTable & __thiscall ComplexTable::operator=(class ComplexTable const &)
-public: class Control & __thiscall Control::operator=(class Control const &)
-public: class Control & __thiscall ProgressBar::getProgress(void)
-public: class Control * __thiscall Control::findChildByCoord(class TPoint<float> const &,bool)
-public: class Control * __thiscall Control::getChild(int)const 
-public: class Control * __thiscall Control::getParent(void)const 
 public: class Control * __thiscall ControlManager::getActive(void)
 public: class Control * __thiscall ControlManager::getHasKbrdFocus(void)const 
 public: class Control * __thiscall ControlManager::getModal(void)const 
@@ -980,14 +629,12 @@ public: class Control * __thiscall DescriptorTable::getControl(int)
 public: class Control * __thiscall DescriptorTable::getFirstControl(void)
 public: class Control * __thiscall DescriptorTable::getNextControl(void)
 public: class Control * __thiscall MainMenu::getLastFocus(void)const 
+public: class WaitCursor & __thiscall WaitCursor::operator=(class WaitCursor const &)
 public: class ControlManager & __thiscall ControlManager::operator=(class ControlManager const &)
-public: class ControlWithScrollBar & __thiscall ControlWithScrollBar::operator=(class ControlWithScrollBar const &)
-public: class ControlWithVisibleAreas & __thiscall ControlWithVisibleAreas::operator=(class ControlWithVisibleAreas const &)
 public: class CountriesInfo & __thiscall CountriesInfo::operator=(class CountriesInfo const &)
 public: class Cursor & __thiscall Cursor::operator=(class Cursor const &)
 public: class DescriptorTable & __thiscall DescriptorTable::operator=(class DescriptorTable const &)
 public: class Dialog & __thiscall Dialog::operator=(class Dialog const &)
-public: class Dialog * __thiscall Control::getOwnerDialog(void)
 public: class Dialog * __thiscall ControlManager::getOwnerOfActive(void)
 public: class Dialog const * __thiscall ControlManager::findPrecreatedDialog(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const 
 public: class DrawPrimitive & __thiscall DrawPrimitive::operator=(class DrawPrimitive const &)
@@ -995,10 +642,6 @@ public: class EagleDynamics::Common::Identifier __thiscall ProcessorsManager::ge
 public: class MainMenu & __thiscall MainMenu::operator=(class MainMenu const &)
 public: class MapOfFile & __thiscall MapOfFile::operator=(class MapOfFile const &)
 public: class MenuButton * __thiscall MainMenu::getDroppedChild(void)const 
-public: class MultiColumnListBox * __thiscall ComboBox::getList(void)const 
-public: class MultiColumnListBox * __thiscall MenuButton::getList(void)
-public: class ObjectViewer & __thiscall ObjectViewer::operator=(class ObjectViewer const &)
-public: class Plot & __thiscall Plot::operator=(class Plot const &)
 public: class Processor & __thiscall Processor::operator=(class Processor const &)
 public: class Processor * __thiscall ProcessorsManager::add(class Processor *)
 public: class Processor * __thiscall ProcessorsManager::find(class EagleDynamics::Common::Identifier const &)
@@ -1007,51 +650,18 @@ public: class ProcessorsManager & __thiscall ProcessorsManager::operator=(class 
 public: class ResParser & __thiscall ResParser::operator=(class ResParser const &)
 public: class ResourceKeeperFlags::NoSerializationFlag & __thiscall ResourceKeeperFlags::NoSerializationFlag::operator=(class ResourceKeeperFlags::NoSerializationFlag const &)
 public: class ScrollBar & __thiscall ScrollBar::operator=(class ScrollBar const &)
-public: class ScrollBar * __thiscall ControlWithScrollBar::getScrollBar(void)const 
 public: class SerializerKeeper & __thiscall SerializerKeeper::operator=(class SerializerKeeper const &)
-public: class Signal::Notifier<class UI::Button *> & __thiscall UI::Button::clicked(void)
-public: class Signal::Notifier<class UI::Chart *> & __thiscall UI::Chart::selectionChanged(void)
-public: class Signal::Notifier<class UI::Editor *> & __thiscall UI::Editor::changed(void)
-public: class Signal::Notifier<class UI::Element *> & __thiscall UI::Element::destroyed(void)
-public: class Signal::Notifier<class UI::Selector *> & __thiscall UI::Selector::changed(void)
-public: class Signal::Notifier<class UI::Switch *> & __thiscall UI::Switch::changed(void)
-public: class Signal::Notifier<class UI::Tuner *> & __thiscall UI::Tuner::changed(void)
 public: class SliderButton * __thiscall ScrollBar::getScroller(void)const 
-public: class Static & __thiscall ProgressBar::getStaticText(void)
 public: class Static * __thiscall ComboBox::getButton(void)const 
 public: class Static * __thiscall ComboBox::getEditBox(void)const 
-public: class Static * __thiscall MultiColumnListBox::getMarker1(void)const 
-public: class Static * __thiscall MultiColumnListBox::getMarker2(void)const 
-public: class Static * __thiscall MultiColumnListBox::item(int,int)
 public: class Static * __thiscall ScrollBar::getDecreaseButton(void)const 
 public: class Static * __thiscall ScrollBar::getIncreaseButton(void)const 
-public: class TPoint<float> __thiscall Control::getLTPoint(void)const 
-public: class TPoint<float> __thiscall Control::getPLTPoint(void)const 
-public: class TPoint<float> __thiscall Control::getPRBPoint(void)const 
-public: class TPoint<float> __thiscall Control::getRBPoint(void)const 
-public: class TPoint<float> __thiscall ControlWithVisibleAreas::getVisibleAreaBegin(void)
-public: class TPoint<float> __thiscall ControlWithVisibleAreas::getVisibleAreaPBegin(void)
 public: class TPoint<float> __thiscall EditBox::getCaretSize(void)
-public: class TPoint<float> __thiscall MultiColumnListBox::findItem(char const *)
-public: class TPoint<float> __thiscall MultiColumnListBox::getLastItemPressed(void)
-public: class TPoint<float> const & __thiscall Control::getInflateCoeffs(void)const 
-public: class TPoint<float> const & __thiscall Control::getInverseInflateCoeffs(void)const 
-public: class UI::Dialog & __thiscall UI::Dialog::operator=(class UI::Dialog const &)
-public: class UI::Element * __thiscall UI::Dialog::child(int)const 
-public: class UI::Manager & __thiscall UI::Manager::operator=(class UI::Manager const &)
-public: class WaitCursor & __thiscall WaitCursor::operator=(class WaitCursor const &)
-public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Control::getTexture(void)const 
 public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall ControlManager::localize(char const *)
-public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall MultiColumnListBox::getDefaultItemSet(void)
-public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall MultiColumnListBox::getHeaderSet(void)
 public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall MultiStatic::getSelection(void)const 
 public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall MultiStatic::getString(int)const 
 public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Dialog::getName(void)const 
-public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Static::getFontType(void)
 public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall StaticParameters::defaultResourceFile(void)
-public: class std::list<class Control *,class std::allocator<class Control *> >::iterator __thiscall Control::addToPaintList(class Control *)
-public: class std::list<class Control *,class std::allocator<class Control *> >::iterator __thiscall Control::getPaintListPosition(void)
-public: class std::list<class Control *,class std::allocator<class Control *> >::iterator __thiscall Control::paintListEnd(void)
 public: class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Dialog *,struct StringWithoutCaseLess,class std::allocator<class Dialog *> > const & __thiscall ControlManager::getPrecreatedDialogs(void)const 
 public: class std::vector<class Vector3,class std::allocator<class Vector3> > const & __thiscall DrawPrimitive::GetPoints(void)
 public: class std::vector<class Vector3,class std::allocator<class Vector3> > const & __thiscall DrawPrimitive::GetTexCoords(void)
@@ -1063,36 +673,12 @@ public: double __thiscall Slider::getPosition(void)const
 public: double __thiscall SliderButton::getMaxPosition(void)const 
 public: double __thiscall SliderButton::getMinPosition(void)const 
 public: double __thiscall SliderButton::getPosition(void)const 
-public: float __thiscall Control::fInflateIX(float,int)
-public: float __thiscall Control::fInflateIY(float,int)
-public: float __thiscall Control::fInflateX(float,int)
-public: float __thiscall Control::fInflateY(float,int)
-public: float __thiscall Control::getHeight(void)const 
-public: float __thiscall Control::getPHeight(void)const 
-public: float __thiscall Control::getPWidth(void)const 
-public: float __thiscall Control::getWidth(void)const 
-public: float __thiscall Control::inflateIX(float,int)
-public: float __thiscall Control::inflateIY(float,int)
-public: float __thiscall Control::inflateValue(float,float,int)
-public: float __thiscall Control::inflateX(float,int)
-public: float __thiscall Control::inflateY(float,int)
-public: float __thiscall ControlWithScrollBar::getHeaderHeight(void)
-public: float __thiscall ControlWithScrollBar::getMinXSize(void)
-public: float __thiscall ControlWithVisibleAreas::getMinXSize(void)
-public: float __thiscall ControlWithVisibleAreas::getMinYSize(void)
-public: float __thiscall MultiColumnListBox::getColumnWidth(int)
-public: float __thiscall MultiColumnListBox::getRowHeight(int)
-public: float __thiscall ObjectViewer::getMinDistanceCoef(void)const 
-public: float __thiscall Plot::rescaleX(float)
-public: float __thiscall Plot::rescaleY(float)
 public: float __thiscall ScrollBar::getFromCoordinate(void)
 public: float __thiscall ScrollBar::getToCoordinate(void)
 public: float __thiscall SliderButton::getFromCoordinate(void)
 public: float __thiscall SliderButton::getToCoordinate(void)
 public: float __thiscall SpinEdit::getMaxValue(void)const 
 public: float __thiscall SpinEdit::getMinValue(void)const 
-public: float __thiscall Static::getFontPSize(void)
-public: float __thiscall Static::getFontSize(void)
 public: int __thiscall ComboBox::getIndexOfSelectedString(void)const 
 public: int __thiscall ComboBox::getItemFace(int,int)
 public: int __thiscall ComboBox::getNumberOfStrings(void)const 
@@ -1101,25 +687,6 @@ public: int __thiscall ComplexTable::AddGroup(class std::vector<struct ControlDa
 public: int __thiscall ComplexTable::AddLine(enum LineType,class std::vector<struct ControlData,class std::allocator<struct ControlData> > const &,bool)
 public: int __thiscall ComplexTable::Delete(int)
 public: int __thiscall ComplexTable::GetNumberPages(void)
-public: int __thiscall Control::getBorderShape(void)
-public: int __thiscall Control::getLayer(void)
-public: int __thiscall Control::getMaxWidth(void)
-public: int __thiscall Control::getMostLeftPoint(void)const 
-public: int __thiscall Control::getMostRightPoint(void)const 
-public: int __thiscall Control::getNumberOfVertices(void)const 
-public: int __thiscall Control::getOriginPos(void)
-public: int __thiscall Control::getStyle(void)const 
-public: int __thiscall Control::getTag(void)const 
-public: int __thiscall Control::getTextureIndex(void)const 
-public: int __thiscall Control::setBorderShape(int,unsigned long)
-public: int __thiscall ControlWithVisibleAreas::getVisibleAreaHeight(void)
-public: int __thiscall ControlWithVisibleAreas::getVisibleAreaPHeight(void)
-public: int __thiscall ControlWithVisibleAreas::getVisibleAreaPWidth(void)
-public: int __thiscall ControlWithVisibleAreas::getVisibleAreaWidth(void)
-public: int __thiscall ControlWithVisibleAreas::getXLeftShift(void)
-public: int __thiscall ControlWithVisibleAreas::getXRightShift(void)
-public: int __thiscall ControlWithVisibleAreas::getYBottomShift(void)
-public: int __thiscall ControlWithVisibleAreas::getYTopShift(void)
 public: int __thiscall CountriesInfo::getIconNumber(char const *)
 public: int __thiscall DescriptorTable::getNotUsedTag(void)const 
 public: int __thiscall DescriptorTable::getSize(void)const 
@@ -1130,28 +697,6 @@ public: int __thiscall Hint::getDelayTime(void)const
 public: int __thiscall Hint::getLifeTime(void)
 public: int __thiscall MainMenu::findItem(class MenuButton &)
 public: int __thiscall MainMenu::getItemsDist(void)const 
-public: int __thiscall MultiColumnListBox::firstDataRow(void)
-public: int __thiscall MultiColumnListBox::getColumnsNum(void)const 
-public: int __thiscall MultiColumnListBox::getDefaultColumnDist(void)
-public: int __thiscall MultiColumnListBox::getDefaultColumnWidth(void)
-public: int __thiscall MultiColumnListBox::getDefaultColumnWidthFitType(void)
-public: int __thiscall MultiColumnListBox::getDefaultLineColor(void)
-public: int __thiscall MultiColumnListBox::getDefaultRowDist(void)
-public: int __thiscall MultiColumnListBox::getDefaultRowHeight(void)
-public: int __thiscall MultiColumnListBox::getFirstVisibleColumn(void)
-public: int __thiscall MultiColumnListBox::getFirstVisibleRow(void)
-public: int __thiscall MultiColumnListBox::getHasLines(void)
-public: int __thiscall MultiColumnListBox::getHeaderDist(void)
-public: int __thiscall MultiColumnListBox::getHeaderHeight(void)
-public: int __thiscall MultiColumnListBox::getItemFace(int,int)
-public: int __thiscall MultiColumnListBox::getLastFitType(void)
-public: int __thiscall MultiColumnListBox::getLastVisibleColumn(void)
-public: int __thiscall MultiColumnListBox::getLastVisibleRow(void)
-public: int __thiscall MultiColumnListBox::getMarkerPosition(void)
-public: int __thiscall MultiColumnListBox::getPagesNumber(void)
-public: int __thiscall MultiColumnListBox::getRowsNum(void)const 
-public: int __thiscall MultiColumnListBox::getSelectedColumn(void)const 
-public: int __thiscall MultiColumnListBox::getSelectedRow(void)const 
 public: int __thiscall MultiStatic::getFirstVisibleStringNum(void)const 
 public: int __thiscall MultiStatic::getLastVisibleStringNum(void)const 
 public: int __thiscall MultiStatic::getLineHeight(void)const 
@@ -1160,12 +705,6 @@ public: int __thiscall MultiStatic::getNumberOfVisibleStrings(void)const
 public: int __thiscall MultiStatic::getSelectionBegin(void)const 
 public: int __thiscall MultiStatic::getSelectionEnd(void)const 
 public: int __thiscall MultiStatic::getTextLength(void)const 
-public: int __thiscall MultilineEditBox::getCaretAdditionalHeight(void)const 
-public: int __thiscall MultilineEditBox::getCaretPos(void)const 
-public: int __thiscall MultilineEditBox::getCaretRow(void)const 
-public: int __thiscall MultilineEditBox::getCaretWidth(void)const 
-public: int __thiscall MultilineEditBox::getMaxTextSize(void)const 
-public: int __thiscall Plot::getSize(void)const 
 public: int __thiscall ResParser::getPos(void)const 
 public: int __thiscall ScrollBar::getMaxPosition(void)const 
 public: int __thiscall ScrollBar::getMinPosition(void)const 
@@ -1174,18 +713,10 @@ public: int __thiscall ScrollBar::getPosition(void)const
 public: int __thiscall SerializerKeeper::getMode(void)
 public: int __thiscall SliderButton::getFixedSize(void)const 
 public: int __thiscall SpinEdit::lastIncrementSign(void)
-public: int __thiscall Static::getCaptionAlignment(void)const 
-public: int __thiscall Static::getFont(void)const 
-public: int __thiscall Static::getTextLength(void)
-public: int __thiscall Static::getTextPixelLength(void)
 public: int __thiscall SwitchStatic::getSwitchState(void)
-public: int __thiscall UI::Chart::numRecords(void)const 
 public: int const __thiscall MapOfFile::getFileSize(void)
 public: static bool __cdecl Cursor::isVisible(void)
 public: static bool __cdecl Dialog::setCursorVisibility(void)
-public: static class Control * __cdecl Control::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,char const *,char const *,int)
-public: static class ControlManager * __cdecl Control::getControlManager(void)
-public: static class Graphics::Model * __cdecl ObjectViewer::createShape(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: static class ResourceKeeper<struct ComboBoxParameters> & __cdecl ComboBoxParameters::resourceKeeper(void)
 public: static class ResourceKeeper<struct ComplexTableParameters> & __cdecl ComplexTableParameters::resourceKeeper(void)
 public: static class ResourceKeeper<struct ControlList> & __cdecl ControlList::resourceKeeper(void)
@@ -1209,14 +740,6 @@ public: static class ResourceKeeper<struct StaticParameters> & __cdecl StaticPar
 public: static class ResourceKeeper<struct StaticWithIconParameters> & __cdecl StaticWithIconParameters::resourceKeeper(void)
 public: static class ResourceKeeper<struct SwingButtonParameters> & __cdecl SwingButtonParameters::resourceKeeper(void)
 public: static class TPoint<float> __cdecl Cursor::getPosition(void)
-public: static class UI::Button * __cdecl UI::Ptr<class UI::Button>::stub(void)
-public: static class UI::Chart * __cdecl UI::Ptr<class UI::Chart>::stub(void)
-public: static class UI::Editor * __cdecl UI::Ptr<class UI::Editor>::stub(void)
-public: static class UI::Element * __cdecl UI::Ptr<class UI::Element>::stub(void)
-public: static class UI::Manager * __cdecl UI::Ptr<class UI::Manager>::stub(void)
-public: static class UI::Selector * __cdecl UI::Ptr<class UI::Selector>::stub(void)
-public: static class UI::Switch * __cdecl UI::Ptr<class UI::Switch>::stub(void)
-public: static class UI::Tuner * __cdecl UI::Ptr<class UI::Tuner>::stub(void)
 public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl ComboBoxParameters::defaultResourceFile(void)
 public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl ComplexTableParameters::defaultResourceFile(void)
 public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl ControlParameters::defaultResourceFile(void)
@@ -1237,7 +760,6 @@ public: static class std::basic_string<char,struct std::char_traits<char>,class 
 public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl SpinEditParameters::defaultResourceFile(void)
 public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl StaticWithIconParameters::defaultResourceFile(void)
 public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl SwingButtonParameters::defaultResourceFile(void)
-public: static int __cdecl Control::getStyle(enum UI::Element::Flag)
 public: static int __cdecl Cursor::getCursor(void)
 public: static int __cdecl Cursor::getStoredCursor(void)
 public: static int __cdecl Cursor::restoreCursor(void)
@@ -1253,7 +775,6 @@ public: static void __cdecl Cursor::hide(void)
 public: static void __cdecl Cursor::initCursor(struct HWND__ *,int)
 public: static void __cdecl Cursor::setPosition(class TPoint<float> const &)
 public: static void __cdecl Cursor::show(bool)
-public: static void __cdecl ObjectViewer::deleteShape(class Graphics::Model *)
 public: struct ColumnParameters & __thiscall ColumnParameters::operator=(struct ColumnParameters const &)
 public: struct ColumnsPrms & __thiscall ColumnsPrms::operator=(struct ColumnsPrms const &)
 public: struct ComboBoxParameters & __thiscall ComboBoxParameters::operator=(struct ComboBoxParameters const &)
@@ -1266,8 +787,6 @@ public: struct DialogParameters & __thiscall DialogParameters::operator=(struct 
 public: struct HeaderParameters & __thiscall HeaderParameters::operator=(struct HeaderParameters const &)
 public: struct HintParameters & __thiscall HintParameters::operator=(struct HintParameters const &)
 public: struct HotKey & __thiscall HotKey::operator=(struct HotKey const &)
-public: struct Marker & __thiscall MultiColumnListBox::getMarker1Parameters(void)
-public: struct Marker & __thiscall MultiColumnListBox::getMarker2Parameters(void)
 public: struct MenuButtonParameters & __thiscall MenuButtonParameters::operator=(struct MenuButtonParameters const &)
 public: struct Message & __thiscall Message::operator=(struct Message const &)
 public: struct MultiColumnListBoxParameters & __thiscall MultiColumnListBoxParameters::operator=(struct MultiColumnListBoxParameters const &)
@@ -1288,14 +807,8 @@ public: struct SwingButtonParameters & __thiscall SwingButtonParameters::operato
 public: struct _FILETIME __thiscall MapOfFile::getCreationTime(void)
 public: struct _FILETIME __thiscall MapOfFile::getLastAccessTime(void)
 public: struct _FILETIME __thiscall MapOfFile::getLastWriteTime(void)
-public: struct _USERINTERFACEVERTEX * __thiscall Control::getBorder(int)
-public: struct _USERINTERFACEVERTEX * __thiscall Control::getVertices(void)
 public: union DWord & __thiscall DWord::operator=(union DWord const &)
 public: unsigned int __thiscall EditBox::getDigits(void)const 
-public: unsigned int __thiscall MultilineEditBox::getLastTimeOfCaretDrawing(void)const 
-public: unsigned int __thiscall ObjectViewer::addShape(class Graphics::Model *,class Position3 &)
-public: unsigned int __thiscall Static::getFontFlags(void)
-public: unsigned long __thiscall Control::getColor(void)const 
 public: unsigned long __thiscall MultiStatic::getSelectionColor(void)const 
 public: unsigned long __thiscall MultiStatic::getSelectionFontColor(void)const 
 public: virtual __thiscall ComboBox::~ComboBox(void)
@@ -1306,15 +819,12 @@ public: virtual __thiscall ComplexTableParameters::~ComplexTableParameters(void)
 public: virtual __thiscall ControlList::~ControlList(void)
 public: virtual __thiscall ControlManager::~ControlManager(void)
 public: virtual __thiscall ControlParameters::~ControlParameters(void)
-public: virtual __thiscall ControlWithScrollBar::~ControlWithScrollBar(void)
 public: virtual __thiscall ControlWithScrollBarParameters::~ControlWithScrollBarParameters(void)
-public: virtual __thiscall ControlWithVisibleAreas::~ControlWithVisibleAreas(void)
 public: virtual __thiscall ControlWithVisibleAreasParameters::~ControlWithVisibleAreasParameters(void)
 public: virtual __thiscall Dialog::~Dialog(void)
 public: virtual __thiscall DialogParameters::~DialogParameters(void)
 public: virtual __thiscall EditBox::~EditBox(void)
 public: virtual __thiscall EditBoxForDBGTaskDlg::~EditBoxForDBGTaskDlg(void)
-public: virtual __thiscall Header::~Header(void)
 public: virtual __thiscall HeaderParameters::~HeaderParameters(void)
 public: virtual __thiscall Hint::~Hint(void)
 public: virtual __thiscall HintParameters::~HintParameters(void)
@@ -1322,18 +832,13 @@ public: virtual __thiscall MainMenu::~MainMenu(void)
 public: virtual __thiscall MapOfFile::~MapOfFile(void)
 public: virtual __thiscall MenuButton::~MenuButton(void)
 public: virtual __thiscall MenuButtonParameters::~MenuButtonParameters(void)
-public: virtual __thiscall MultiColumnListBox::~MultiColumnListBox(void)
 public: virtual __thiscall MultiColumnListBoxParameters::~MultiColumnListBoxParameters(void)
 public: virtual __thiscall MultiStatic::~MultiStatic(void)
-public: virtual __thiscall MultilineEditBox::~MultilineEditBox(void)
-public: virtual __thiscall ObjectViewer::~ObjectViewer(void)
 public: virtual __thiscall PictureViewer::~PictureViewer(void)
 public: virtual __thiscall PictureViewerParameters::~PictureViewerParameters(void)
-public: virtual __thiscall Plot::~Plot(void)
 public: virtual __thiscall PlotParameters::~PlotParameters(void)
 public: virtual __thiscall Processor::~Processor(void)
 public: virtual __thiscall ProcessorsManager::~ProcessorsManager(void)
-public: virtual __thiscall ProgressBar::~ProgressBar(void)
 public: virtual __thiscall ProgressBarParameters::~ProgressBarParameters(void)
 public: virtual __thiscall RadioGroup::~RadioGroup(void)
 public: virtual __thiscall RadioGroupParameters::~RadioGroupParameters(void)
@@ -1347,20 +852,12 @@ public: virtual __thiscall SliderButtonParameters::~SliderButtonParameters(void)
 public: virtual __thiscall SliderParameters::~SliderParameters(void)
 public: virtual __thiscall SpinEdit::~SpinEdit(void)
 public: virtual __thiscall SpinEditParameters::~SpinEditParameters(void)
-public: virtual __thiscall Static::~Static(void)
 public: virtual __thiscall StaticParameters::~StaticParameters(void)
 public: virtual __thiscall StaticWithIconParameters::~StaticWithIconParameters(void)
 public: virtual __thiscall SwingButton::~SwingButton(void)
 public: virtual __thiscall SwingButtonParameters::~SwingButtonParameters(void)
 public: virtual __thiscall SwitchStatic::~SwitchStatic(void)
 public: virtual __thiscall SwitchWafer::~SwitchWafer(void)
-public: virtual __thiscall UI::Button::~Button(void)
-public: virtual __thiscall UI::Chart::~Chart(void)
-public: virtual __thiscall UI::Editor::~Editor(void)
-public: virtual __thiscall UI::Manager::~Manager(void)
-public: virtual __thiscall UI::Selector::~Selector(void)
-public: virtual __thiscall UI::Switch::~Switch(void)
-public: virtual __thiscall UI::Tuner::~Tuner(void)
 public: virtual __thiscall `anonymous namespace'::Stub::~Stub(void)
 public: virtual bool __thiscall ComboBox::canAcceptPoint(class TPoint<float> const &)const 
 public: virtual bool __thiscall ComboBox::delField(int,int)
@@ -1369,20 +866,9 @@ public: virtual bool __thiscall ComboBox::getSelection(int *,int *,bool)const
 public: virtual bool __thiscall ComboBox::getValue(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)const 
 public: virtual bool __thiscall ComboBox::setSelection(int,int,bool)
 public: virtual bool __thiscall ComboBox::setValue(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: virtual bool __thiscall Control::canAcceptPoint(class TPoint<float> const &)const 
-public: virtual bool __thiscall Control::getFlag(enum UI::Element::Flag)const 
-public: virtual bool __thiscall ControlWithScrollBar::canAcceptPoint(class TPoint<float> const &)const 
 public: virtual bool __thiscall Dialog::canAcceptPoint(class TPoint<float> const &)const 
 public: virtual bool __thiscall MainMenu::canAcceptPoint(class TPoint<float> const &)const 
 public: virtual bool __thiscall MenuButton::canAcceptPoint(class TPoint<float> const &)const 
-public: virtual bool __thiscall MultiColumnListBox::addString(char const *,int)
-public: virtual bool __thiscall MultiColumnListBox::canAcceptPoint(class TPoint<float> const &)const 
-public: virtual bool __thiscall MultiColumnListBox::delField(int,int)
-public: virtual bool __thiscall MultiColumnListBox::delRecord(int,int)
-public: virtual bool __thiscall MultiColumnListBox::getSelection(int *,int *,bool)const 
-public: virtual bool __thiscall MultiColumnListBox::getValue(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)const 
-public: virtual bool __thiscall MultiColumnListBox::setSelection(int,int,bool)
-public: virtual bool __thiscall MultiColumnListBox::setValue(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual bool __thiscall PictureViewer::addString(char const *)
 public: virtual bool __thiscall Processor::initialize(void)
 public: virtual bool __thiscall Processor::uninitialize(void)
@@ -1392,9 +878,6 @@ public: virtual bool __thiscall RadioGroup::setPositionRange(int)
 public: virtual bool __thiscall ScrollBar::canAcceptPoint(class TPoint<float> const &)const 
 public: virtual bool __thiscall Slider::canAcceptPoint(class TPoint<float> const &)const 
 public: virtual bool __thiscall SpinEdit::canAcceptPoint(class TPoint<float> const &)const 
-public: virtual bool __thiscall Static::canAcceptPoint(class TPoint<float> const &)const 
-public: virtual bool __thiscall Static::getState(void)const 
-public: virtual bool __thiscall Static::setState(bool)
 public: virtual bool __thiscall SwitchWafer::setPosition(int)
 public: virtual bool __thiscall SwitchWafer::setPositionRange(int)
 public: virtual bool __thiscall `anonymous namespace'::Stub::delField(int,int)
@@ -1409,13 +892,7 @@ public: virtual bool __thiscall `anonymous namespace'::Stub::setSelection(int,in
 public: virtual bool __thiscall `anonymous namespace'::Stub::setState(bool)
 public: virtual bool __thiscall `anonymous namespace'::Stub::setValue(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual char const * __thiscall EditBox::getCaption(void)const 
-public: virtual char const * __thiscall ProgressBar::getCaption(void)const 
-public: virtual char const * __thiscall Static::getCaption(void)const 
-public: virtual class Control * __thiscall Control::unregisterControlAsChild(class Control *,bool)
-public: virtual class Control * __thiscall Control::unregisterControlAsChild(int,bool)
 public: virtual class TPoint<float> __thiscall ControlManager::getScreenSize(void)
-public: virtual class UI::Element * __thiscall Control::child(int)const 
-public: virtual class UI::Element * __thiscall Control::parent(void)const 
 public: virtual class UI::Element * __thiscall ControlManager::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class UI::Element *,int)
 public: virtual class UI::Element * __thiscall `anonymous namespace'::Stub::child(int)const 
 public: virtual class UI::Element * __thiscall `anonymous namespace'::Stub::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::UI *,int)
@@ -1425,40 +902,22 @@ public: virtual class std::basic_string<char,struct std::char_traits<char>,class
 public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const __thiscall EditBox::getText(void)const 
 public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const __thiscall MultiStatic::getText(void)const 
 public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const __thiscall `anonymous namespace'::Stub::getText(void)const 
-public: virtual double __thiscall Header::getStep(void)const 
-public: virtual double __thiscall Header::getValue(void)const 
-public: virtual double __thiscall ProgressBar::getStep(void)const 
-public: virtual double __thiscall ProgressBar::getValue(void)const 
 public: virtual double __thiscall Slider::getStep(void)const 
 public: virtual double __thiscall Slider::getValue(void)const 
 public: virtual double __thiscall SpinEdit::getStep(void)const 
 public: virtual double __thiscall SpinEdit::getValue(void)const 
 public: virtual double __thiscall `anonymous namespace'::Stub::getStep(void)const 
 public: virtual double __thiscall `anonymous namespace'::Stub::getValue(void)const 
-public: virtual float __thiscall Static::getFullHeight(void)
-public: virtual float __thiscall Static::getFullWidth(void)
 public: virtual int __thiscall ComboBox::allFields(void)const 
 public: virtual int __thiscall ComboBox::allRecords(void)const 
 public: virtual int __thiscall ComboBox::newField(int,int)
 public: virtual int __thiscall ComboBox::newRecord(int,int)
-public: virtual int __thiscall Control::findFace(void)
-public: virtual int __thiscall Control::getFace(void)const 
-public: virtual int __thiscall Control::getRefFace(void)const 
-public: virtual int __thiscall Control::id(void)const 
-public: virtual int __thiscall Control::registerControlAsChild(class Control *)
 public: virtual int __thiscall ControlManager::registerControlAsChild(class Control *)
-public: virtual int __thiscall MultiColumnListBox::allFields(void)const 
-public: virtual int __thiscall MultiColumnListBox::allRecords(void)const 
-public: virtual int __thiscall MultiColumnListBox::newField(int,int)
-public: virtual int __thiscall MultiColumnListBox::newRecord(int,int)
 public: virtual int __thiscall RadioGroup::getPosition(void)const 
 public: virtual int __thiscall RadioGroup::getPositionRange(void)const 
-public: virtual int __thiscall Static::findFace(void)
 public: virtual int __thiscall SwingButton::findFace(void)
 public: virtual int __thiscall SwitchWafer::getPosition(void)const 
 public: virtual int __thiscall SwitchWafer::getPositionRange(void)const 
-public: virtual int __thiscall UI::Chart::numFields(void)const 
-public: virtual int __thiscall UI::Chart::size(void)const 
 public: virtual int __thiscall `anonymous namespace'::Stub::allFields(void)const 
 public: virtual int __thiscall `anonymous namespace'::Stub::allRecords(void)const 
 public: virtual int __thiscall `anonymous namespace'::Stub::getPosition(void)const 
@@ -1466,47 +925,21 @@ public: virtual int __thiscall `anonymous namespace'::Stub::getPositionRange(voi
 public: virtual int __thiscall `anonymous namespace'::Stub::id(void)const 
 public: virtual int __thiscall `anonymous namespace'::Stub::newField(int,int)
 public: virtual int __thiscall `anonymous namespace'::Stub::newRecord(int,int)
-public: virtual struct UI::Tuner::Range const __thiscall Header::getRange(void)const 
-public: virtual struct UI::Tuner::Range const __thiscall ProgressBar::getRange(void)const 
 public: virtual struct UI::Tuner::Range const __thiscall Slider::getRange(void)const 
 public: virtual struct UI::Tuner::Range const __thiscall SpinEdit::getRange(void)const 
 public: virtual struct UI::Tuner::Range const __thiscall `anonymous namespace'::Stub::getRange(void)const 
-public: virtual unsigned int __thiscall Control::getNumberOfFaces(void)
-public: virtual unsigned long __thiscall Static::getFontColor(int)const 
 public: virtual void __thiscall ComboBox::addString(char const *,int)
 public: virtual void __thiscall ComboBox::clear(void)
 public: virtual void __thiscall ComboBoxForDBGTaskDlg::addString(char const *,int)
 public: virtual void __thiscall ComboBoxParameters::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall ComplexTableParameters::serialize(class EagleDynamics::Common::Serializer &)
-public: virtual void __thiscall Control::activate(void)
-public: virtual void __thiscall Control::fitByParent(class Control *)
-public: virtual void __thiscall Control::inflate(void)
-public: virtual void __thiscall Control::processMessage(struct Message *)
-public: virtual void __thiscall Control::setBorderThickness(bool)
-public: virtual void __thiscall Control::setCoordinates(float,float,float,float)
-public: virtual void __thiscall Control::setFace(int,bool)
-public: virtual void __thiscall Control::setFaceTexCoords(int,class TPoint<float> const &)
-public: virtual void __thiscall Control::setFlag(enum UI::Element::Flag,bool)
-public: virtual void __thiscall Control::setNumberOfFaces(int)
-public: virtual void __thiscall Control::setProfile(char const *)
-public: virtual void __thiscall Control::setRefFace(int)
-public: virtual void __thiscall Control::shift(float,float)
-public: virtual void __thiscall Control::unfitByParent(class Control *)
 public: virtual void __thiscall ControlList::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall ControlManager::beginFrame(void)
 public: virtual void __thiscall ControlManager::destroy(class UI::Element *)
 public: virtual void __thiscall ControlManager::endFrame(void)
 public: virtual void __thiscall ControlManager::finish(void)
 public: virtual void __thiscall ControlParameters::serialize(class EagleDynamics::Common::Serializer &)
-public: virtual void __thiscall ControlWithScrollBar::fitVisibleArea(void)
-public: virtual void __thiscall ControlWithScrollBar::setBorderThickness(bool)
-public: virtual void __thiscall ControlWithScrollBar::setCoordinates(float,float,float,float)
 public: virtual void __thiscall ControlWithScrollBarParameters::serialize(class EagleDynamics::Common::Serializer &)
-public: virtual void __thiscall ControlWithVisibleAreas::fitPVisibleArea(void)
-public: virtual void __thiscall ControlWithVisibleAreas::fitVisibleArea(void)
-public: virtual void __thiscall ControlWithVisibleAreas::setBorderThickness(bool)
-public: virtual void __thiscall ControlWithVisibleAreas::setCoordinates(float,float,float,float)
-public: virtual void __thiscall ControlWithVisibleAreas::shift(float,float)
 public: virtual void __thiscall ControlWithVisibleAreasParameters::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall Dialog::disable(bool)
 public: virtual void __thiscall Dialog::enable(bool)
@@ -1518,10 +951,6 @@ public: virtual void __thiscall EditBox::disable(bool)
 public: virtual void __thiscall EditBox::freeze(bool)
 public: virtual void __thiscall EditBox::setCoordinates(float,float,float,float)
 public: virtual void __thiscall EditBox::setText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: virtual void __thiscall Header::setCoordinates(float,float,float,float)
-public: virtual void __thiscall Header::setRange(struct UI::Tuner::Range const &)
-public: virtual void __thiscall Header::setStep(double)
-public: virtual void __thiscall Header::setValue(double)
 public: virtual void __thiscall HeaderParameters::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall Hint::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual void __thiscall HintParameters::serialize(class EagleDynamics::Common::Serializer &)
@@ -1530,10 +959,6 @@ public: virtual void __thiscall MenuButton::arrange(class std::basic_string<char
 public: virtual void __thiscall MenuButton::onActivate(int,class Control *)
 public: virtual void __thiscall MenuButton::setCoordinates(float,float,float,float)
 public: virtual void __thiscall MenuButtonParameters::serialize(class EagleDynamics::Common::Serializer &)
-public: virtual void __thiscall MultiColumnListBox::clear(void)
-public: virtual void __thiscall MultiColumnListBox::setCoordinates(float,float,float,float)
-public: virtual void __thiscall MultiColumnListBox::setItemCaption(char const *,int,int)
-public: virtual void __thiscall MultiColumnListBox::shift(float,float)
 public: virtual void __thiscall MultiColumnListBoxParameters::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall MultiStatic::add(char const *,int)
 public: virtual void __thiscall MultiStatic::add(char)
@@ -1552,20 +977,11 @@ public: virtual void __thiscall MultiStatic::setCoordinates(float,float,float,fl
 public: virtual void __thiscall MultiStatic::setIndent(int)
 public: virtual void __thiscall MultiStatic::setText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual void __thiscall MultiStatic::shift(float,float)
-public: virtual void __thiscall MultilineEditBox::deleteSelection(void)
-public: virtual void __thiscall MultilineEditBox::setCoordinates(float,float,float,float)
 public: virtual void __thiscall PictureViewer::setItemCaption(char const *,int,int)
 public: virtual void __thiscall PictureViewerParameters::serialize(class EagleDynamics::Common::Serializer &)
-public: virtual void __thiscall Plot::shift(float,float)
 public: virtual void __thiscall PlotParameters::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall Processor::log(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual void __thiscall Processor::setIdentifier(class EagleDynamics::Common::Identifier const &)
-public: virtual void __thiscall ProgressBar::inflateChildren(void)
-public: virtual void __thiscall ProgressBar::setCaption(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
-public: virtual void __thiscall ProgressBar::setCoordinates(float,float,float,float)
-public: virtual void __thiscall ProgressBar::setRange(struct UI::Tuner::Range const &)
-public: virtual void __thiscall ProgressBar::setStep(double)
-public: virtual void __thiscall ProgressBar::setValue(double)
 public: virtual void __thiscall ProgressBarParameters::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall RadioGroup::allowPosition(bool,int,int)
 public: virtual void __thiscall RadioGroup::setFlag(enum UI::Element::Flag,bool)
@@ -1584,26 +1000,11 @@ public: virtual void __thiscall SpinEdit::setRange(struct UI::Tuner::Range const
 public: virtual void __thiscall SpinEdit::setStep(double)
 public: virtual void __thiscall SpinEdit::setValue(double)
 public: virtual void __thiscall SpinEditParameters::serialize(class EagleDynamics::Common::Serializer &)
-public: virtual void __thiscall Static::AdjustmentSize(int,bool)
-public: virtual void __thiscall Static::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: virtual void __thiscall Static::arrange(struct StaticParameters const &)
-public: virtual void __thiscall Static::fitPCaption(void)
-public: virtual void __thiscall Static::fitVisibleArea(float,float,float,float)
-public: virtual void __thiscall Static::setCaption(char const *)
-public: virtual void __thiscall Static::setCoordinates(float,float,float,float)
-public: virtual void __thiscall Static::setFace(int,bool)
-public: virtual void __thiscall Static::setFontColor(unsigned long)
-public: virtual void __thiscall Static::setNumberOfFaces(int)
-public: virtual void __thiscall Static::setStateFontColor(int,unsigned int)
-public: virtual void __thiscall Static::shift(float,float)
 public: virtual void __thiscall StaticParameters::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall StaticWithIconParameters::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall SwingButton::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual void __thiscall SwingButtonParameters::serialize(class EagleDynamics::Common::Serializer &)
 public: virtual void __thiscall SwitchWafer::allowPosition(bool,int,int)
-public: virtual void __thiscall UI::Chart::resize(int)
-public: virtual void __thiscall UI::Element::hide(void)
-public: virtual void __thiscall UI::Element::show(bool)
 public: virtual void __thiscall `anonymous namespace'::Stub::activate(void)
 public: virtual void __thiscall `anonymous namespace'::Stub::allowPosition(bool,int,int)
 public: virtual void __thiscall `anonymous namespace'::Stub::clear(void)
@@ -1644,44 +1045,6 @@ public: void __thiscall ComboBoxParameters::read(char const *,int)
 public: void __thiscall ComplexTable::`vbase destructor'(void)
 public: void __thiscall ComplexTableParameters::`default constructor closure'(void)
 public: void __thiscall ComplexTableParameters::read(char const *,int)
-public: void __thiscall Control::`vbase destructor'(void)
-public: void __thiscall Control::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: void __thiscall Control::arrange(struct ControlParameters const &)
-public: void __thiscall Control::changeStyle(int,bool)
-public: void __thiscall Control::clearChildrenList(bool)
-public: void __thiscall Control::getTextureCoordinates(float &,float &,float &,float &)
-public: void __thiscall Control::makeChildBottomMost(class Control *)
-public: void __thiscall Control::makeChildBottomMost(int)
-public: void __thiscall Control::makeChildTopMost(class Control *)
-public: void __thiscall Control::makeChildTopMost(int)
-public: void __thiscall Control::postMessage(int,int,int)
-public: void __thiscall Control::processMessages(void)
-public: void __thiscall Control::sendCommandToParent(int)
-public: void __thiscall Control::sendMessage(int,int,int)
-public: void __thiscall Control::sendMessageToAllChildren(int,int,int)
-public: void __thiscall Control::setAcceptMouse(bool)
-public: void __thiscall Control::setAlphaChannelPresence(bool)
-public: void __thiscall Control::setColor(int,int,int,int)
-public: void __thiscall Control::setColor(unsigned long)
-public: void __thiscall Control::setHint(char const *)
-public: void __thiscall Control::setInitialTag(void)
-public: void __thiscall Control::setLayer(int)
-public: void __thiscall Control::setOrigin(class TPoint<float> const &,int)
-public: void __thiscall Control::setOrigin(float,float,int)
-public: void __thiscall Control::setOriginPos(int)
-public: void __thiscall Control::setParameters(struct ControlParameters const &)
-public: void __thiscall Control::setSize(class TPoint<float> const &)
-public: void __thiscall Control::setSize(float,float)
-public: void __thiscall Control::setStyle(int)
-public: void __thiscall Control::setTag(int)
-public: void __thiscall Control::setTextureColor(int,int,int,int)
-public: void __thiscall Control::setTextureColor(unsigned long)
-public: void __thiscall Control::setTextureCoordinates(float,float,float,float)
-public: void __thiscall Control::setTextureFilterPresence(bool)
-public: void __thiscall Control::setVisible(bool)
-public: void __thiscall Control::setXSize(float)
-public: void __thiscall Control::setYSize(float)
-public: void __thiscall Control::shiftBorder(float,float)
 public: void __thiscall ControlList::`default constructor closure'(void)
 public: void __thiscall ControlList::read(char const *,int)
 public: void __thiscall ControlManager::ChangeHasKbrdFocus(class Control *)
@@ -1704,36 +1067,8 @@ public: void __thiscall ControlManager::sortIncomingMail(void)
 public: void __thiscall ControlManager::start(struct HWND__ *)
 public: void __thiscall ControlParameters::`default constructor closure'(void)
 public: void __thiscall ControlParameters::read(char const *,int)
-public: void __thiscall ControlWithScrollBar::`vbase destructor'(void)
-public: void __thiscall ControlWithScrollBar::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: void __thiscall ControlWithScrollBar::arrange(struct ControlWithScrollBarParameters const &)
-public: void __thiscall ControlWithScrollBar::createScrollBar(int,int,int,float,int)
-public: void __thiscall ControlWithScrollBar::deleteScrollBar(void)
-public: void __thiscall ControlWithScrollBar::recreateScrollBar(void)
-public: void __thiscall ControlWithScrollBar::setVisibleScrollBar(bool)
 public: void __thiscall ControlWithScrollBarParameters::`default constructor closure'(void)
 public: void __thiscall ControlWithScrollBarParameters::read(char const *,int)
-public: void __thiscall ControlWithVisibleAreas::`vbase destructor'(void)
-public: void __thiscall ControlWithVisibleAreas::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: void __thiscall ControlWithVisibleAreas::arrange(struct ControlWithVisibleAreasParameters const &)
-public: void __thiscall ControlWithVisibleAreas::fitPShifts(void)
-public: void __thiscall ControlWithVisibleAreas::fitPXVisibleArea(bool)
-public: void __thiscall ControlWithVisibleAreas::fitPYVisibleArea(bool)
-public: void __thiscall ControlWithVisibleAreas::fitXVisibleArea(bool)
-public: void __thiscall ControlWithVisibleAreas::fitYVisibleArea(bool)
-public: void __thiscall ControlWithVisibleAreas::setAutoVisibleArea(bool)
-public: void __thiscall ControlWithVisibleAreas::setBorderSize(float)
-public: void __thiscall ControlWithVisibleAreas::setShifts(float,float,float,float)
-public: void __thiscall ControlWithVisibleAreas::setVisibleAreaBegin(class TPoint<float>)
-public: void __thiscall ControlWithVisibleAreas::setVisibleAreaBegin(float,float)
-public: void __thiscall ControlWithVisibleAreas::setVisibleAreaHeight(int)
-public: void __thiscall ControlWithVisibleAreas::setVisibleAreaWidth(int)
-public: void __thiscall ControlWithVisibleAreas::setXLeftShift(float)
-public: void __thiscall ControlWithVisibleAreas::setXRightShift(float)
-public: void __thiscall ControlWithVisibleAreas::setXShift(float)
-public: void __thiscall ControlWithVisibleAreas::setYBottomShift(float)
-public: void __thiscall ControlWithVisibleAreas::setYShift(float)
-public: void __thiscall ControlWithVisibleAreas::setYTopShift(float)
 public: void __thiscall ControlWithVisibleAreasParameters::`default constructor closure'(void)
 public: void __thiscall ControlWithVisibleAreasParameters::read(char const *,int)
 public: void __thiscall CountriesInfo::`default constructor closure'(void)
@@ -1773,8 +1108,6 @@ public: void __thiscall EditBox::setDigits(unsigned int)
 public: void __thiscall EditBox::setMaxTextSize(int)
 public: void __thiscall EditBox::setRange(double,double)
 public: void __thiscall EditBoxForDBGTaskDlg::`vbase destructor'(void)
-public: void __thiscall Header::`vbase destructor'(void)
-public: void __thiscall Header::arrange(struct HeaderParameters const &)
 public: void __thiscall HeaderParameters::`default constructor closure'(void)
 public: void __thiscall HeaderParameters::read(char const *,int)
 public: void __thiscall Hint::`vbase destructor'(void)
@@ -1806,70 +1139,6 @@ public: void __thiscall MenuButton::setList(void)
 public: void __thiscall MenuButton::setMenu(class MainMenu *)
 public: void __thiscall MenuButtonParameters::`default constructor closure'(void)
 public: void __thiscall MenuButtonParameters::read(char const *,int)
-public: void __thiscall MultiColumnListBox::`vbase destructor'(void)
-public: void __thiscall MultiColumnListBox::addColumns(int,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
-public: void __thiscall MultiColumnListBox::addRows(int,int,int)
-public: void __thiscall MultiColumnListBox::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: void __thiscall MultiColumnListBox::arrange(struct MultiColumnListBoxParameters const &)
-public: void __thiscall MultiColumnListBox::arrangeColumn(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)
-public: void __thiscall MultiColumnListBox::arrangeHeader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
-public: void __thiscall MultiColumnListBox::arrangeItem(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)
-public: void __thiscall MultiColumnListBox::arrangeRow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)
-public: void __thiscall MultiColumnListBox::calculateColumnFullSize(float *,int)
-public: void __thiscall MultiColumnListBox::calculateColumnsFullSize(float *,float)
-public: void __thiscall MultiColumnListBox::calculateFullXSize(float *,float)
-public: void __thiscall MultiColumnListBox::calculateFullYSize(float *,float)
-public: void __thiscall MultiColumnListBox::changeSelectedItem(int,int,int)
-public: void __thiscall MultiColumnListBox::changeSelectedRow(int)
-public: void __thiscall MultiColumnListBox::clearLines(void)
-public: void __thiscall MultiColumnListBox::correctXRegion(void)
-public: void __thiscall MultiColumnListBox::deleteColumns(int,int)
-public: void __thiscall MultiColumnListBox::deleteRows(int,int,bool)
-public: void __thiscall MultiColumnListBox::empty(void)
-public: void __thiscall MultiColumnListBox::fitColumns(int)
-public: void __thiscall MultiColumnListBox::freezeRows(int,int)
-public: void __thiscall MultiColumnListBox::markerOff(void)
-public: void __thiscall MultiColumnListBox::scroll(int,bool)
-public: void __thiscall MultiColumnListBox::setColumnFullSize(int)
-public: void __thiscall MultiColumnListBox::setColumnWidth(int,float)
-public: void __thiscall MultiColumnListBox::setColumnsNum(int)
-public: void __thiscall MultiColumnListBox::setCursorColor(unsigned int)
-public: void __thiscall MultiColumnListBox::setDefaultColumnDist(int)
-public: void __thiscall MultiColumnListBox::setDefaultColumnWidth(int)
-public: void __thiscall MultiColumnListBox::setDefaultColumnWidthFitType(int)
-public: void __thiscall MultiColumnListBox::setDefaultItemSet(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
-public: void __thiscall MultiColumnListBox::setDefaultLineColor(int)
-public: void __thiscall MultiColumnListBox::setDefaultRowDist(int)
-public: void __thiscall MultiColumnListBox::setDefaultRowHeight(int)
-public: void __thiscall MultiColumnListBox::setFullXSize(float)
-public: void __thiscall MultiColumnListBox::setFullYSize(float)
-public: void __thiscall MultiColumnListBox::setHeader(bool)
-public: void __thiscall MultiColumnListBox::setHeaderCaption(char const *,int)
-public: void __thiscall MultiColumnListBox::setHeaderDist(int)
-public: void __thiscall MultiColumnListBox::setHeaderHeight(int)
-public: void __thiscall MultiColumnListBox::setHeaderSet(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
-public: void __thiscall MultiColumnListBox::setHorizontalLines(bool)
-public: void __thiscall MultiColumnListBox::setItemCaption(char const *,int)
-public: void __thiscall MultiColumnListBox::setItemFace(int,int,int)
-public: void __thiscall MultiColumnListBox::setItemFontColor(int,int,int)
-public: void __thiscall MultiColumnListBox::setItemOnOff(bool,int,int)
-public: void __thiscall MultiColumnListBox::setItemType(int)
-public: void __thiscall MultiColumnListBox::setKeepXRegion(bool)
-public: void __thiscall MultiColumnListBox::setLines(bool)
-public: void __thiscall MultiColumnListBox::setLines(void)
-public: void __thiscall MultiColumnListBox::setMarker1(bool)
-public: void __thiscall MultiColumnListBox::setMarker2(bool)
-public: void __thiscall MultiColumnListBox::setMarkerPosition(int)
-public: void __thiscall MultiColumnListBox::setRowFontColor(int,int)
-public: void __thiscall MultiColumnListBox::setRowHeight(int,float)
-public: void __thiscall MultiColumnListBox::setRowsNum(int)
-public: void __thiscall MultiColumnListBox::setSelectedItem(char const *)
-public: void __thiscall MultiColumnListBox::setSelectedItem(int,int)
-public: void __thiscall MultiColumnListBox::setSelectedRow(int)
-public: void __thiscall MultiColumnListBox::setTableSize(int,int)
-public: void __thiscall MultiColumnListBox::setVerticalLines(bool)
-public: void __thiscall MultiColumnListBox::undoFitColumns(void)
-public: void __thiscall MultiColumnListBox::unfreezeRows(int,int)
 public: void __thiscall MultiColumnListBoxParameters::`default constructor closure'(void)
 public: void __thiscall MultiColumnListBoxParameters::addColumns(int,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
 public: void __thiscall MultiColumnListBoxParameters::addRows(int,int,int)
@@ -1894,49 +1163,11 @@ public: void __thiscall MultiStatic::setSelectionBegin(int)
 public: void __thiscall MultiStatic::setSelectionColor(unsigned long)
 public: void __thiscall MultiStatic::setSelectionEnd(int)
 public: void __thiscall MultiStatic::setSelectionFontColor(unsigned long)
-public: void __thiscall MultilineEditBox::`vbase destructor'(void)
-public: void __thiscall MultilineEditBox::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: void __thiscall MultilineEditBox::arrange(struct MultilineEditBoxParameters const &)
-public: void __thiscall MultilineEditBox::cut(void)
-public: void __thiscall MultilineEditBox::focusOnCaret(void)
-public: void __thiscall MultilineEditBox::insertToCaretPos(char const *)
-public: void __thiscall MultilineEditBox::paste(void)
-public: void __thiscall MultilineEditBox::setCaretAdditionalHeight(float)
-public: void __thiscall MultilineEditBox::setCaretPos(int,bool)
-public: void __thiscall MultilineEditBox::setCaretWidth(float)
-public: void __thiscall MultilineEditBox::setCurrentTimeAsLastTimeOfCaretDrawing(void)
-public: void __thiscall MultilineEditBox::setFont(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,int)
-public: void __thiscall MultilineEditBox::setLastTimeOfCaretDrawing(unsigned int)
-public: void __thiscall MultilineEditBox::setMaxTextSize(int)
-public: void __thiscall MultilineEditBox::setNeedToFocusOnCaret(bool)
-public: void __thiscall MultilineEditBox::shiftCaretRow(int)
-public: void __thiscall ObjectViewer::`vbase destructor'(void)
-public: void __thiscall ObjectViewer::arrange(struct ObjectViewerParameters const &)
-public: void __thiscall ObjectViewer::reset(void)
-public: void __thiscall ObjectViewer::rotateX(float)
-public: void __thiscall ObjectViewer::rotateY(float)
-public: void __thiscall ObjectViewer::setMinDistanceCoef(float)
-public: void __thiscall ObjectViewer::setMode(enum ObjectViewer::ViewMode)
-public: void __thiscall ObjectViewer::setShapeArgument(unsigned int,unsigned int,float)
 public: void __thiscall PictureViewer::FillFromFolder(void)
 public: void __thiscall PictureViewer::`vbase destructor'(void)
 public: void __thiscall PictureViewer::setFolderName(char const *)
 public: void __thiscall PictureViewerParameters::`default constructor closure'(void)
 public: void __thiscall PictureViewerParameters::read(char const *,int)
-public: void __thiscall Plot::`vbase destructor'(void)
-public: void __thiscall Plot::addPoint(class TPoint<float> const &)
-public: void __thiscall Plot::addPoints(class std::vector<class TPoint<float>,class std::allocator<class TPoint<float> > > const &)
-public: void __thiscall Plot::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: void __thiscall Plot::arrange(struct PlotParameters const &)
-public: void __thiscall Plot::clean(void)
-public: void __thiscall Plot::clear(void)
-public: void __thiscall Plot::deletePoints(int,int)
-public: void __thiscall Plot::setLinesColor(unsigned int)
-public: void __thiscall Plot::setPoint(int,class TPoint<float> const &)
-public: void __thiscall Plot::setPointsColor(unsigned int,int,int)
-public: void __thiscall Plot::setRangeX(float,float)
-public: void __thiscall Plot::setRangeY(float,float)
-public: void __thiscall Plot::setRenderMode(int)
 public: void __thiscall PlotParameters::`default constructor closure'(void)
 public: void __thiscall PlotParameters::read(char const *,int)
 public: void __thiscall ProcessorsManager::add(class ProcessorsManager::Listener *)
@@ -1945,9 +1176,6 @@ public: void __thiscall ProcessorsManager::close(class Processor *)
 public: void __thiscall ProcessorsManager::remove(class ProcessorsManager::Listener *)
 public: void __thiscall ProcessorsManager::setIdentifierToOpen(class EagleDynamics::Common::Identifier)
 public: void __thiscall ProcessorsManager::show(class EagleDynamics::Common::Identifier const &,bool)
-public: void __thiscall ProgressBar::`vbase destructor'(void)
-public: void __thiscall ProgressBar::arrange(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: void __thiscall ProgressBar::arrange(struct ProgressBarParameters const &)
 public: void __thiscall ProgressBarParameters::`default constructor closure'(void)
 public: void __thiscall ProgressBarParameters::read(char const *,int)
 public: void __thiscall RadioGroup::`vbase destructor'(void)
@@ -2006,28 +1234,6 @@ public: void __thiscall SpinEdit::setValueRange(float,float)
 public: void __thiscall SpinEdit::showPosSign(bool)
 public: void __thiscall SpinEditParameters::`default constructor closure'(void)
 public: void __thiscall SpinEditParameters::read(char const *,int)
-public: void __thiscall Static::`vbase destructor'(void)
-public: void __thiscall Static::calculateAutoSizeCoords(float &,float &,float &,float &)
-public: void __thiscall Static::changeActivatedState(bool)
-public: void __thiscall Static::changePressedState(bool,bool)
-public: void __thiscall Static::getFontParams(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,float &,unsigned int &)
-public: void __thiscall Static::onSetFocus(class Control *)
-public: void __thiscall Static::selfInflate(void)
-public: void __thiscall Static::setActivationColor(int,int,int,int)
-public: void __thiscall Static::setActivationColor(unsigned int)
-public: void __thiscall Static::setAutoStyle(bool)
-public: void __thiscall Static::setBold(bool)
-public: void __thiscall Static::setCaption(char const *,int)
-public: void __thiscall Static::setCaptionAlignment(int)
-public: void __thiscall Static::setFont(int)
-public: void __thiscall Static::setFontFlags(unsigned int)
-public: void __thiscall Static::setFontParams(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,float,unsigned int)
-public: void __thiscall Static::setFontSize(float)
-public: void __thiscall Static::setFontType(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
-public: void __thiscall Static::setIsActive(bool)
-public: void __thiscall Static::setItalic(bool)
-public: void __thiscall Static::setStrikeOut(bool)
-public: void __thiscall Static::setUnderlined(bool)
 public: void __thiscall StaticParameters::`default constructor closure'(void)
 public: void __thiscall StaticParameters::init(void)
 public: void __thiscall StaticParameters::read(char const *,int)
@@ -2042,26 +1248,6 @@ public: void __thiscall SwitchStatic::arrange(struct SwitchStaticParameters cons
 public: void __thiscall SwitchWafer::`vbase destructor'(void)
 public: void __thiscall SwitchWafer::arrange(struct SwitchWaferParameters const &)
 public: void __thiscall SwitchWafer::registerSwitchStatic(class SwitchStatic *)
-public: void __thiscall UI::Button::`vbase destructor'(void)
-public: void __thiscall UI::Chart::`vbase destructor'(void)
-public: void __thiscall UI::Dialog::hide(void)
-public: void __thiscall UI::Dialog::show(void)
-public: void __thiscall UI::Editor::`vbase destructor'(void)
-public: void __thiscall UI::Element::disable(bool)
-public: void __thiscall UI::Element::enable(void)
-public: void __thiscall UI::Element::freeze(bool)
-public: void __thiscall UI::Element::unfreeze(void)
-public: void __thiscall UI::Manager::`vbase destructor'(void)
-public: void __thiscall UI::Selector::`vbase destructor'(void)
-public: void __thiscall UI::Switch::`vbase destructor'(void)
-public: void __thiscall UI::Tuner::`vbase destructor'(void)
 public: void __thiscall WaitCursor::End(void)
 public: void __thiscall WaitCursor::`default constructor closure'(void)
 public: void __thiscall `anonymous namespace'::Stub::`vbase destructor'(void)
-struct HINSTANCE__ * __cdecl getDllHandle(char const *)
-void __cdecl deleteHint(void)
-void __cdecl getProcessorsRegistry(class EagleDynamics::Common::FactoryManager * *)
-void __cdecl hideHint(bool)
-void __cdecl paintHint(void)
-void __cdecl setControlManager(class ControlManager *)
-void __cdecl showHint(char const *,class Control *)

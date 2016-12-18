@@ -6,7 +6,6 @@ namespace path
 
 class path::PathNetwork * __cdecl path::CreatePathNetwork(void)
 
-
 class PathNetwork
 {
 public: __thiscall path::PathNetwork::PathNetwork(class path::PathNetwork const &)

@@ -1,16 +1,3 @@
-/**
- * This file is part of Flight Dream, an Iran territory space flight simulator
- * project.
- *
- * This program is property intellectual. You can't copy or distribute nor this
- * file neither any other files of project without express permission of owner
- * of this project. All sources, files, informations, documentations, and even
- * special hardwares are proprietary.
- *
- *            Copyright (c) 2015-2016 by Vahid Heidari (DeltaCode).
- *                           All rights reserved.
- */
-
 #ifndef CORESCENE_H_
 #define CORESCENE_H_
 

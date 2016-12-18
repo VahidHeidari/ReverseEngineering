@@ -1,5 +1,7 @@
  The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\edTerrain.dll' is:
 --------------------------------------------------------
+Start time : 21:38 PM
+End time   : 23:22 PM
 Export symbols:
 ---------------------------------------------
 	CHARACTERISTICS                   0x00000000

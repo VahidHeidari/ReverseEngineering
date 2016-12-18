@@ -1,5 +1,7 @@
  The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\LO_Viewer\MaxScene.dll' is:
 --------------------------------------------------------
+Start time : 11:26 AM
+End time   : 11:35 AM
 Export symbols:
 ---------------------------------------------
 	CHARACTERISTICS                   0x00000000

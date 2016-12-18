@@ -1,0 +1,50 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\vorbis.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3d37f95f    Fri Jul 19 04:34:55 2002
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00013626    'vorbis.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               35
+	NUMBER OF NAMES                   35
+	ADDRESS OF FUNCTIONS              0x000134c8
+	ADDRESS OF NAMES                  0x00013554
+	ADDRESS OF NAME ORDINALS          0x000135e0
+_floor_P
+_mapping_P
+_residue_P
+vorbis_analysis
+vorbis_analysis_blockout
+vorbis_analysis_buffer
+vorbis_analysis_headerout
+vorbis_analysis_init
+vorbis_analysis_wrote
+vorbis_bitrate_addblock
+vorbis_bitrate_flushpacket
+vorbis_block_clear
+vorbis_block_init
+vorbis_comment_add
+vorbis_comment_add_tag
+vorbis_comment_clear
+vorbis_comment_init
+vorbis_comment_query
+vorbis_comment_query_count
+vorbis_commentheader_out
+vorbis_dsp_clear
+vorbis_encode_setup_init
+vorbis_encode_setup_managed
+vorbis_encode_setup_vbr
+vorbis_info_blocksize
+vorbis_info_clear
+vorbis_info_init
+vorbis_packet_blocksize
+vorbis_synthesis
+vorbis_synthesis_blockin
+vorbis_synthesis_headerin
+vorbis_synthesis_init
+vorbis_synthesis_pcmout
+vorbis_synthesis_read
+vorbis_synthesis_trackonly

@@ -1,0 +1,52 @@
+C:\Resources\Analyze>mkdirs.sh
+Welcome to Git (version 1.9.5-preview20150319)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+C:\Resources\Analyze\mkdirs.sh: line 11: AVIMaker: command not found
+C:\Resources\Analyze\mkdirs.sh: line 12: AsyncNet: command not found
+C:\Resources\Analyze\mkdirs.sh: line 13: Common: command not found
+C:\Resources\Analyze\mkdirs.sh: line 14: CoreScene: command not found
+C:\Resources\Analyze\mkdirs.sh: line 15: Cosmos: command not found
+C:\Resources\Analyze\mkdirs.sh: line 16: DXRenderer: command not found
+C:\Resources\Analyze\mkdirs.sh: line 17: Effects: command not found
+C:\Resources\Analyze\mkdirs.sh: line 18: Explosions: command not found
+C:\Resources\Analyze\mkdirs.sh: line 19: Flight: command not found
+C:\Resources\Analyze\mkdirs.sh: line 20: GraphicsXP: command not found
+C:\Resources\Analyze\mkdirs.sh: line 21: Input: command not found
+C:\Resources\Analyze\mkdirs.sh: line 22: Inter: command not found
+C:\Resources\Analyze\mkdirs.sh: line 23: LOMScene: command not found
+C:\Resources\Analyze\mkdirs.sh: line 24: MOM: command not found
+C:\Resources\Analyze\mkdirs.sh: line 25: Mail: command not found
+C:\Resources\Analyze\mkdirs.sh: line 26: Map: command not found
+C:\Resources\Analyze\mkdirs.sh: line 27: Math: command not found
+C:\Resources\Analyze\mkdirs.sh: line 28: MaxScene: command not found
+C:\Resources\Analyze\mkdirs.sh: line 29: MissionEditor: command not found
+C:\Resources\Analyze\mkdirs.sh: line 30: Options: command not found
+C:\Resources\Analyze\mkdirs.sh: line 31: RenderEffects: command not found
+C:\Resources\Analyze\mkdirs.sh: line 32: Visualizer: command not found
+C:\Resources\Analyze\mkdirs.sh: line 33: WRadio: command not found
+C:\Resources\Analyze\mkdirs.sh: line 34: Weapons: command not found
+C:\Resources\Analyze\mkdirs.sh: line 35: World: command not found
+C:\Resources\Analyze\mkdirs.sh: line 36: WorldGeneral: command not found
+C:\Resources\Analyze\mkdirs.sh: line 37: WorldSmall: command not found
+C:\Resources\Analyze\mkdirs.sh: line 38: maxUtils: command not found
+Processing Graphics . . .
+Processing MitkaGraphics . . .
+Processing MultiPlayer . . .
+Processing NetSystem . . .
+Processing Operator . . .
+Processing Sound . . .
+Processing Terrain . . .
+Processing UserInterface . . .
+Processing View . . .
+Processing Weather . . .
+Processing ZweiBlau . . .
+Processing edObjects . . .
+Processing edTerrain . . .
+Processing ogg . . .
+Processing vorbis . . .
+Processing vorbisfile . . .
+Processing zlib . . .
+

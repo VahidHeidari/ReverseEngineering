@@ -1,0 +1,201 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\NetSystem.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3faa8abf    Thu Nov 06 09:54:07 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00045d4c    'NetSystem.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               186
+	NUMBER OF NAMES                   186
+	ADDRESS OF FUNCTIONS              0x00045608
+	ADDRESS OF NAMES                  0x000458f0
+	ADDRESS OF NAME ORDINALS          0x00045bd8
+`string'
+const Net::Address::`vftable'
+const Net::BaseEvent::`vftable'
+const Net::BaseSamplingNotificator::`vftable'{for `Net::BaseSamplingNotifier'}
+const Net::BaseSamplingNotificator::`vftable'{for `Net::SamplingNotificator<class Net::SamplingListener,class Net::Event<unsigned long>,class EagleDynamics::Common::Identifier>'}
+const Net::BaseSamplingNotifier::`vftable'
+const Net::Connector::`vftable'{for `Net::BaseSamplingNotifier'}
+const Net::Connector::`vftable'{for `Net::SamplingListener'}
+const Net::Connector::`vftable'{for `Net::SamplingNotificator<class Net::SamplingListener,class Net::Event<unsigned long>,class EagleDynamics::Common::Identifier>'}
+const Net::Connector::`vftable'{for `System'}
+const Net::ConnectorManager::`vftable'
+const Net::GroupsManager::`vftable'
+const Net::NetSerializersManager::`vftable'
+const Net::PlayersManager::`vftable'
+const Net::SamplingListener::`vftable'
+const Net::Worker::`vftable'{for `Net::BaseSamplingNotifier'}
+const Net::Worker::`vftable'{for `Net::SamplingListener'}
+const Net::Worker::`vftable'{for `Net::SamplingNotificator<class Net::SamplingListener,class Net::Event<unsigned long>,class EagleDynamics::Common::Identifier>'}
+const Net::Worker::`vftable'{for `System'}
+const Net::WorkersManager::`vftable'
+private: static class Net::NetSerializersManager * Net::NetSerializersManager::theInstance
+protected: __thiscall Net::NetSerializersManager::NetSerializersManager(void)
+protected: bool __thiscall Net::Connector::getCurrentStatus(void)const 
+protected: virtual __thiscall Net::NetSerializersManager::~NetSerializersManager(void)
+protected: virtual bool __thiscall Net::Connector::appendConnectionPoint(bool,class Net::Address *)
+protected: virtual bool __thiscall Net::Connector::removeConnectionPoint(bool,class Net::Address *)
+public: __thiscall Net::Address::Address(bool)
+public: __thiscall Net::Address::Address(class Net::Address const &)
+public: __thiscall Net::BaseEvent::BaseEvent(class Net::BaseEvent const &)
+public: __thiscall Net::BaseEvent::BaseEvent(void)
+public: __thiscall Net::BaseSamplingNotificator::BaseSamplingNotificator(class Net::BaseSamplingNotificator const &)
+public: __thiscall Net::BaseSamplingNotificator::BaseSamplingNotificator(void)
+public: __thiscall Net::BaseSamplingNotifier::BaseSamplingNotifier(class Net::BaseSamplingNotifier const &)
+public: __thiscall Net::BaseSamplingNotifier::BaseSamplingNotifier(void)
+public: __thiscall Net::Connection::Connection(void)
+public: __thiscall Net::Connector::Connector(class Net::Connector const &)
+public: __thiscall Net::Connector::Connector(struct _GUID const &,bool)
+public: __thiscall Net::ConnectorManager::ConnectorManager(class Net::ConnectorManager const &)
+public: __thiscall Net::ConnectorManager::ConnectorManager(void)
+public: __thiscall Net::Delivery::Delivery(void)
+public: __thiscall Net::Envelope::Envelope(class Net::Envelope const &)
+public: __thiscall Net::Envelope::Envelope(void)
+public: __thiscall Net::Envelope::~Envelope(void)
+public: __thiscall Net::Group::Group(class Net::Group const &)
+public: __thiscall Net::Group::Group(unsigned long const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: __thiscall Net::Group::~Group(void)
+public: __thiscall Net::GroupsManager::GroupsManager(class Net::GroupsManager const &)
+public: __thiscall Net::GroupsManager::GroupsManager(void)
+public: __thiscall Net::Letter::Letter(class Net::Letter const &)
+public: __thiscall Net::Letter::Letter(void)
+public: __thiscall Net::Letter::~Letter(void)
+public: __thiscall Net::Message::Message(class Net::Message const &)
+public: __thiscall Net::Message::Message(void)
+public: __thiscall Net::Message::~Message(void)
+public: __thiscall Net::NetSerializersManager::NetSerializersManager(class Net::NetSerializersManager const &)
+public: __thiscall Net::Player::Player(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned long const &,class Net::Address const *)
+public: __thiscall Net::Player::~Player(void)
+public: __thiscall Net::PlayersManager::PlayersManager(class Net::PlayersManager const &)
+public: __thiscall Net::PlayersManager::PlayersManager(void)
+public: __thiscall Net::SamplingListener::SamplingListener(class Net::SamplingListener const &)
+public: __thiscall Net::SamplingListener::SamplingListener(void)
+public: __thiscall Net::Session::Session(class Net::Session const &)
+public: __thiscall Net::Session::Session(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: __thiscall Net::Session::~Session(void)
+public: __thiscall Net::Worker::Worker(class Net::Worker const &)
+public: __thiscall Net::Worker::Worker(struct _GUID const &)
+public: __thiscall Net::WorkersManager::WorkersManager(class Net::WorkersManager const &)
+public: __thiscall Net::WorkersManager::WorkersManager(void)
+public: bool __thiscall Net::Address::getType(void)const 
+public: bool __thiscall Net::Connector::isConnected(bool,class Net::Address const *)
+public: bool __thiscall Net::Connector::isHost(void)const 
+public: bool __thiscall Net::Envelope::addRecipient(class Net::Player *)
+public: bool __thiscall Net::Envelope::addRecipients(class std::list<class Net::Player *,class std::allocator<class Net::Player *> > &)
+public: bool __thiscall Net::Envelope::isSendAll(void)const 
+public: bool __thiscall Net::Envelope::operator<(class Net::Envelope const &)const 
+public: bool __thiscall Net::Envelope::operator==(class Net::Envelope const &)const 
+public: bool __thiscall Net::Envelope::removeRecipient(class Net::Player const *)
+public: bool __thiscall Net::Envelope::setEnvelope(class Net::Message const *,struct Net::Delivery const *)
+public: bool __thiscall Net::Envelope::setEnvelope(class Net::Player *,class Net::Message const *,struct Net::Delivery const *)
+public: bool __thiscall Net::Envelope::setEnvelope(class std::list<class Net::Player *,class std::allocator<class Net::Player *> > const &,class Net::Message const *,struct Net::Delivery const *)
+public: bool __thiscall Net::Group::addPlayer(class Net::Player *)
+public: bool __thiscall Net::Group::playerInGroup(unsigned long const &)
+public: bool __thiscall Net::Group::removePlayer(class Net::Player *)
+public: bool __thiscall Net::Letter::operator<(class Net::Letter const &)const 
+public: bool __thiscall Net::Letter::setLetter(unsigned long const &,enum Net::Priority const &,class Net::Message const *)
+public: bool __thiscall Net::NetSerializersManager::destroyNetSerializer(class EagleDynamics::Common::Serializer *)
+public: bool __thiscall Net::Player::isLocal(void)const 
+public: class EagleDynamics::Common::Serializer * __thiscall Net::NetSerializersManager::createNetSerializer(void)
+public: class Net::Address & __thiscall Net::Address::operator=(class Net::Address const &)
+public: class Net::Address const * __thiscall Net::Player::getAddress(void)const 
+public: class Net::BaseEvent & __thiscall Net::BaseEvent::operator=(class Net::BaseEvent const &)
+public: class Net::BaseSamplingNotificator & __thiscall Net::BaseSamplingNotificator::operator=(class Net::BaseSamplingNotificator const &)
+public: class Net::BaseSamplingNotifier & __thiscall Net::BaseSamplingNotifier::operator=(class Net::BaseSamplingNotifier const &)
+public: class Net::Connection & __thiscall Net::Connection::operator=(class Net::Connection const &)
+public: class Net::ConnectorManager & __thiscall Net::ConnectorManager::operator=(class Net::ConnectorManager const &)
+public: class Net::Envelope & __thiscall Net::Envelope::operator=(class Net::Envelope const &)
+public: class Net::Group & __thiscall Net::Group::operator=(class Net::Group const &)
+public: class Net::GroupsManager & __thiscall Net::GroupsManager::operator=(class Net::GroupsManager const &)
+public: class Net::Letter & __thiscall Net::Letter::operator=(class Net::Letter const &)
+public: class Net::Message & __thiscall Net::Message::operator=(class Net::Message const &)
+public: class Net::Message const & __thiscall Net::Envelope::getMessage(void)const 
+public: class Net::Message const & __thiscall Net::Letter::getMessage(void)const 
+public: class Net::NetSerializersManager & __thiscall Net::NetSerializersManager::operator=(class Net::NetSerializersManager const &)
+public: class Net::PlayersManager & __thiscall Net::PlayersManager::operator=(class Net::PlayersManager const &)
+public: class Net::SamplingListener & __thiscall Net::SamplingListener::operator=(class Net::SamplingListener const &)
+public: class Net::Session & __thiscall Net::Session::operator=(class Net::Session const &)
+public: class Net::WorkersManager & __thiscall Net::WorkersManager::operator=(class Net::WorkersManager const &)
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Net::Address::getHostName(void)const 
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Net::Group::getName(void)const 
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Net::Player::getName(void)const 
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Net::Player::getStringAddress(void)const 
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Net::Session::getSessionName(void)const 
+public: class std::list<class Net::Address *,class std::allocator<class Net::Address *> > const & __thiscall Net::Connector::getConnected(bool)const 
+public: class std::list<class Net::Player *,class std::allocator<class Net::Player *> > const & __thiscall Net::Envelope::getRecipients(void)const 
+public: class std::list<class Net::Player *,class std::allocator<class Net::Player *> > const & __thiscall Net::Group::enumeratePlayers(void)const 
+public: enum Net::Priority const & __thiscall Net::Letter::getPriority(void)const 
+public: static class Net::ConnectorManager * __cdecl Net::ConnectorsManager::instance(void)
+public: static class Net::GroupsManager * __cdecl Net::RealGroupsManager::instance(class Net::Connector *)
+public: static class Net::NetSerializersManager * __cdecl Net::NetSerializersManager::instance(void)
+public: static class Net::PlayersManager * __cdecl Net::RealPlayersManager::instance(class Net::Connector *)
+public: static class Net::WorkersManager * __cdecl Net::TransmittersManager::instance(void)
+public: static void __cdecl Net::ConnectorsManager::release(void)
+public: static void __cdecl Net::RealGroupsManager::release(void)
+public: static void __cdecl Net::RealPlayersManager::release(void)
+public: static void __cdecl Net::TransmittersManager::release(void)
+public: struct Net::APP_PLAYER_INFO & __thiscall Net::APP_PLAYER_INFO::operator=(struct Net::APP_PLAYER_INFO const &)
+public: struct Net::Delivery & __thiscall Net::Delivery::operator=(struct Net::Delivery const &)
+public: struct Net::Delivery const & __thiscall Net::Envelope::getDelivery(void)const 
+public: struct Net::Statistic & __thiscall Net::Statistic::operator=(struct Net::Statistic const &)
+public: struct Net::Statistic const & __thiscall Net::Connection::getBytesStats(void)const 
+public: struct Net::Statistic const & __thiscall Net::Connection::getMessagesStats(void)const 
+public: struct Net::Statistic const & __thiscall Net::Connection::getPacketsStats(void)const 
+public: struct Net::Transmission & __thiscall Net::Transmission::operator=(struct Net::Transmission const &)
+public: struct _GUID const & __thiscall Net::Worker::getMode(void)const 
+public: unsigned char const & __thiscall Net::Connection::getLossRate(void)const 
+public: unsigned long const & __thiscall Net::Connection::getRTT(void)const 
+public: unsigned long const & __thiscall Net::Connection::getThroughtput(bool)const 
+public: unsigned long const & __thiscall Net::Connection::getTimeouted(void)const 
+public: unsigned long const & __thiscall Net::Group::getID(void)const 
+public: unsigned long const & __thiscall Net::Letter::getSenderID(void)const 
+public: unsigned long const & __thiscall Net::Message::getEvent(void)const 
+public: unsigned long const & __thiscall Net::Player::getID(void)const 
+public: unsigned long const & __thiscall Net::Session::getMaxPingTime(void)const 
+public: unsigned long const & __thiscall Net::Session::getMaxPlayers(void)const 
+public: unsigned long const & __thiscall Net::Session::getTimeInterval(bool)const 
+public: virtual __thiscall Net::Address::~Address(void)
+public: virtual __thiscall Net::BaseEvent::~BaseEvent(void)
+public: virtual __thiscall Net::BaseSamplingNotificator::~BaseSamplingNotificator(void)
+public: virtual __thiscall Net::BaseSamplingNotifier::~BaseSamplingNotifier(void)
+public: virtual __thiscall Net::Connector::~Connector(void)
+public: virtual __thiscall Net::PlayersManager::~PlayersManager(void)
+public: virtual __thiscall Net::Worker::~Worker(void)
+public: virtual bool __thiscall Net::BaseSamplingNotificator::add(class Net::SamplingListener *,class Net::BaseEvent const *,class EagleDynamics::Common::Identifier const *)
+public: virtual bool __thiscall Net::BaseSamplingNotificator::exclude(class Net::SamplingListener *,class Net::BaseEvent const &,class EagleDynamics::Common::Identifier const *)
+public: virtual bool __thiscall Net::BaseSamplingNotificator::include(class Net::SamplingListener *,class Net::BaseEvent const &,class EagleDynamics::Common::Identifier const *)
+public: virtual bool __thiscall Net::BaseSamplingNotificator::notify(class Net::BaseSamplingNotifier *,class Net::BaseEvent *,class EagleDynamics::Common::Identifier const *)
+public: virtual bool __thiscall Net::BaseSamplingNotificator::remove(class Net::SamplingListener *,class Net::BaseEvent const *,class EagleDynamics::Common::Identifier const *)
+public: virtual class Net::Address * __thiscall Net::Connector::createAddress(bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,long)
+public: virtual void __thiscall Net::BaseSamplingNotificator::cancel(void)
+public: virtual void __thiscall Net::Connector::destroyAddress(class Net::Address *)
+public: void __thiscall Net::Address::setHostName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: void __thiscall Net::Connector::close(void)
+public: void __thiscall Net::Connector::open(class Net::Session const &)
+public: void __thiscall Net::Envelope::setDelivery(struct Net::Delivery const &)
+public: void __thiscall Net::Envelope::setMessage(class Net::Message const *)
+public: void __thiscall Net::Group::empty(void)
+public: void __thiscall Net::Letter::setMessage(class Net::Message const *)
+public: void __thiscall Net::Letter::setPriority(enum Net::Priority const &)
+public: void __thiscall Net::Letter::setSenderID(unsigned long const &)
+public: void __thiscall Net::Message::free(unsigned char *)
+public: void __thiscall Net::Message::get(unsigned long *,class std::vector<unsigned char,class std::allocator<unsigned char> > *)
+public: void __thiscall Net::Message::get(unsigned long *,unsigned long *,unsigned char * *)
+public: void __thiscall Net::Message::pushback(unsigned long const &,unsigned char *)
+public: void __thiscall Net::Message::pushfront(unsigned long const &,unsigned char *)
+public: void __thiscall Net::Message::set(unsigned long const &,class std::vector<unsigned char,class std::allocator<unsigned char> > const &)
+public: void __thiscall Net::Message::set(unsigned long const &,unsigned long const &,unsigned char *)
+public: void __thiscall Net::Message::setEvent(unsigned long const &)
+public: void __thiscall Net::Player::setAddress(class Net::Address const *)
+public: void __thiscall Net::Player::setID(unsigned long const &)
+public: void __thiscall Net::Player::setName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: void __thiscall Net::Player::setStringAddress(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: void __thiscall Net::Session::`default constructor closure'(void)
+public: void __thiscall Net::Session::setMaxPingTime(unsigned long const &)
+public: void __thiscall Net::Session::setMaxPlayers(unsigned long const &)
+public: void __thiscall Net::Session::setSessionName(char const *)
+public: void __thiscall Net::Session::setTimeWaitIntervals(unsigned long const &,unsigned long const &)

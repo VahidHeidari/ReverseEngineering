@@ -1,0 +1,277 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\Options.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab0831    Thu Nov 06 18:49:21 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00020fc4    'Options.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               262
+	NUMBER OF NAMES                   262
+	ADDRESS OF FUNCTIONS              0x00020588
+	ADDRESS OF NAMES                  0x000209a0
+	ADDRESS OF NAME ORDINALS          0x00020db8
+public: __thiscall Options::Book::Book(class Options::Book const &)
+public: __thiscall Options::Book::Book(void)
+public: __thiscall Options::Cockpit::Cockpit(class Options::Cockpit const &)
+public: __thiscall Options::Cockpit::Cockpit(void)
+public: __thiscall Options::Difficulties::Difficulties(void)
+public: __thiscall Options::DifficultySettings::DifficultySettings(char const *,bool)
+public: __thiscall Options::Graphics::Graphics(class Options::Graphics const &)
+public: __thiscall Options::Graphics::Graphics(void)
+public: __thiscall Options::InputPage::InputPage(class Options::InputPage const &)
+public: __thiscall Options::InputPage::InputPage(void)
+public: __thiscall Options::OptionElement::OptionElement(int,int,int)
+public: __thiscall Options::OptionElement::OptionElement(void)
+public: __thiscall whCockpitOptions::OptionsData::OptionsData(void)
+public: __thiscall OptionsDialog::OptionsDialog(class OptionsDialog const &)
+public: __thiscall OptionsDialog::OptionsDialog(void)
+public: __thiscall Options::Page::Page(class Options::Page const &)
+public: __thiscall Options::Page::Page(char const *)
+public: __thiscall Options::PageBase::PageBase(class Options::PageBase const &)
+public: __thiscall Options::PageBase::PageBase(void)
+public: __thiscall Options::SoundPage::SoundPage(class Options::SoundPage const &)
+public: __thiscall Options::SoundPage::SoundPage(void)
+public: __thiscall dOptions::dOptions(class dOptions const &)
+public: __thiscall dOptions::dOptions(void)
+public: __thiscall doColor::doColor(unsigned char,unsigned char,unsigned char)
+public: __thiscall doColors::doColors(void)
+public: __thiscall doInterface::doInterface(struct doInterface const &)
+public: __thiscall doInterface::doInterface(void)
+public: __thiscall whCockpitOptions::whCockpitOptions(class whCockpitOptions const &)
+public: __thiscall whCockpitOptions::whCockpitOptions(char const *)
+public: __thiscall Options::Book::~Book(void)
+public: virtual __thiscall Options::Cockpit::~Cockpit(void)
+public: virtual __thiscall Options::Difficulties::~Difficulties(void)
+public: __thiscall Options::DifficultySettings::~DifficultySettings(void)
+public: virtual __thiscall Options::Graphics::~Graphics(void)
+public: virtual __thiscall Options::InputPage::~InputPage(void)
+public: virtual __thiscall OptionsDialog::~OptionsDialog(void)
+public: virtual __thiscall Options::Page::~Page(void)
+public: virtual __thiscall Options::PageBase::~PageBase(void)
+public: virtual __thiscall Options::SoundPage::~SoundPage(void)
+public: virtual __thiscall dOptions::~dOptions(void)
+public: __thiscall whCockpitOptions::~whCockpitOptions(void)
+public: class Options::Book & __thiscall Options::Book::operator=(class Options::Book const &)
+public: class Options::Cockpit & __thiscall Options::Cockpit::operator=(class Options::Cockpit const &)
+public: class Options::Graphics & __thiscall Options::Graphics::operator=(class Options::Graphics const &)
+public: class Options::InputPage & __thiscall Options::InputPage::operator=(class Options::InputPage const &)
+public: struct Options::OptionElement & __thiscall Options::OptionElement::operator=(struct Options::OptionElement const &)
+public: struct whCockpitOptions::OptionsData & __thiscall whCockpitOptions::OptionsData::operator=(struct whCockpitOptions::OptionsData const &)
+public: class OptionsDialog & __thiscall OptionsDialog::operator=(class OptionsDialog const &)
+public: class Options::Page & __thiscall Options::Page::operator=(class Options::Page const &)
+public: class Options::PageBase & __thiscall Options::PageBase::operator=(class Options::PageBase const &)
+public: class Options::SoundPage & __thiscall Options::SoundPage::operator=(class Options::SoundPage const &)
+public: class dOptions & __thiscall dOptions::operator=(class dOptions const &)
+public: struct doColor & __thiscall doColor::operator=(struct doColor const &)
+public: struct doColors & __thiscall doColors::operator=(struct doColors const &)
+public: struct doInput & __thiscall doInput::operator=(struct doInput const &)
+public: struct doInterface & __thiscall doInterface::operator=(struct doInterface const &)
+public: struct doNetwork & __thiscall doNetwork::operator=(struct doNetwork const &)
+public: struct doSound & __thiscall doSound::operator=(struct doSound const &)
+public: struct doUnits & __thiscall doUnits::operator=(struct doUnits const &)
+public: class whCockpitOptions & __thiscall whCockpitOptions::operator=(class whCockpitOptions const &)
+const Options::Cockpit::`vftable'
+const Options::Cockpit::`vftable'{for `Control'}
+const Options::Cockpit::`vftable'{for `UI::Element'}
+const Options::Difficulties::`vftable'
+const Options::Difficulties::`vftable'{for `Control'}
+const Options::Difficulties::`vftable'{for `UI::Element'}
+const Options::Graphics::`vftable'
+const Options::Graphics::`vftable'{for `Control'}
+const Options::Graphics::`vftable'{for `UI::Element'}
+const Options::InputPage::`vftable'
+const OptionsDialog::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const OptionsDialog::`vftable'{for `AbleToCloseMissionEditor'}
+const OptionsDialog::`vftable'{for `Bindable'}
+const OptionsDialog::`vftable'{for `Control'}
+const OptionsDialog::`vftable'{for `UI::Element'}
+const OptionsDialog::`vftable'{for `System'}
+const Options::Page::`vftable'
+const Options::Page::`vftable'{for `Control'}
+const Options::Page::`vftable'{for `UI::Element'}
+const Options::PageBase::`vftable'
+const Options::SoundPage::`vftable'
+const Options::SoundPage::`vftable'{for `Control'}
+const Options::SoundPage::`vftable'{for `UI::Element'}
+const dOptions::`vftable'
+const Options::Cockpit::`vbtable'
+const Options::Difficulties::`vbtable'
+const Options::Graphics::`vbtable'
+const OptionsDialog::`vbtable'
+const Options::Page::`vbtable'
+const Options::SoundPage::`vbtable'
+`string'
+public: void __thiscall Options::Cockpit::`vbase destructor'(void)
+public: void __thiscall Options::Difficulties::`vbase destructor'(void)
+public: void __thiscall Options::Graphics::`vbase destructor'(void)
+public: void __thiscall OptionsDialog::`vbase destructor'(void)
+public: void __thiscall Options::Page::`vbase destructor'(void)
+public: void __thiscall Options::SoundPage::`vbase destructor'(void)
+public: void __thiscall doColor::`default constructor closure'(void)
+public: void __thiscall whCockpitOptions::`default constructor closure'(void)
+public: void __thiscall dOptions::Finish(void)
+public: virtual bool __thiscall dOptions::FullScreen(void)
+public: bool __thiscall dOptions::G32bit(void)
+public: bool __thiscall dOptions::GAGP(void)
+public: void __thiscall dOptions::GAGPset(bool)
+public: unsigned int __thiscall dOptions::GAngleOfView(void)
+public: bool __thiscall dOptions::GCockpit3D(void)
+public: bool __thiscall dOptions::GCockpitIndicationRus(void)
+public: virtual bool __thiscall dOptions::GCockpitMirrors(void)
+public: bool __thiscall dOptions::GCockpitReflection(void)
+public: bool __thiscall dOptions::GFiltering(void)
+public: bool __thiscall dOptions::GFullScreen(void)
+public: void __thiscall dOptions::GFullScreenSet(bool)
+public: bool __thiscall dOptions::GGouraud(void)
+public: unsigned char __thiscall dOptions::GLibrary(void)
+public: bool __thiscall dOptions::GMMX2(void)
+public: bool __thiscall dOptions::GMMX(void)
+public: bool __thiscall dOptions::GMipmap(void)
+public: bool __thiscall dOptions::GNoise(void)
+public: unsigned char __thiscall dOptions::GPCITextures(void)
+public: bool __thiscall dOptions::GPrimaryDisplayDriver(void)
+public: unsigned char __thiscall dOptions::GQuality(void)
+public: virtual unsigned char __thiscall dOptions::GResolution(void)
+public: bool __thiscall dOptions::GShadows(void)
+public: bool __thiscall dOptions::GSimplifiedHelmetMode(void)
+public: virtual unsigned char __thiscall dOptions::GTexturing(void)
+public: bool __thiscall dOptions::GUseGEffects(void)
+public: bool __thiscall dOptions::GUseHardware(void)
+public: virtual float __thiscall dOptions::GetCockpitAngleOfView(void)
+public: virtual bool __thiscall dOptions::GetCockpitMirrors(void)
+public: virtual short __thiscall dOptions::GetCockpitMirrorsResolution(void)
+public: virtual bool __thiscall dOptions::GetCockpitMouse(void)
+public: struct doColors __thiscall dOptions::GetColorOptions(void)
+public: void __thiscall dOptions::GetDefaultColors(struct doColors &)
+public: virtual struct doGraphics __thiscall dOptions::GetGraphicsOptions(void)
+public: struct doInput __thiscall dOptions::GetInputOptions(void)
+public: struct doInterface __thiscall dOptions::GetInterfaceOptions(void)
+public: struct doNetwork __thiscall dOptions::GetNetworkOptions(void)
+public: virtual bool __thiscall dOptions::GetNoEffect(void)
+public: virtual int __thiscall dOptions::GetResolutionX(void)
+public: virtual int __thiscall dOptions::GetResolutionY(void)
+public: struct doSound __thiscall dOptions::GetSoundOptions(void)
+public: struct doTerrain __thiscall dOptions::GetTerrainOptions(void)
+public: struct doUnits __thiscall dOptions::GetUnitsOptions(void)
+public: virtual bool __thiscall dOptions::Init(void)
+public: static void __cdecl Options::Graphics::LoadPlugins(void)
+public: bool __thiscall dOptions::NHiddenFromHost(void)
+public: unsigned char * __thiscall dOptions::NIP(void)
+public: bool __thiscall dOptions::NLoadLocalMission(void)
+public: bool __thiscall dOptions::NMaster(void)
+public: char * __thiscall dOptions::NName(void)
+public: bool __thiscall dOptions::NNetType(void)
+public: bool __thiscall dOptions::NNetwork(void)
+public: static void __cdecl Options::Graphics::ParseConfig(void)
+public: bool __thiscall dOptions::Read(void)
+public: virtual void __thiscall dOptions::SetCockpitAngleOfView(float)
+public: virtual void __thiscall dOptions::SetCockpitMouse(bool)
+public: static void __cdecl dOptions::SetCockpitOptions(struct whCockpitOptions::OptionsData const *)
+public: void __thiscall dOptions::SetColorOptions(struct doColors)
+public: virtual void __thiscall dOptions::SetGraphicsOptions(struct doGraphics)
+public: void __thiscall dOptions::SetInputOptions(struct doInput)
+public: void __thiscall dOptions::SetInterfaceOptions(struct doInterface const &)
+public: void __thiscall dOptions::SetNetworkOptions(struct doNetwork)
+public: virtual void __thiscall dOptions::SetNoEffect(bool)
+public: void __thiscall dOptions::SetSoundOptions(struct doSound)
+public: void __thiscall dOptions::SetTerrainOptions(struct doTerrain const &)
+public: void __thiscall dOptions::SetUnitsOptions(struct doUnits)
+public: bool __thiscall dOptions::TChimneySmoke(void)const 
+public: virtual int __thiscall dOptions::TDetailsVisibility(void)const 
+public: int __thiscall dOptions::TEffectsDensity(void)const 
+public: int __thiscall dOptions::TGreeneryDensity(void)const 
+public: int __thiscall dOptions::TObjectsDensity(void)const 
+public: int __thiscall dOptions::TRoadsRiversDensity(void)const 
+public: int __thiscall dOptions::TTextureResolution(void)const 
+public: bool __thiscall dOptions::UIDisableAVI(void)
+public: bool __thiscall dOptions::UIMFCVersion(void)
+public: bool __thiscall dOptions::UIOpaque(void)
+public: bool __thiscall dOptions::UISolidMap(void)
+public: bool __thiscall dOptions::Write(void)
+public: void __thiscall Options::Book::add(class std::auto_ptr<class Options::PageBase> const &)
+public: virtual void __thiscall Options::Cockpit::apply(void)
+public: virtual void __thiscall Options::Difficulties::apply(void)
+public: virtual void __thiscall Options::Graphics::apply(void)
+public: virtual void __thiscall Options::InputPage::apply(void)
+public: virtual void __thiscall Options::PageBase::apply(void)
+public: virtual void __thiscall Options::SoundPage::apply(void)
+void __cdecl Options::applyTerrainDensity(void)
+public: class Signal::Notifier<class Options::DifficultySettings *> & __thiscall Options::DifficultySettings::changed(void)
+private: static bool * Options::Graphics::civTraffic
+public: static class whCockpitOptions dOptions::cockpit
+public: virtual void __thiscall Options::Difficulties::display(bool)
+public: virtual void __thiscall Options::Graphics::display(bool)
+public: virtual void __thiscall Options::InputPage::display(bool)
+public: virtual void __thiscall Options::Page::display(bool)
+public: void __thiscall Options::DifficultySettings::enabler(void)
+public: void __thiscall Options::Graphics::enabler(void)
+private: void __thiscall Options::DifficultySettings::fillCombobox(class UI::Ptr<class UI::Chart>,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const &,int)
+private: void __thiscall Options::Difficulties::fillData(class std::vector<struct Options::OptionElement,class std::allocator<struct Options::OptionElement> > &,int)
+public: void __thiscall Options::Book::for_each(void (__thiscall Options::PageBase::*)(void))
+public: struct whCockpitOptions::OptionsData * __thiscall whCockpitOptions::get(void)
+public: static int __cdecl Options::Graphics::getCivTraffic(int)
+private: class std::vector<struct Options::OptionElement,class std::allocator<struct Options::OptionElement> > & __thiscall Options::Difficulties::getCurrentData(int)
+public: class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall Options::Difficulties::getCurrentMissionOptions(int)
+public: int __thiscall Options::Difficulties::getCurrentMode(void)const 
+public: class std::vector<struct Options::OptionElement,class std::allocator<struct Options::OptionElement> > & __thiscall Options::Difficulties::getCustomData(void)
+public: struct whCockpitOptions::OptionsData * __thiscall whCockpitOptions::getDefault(void)
+protected: virtual struct MSGTABLE const * __thiscall Options::Graphics::getMessageTable(void)const 
+public: static int __cdecl Options::Graphics::getScenes(int)
+private: class Options::Graphics::Param * __thiscall Options::Graphics::initParam(class Options::Graphics::Param * (__cdecl*)(class ConfigParser::iterator,class ComboBox *),char const *,int)
+public: virtual bool __thiscall dOptions::isFastLoad(void)
+public: virtual bool __thiscall dOptions::isFastLoadLand(void)
+public: static bool __cdecl Options::Difficulties::isReadOnly(void)
+public: bool __thiscall Options::DifficultySettings::isReadOnly(void)const 
+public: void __thiscall whCockpitOptions::load(void)
+private: static char * dOptions::magic
+private: static struct MSGTABLE_ENTRY const * const Options::Graphics::messageEntries
+protected: static struct MSGTABLE const Options::Graphics::messageTable
+public: void __thiscall Options::DifficultySettings::onAISkillChange(int)
+private: void __thiscall OptionsDialog::onApply(void)
+private: void __thiscall Options::SoundPage::onButton(int)
+private: void __thiscall Options::DifficultySettings::onChange(void)
+private: void __thiscall Options::Graphics::onCivTraffic(void)
+private: void __thiscall OptionsDialog::onClose(void)
+public: void __thiscall Options::Difficulties::onCustom(void)
+public: void __thiscall Options::Graphics::onDefHigh(void)
+public: void __thiscall Options::Graphics::onDefLow(void)
+public: void __thiscall Options::Graphics::onDefMedium(void)
+private: void __thiscall Options::SoundPage::onKnob(int)
+private: void __thiscall OptionsDialog::onModeChange(void)
+private: void __thiscall OptionsDialog::onReset(void)
+public: void __thiscall Options::Difficulties::onSave(bool)
+public: void __thiscall Options::DifficultySettings::onSave(class std::vector<struct Options::OptionElement,class std::allocator<struct Options::OptionElement> > &)
+private: void __thiscall Options::Graphics::onScenes(void)
+private: void __thiscall Options::Difficulties::onSetGlobal(void)
+public: void __thiscall Options::DifficultySettings::onUserSkill(class UI::Ptr<class UI::Selector>)
+public: void __thiscall Options::Book::open(int)
+public: static void __cdecl OptionsDialog::prepare(void)
+private: void __thiscall whCockpitOptions::read(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+private: void __thiscall Options::Difficulties::readData(int)
+private: void __thiscall Options::DifficultySettings::readDefault(class std::vector<struct Options::OptionElement,class std::allocator<struct Options::OptionElement> > &,char const *)
+public: virtual void __thiscall Options::Cockpit::reset(void)
+public: virtual void __thiscall Options::Difficulties::reset(void)
+public: virtual void __thiscall Options::Graphics::reset(void)
+public: virtual void __thiscall Options::InputPage::reset(void)
+public: virtual void __thiscall Options::PageBase::reset(void)
+public: virtual void __thiscall Options::SoundPage::reset(void)
+public: void __thiscall whCockpitOptions::save(void)
+private: void __thiscall Options::Difficulties::saveData(int,bool)
+private: static int * Options::Graphics::scenes
+public: void __thiscall whCockpitOptions::set(struct whCockpitOptions::OptionsData const *)
+public: void __thiscall Options::DifficultySettings::setControls(class std::vector<struct Options::OptionElement,class std::allocator<struct Options::OptionElement> > const &)
+private: void __thiscall Options::DifficultySettings::setDifficultiesProcessor(class Options::Difficulties *)
+public: virtual void __thiscall dOptions::setFastLoad(bool)
+public: virtual void __thiscall dOptions::setFastLoadLand(bool)
+void __cdecl Options::showPilotNames(bool)
+private: static int OptionsDialog::startPage
+public: virtual void __thiscall Options::InputPage::undo(void)
+public: virtual void __thiscall Options::PageBase::undo(void)
+public: virtual void __thiscall Options::SoundPage::undo(void)
+private: void __thiscall Options::SoundPage::update(void)
+private: static int dOptions::version
+public: class Options::PageBase * __thiscall Options::Book::view(void)const 
+private: void __thiscall whCockpitOptions::write(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)

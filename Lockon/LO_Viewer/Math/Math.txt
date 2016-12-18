@@ -1,0 +1,768 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\LO_Viewer\Math.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x41ac64a3    Tue Nov 30 04:16:35 2004
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x0002da52    'Math.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               753
+	NUMBER OF NAMES                   753
+	ADDRESS OF FUNCTIONS              0x0002bce8
+	ADDRESS OF NAMES                  0x0002c8ac
+	ADDRESS OF NAME ORDINALS          0x0002d470
+bool __cdecl SideBySide(class E3::Vector &,class E3::Vector &,float)
+bool __fastcall BoxBoxIntersect(class Box const &,class Position3 const &,class Box const &,class Position3 const &)
+bool __fastcall BoxBoxIntersect(class Position3 const &,class Vector3 const &,class Vector3 const &)
+class E2::Vector __cdecl operator*(float,class E2::Vector &)
+class E3::Vector __cdecl operator*(float,class E3::Vector const &)
+class E3D::Vector __cdecl operator*(double,class E3D::Vector const &)
+class E4::Vector __cdecl operator*(float,class E4::Vector &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class cPosition &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class dPosition &)
+class Quaternion __cdecl operator*(float,class Quaternion const &)
+class Vector3 & __fastcall operator*=(class Vector3 &,class Matrix33 const &)
+class Vector3 & __fastcall operator*=(class Vector3 &,class Position3 const &)
+class Vector3 __cdecl IntersectPlanes(class Plane const &,class Plane const &,class Plane const &)
+class Vector3 __fastcall operator*(class Vector3 const &,class Matrix33 const &)
+class Vector3 __fastcall operator*(class Vector3 const &,class Position3 const &)
+const ClipVolume::`vftable'
+const ClipVolumeBox::`vftable'
+const ClipVolumeCamera::`vftable'
+const ClipVolumeCompound::`vftable'
+const ClipVolumeCone::`vftable'
+const ClipVolumeInclined::`vftable'
+const ClipVolumePlanes::`vftable'
+const ClipVolumeSegment::`vftable'
+double __cdecl Bearing(class E3D::Vector &,class E3D::Vector &)
+double __cdecl Distance(class E3D::Vector &,class E3D::Vector &)
+double __cdecl Distance2(class E3D::Vector &,class E3D::Vector &)
+double __cdecl Hor_Distance(class E3D::Vector &,class E3D::Vector &)
+double __cdecl Hor_Distance2(class E3D::Vector &,class E3D::Vector &)
+double __cdecl Pitch(class E3D::Vector &,class E3D::Vector &)
+float __cdecl Air_Density(float)
+float __cdecl Bearing(class E3::Vector &,class E3::Vector &)
+float __cdecl Distance(class E3::Vector &,class E3::Vector &)
+float __cdecl Distance2(class E3::Vector &,class E3::Vector &)
+float __cdecl Hor_Distance(class E3::Vector &,class E3::Vector &)
+float __cdecl Hor_Distance2(class E3::Vector &,class E3::Vector &)
+float __cdecl Pitch(class E3::Vector &,class E3::Vector &)
+float __cdecl Vel_of_Sound(float)
+float __cdecl splah(int,float *,float *,float,int)
+float __fastcall GetMyTime(void)
+float __fastcall PointSegmentDistance(class Vector3 const &,class Vector3 const &,class Vector3 const &)
+gD3DInvertMatrix44d
+gD3DMultMatrix44Point3f
+gD3DMultMatrix44d
+int __cdecl fnMath(void)
+int nMath
+private: __int64 __cdecl gTimer::GetTSC(void)
+private: float __cdecl gTimer::GetTSCinterval(void *)
+private: static float gTimer::m_constCPUfactor
+private: static float gTimer::m_constCPUspeed
+protected: virtual void __thiscall ClipVolumeBox::Prepare(float,float,float,float,int)
+protected: virtual void __thiscall ClipVolumeCone::Prepare(float,float,float,float,int)
+protected: virtual void __thiscall ClipVolumeSegment::Prepare(float,float,float,float,int)
+protected: void __thiscall ClipVolumeCone::CreateLine(class E3::Vector &,class E3::Vector const &,class E3::Vector const &)
+public: __thiscall BitArray::BitArray(class BitArray const &)
+public: __thiscall BitArray::BitArray(int)
+public: __thiscall BitArray::BitArray(void)
+public: __thiscall BitArray::~BitArray(void)
+public: __thiscall Box::Box(class Box const &)
+public: __thiscall Box::Box(class Vector3 const &,class Vector3 const &)
+public: __thiscall Box::Box(class Vector3 const &,float)
+public: __thiscall Box::Box(float,float,float,float,float,float)
+public: __thiscall Box::Box(void)
+public: __thiscall CMath::CMath(void)
+public: __thiscall ClipVolume::ClipVolume(class ClipVolume const &)
+public: __thiscall ClipVolume::ClipVolume(void)
+public: __thiscall ClipVolumeBox::ClipVolumeBox(class Box const &)
+public: __thiscall ClipVolumeBox::ClipVolumeBox(class ClipVolumeBox const &)
+public: __thiscall ClipVolumeBox::ClipVolumeBox(float,float,float,float,float,float)
+public: __thiscall ClipVolumeBox::ClipVolumeBox(void)
+public: __thiscall ClipVolumeCamera::ClipVolumeCamera(class ClipVolumeCamera const &)
+public: __thiscall ClipVolumeCamera::ClipVolumeCamera(class Position3 &,float,float,float)
+public: __thiscall ClipVolumeCamera::ClipVolumeCamera(class Position3 &,float,float,float,float)
+public: __thiscall ClipVolumeCamera::ClipVolumeCamera(class cPosition &,float,float,float)
+public: __thiscall ClipVolumeCompound::ClipVolumeCompound(class ClipVolumeCompound const &)
+public: __thiscall ClipVolumeCompound::ClipVolumeCompound(void)
+public: __thiscall ClipVolumeCone::ClipVolumeCone(class ClipVolumeCone const &)
+public: __thiscall ClipVolumeCone::ClipVolumeCone(class cPosition const &,float,float)
+public: __thiscall ClipVolumeInclined::ClipVolumeInclined(class Box const &,class Vector3 const &,float)
+public: __thiscall ClipVolumeInclined::ClipVolumeInclined(class ClipVolumeInclined const &)
+public: __thiscall ClipVolumeInclined::ClipVolumeInclined(void)
+public: __thiscall ClipVolumePlanes::ClipVolumePlanes(class ClipVolumePlanes const &)
+public: __thiscall ClipVolumePlanes::ClipVolumePlanes(void)
+public: __thiscall ClipVolumeSegment::ClipVolumeSegment(class ClipVolumeSegment const &)
+public: __thiscall ClipVolumeSegment::ClipVolumeSegment(class E3::Vector const &,class E3::Vector const &)
+public: __thiscall E2::Edge::Edge(class E2::Edge &)
+public: __thiscall E2::Edge::Edge(class E2::Vector &,class E2::Vector &)
+public: __thiscall E2::Edge::Edge(void)
+public: __thiscall E2::Operator::Operator(class E2::Operator &)
+public: __thiscall E2::Operator::Operator(float)
+public: __thiscall E2::Operator::Operator(float,float,float,float)
+public: __thiscall E2::Operator::Operator(void)
+public: __thiscall E2::Vector::Vector(class E2::Vector &)
+public: __thiscall E2::Vector::Vector(float)
+public: __thiscall E2::Vector::Vector(float,double)
+public: __thiscall E2::Vector::Vector(float,float)
+public: __thiscall E2::Vector::Vector(void)
+public: __thiscall E3::Operator::Operator(class E3::Operator &)
+public: __thiscall E3::Operator::Operator(class E3::Vector &,class E3::Vector &,class E3::Vector &)
+public: __thiscall E3::Operator::Operator(float)
+public: __thiscall E3::Operator::Operator(float,float,float,float,float,float,float,float,float)
+public: __thiscall E3::Operator::Operator(void)
+public: __thiscall E3::Vector::Vector(class E3::Vector const &)
+public: __thiscall E3::Vector::Vector(float const *)
+public: __thiscall E3::Vector::Vector(float)
+public: __thiscall E3::Vector::Vector(float,float,float)
+public: __thiscall E3::Vector::Vector(struct D3DXVECTOR3)
+public: __thiscall E3::Vector::Vector(void)
+public: __thiscall E3::Vector::operator float *(void)
+public: __thiscall E3::Vector::operator float const *(void)const 
+public: __thiscall E3D::Operator::Operator(class E3D::Operator &)
+public: __thiscall E3D::Operator::Operator(class E3D::Vector &,class E3D::Vector &,class E3D::Vector &)
+public: __thiscall E3D::Operator::Operator(double,double,double,double,double,double,double,double,double)
+public: __thiscall E3D::Operator::Operator(float)
+public: __thiscall E3D::Operator::Operator(void)
+public: __thiscall E3D::Vector::Vector(class E3::Vector const &)
+public: __thiscall E3D::Vector::Vector(class E3D::Vector const &)
+public: __thiscall E3D::Vector::Vector(double)
+public: __thiscall E3D::Vector::Vector(double,double,double)
+public: __thiscall E3D::Vector::Vector(void)
+public: __thiscall E3D::Vector::operator class E3::Vector(void)const 
+public: __thiscall E4::Operator::Operator(class E4::Operator &)
+public: __thiscall E4::Operator::Operator(float)
+public: __thiscall E4::Operator::Operator(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)
+public: __thiscall E4::Operator::Operator(void)
+public: __thiscall E4::Vector::Vector(class E4::Vector &)
+public: __thiscall E4::Vector::Vector(float)
+public: __thiscall E4::Vector::Vector(float,float,float,float)
+public: __thiscall E4::Vector::Vector(void)
+public: __thiscall Matrix33::Matrix33(class Matrix33 const &)
+public: __thiscall Matrix33::Matrix33(class Vector3 const &)
+public: __thiscall Matrix33::Matrix33(class Vector3 const &,class Vector3 const &,class Vector3 const &)
+public: __thiscall Matrix33::Matrix33(void)
+public: __thiscall Plane3D::Plane3D(class Plane3D const &)
+public: __thiscall Plane3D::Plane3D(class Vector3 const &,float)
+public: __thiscall Plane3D::Plane3D(void)
+public: __thiscall Plane::Plane(class Plane const &)
+public: __thiscall Plane::Plane(class Vector3 const &,class Vector3 const &)
+public: __thiscall Plane::Plane(class Vector3 const &,class Vector3 const &,class Vector3 const &)
+public: __thiscall Plane::Plane(float const *)
+public: __thiscall Plane::Plane(float,float,float,float)
+public: __thiscall Plane::Plane(void)
+public: __thiscall Position3::Position3(class Matrix33 const &)
+public: __thiscall Position3::Position3(class Position3 const &)
+public: __thiscall Position3::Position3(class Vector3 const &)
+public: __thiscall Position3::Position3(class Vector3 const &,class Vector3 const &,class Vector3 const &,class Vector3 const &)
+public: __thiscall Position3::Position3(void)
+public: __thiscall Quaternion::Quaternion(class Matrix33 const &)
+public: __thiscall Quaternion::Quaternion(class Quaternion const &)
+public: __thiscall Quaternion::Quaternion(float,class Vector3 const &)
+public: __thiscall Quaternion::Quaternion(float,float,float,float)
+public: __thiscall Quaternion::Quaternion(void)
+public: __thiscall Quaternion::operator class Matrix33(void)const 
+public: __thiscall Vector3::Vector3(class Vector3 const &)
+public: __thiscall Vector3::Vector3(float const *)
+public: __thiscall Vector3::Vector3(float,float,float)
+public: __thiscall Vector3::Vector3(void)
+public: __thiscall Vector3::operator float *(void)
+public: __thiscall Vector3::operator float const *(void)const 
+public: __thiscall Vector4::Vector4(float const *)
+public: __thiscall Vector4::Vector4(float,float,float,float)
+public: __thiscall Vector4::Vector4(struct D3DXVECTOR3 const &,float)
+public: __thiscall Vector4::Vector4(struct D3DXVECTOR4 const &)
+public: __thiscall Vector4::Vector4(void)
+public: __thiscall Vector4::operator float *(void)
+public: __thiscall Vector4::operator float const *(void)const 
+public: __thiscall cPosition::cPosition(class E3::Operator const &,class E3::Vector const &)
+public: __thiscall cPosition::cPosition(class E3::Vector const &,class E3::Vector const &,class E3::Vector const &,class E3::Vector const &)
+public: __thiscall cPosition::cPosition(class cPosition const &)
+public: __thiscall cPosition::cPosition(double const * const)
+public: __thiscall cPosition::cPosition(void)
+public: __thiscall cPosition::operator class Position3(void)const 
+public: __thiscall cPositionMFD::cPositionMFD(class cPosition &,float)
+public: __thiscall cPositionMFD::cPositionMFD(class cPositionMFD const &)
+public: __thiscall cPositionMFD::cPositionMFD(void)
+public: __thiscall dPosition::dPosition(class E3::Operator const &,class E3::Vector const &)
+public: __thiscall dPosition::dPosition(class E3D::Vector const &,class E3D::Vector const &,class E3D::Vector const &,class E3D::Vector const &)
+public: __thiscall dPosition::dPosition(class dPosition const &)
+public: __thiscall dPosition::dPosition(double const * const)
+public: __thiscall dPosition::dPosition(void)
+public: __thiscall dPosition::operator class Position3(void)const 
+public: __thiscall gTimer::gTimer(void)
+public: __thiscall gTimer::~gTimer(void)
+public: bool __thiscall BitArray::HaveAnyBitSet(void)
+public: bool __thiscall Box::intersectSegment(class Vector3 const &,class Vector3 const &)const 
+public: bool __thiscall Box::intersectionXZ(class Box const &)const 
+public: bool __thiscall Box::intersectionXZ(class Box const &,class Box &)const 
+public: bool __thiscall Box::isInside(class Vector3 const &)const 
+public: bool __thiscall Box::isInsideXZ(class Vector3 const &)const 
+public: bool __thiscall Box::isValid(void)const 
+public: bool __thiscall Box::operator!=(class Box const &)const 
+public: bool __thiscall Box::operator==(class Box const &)const 
+public: bool __thiscall E2::Edge::operator!=(class E2::Edge &)
+public: bool __thiscall E2::Edge::operator==(class E2::Edge &)
+public: bool __thiscall E2::Vector::operator!=(class E2::Vector &)
+public: bool __thiscall E2::Vector::operator<(class E2::Vector &)
+public: bool __thiscall E2::Vector::operator<=(class E2::Vector &)
+public: bool __thiscall E2::Vector::operator==(class E2::Vector &)
+public: bool __thiscall E2::Vector::operator>(class E2::Vector &)
+public: bool __thiscall E2::Vector::operator>=(class E2::Vector &)
+public: bool __thiscall E3::Vector::operator!=(class E3::Vector const &)const 
+public: bool __thiscall E3::Vector::operator<(class E3::Vector const &)const 
+public: bool __thiscall E3::Vector::operator<=(class E3::Vector const &)const 
+public: bool __thiscall E3::Vector::operator==(class E3::Vector const &)const 
+public: bool __thiscall E3::Vector::operator>(class E3::Vector const &)const 
+public: bool __thiscall E3::Vector::operator>=(class E3::Vector const &)const 
+public: bool __thiscall E3D::Vector::operator!=(class E3D::Vector const &)const 
+public: bool __thiscall E3D::Vector::operator<(class E3D::Vector const &)const 
+public: bool __thiscall E3D::Vector::operator<=(class E3D::Vector const &)const 
+public: bool __thiscall E3D::Vector::operator==(class E3D::Vector const &)const 
+public: bool __thiscall E3D::Vector::operator>(class E3D::Vector const &)const 
+public: bool __thiscall E3D::Vector::operator>=(class E3D::Vector const &)const 
+public: bool __thiscall E4::Vector::operator!=(class E4::Vector &)
+public: bool __thiscall E4::Vector::operator<(class E4::Vector &)
+public: bool __thiscall E4::Vector::operator<=(class E4::Vector &)
+public: bool __thiscall E4::Vector::operator==(class E4::Vector &)
+public: bool __thiscall E4::Vector::operator>(class E4::Vector &)
+public: bool __thiscall E4::Vector::operator>=(class E4::Vector &)
+public: bool __thiscall Plane::operator!=(class Plane const &)const 
+public: bool __thiscall Plane::operator==(class Plane const &)const 
+public: bool __thiscall Quaternion::operator==(class Quaternion const &)const 
+public: bool __thiscall Vector3::less_all(class Vector3 const &)const 
+public: bool __thiscall Vector3::less_any(class Vector3 const &)const 
+public: bool __thiscall Vector3::more_all(class Vector3 const &)const 
+public: bool __thiscall Vector3::more_any(class Vector3 const &)const 
+public: bool __thiscall Vector3::operator!=(class Vector3 const &)const 
+public: bool __thiscall Vector3::operator==(class Vector3 const &)const 
+public: bool __thiscall Vector4::operator!=(class Vector4 const &)const 
+public: bool __thiscall Vector4::operator==(class Vector4 const &)const 
+public: bool __thiscall cPosition::checkOrtNorm(void)
+public: bool __thiscall dPosition::checkOrtNorm(void)
+public: bool const __thiscall cPosition::operator!=(class cPosition const &)
+public: bool const __thiscall cPosition::operator==(class cPosition const &)
+public: bool const __thiscall dPosition::operator!=(class dPosition const &)
+public: bool const __thiscall dPosition::operator==(class dPosition const &)
+public: class BitArray & __thiscall BitArray::operator=(class BitArray const &)
+public: class Box & __thiscall Box::operator=(class Box const &)
+public: class CMath & __thiscall CMath::operator=(class CMath const &)
+public: class ClipVolume & __thiscall ClipVolume::operator=(class ClipVolume const &)
+public: class ClipVolumeBox & __thiscall ClipVolumeBox::operator=(class ClipVolumeBox const &)
+public: class ClipVolumeCamera & __thiscall ClipVolumeCamera::operator=(class ClipVolumeCamera const &)
+public: class ClipVolumeCompound & __thiscall ClipVolumeCompound::operator=(class ClipVolumeCompound const &)
+public: class ClipVolumeCone & __thiscall ClipVolumeCone::operator=(class ClipVolumeCone const &)
+public: class ClipVolumeInclined & __thiscall ClipVolumeInclined::operator=(class ClipVolumeInclined const &)
+public: class ClipVolumePlanes & __thiscall ClipVolumePlanes::operator=(class ClipVolumePlanes const &)
+public: class ClipVolumeSegment & __thiscall ClipVolumeSegment::operator=(class ClipVolumeSegment const &)
+public: class E2::Edge & __thiscall E2::Edge::operator=(class E2::Edge &)
+public: class E2::Edge __thiscall E2::Edge::flip(void)
+public: class E2::Edge __thiscall E2::Edge::invert(void)
+public: class E2::Edge __thiscall E2::Edge::rot(double)
+public: class E2::Edge __thiscall E2::Edge::rotNorm(void)
+public: class E2::Operator & __thiscall E2::Operator::operator*=(float)
+public: class E2::Operator & __thiscall E2::Operator::operator+=(class E2::Operator &)
+public: class E2::Operator & __thiscall E2::Operator::operator-=(class E2::Operator &)
+public: class E2::Operator & __thiscall E2::Operator::operator/=(float)
+public: class E2::Operator & __thiscall E2::Operator::operator=(class E2::Operator &)
+public: class E2::Operator __thiscall E2::Operator::I(void)
+public: class E2::Operator __thiscall E2::Operator::T(void)
+public: class E2::Operator __thiscall E2::Operator::operator*(class E2::Operator &)
+public: class E2::Operator __thiscall E2::Operator::operator*(float)
+public: class E2::Operator __thiscall E2::Operator::operator+(class E2::Operator &)
+public: class E2::Operator __thiscall E2::Operator::operator-(class E2::Operator &)
+public: class E2::Operator __thiscall E2::Operator::operator-(void)
+public: class E2::Operator __thiscall E2::Operator::operator/(float)
+public: class E2::Vector & __thiscall E2::Vector::operator*=(float)
+public: class E2::Vector & __thiscall E2::Vector::operator+=(class E2::Vector &)
+public: class E2::Vector & __thiscall E2::Vector::operator-=(class E2::Vector &)
+public: class E2::Vector & __thiscall E2::Vector::operator/=(float)
+public: class E2::Vector & __thiscall E2::Vector::operator=(class E2::Vector &)
+public: class E2::Vector __thiscall E2::Edge::point(double)
+public: class E2::Vector __thiscall E2::Edge::vector(void)
+public: class E2::Vector __thiscall E2::Operator::operator*(class E2::Vector &)
+public: class E2::Vector __thiscall E2::Vector::Scale(class E2::Vector &)
+public: class E2::Vector __thiscall E2::Vector::crossX(class E2::Vector &)
+public: class E2::Vector __thiscall E2::Vector::crossY(class E2::Vector &)
+public: class E2::Vector __thiscall E2::Vector::operator*(float)
+public: class E2::Vector __thiscall E2::Vector::operator+(class E2::Vector &)
+public: class E2::Vector __thiscall E2::Vector::operator-(class E2::Vector &)
+public: class E2::Vector __thiscall E2::Vector::operator-(void)
+public: class E2::Vector __thiscall E2::Vector::operator/(float)
+public: class E2::Vector __thiscall E2::Vector::ort(void)
+public: class E2::Vector __thiscall E2::Vector::rot(double)
+public: class E2::Vector __thiscall E2::Vector::rot(void)
+public: class E2::Vector __thiscall E3::Vector::VectorXY(void)const 
+public: class E2::Vector __thiscall E3::Vector::VectorXZ(void)const 
+public: class E2::Vector __thiscall E3::Vector::VectorYX(void)const 
+public: class E2::Vector __thiscall E3::Vector::VectorYZ(void)const 
+public: class E2::Vector __thiscall E3::Vector::VectorZX(void)const 
+public: class E2::Vector __thiscall E3::Vector::VectorZY(void)const 
+public: class E2::Vector __thiscall E3D::Vector::VectorXY(void)const 
+public: class E2::Vector __thiscall E3D::Vector::VectorXZ(void)const 
+public: class E2::Vector __thiscall E3D::Vector::VectorYX(void)const 
+public: class E2::Vector __thiscall E3D::Vector::VectorYZ(void)const 
+public: class E2::Vector __thiscall E3D::Vector::VectorZX(void)const 
+public: class E2::Vector __thiscall E3D::Vector::VectorZY(void)const 
+public: class E3::Operator & __thiscall E3::Operator::operator*=(float)
+public: class E3::Operator & __thiscall E3::Operator::operator+=(class E3::Operator &)
+public: class E3::Operator & __thiscall E3::Operator::operator-=(class E3::Operator &)
+public: class E3::Operator & __thiscall E3::Operator::operator/=(float)
+public: class E3::Operator & __thiscall E3::Operator::operator=(class E3::Operator &)
+public: class E3::Operator __thiscall E3::Operator::I(void)
+public: class E3::Operator __thiscall E3::Operator::T(void)
+public: class E3::Operator __thiscall E3::Operator::operator*(class E3::Operator &)
+public: class E3::Operator __thiscall E3::Operator::operator*(float)
+public: class E3::Operator __thiscall E3::Operator::operator+(class E3::Operator &)
+public: class E3::Operator __thiscall E3::Operator::operator-(class E3::Operator &)
+public: class E3::Operator __thiscall E3::Operator::operator-(void)
+public: class E3::Operator __thiscall E3::Operator::operator/(float)
+public: class E3::Vector & __thiscall E3::Vector::operator*=(float)
+public: class E3::Vector & __thiscall E3::Vector::operator+=(class E3::Vector const &)
+public: class E3::Vector & __thiscall E3::Vector::operator-=(class E3::Vector const &)
+public: class E3::Vector & __thiscall E3::Vector::operator/=(float)
+public: class E3::Vector & __thiscall E3::Vector::operator=(class E3::Vector const &)
+public: class E3::Vector __thiscall E3::Operator::operator*(class E3::Vector &)
+public: class E3::Vector __thiscall E3::Vector::Scale(class E3::Vector const &)const 
+public: class E3::Vector __thiscall E3::Vector::crossXY(class E3::Vector &)const 
+public: class E3::Vector __thiscall E3::Vector::crossXZ(class E3::Vector &)const 
+public: class E3::Vector __thiscall E3::Vector::crossYZ(class E3::Vector &)const 
+public: class E3::Vector __thiscall E3::Vector::operator*(float)const 
+public: class E3::Vector __thiscall E3::Vector::operator+(class E3::Vector const &)const 
+public: class E3::Vector __thiscall E3::Vector::operator-(class E3::Vector const &)const 
+public: class E3::Vector __thiscall E3::Vector::operator-(void)const 
+public: class E3::Vector __thiscall E3::Vector::operator/(float)const 
+public: class E3::Vector __thiscall E3::Vector::operator^(class E3::Vector const &)const 
+public: class E3::Vector __thiscall E3::Vector::ort(void)const 
+public: class E3::Vector __thiscall E3::Vector::rotX(double)
+public: class E3::Vector __thiscall E3::Vector::rotXYZ(class E3::Vector &,float)
+public: class E3::Vector __thiscall E3::Vector::rotY(double)
+public: class E3::Vector __thiscall E3::Vector::rotZ(double)
+public: class E3::Vector __thiscall E4::Vector::BackHomogenius(void)
+public: class E3D::Operator & __thiscall E3D::Operator::operator*=(float)
+public: class E3D::Operator & __thiscall E3D::Operator::operator+=(class E3D::Operator &)
+public: class E3D::Operator & __thiscall E3D::Operator::operator-=(class E3D::Operator &)
+public: class E3D::Operator & __thiscall E3D::Operator::operator/=(double)
+public: class E3D::Operator & __thiscall E3D::Operator::operator=(class E3D::Operator &)
+public: class E3D::Operator __thiscall E3D::Operator::I(void)
+public: class E3D::Operator __thiscall E3D::Operator::T(void)
+public: class E3D::Operator __thiscall E3D::Operator::operator*(class E3D::Operator &)
+public: class E3D::Operator __thiscall E3D::Operator::operator*(double)
+public: class E3D::Operator __thiscall E3D::Operator::operator+(class E3D::Operator &)
+public: class E3D::Operator __thiscall E3D::Operator::operator-(class E3D::Operator &)
+public: class E3D::Operator __thiscall E3D::Operator::operator-(void)
+public: class E3D::Operator __thiscall E3D::Operator::operator/(double)
+public: class E3D::Vector & __thiscall E3D::Vector::operator*=(double)
+public: class E3D::Vector & __thiscall E3D::Vector::operator+=(class E3D::Vector const &)
+public: class E3D::Vector & __thiscall E3D::Vector::operator-=(class E3D::Vector const &)
+public: class E3D::Vector & __thiscall E3D::Vector::operator/=(double)
+public: class E3D::Vector & __thiscall E3D::Vector::operator=(class E3::Vector const &)
+public: class E3D::Vector & __thiscall E3D::Vector::operator=(class E3D::Vector const &)
+public: class E3D::Vector __thiscall E3D::Operator::operator*(class E3D::Vector &)
+public: class E3D::Vector __thiscall E3D::Vector::Scale(class E3D::Vector const &)const 
+public: class E3D::Vector __thiscall E3D::Vector::crossXY(class E3D::Vector &)const 
+public: class E3D::Vector __thiscall E3D::Vector::crossXZ(class E3D::Vector &)const 
+public: class E3D::Vector __thiscall E3D::Vector::crossYZ(class E3D::Vector &)const 
+public: class E3D::Vector __thiscall E3D::Vector::operator*(double)const 
+public: class E3D::Vector __thiscall E3D::Vector::operator+(class E3D::Vector const &)const 
+public: class E3D::Vector __thiscall E3D::Vector::operator-(class E3D::Vector const &)const 
+public: class E3D::Vector __thiscall E3D::Vector::operator-(void)const 
+public: class E3D::Vector __thiscall E3D::Vector::operator/(double)const 
+public: class E3D::Vector __thiscall E3D::Vector::operator^(class E3D::Vector const &)const 
+public: class E3D::Vector __thiscall E3D::Vector::ort(void)const 
+public: class E3D::Vector __thiscall E3D::Vector::rotX(double)
+public: class E3D::Vector __thiscall E3D::Vector::rotXYZ(class E3D::Vector &,double)
+public: class E3D::Vector __thiscall E3D::Vector::rotY(double)
+public: class E3D::Vector __thiscall E3D::Vector::rotZ(double)
+public: class E4::Operator & __thiscall E4::Operator::operator*=(float)
+public: class E4::Operator & __thiscall E4::Operator::operator+=(class E4::Operator &)
+public: class E4::Operator & __thiscall E4::Operator::operator-=(class E4::Operator &)
+public: class E4::Operator & __thiscall E4::Operator::operator/=(float)
+public: class E4::Operator & __thiscall E4::Operator::operator=(class E4::Operator &)
+public: class E4::Operator __thiscall E4::Operator::I(void)
+public: class E4::Operator __thiscall E4::Operator::T(void)
+public: class E4::Operator __thiscall E4::Operator::operator*(class E4::Operator &)
+public: class E4::Operator __thiscall E4::Operator::operator*(float)
+public: class E4::Operator __thiscall E4::Operator::operator+(class E4::Operator &)
+public: class E4::Operator __thiscall E4::Operator::operator-(class E4::Operator &)
+public: class E4::Operator __thiscall E4::Operator::operator-(void)
+public: class E4::Operator __thiscall E4::Operator::operator/(float)
+public: class E4::Vector & __thiscall E4::Vector::operator*=(float)
+public: class E4::Vector & __thiscall E4::Vector::operator+=(class E4::Vector &)
+public: class E4::Vector & __thiscall E4::Vector::operator-=(class E4::Vector &)
+public: class E4::Vector & __thiscall E4::Vector::operator/=(float)
+public: class E4::Vector & __thiscall E4::Vector::operator=(class E4::Vector &)
+public: class E4::Vector __thiscall E4::Operator::operator*(class E4::Vector &)
+public: class E4::Vector __thiscall E4::Vector::Scale(class E4::Vector &)
+public: class E4::Vector __thiscall E4::Vector::crossXYW(class E4::Vector &)
+public: class E4::Vector __thiscall E4::Vector::crossXYZ(class E4::Vector &)
+public: class E4::Vector __thiscall E4::Vector::crossXZW(class E4::Vector &)
+public: class E4::Vector __thiscall E4::Vector::crossYZW(class E4::Vector &)
+public: class E4::Vector __thiscall E4::Vector::operator*(float)
+public: class E4::Vector __thiscall E4::Vector::operator+(class E4::Vector &)
+public: class E4::Vector __thiscall E4::Vector::operator-(class E4::Vector &)
+public: class E4::Vector __thiscall E4::Vector::operator-(void)
+public: class E4::Vector __thiscall E4::Vector::operator/(float)
+public: class E4::Vector __thiscall E4::Vector::ort(float)
+public: class Matrix33 & __thiscall Matrix33::operator*=(class Matrix33 const &)
+public: class Matrix33 & __thiscall Matrix33::operator=(class Matrix33 const &)
+public: class Matrix33 __thiscall Matrix33::operator*(class Matrix33 const &)const 
+public: class Matrix33 __thiscall Matrix33::operator~(void)const 
+public: class Plane & __thiscall Plane::normalize(void)
+public: class Plane & __thiscall Plane::operator=(class Plane const &)
+public: class Plane __thiscall Plane::operator-(void)const 
+public: class Plane const & __thiscall ClipVolumePlanes::GetPlane(int)
+public: class Plane const & __thiscall Plane::operator()(class Vector3 const &,class Vector3 const &)
+public: class Plane const & __thiscall Plane::operator()(class Vector3 const &,class Vector3 const &,class Vector3 const &)
+public: class Plane const & __thiscall Plane::operator()(float,float,float,float)
+public: class Plane3D & __thiscall Plane3D::operator=(class Plane3D const &)
+public: class Position3 & __thiscall Position3::operator*=(class Position3 const &)
+public: class Position3 & __thiscall Position3::operator+=(class Vector3 const &)
+public: class Position3 & __thiscall Position3::operator-=(class Vector3 const &)
+public: class Position3 & __thiscall Position3::operator/=(class Position3 const &)
+public: class Position3 & __thiscall Position3::operator=(class Position3 const &)
+public: class Position3 __thiscall Position3::TrueInverted(void)const 
+public: class Position3 __thiscall Position3::operator*(class Position3 const &)const 
+public: class Position3 __thiscall Position3::operator+(class Vector3 const &)const 
+public: class Position3 __thiscall Position3::operator-(class Vector3 const &)const 
+public: class Position3 __thiscall Position3::operator/(class Position3 const &)const 
+public: class Position3 __thiscall Position3::operator~(void)const 
+public: class Quaternion & __thiscall Quaternion::operator*=(class Quaternion const &)
+public: class Quaternion & __thiscall Quaternion::operator*=(float)
+public: class Quaternion & __thiscall Quaternion::operator+=(class Quaternion const &)
+public: class Quaternion & __thiscall Quaternion::operator-=(class Quaternion const &)
+public: class Quaternion & __thiscall Quaternion::operator/=(class Quaternion const &)
+public: class Quaternion & __thiscall Quaternion::operator/=(float)
+public: class Quaternion & __thiscall Quaternion::operator=(class Quaternion const &)
+public: class Quaternion __thiscall Quaternion::normed(void)const 
+public: class Quaternion __thiscall Quaternion::operator*(class Quaternion const &)const 
+public: class Quaternion __thiscall Quaternion::operator*(float)const 
+public: class Quaternion __thiscall Quaternion::operator+(class Quaternion const &)const 
+public: class Quaternion __thiscall Quaternion::operator-(class Quaternion const &)const 
+public: class Quaternion __thiscall Quaternion::operator/(class Quaternion const &)const 
+public: class Quaternion __thiscall Quaternion::operator/(float)const 
+public: class Quaternion __thiscall Quaternion::operator~(void)const 
+public: class Vector3 & __thiscall Vector3::operator*=(float)
+public: class Vector3 & __thiscall Vector3::operator+=(class Vector3 const &)
+public: class Vector3 & __thiscall Vector3::operator-=(class Vector3 const &)
+public: class Vector3 & __thiscall Vector3::operator/=(float)
+public: class Vector3 & __thiscall Vector3::operator=(class Vector3 const &)
+public: class Vector3 & __thiscall Vector3::operator^=(class Vector3 const &)
+public: class Vector3 & __thiscall Vector3::scale(float)
+public: class Vector3 __thiscall Box::XYZ(void)const 
+public: class Vector3 __thiscall Box::XYz(void)const 
+public: class Vector3 __thiscall Box::XyZ(void)const 
+public: class Vector3 __thiscall Box::Xyz(void)const 
+public: class Vector3 __thiscall Box::center(void)const 
+public: class Vector3 __thiscall Box::corner(int)const 
+public: class Vector3 __thiscall Box::xYZ(void)const 
+public: class Vector3 __thiscall Box::xYz(void)const 
+public: class Vector3 __thiscall Box::xyZ(void)const 
+public: class Vector3 __thiscall Box::xyz(void)const 
+public: class Vector3 __thiscall Matrix33::operator*(class Vector3 const &)const 
+public: class Vector3 __thiscall Plane3D::Intersect(class Vector3 const &)
+public: class Vector3 __thiscall Position3::operator*(class Vector3 const &)const 
+public: class Vector3 __thiscall Quaternion::get_axis(void)const 
+public: class Vector3 __thiscall Vector3::normed(void)const 
+public: class Vector3 __thiscall Vector3::operator*(float)const 
+public: class Vector3 __thiscall Vector3::operator+(class Vector3 const &)const 
+public: class Vector3 __thiscall Vector3::operator+(void)const 
+public: class Vector3 __thiscall Vector3::operator-(class Vector3 const &)const 
+public: class Vector3 __thiscall Vector3::operator-(void)const 
+public: class Vector3 __thiscall Vector3::operator/(float)const 
+public: class Vector3 __thiscall Vector3::operator^(class Vector3 const &)const 
+public: class Vector4 & __thiscall Vector4::add(class Vector4 const &,class Vector4 const &)
+public: class Vector4 & __thiscall Vector4::baryCentric(class Vector4 const &,class Vector4 const &,class Vector4 const &,float,float)
+public: class Vector4 & __thiscall Vector4::catmullRom(class Vector4 const &,class Vector4 const &,class Vector4 const &,class Vector4 const &,float)
+public: class Vector4 & __thiscall Vector4::cross(class Vector4 const &,class Vector4 const &,class Vector4 const &)
+public: class Vector4 & __thiscall Vector4::hermite(class Vector4 const &,class Vector4 const &,class Vector4 const &,class Vector4 const &,float)
+public: class Vector4 & __thiscall Vector4::lerp(class Vector4 const &,class Vector4 const &,float)
+public: class Vector4 & __thiscall Vector4::maximize(class Vector4 const &,class Vector4 const &)
+public: class Vector4 & __thiscall Vector4::minimize(class Vector4 const &,class Vector4 const &)
+public: class Vector4 & __thiscall Vector4::normalize(void)
+public: class Vector4 & __thiscall Vector4::operator()(float,float,float,float)const 
+public: class Vector4 & __thiscall Vector4::operator()(struct D3DXVECTOR3 const &,float)const 
+public: class Vector4 & __thiscall Vector4::operator*=(float)
+public: class Vector4 & __thiscall Vector4::operator+=(class Vector4 const &)
+public: class Vector4 & __thiscall Vector4::operator-=(class Vector4 const &)
+public: class Vector4 & __thiscall Vector4::operator/=(float)
+public: class Vector4 & __thiscall Vector4::operator=(class Vector4 const &)
+public: class Vector4 & __thiscall Vector4::operator=(struct D3DXVECTOR3 const &)
+public: class Vector4 & __thiscall Vector4::scale(class Vector4 const &,float)
+public: class Vector4 & __thiscall Vector4::subtract(class Vector4 const &,class Vector4 const &)
+public: class Vector4 & __thiscall Vector4::transform(class Vector4 const &,struct D3DXMATRIX const &)
+public: class Vector4 & __thiscall Vector4::transform(struct D3DXVECTOR3 const &,struct D3DXMATRIX const &)
+public: class Vector4 __thiscall Vector4::operator*(float)const 
+public: class Vector4 __thiscall Vector4::operator+(class Vector4 const &)const 
+public: class Vector4 __thiscall Vector4::operator+(void)const 
+public: class Vector4 __thiscall Vector4::operator-(class Vector4 const &)const 
+public: class Vector4 __thiscall Vector4::operator-(void)const 
+public: class Vector4 __thiscall Vector4::operator/(float)const 
+public: class cPosition & __thiscall cPosition::operator=(class Position3 const &)
+public: class cPosition & __thiscall cPosition::operator=(class cPosition const &)
+public: class cPosition __thiscall cPosition::operator*(float)
+public: class cPosition __thiscall cPosition::operator+(class cPosition &)
+public: class cPosition __thiscall cPosition::operator-(class cPosition &)
+public: class cPosition __thiscall cPosition::operator/(float)
+public: class cPositionMFD & __thiscall cPositionMFD::operator=(class cPosition const &)
+public: class cPositionMFD & __thiscall cPositionMFD::operator=(class cPositionMFD const &)
+public: class dPosition & __thiscall dPosition::operator=(class Position3 const &)
+public: class dPosition & __thiscall dPosition::operator=(class dPosition const &)
+public: class dPosition __thiscall dPosition::operator*(double)
+public: class dPosition __thiscall dPosition::operator+(class dPosition &)
+public: class dPosition __thiscall dPosition::operator-(class dPosition &)
+public: class dPosition __thiscall dPosition::operator/(double)
+public: class gTimer & __thiscall gTimer::operator=(class gTimer const &)
+public: double __thiscall E2::Vector::polar(void)
+public: double __thiscall E3::Vector::polarZX(void)const 
+public: double __thiscall E3D::Operator::Det(void)
+public: double __thiscall E3D::Vector::getX(void)const 
+public: double __thiscall E3D::Vector::getY(void)const 
+public: double __thiscall E3D::Vector::getZ(void)const 
+public: double __thiscall E3D::Vector::length(void)const 
+public: double __thiscall E3D::Vector::length2(void)const 
+public: double __thiscall E3D::Vector::length2_ZX(void)const 
+public: double __thiscall E3D::Vector::norma(void)const 
+public: double __thiscall E3D::Vector::normaAbs(void)const 
+public: double __thiscall E3D::Vector::operator*(class E3D::Vector const &)const 
+public: double __thiscall E3D::Vector::polarZX(void)const 
+public: enum IntersectionType __thiscall ClipVolumeInclined::IntersectOrientedBox(class Position3 const &,class Box const &)const 
+public: enum IntersectionType __thiscall ClipVolumePlanes::IntersectOrientedBox(class Position3 const &,class Box const &)const 
+public: float & __thiscall Vector4::operator[](int)const 
+public: float __thiscall Box::DX(void)const 
+public: float __thiscall Box::DY(void)const 
+public: float __thiscall Box::DZ(void)const 
+public: float __thiscall Box::diameter(void)const 
+public: float __thiscall Box::distanceTo(class Vector3 const &)const 
+public: float __thiscall Box::radius(void)const 
+public: float __thiscall E2::Operator::Det(void)
+public: float __thiscall E2::Vector::decompose(class E2::Vector &,class E2::Vector &,class E2::Vector &)
+public: float __thiscall E2::Vector::getX(void)
+public: float __thiscall E2::Vector::getY(void)
+public: float __thiscall E2::Vector::norma(void)
+public: float __thiscall E2::Vector::normaAbs(void)
+public: float __thiscall E2::Vector::operator*(class E2::Vector &)
+public: float __thiscall E2::Vector::operator^(class E2::Vector &)
+public: float __thiscall E3::Operator::Det(void)
+public: float __thiscall E3::Vector::getX(void)const 
+public: float __thiscall E3::Vector::getY(void)const 
+public: float __thiscall E3::Vector::getZ(void)const 
+public: float __thiscall E3::Vector::length(void)const 
+public: float __thiscall E3::Vector::length2(void)const 
+public: float __thiscall E3::Vector::length2_ZX(void)const 
+public: float __thiscall E3::Vector::norma(void)const 
+public: float __thiscall E3::Vector::normaAbs(void)const 
+public: float __thiscall E3::Vector::operator*(class E3::Vector const &)const 
+public: float __thiscall E4::Operator::Det(void)
+public: float __thiscall E4::Vector::getW(void)
+public: float __thiscall E4::Vector::getX(void)
+public: float __thiscall E4::Vector::getY(void)
+public: float __thiscall E4::Vector::getZ(void)
+public: float __thiscall E4::Vector::norma(void)
+public: float __thiscall E4::Vector::normaAbs(void)
+public: float __thiscall E4::Vector::operator*(class E4::Vector &)
+public: float __thiscall Plane3D::DistanceFromPoint(class Vector3 const &)
+public: float __thiscall Plane::distanceToPoint(class Vector3 const &)const 
+public: float __thiscall Quaternion::get_angle(void)const 
+public: float __thiscall Vector3::length(void)const 
+public: float __thiscall Vector3::lengthSq(void)const 
+public: float __thiscall Vector3::operator*(class Vector3 const &)const 
+public: float __thiscall Vector4::dot(class Vector4 const &)
+public: float __thiscall Vector4::length(void)
+public: float __thiscall Vector4::lengthSq(void)
+public: float __thiscall Vector4::operator*(class Vector4 const &)const 
+public: float __thiscall gTimer::result(void)
+public: int __thiscall BitArray::GetSize(void)const 
+public: int __thiscall BitArray::operator[](int)const 
+public: int __thiscall ClipVolumePlanes::GetPlaneCount(void)
+public: int __thiscall E2::Edge::classify(class E2::Vector &)
+public: int __thiscall E2::Edge::cross(class E2::Edge &,double &,double &)
+public: int __thiscall E2::Edge::intersect(class E2::Edge &,double &)
+public: static class Matrix33 __cdecl Matrix33::Rotation(class Vector3 const &,class Vector3 const &)
+public: static class Matrix33 __cdecl Matrix33::Rotation(class Vector3 const &,float)
+public: static class Matrix33 __cdecl Matrix33::Rotation(float,float,float,float)
+public: static class Matrix33 __cdecl Matrix33::Scaling(class Vector3 const &)
+public: static class Matrix33 __cdecl Matrix33::Scaling(float,float,float)
+public: static class Matrix33 const Matrix33::One
+public: static class Matrix33 const Matrix33::Zero
+public: static class Position3 const Position3::One
+public: static class Position3 const Position3::Zero
+public: static class Quaternion Quaternion::One
+public: static class cPosition cPosition::POS_ONE
+public: static class dPosition dPosition::POS_ONE
+public: struct cBox & __thiscall cBox::operator+=(class E3::Vector const &)
+public: struct cBox & __thiscall cBox::operator=(struct cBox const &)
+public: virtual __thiscall ClipVolume::~ClipVolume(void)
+public: virtual __thiscall ClipVolumeBox::~ClipVolumeBox(void)
+public: virtual __thiscall ClipVolumeCamera::~ClipVolumeCamera(void)
+public: virtual __thiscall ClipVolumeCompound::~ClipVolumeCompound(void)
+public: virtual __thiscall ClipVolumeCone::~ClipVolumeCone(void)
+public: virtual __thiscall ClipVolumeInclined::~ClipVolumeInclined(void)
+public: virtual __thiscall ClipVolumePlanes::~ClipVolumePlanes(void)
+public: virtual __thiscall ClipVolumeSegment::~ClipVolumeSegment(void)
+public: virtual enum IntersectionType __thiscall ClipVolume::IntersectShape(class ClipVolume *)
+public: virtual enum IntersectionType __thiscall ClipVolumeBox::IntersectBox(float,float,float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumeBox::IntersectSquare(float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumeCamera::IntersectBox(float,float,float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumeCamera::IntersectSquare(float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumeCone::IntersectBox(float,float,float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumeCone::IntersectSquare(float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumeInclined::IntersectBox(float,float,float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumeInclined::IntersectSquare(float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumePlanes::IntersectBox(float,float,float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumePlanes::IntersectSquare(float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumeSegment::IntersectBox(float,float,float,float,float,float)
+public: virtual enum IntersectionType __thiscall ClipVolumeSegment::IntersectSquare(float,float,float,float)
+public: virtual void __thiscall ClipVolumeCamera::Prepare(float,float,float,float,int)
+public: virtual void __thiscall ClipVolumeCompound::AddPart(class ClipVolume *)
+public: virtual void __thiscall ClipVolumeInclined::Prepare(float,float,float,float,int)
+public: virtual void __thiscall ClipVolumePlanes::Prepare(float,float,float,float,int)
+public: void __thiscall BitArray::Clear(int)
+public: void __thiscall BitArray::ClearAll(void)
+public: void __thiscall BitArray::Set(int)
+public: void __thiscall BitArray::Set(int,bool)
+public: void __thiscall BitArray::SetAll(void)
+public: void __thiscall BitArray::SetSize(int,int)
+public: void __thiscall Box::InsertPoint(class Vector3 const &,bool)
+public: void __thiscall Box::insertBox(class Box const &)
+public: void __thiscall Box::reset(void)
+public: void __thiscall ClipVolumeBox::Set(float,float,float,float,float,float)
+public: void __thiscall ClipVolumePlanes::AddPlane(class Plane const &)
+public: void __thiscall E3::Vector::norm(void)
+public: void __thiscall E3::Vector::normZX(void)
+public: void __thiscall E3D::Vector::norm(void)
+public: void __thiscall E3D::Vector::normZX(void)
+public: void __thiscall Matrix33::GaussInvert(void)
+public: void __thiscall Matrix33::Rotate(class Vector3 const &,float)
+public: void __thiscall Matrix33::Rotate(float,float,float,float)
+public: void __thiscall Matrix33::RotateX(float)
+public: void __thiscall Matrix33::RotateY(float)
+public: void __thiscall Matrix33::RotateZ(float)
+public: void __thiscall Matrix33::Scale(class Vector3 const &)
+public: void __thiscall Matrix33::Scale(float)
+public: void __thiscall Matrix33::Scale(float,float,float)
+public: void __thiscall Matrix33::Transp(void)
+public: void __thiscall Plane3D::ClipDo(float)
+public: void __thiscall Plane3D::ClipFa(float)
+public: void __thiscall Plane3D::ClipLe(float)
+public: void __thiscall Plane3D::ClipNe(float)
+public: void __thiscall Plane3D::ClipRi(float)
+public: void __thiscall Plane3D::ClipUp(float)
+public: void __thiscall Plane3D::Norm(void)
+public: void __thiscall Plane3D::Transform(class Position3 const &)
+public: void __thiscall Position3::Invert(void)
+public: void __thiscall Position3::Move(class Vector3 const &)
+public: void __thiscall Position3::Move(float,float,float)
+public: void __thiscall Position3::Norm(void)
+public: void __thiscall Position3::NormXYZ(void)
+public: void __thiscall Position3::NormXZY(void)
+public: void __thiscall Position3::NormYXZ(void)
+public: void __thiscall Position3::NormYZX(void)
+public: void __thiscall Position3::NormZXY(void)
+public: void __thiscall Position3::NormZYX(void)
+public: void __thiscall Position3::Scale(class Vector3 const &)
+public: void __thiscall Position3::Scale(float)
+public: void __thiscall Position3::Scale(float,float,float)
+public: void __thiscall Position3::SetTransform(class Matrix33 const &)
+public: void __thiscall Position3::TrueInvert(void)
+public: void __thiscall Position3::YZX(void)
+public: void __thiscall Quaternion::GetEulerAngles(float &,float &,float &)const 
+public: void __thiscall Quaternion::SetEulerAngles(float,float,float)
+public: void __thiscall Quaternion::invert(void)
+public: void __thiscall Quaternion::norm(void)
+public: void __thiscall Quaternion::set_2_vectors(class Vector3 const &,class Vector3 const &,bool)
+public: void __thiscall Quaternion::set_angle(float)
+public: void __thiscall Quaternion::set_axis(class Vector3 const &)
+public: void __thiscall Quaternion::set_axis_angle(class Vector3 const &,float)
+public: void __thiscall Quaternion::unit(void)
+public: void __thiscall Vector3::norm(void)
+public: void __thiscall Vector3::null(void)
+public: void __thiscall Vector3::set(float,float,float)
+public: void __thiscall Vector3::set_length(float)
+public: void __thiscall cPosition::ONE(void)
+public: void __thiscall cPosition::ONEBASIS(void)
+public: void __thiscall cPosition::X_Y_Z(void)
+public: void __thiscall cPosition::Y_Z_X(void)
+public: void __thiscall cPosition::Z_X_Y(void)
+public: void __thiscall cPosition::fromMatrix(double const *)
+public: void __thiscall cPosition::invert(class cPosition &)const 
+public: void __thiscall cPosition::move(class E3::Vector const &)
+public: void __thiscall cPosition::mult(class cPosition const &,class cPosition &)const 
+public: void __thiscall cPosition::norm_X_Y(void)
+public: void __thiscall cPosition::norm_X_Y_Z(void)
+public: void __thiscall cPosition::norm_Y_Z_X(void)
+public: void __thiscall cPosition::norm_Z_X_Y(void)
+public: void __thiscall cPosition::putToMatrix(double *)const 
+public: void __thiscall cPosition::rotVec(float,float,float,float)
+public: void __thiscall cPosition::rotX(float)
+public: void __thiscall cPosition::rotY(float)
+public: void __thiscall cPosition::rotZ(float)
+public: void __thiscall cPosition::rot_X(float)
+public: void __thiscall cPosition::rot_Y(float)
+public: void __thiscall cPosition::rot_Z(float)
+public: void __thiscall cPosition::scale(class E3::Vector const &)
+public: void __thiscall cPosition::scale(float)
+public: void __thiscall cPosition::transp(class cPosition &)
+public: void __thiscall dPosition::ONE(void)
+public: void __thiscall dPosition::ONEBASIS(void)
+public: void __thiscall dPosition::X_Y_Z(void)
+public: void __thiscall dPosition::Y_Z_X(void)
+public: void __thiscall dPosition::Z_X_Y(void)
+public: void __thiscall dPosition::fromMatrix(double const *)
+public: void __thiscall dPosition::invert(class dPosition &)const 
+public: void __thiscall dPosition::move(class E3D::Vector const &)
+public: void __thiscall dPosition::mult(class dPosition const &,class dPosition &)const 
+public: void __thiscall dPosition::norm_X_Y(void)
+public: void __thiscall dPosition::norm_X_Y_Z(void)
+public: void __thiscall dPosition::norm_Y_Z_X(void)
+public: void __thiscall dPosition::norm_Z_X_Y(void)
+public: void __thiscall dPosition::putToMatrix(double *)const 
+public: void __thiscall dPosition::rotVec(double,double,double,double)
+public: void __thiscall dPosition::rotX(double)
+public: void __thiscall dPosition::rotY(double)
+public: void __thiscall dPosition::rotZ(double)
+public: void __thiscall dPosition::rot_X(double)
+public: void __thiscall dPosition::rot_Y(double)
+public: void __thiscall dPosition::rot_Z(float)
+public: void __thiscall dPosition::scale(class E3D::Vector const &)
+public: void __thiscall dPosition::scale(double)
+public: void __thiscall dPosition::transp(class dPosition &)
+public: void __thiscall gTimer::clear(void)
+public: void __thiscall gTimer::start(void)
+public: void __thiscall gTimer::stop(void)
+void __cdecl AddBoxToBox(struct cBox &,struct cBox &,bool)
+void __cdecl AddVertexToBox(struct cBox &,class E3::Vector &,bool)
+void __cdecl CalcRadius(struct cBox &)
+void __cdecl Direction(class E3::Vector &,class E3::Vector &,class E3::Vector &)
+void __cdecl Direction(class E3D::Vector &,class E3D::Vector &,class E3D::Vector &)
+void __cdecl Slerp(class Quaternion *,class Quaternion *,class Quaternion *,float)
+void __cdecl mult(class E3::Vector &,class cPosition &,class E3::Vector &)
+void __cdecl mult(class E3D::Vector &,class dPosition &,class E3D::Vector &)
+void __cdecl mult_move(class E3::Vector &,class cPosition &,class E3::Vector const &)
+void __cdecl mult_move(class E3D::Vector &,class dPosition &,class E3D::Vector const &)
+void __cdecl mult_transp(class E3::Vector &,class cPosition &,class E3::Vector &)
+void __cdecl mult_transp(class E3D::Vector &,class dPosition &,class E3D::Vector &)
+void __cdecl satm(float,float *,float *,float *)
+void __fastcall ClipMesh(class std::vector<class Vector3,class std::allocator<class Vector3> > &,class std::vector<unsigned short,class std::allocator<unsigned short> > &,class Plane const &)
+void __fastcall CrossP(struct D3DXVECTOR4 const *,struct D3DXVECTOR4 const *,struct D3DXVECTOR4 *)
+void __fastcall DistortNormals(float *,unsigned long,unsigned long,float)
+void __fastcall GenTorus(float,float,unsigned long,unsigned long,float *,unsigned short *,unsigned long *,unsigned long *)
+void __fastcall GetFixedTransform(struct D3DXVECTOR4 const *,struct D3DXMATRIX *)
+void __fastcall GetLocalX(void *,void *)
+void __fastcall GetLocalY(void *,void *)
+void __fastcall GetNormNorm(struct D3DXVECTOR3 const *,struct D3DXVECTOR3 const *,struct D3DXVECTOR3 const *,struct D3DXVECTOR4 *)
+void __fastcall GetRollPitchRollTransform(struct D3DXVECTOR4 const *,struct D3DXMATRIX *)
+void __fastcall GetTransformAlongX(struct D3DXVECTOR4 const *,struct D3DXMATRIX *)
+void __fastcall GetTransformAlongY(struct D3DXVECTOR4 const *,struct D3DXMATRIX *)
+void __fastcall GetTransformAlongZ(struct D3DXVECTOR4 const *,struct D3DXMATRIX *)
+void __fastcall GetYawPitchTransform(struct D3DXVECTOR4 const *,struct D3DXMATRIX *,struct D3DXMATRIX *)
+void __fastcall MapXZ2XY(struct D3DXVECTOR4 const *,struct D3DXMATRIX *)
+void __fastcall Pitch(struct D3DXMATRIX &,float)
+void __fastcall Quat2Matrix(struct D3DXVECTOR4 &,float,struct D3DXMATRIX &)
+void __fastcall Roll(struct D3DXMATRIX &,float)
+void __fastcall Yaw(struct D3DXMATRIX &,float)
+void __fastcall rotate(void *,void *,float)
+void __fastcall rotate2(void *,void *,float,float)

@@ -1,0 +1,109 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\Weapons.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab0839    Thu Nov 06 18:49:29 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00014a84    'Weapons.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               94
+	NUMBER OF NAMES                   94
+	ADDRESS OF FUNCTIONS              0x000146d8
+	ADDRESS OF NAMES                  0x00014850
+	ADDRESS OF NAME ORDINALS          0x000149c8
+public: __thiscall IWeaponManager::AimingWeapon::AimingWeapon(struct IWeaponManager::AimingWeapon const &)
+public: __thiscall IWeaponManager::AimingWeapon::AimingWeapon(void)
+public: __thiscall IShooter::IShooter(struct IShooter const &)
+public: __thiscall IShooter::IShooter(void)
+public: __thiscall IWeapon::IWeapon(struct IWeapon const &)
+public: __thiscall IWeapon::IWeapon(void)
+public: __thiscall IWeaponManager::IWeaponManager(struct IWeaponManager const &)
+public: __thiscall IWeaponManager::IWeaponManager(void)
+public: __thiscall IWeaponManager::InitWeapon::InitWeapon(struct IWeaponManager::InitWeapon const &)
+public: __thiscall IWeaponManager::InitWeapon::InitWeapon(void)
+public: __thiscall wNucleus::wNucleus(class wNucleus const &)
+public: __thiscall wNucleus::wNucleus(void)
+public: __thiscall wTailNucleus::wTailNucleus(class wTailNucleus const &)
+public: __thiscall wTailNucleus::wTailNucleus(void)
+public: __thiscall wUnguidedRocket::wUnguidedRocket(class wUnguidedRocket const &)
+public: __thiscall wUnguidedRocket::wUnguidedRocket(void)
+public: virtual __thiscall IWeapon::~IWeapon(void)
+public: virtual __thiscall IWeaponManager::~IWeaponManager(void)
+public: __thiscall IWeaponManager::InitWeapon::~InitWeapon(void)
+public: virtual __thiscall wNucleus::~wNucleus(void)
+public: virtual __thiscall wTailNucleus::~wTailNucleus(void)
+public: virtual __thiscall wUnguidedRocket::~wUnguidedRocket(void)
+public: struct IWeaponManager::AimingWeapon & __thiscall IWeaponManager::AimingWeapon::operator=(struct IWeaponManager::AimingWeapon const &)
+public: struct IShooter & __thiscall IShooter::operator=(struct IShooter const &)
+public: struct IWeapon & __thiscall IWeapon::operator=(struct IWeapon const &)
+public: struct IWeaponManager & __thiscall IWeaponManager::operator=(struct IWeaponManager const &)
+public: struct IWeaponManager::InitWeapon & __thiscall IWeaponManager::InitWeapon::operator=(struct IWeaponManager::InitWeapon const &)
+public: struct NURS_Const & __thiscall NURS_Const::operator=(struct NURS_Const const &)
+public: class wNucleus & __thiscall wNucleus::operator=(class wNucleus const &)
+public: class wTailNucleus & __thiscall wTailNucleus::operator=(class wTailNucleus const &)
+public: class wUnguidedRocket & __thiscall wUnguidedRocket::operator=(class wUnguidedRocket const &)
+public: struct wship_WPU & __thiscall wship_WPU::operator=(struct wship_WPU const &)
+const IShooter::`vftable'
+const IWeapon::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const IWeapon::`vftable'{for `IwNetObject'}
+const IWeapon::`vftable'{for `Graphics::ModelInstance'}
+const IWeapon::`vftable'{for `Suicide'}
+const IWeapon::`vftable'{for `viMovingObject'}
+const IWeapon::`vftable'{for `viObject'}
+const IWeapon::`vftable'{for `wVulnerable'}
+const IWeaponManager::`vftable'
+const wNucleus::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const wNucleus::`vftable'{for `IwNetObject'}
+const wNucleus::`vftable'{for `Graphics::ModelInstance'}
+const wNucleus::`vftable'{for `Suicide'}
+const wNucleus::`vftable'{for `viMovingObject'}
+const wNucleus::`vftable'{for `viObject'}
+const wNucleus::`vftable'{for `wVulnerable'}
+const wTailNucleus::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const wTailNucleus::`vftable'{for `IwNetObject'}
+const wTailNucleus::`vftable'{for `Graphics::ModelInstance'}
+const wTailNucleus::`vftable'{for `Suicide'}
+const wTailNucleus::`vftable'{for `viMovingObject'}
+const wTailNucleus::`vftable'{for `viObject'}
+const wTailNucleus::`vftable'{for `wVulnerable'}
+const wUnguidedRocket::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const wUnguidedRocket::`vftable'{for `IwNetObject'}
+const wUnguidedRocket::`vftable'{for `Graphics::ModelInstance'}
+const wUnguidedRocket::`vftable'{for `Suicide'}
+const wUnguidedRocket::`vftable'{for `viMovingObject'}
+const wUnguidedRocket::`vftable'{for `viObject'}
+const wUnguidedRocket::`vftable'{for `wVulnerable'}
+public: virtual int __thiscall wNucleus::Class(void)
+public: virtual int __thiscall wUnguidedRocket::Class(void)
+public: virtual class cPosition & __thiscall wNucleus::Position(double)
+protected: virtual void __thiscall wNucleus::checkImpact(double)
+protected: virtual void __thiscall wNucleus::checkLife(double)
+protected: virtual void __thiscall wTailNucleus::createEffect(void)
+protected: virtual void __thiscall wUnguidedRocket::createEffect(void)
+protected: virtual void __thiscall wTailNucleus::deleteEffect(void)
+protected: virtual void __thiscall wUnguidedRocket::deleteEffect(void)
+public: virtual void __thiscall wNucleus::eventImpact(class Registered *,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: virtual void __thiscall wNucleus::eventShot(void)
+protected: virtual void __thiscall wNucleus::explode(class E3::Vector const &,unsigned long)
+protected: void __thiscall wNucleus::formPosition(class cPosition &,double)
+protected: void __thiscall wNucleus::formVelocity(class E3::Vector &,double)
+public: virtual class cPointerTemplate<class MovingObject> __thiscall wNucleus::getHost(void)
+public: virtual class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall wNucleus::getMEShooter(void)
+struct IWeaponManager * globalWeaponManager
+public: virtual void __thiscall wNucleus::init(struct IWeaponManager::InitWeapon &)
+public: virtual void __thiscall wTailNucleus::init(struct IWeaponManager::InitWeapon &)
+public: virtual void __thiscall wUnguidedRocket::init(struct IWeaponManager::InitWeapon &)
+protected: static class wNucleusMail wNucleus::mail
+public: virtual bool __thiscall wNucleus::netGetBaseline(class Mail::Message &)const 
+public: virtual bool __thiscall wUnguidedRocket::netGetBaseline(class Mail::Message &)const 
+public: virtual void __thiscall wNucleus::nextTime(double &)
+public: virtual void __thiscall wUnguidedRocket::nextTime(double &)
+public: virtual void __thiscall wNucleus::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall wTailNucleus::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall wUnguidedRocket::serialize(class EagleDynamics::Common::Serializer &)
+protected: void __thiscall wNucleus::setMEObjectPtr(void)
+public: virtual void __thiscall wNucleus::updateStatus(struct wWeaponManager::InitNetShell const &)
+public: virtual void __thiscall wUnguidedRocket::updateStatus(struct wWeaponManager::InitNetRocket const &)
+private: void __thiscall wNucleus::vapour(void)

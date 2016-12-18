@@ -1,0 +1,74 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\Mail.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3faa86a5    Thu Nov 06 09:36:37 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x000082b6    'Mail.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               59
+	NUMBER OF NAMES                   59
+	ADDRESS OF FUNCTIONS              0x00008068
+	ADDRESS OF NAMES                  0x00008154
+	ADDRESS OF NAME ORDINALS          0x00008240
+public: __thiscall Mail::Buffer::Buffer(void)
+public: __thiscall Mail::ByteReader::ByteReader(class Mem::Ptr<class Mail::Chunk> const &)
+public: __thiscall Mail::ByteReader::ByteReader(void)
+public: __thiscall Mail::ByteWriter::ByteWriter(void)
+public: __thiscall Sync::Futex::Futex(void)
+public: __thiscall Mem::Pool::Pool(unsigned int,unsigned int)
+public: __thiscall Mail::Reader::Reader(struct Var::Nil const &)
+public: __thiscall Mail::Reader::Reader(class Mail::Message const &)
+public: __thiscall Mail::Reader::Reader(void)
+public: __thiscall Mail::Server::Server(class Mail::Server const &)
+public: __thiscall Mail::Server::Server(void)
+public: __thiscall Sync::Thread::Thread(void)
+public: __thiscall Mail::Writer::Writer(class Mail::Message const &)
+public: __thiscall Mail::Buffer::~Buffer(void)
+public: __thiscall Mail::ByteReader::~ByteReader(void)
+public: __thiscall Mail::ByteWriter::~ByteWriter(void)
+public: __thiscall Sync::Futex::~Futex(void)
+public: __thiscall Mem::Pool::~Pool(void)
+public: virtual __thiscall Mail::Reader::~Reader(void)
+public: virtual __thiscall Mail::Server::~Server(void)
+public: virtual __thiscall Mail::Stream::~Stream(void)
+public: __thiscall Sync::Thread::~Thread(void)
+public: virtual __thiscall Mail::Writer::~Writer(void)
+public: class Sync::Futex & __thiscall Sync::Futex::operator=(class Sync::Futex const &)
+public: class Mail::Server & __thiscall Mail::Server::operator=(class Mail::Server const &)
+public: long __thiscall Sync::Counter::operator++(void)
+public: long __thiscall Sync::Counter::operator--(void)
+const Mail::Server::`vftable'
+public: void __thiscall Mail::ByteReader::add(class Mem::Ptr<class Mail::Chunk> const &)
+public: static class Mem::Ptr<class Mail::Chunk> __cdecl Mail::Chunk::alloc(unsigned int)
+public: void * __thiscall Mem::Pool::alloc(void)
+public: class Mem::Ptr<class Mail::Chunk> __thiscall Mail::ByteWriter::end(void)
+private: void __thiscall Mail::Writer::flush(void)
+public: void __thiscall Mem::Pool::free(void *)
+public: unsigned long __thiscall Mail::Reader::get(unsigned char)
+public: class Mem::Ptr<class Mail::Chunk> __thiscall Mail::ByteReader::getData(unsigned int)
+public: unsigned int __thiscall Mail::ByteReader::getData(void *,unsigned int)
+public: int __thiscall Mail::ByteReader::getInt(unsigned int)
+class Mail::Server * globalMail
+public: bool __thiscall Mail::ByteReader::init(class Mem::Ptr<class Mail::Chunk> const &)
+private: void __thiscall Mail::Reader::init(void)
+public: bool __thiscall Sync::Thread::isRunning(void)const 
+public: void __thiscall Sync::Futex::lock(void)
+private: static class Mem::PoolOf<class Mail::Buffer> Mail::Buffer::m_pool
+private: static class Mem::PoolOf<class Mail::Chunk> Mail::Chunk::m_pool
+private: static class Mem::PoolOf<class Mail::MsgImpl> Mail::MsgImpl::m_pool
+public: void __thiscall Mail::Writer::put(unsigned long,unsigned char)
+public: class Mail::ByteWriter & __thiscall Mail::ByteWriter::putData(void const *,unsigned int)
+public: class Mail::ByteWriter & __thiscall Mail::ByteWriter::putInt(int,unsigned int)
+protected: class Mem::Ptr<class Mail::Chunk> __thiscall Mail::Chunk::rafter(unsigned int)const 
+protected: class Mem::Ptr<class Mail::Chunk> __thiscall Mail::Chunk::rbefore(unsigned int)const 
+public: void __thiscall Sync::Thread::start(struct Sync::Thread::Task *)
+public: void __thiscall Sync::Thread::stop(void)
+protected: virtual void __thiscall Mail::Reader::stream(void *,int)
+protected: virtual void __thiscall Mail::Writer::stream(void *,int)
+public: static class Mem::Ptr<class Mail::Chunk> __cdecl Mail::Chunk::try_alloc(unsigned int)
+public: bool __thiscall Sync::Futex::try_lock(unsigned int)
+public: void __thiscall Sync::Futex::unlock(void)
+public: bool __thiscall Sync::Thread::wait(int)

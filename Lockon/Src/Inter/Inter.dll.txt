@@ -1,0 +1,82 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\Inter.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab079b    Thu Nov 06 18:46:51 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00003d66    'Inter.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               67
+	NUMBER OF NAMES                   67
+	ADDRESS OF FUNCTIONS              0x00003ac8
+	ADDRESS OF NAMES                  0x00003bd4
+	ADDRESS OF NAME ORDINALS          0x00003ce0
+public: __thiscall ExplosionInfo::ExplosionInfo(struct ExplosionInfo const &)
+public: __thiscall ExplosionInfo::ExplosionInfo(void)
+public: __thiscall IDispatcher::IDispatcher(class IDispatcher const &)
+public: __thiscall IDispatcher::IDispatcher(void)
+public: __thiscall IIMixDrawMap::IIMixDrawMap(class IIMixDrawMap const &)
+public: __thiscall IIMixDrawMap::IIMixDrawMap(void)
+public: __thiscall IOptions::IOptions(class IOptions const &)
+public: __thiscall IOptions::IOptions(void)
+public: __thiscall EagleDynamics::ISounder::ISounder(class EagleDynamics::ISounder const &)
+public: __thiscall EagleDynamics::ISounder::ISounder(void)
+public: __thiscall ITrackManager::ITrackManager(class ITrackManager const &)
+public: __thiscall ITrackManager::ITrackManager(void)
+public: __thiscall Tracker::Tracker(class Tracker const &)
+public: __thiscall Tracker::Tracker(void)
+public: __thiscall doTerrain::doTerrain(struct doTerrain const &)
+public: __thiscall doTerrain::doTerrain(void)
+public: __thiscall smCamera::smCamera(class smCamera const &)
+public: __thiscall smCamera::smCamera(void)
+public: __thiscall smSceneManager::smSceneManager(class smSceneManager const &)
+public: __thiscall smSceneManager::smSceneManager(void)
+public: __thiscall wExplosionManager::wExplosionManager(class wExplosionManager const &)
+public: __thiscall wExplosionManager::wExplosionManager(void)
+public: __thiscall ExplosionInfo::~ExplosionInfo(void)
+public: virtual __thiscall IDispatcher::~IDispatcher(void)
+public: virtual __thiscall IIMixDrawMap::~IIMixDrawMap(void)
+public: virtual __thiscall IOptions::~IOptions(void)
+public: virtual __thiscall EagleDynamics::ISounder::~ISounder(void)
+public: virtual __thiscall ITrackManager::~ITrackManager(void)
+public: virtual __thiscall smCamera::~smCamera(void)
+public: virtual __thiscall smSceneManager::~smSceneManager(void)
+public: virtual __thiscall wExplosionManager::~wExplosionManager(void)
+public: struct ExplosionInfo & __thiscall ExplosionInfo::operator=(struct ExplosionInfo const &)
+public: class IDispatcher & __thiscall IDispatcher::operator=(class IDispatcher const &)
+public: class IIMixDrawMap & __thiscall IIMixDrawMap::operator=(class IIMixDrawMap const &)
+public: class IOptions & __thiscall IOptions::operator=(class IOptions const &)
+public: class EagleDynamics::ISounder & __thiscall EagleDynamics::ISounder::operator=(class EagleDynamics::ISounder const &)
+public: class ITrackManager & __thiscall ITrackManager::operator=(class ITrackManager const &)
+public: class Tracker & __thiscall Tracker::operator=(class Tracker const &)
+public: struct doGraphics & __thiscall doGraphics::operator=(struct doGraphics const &)
+public: struct doTerrain & __thiscall doTerrain::operator=(struct doTerrain const &)
+public: class smCamera & __thiscall smCamera::operator=(class smCamera const &)
+public: class smSceneManager & __thiscall smSceneManager::operator=(class smSceneManager const &)
+public: class wExplosionManager & __thiscall wExplosionManager::operator=(class wExplosionManager const &)
+const IDispatcher::`vftable'
+const IIMixDrawMap::`vftable'
+const IOptions::`vftable'
+const EagleDynamics::ISounder::`vftable'
+const ITrackManager::`vftable'
+const Tracker::`vftable'
+const smCamera::`vftable'
+const smSceneManager::`vftable'
+const wExplosionManager::`vftable'
+public: virtual void __thiscall wExplosionManager::Explosion(struct ExplosionInfo &)
+public: virtual void __thiscall wExplosionManager::Explosion(class E3::Vector const &,class E3::Vector const &,float,enum ExplosionType,unsigned long,enum ExplosionEnv,unsigned long,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
+class ConfigParser * globalConfig
+class IDispatcher * globalDispatcher
+class wExplosionManager * globalExplosions
+class IIMixDrawMap * globalIIMixDrawMap
+class IMeteoDispatcher * globalMeteoDispatcher
+class IOptions * globalOptions
+class EagleDynamics::ISounder * globalSounder
+class ITrackManager * globalTrackManager
+class Tracker * globalTracker
+class IWorldNet * globalWorldNet
+struct HINSTANCE__ * hInstance
+struct HWND__ * hWnd
+class smSceneManager * visualizer

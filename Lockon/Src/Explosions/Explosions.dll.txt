@@ -1,0 +1,49 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\Explosions.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab082b    Thu Nov 06 18:49:15 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00008f4c    'Explosions.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               34
+	NUMBER OF NAMES                   34
+	ADDRESS OF FUNCTIONS              0x00008df8
+	ADDRESS OF NAMES                  0x00008e80
+	ADDRESS OF NAME ORDINALS          0x00008f08
+public: __thiscall CExplosions::CExplosions(void)
+public: __thiscall ClusterExplosion::ClusterExplosion(struct ExplosionInfo &)
+public: __thiscall ClusterExplosion::ClusterExplosion(class ClusterExplosion const &)
+public: __thiscall EventExplosion::EventExplosion(struct ExplosionInfo &,unsigned long,double)
+public: __thiscall EventExplosion::EventExplosion(class EventExplosion const &)
+public: __thiscall wExplosionManager_Implement::wExplosionManager_Implement(class wExplosionManager_Implement const &)
+public: __thiscall wExplosionManager_Implement::wExplosionManager_Implement(void)
+public: virtual __thiscall ClusterExplosion::~ClusterExplosion(void)
+public: virtual __thiscall EventExplosion::~EventExplosion(void)
+public: virtual __thiscall wExplosionManager_Implement::~wExplosionManager_Implement(void)
+public: class CExplosions & __thiscall CExplosions::operator=(class CExplosions const &)
+public: class ClusterExplosion & __thiscall ClusterExplosion::operator=(class ClusterExplosion const &)
+public: class EventExplosion & __thiscall EventExplosion::operator=(class EventExplosion const &)
+public: class wExplosionManager_Implement & __thiscall wExplosionManager_Implement::operator=(class wExplosionManager_Implement const &)
+const ClusterExplosion::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const ClusterExplosion::`vftable'{for `Suicide'}
+const EventExplosion::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const EventExplosion::`vftable'{for `Suicide'}
+const wExplosionManager_Implement::`vftable'
+protected: virtual void __thiscall wExplosionManager_Implement::Animation(struct ExplosionInfo &)
+protected: virtual void __thiscall wExplosionManager_Implement::CreateCrater(float,float,float)
+protected: virtual bool __thiscall wExplosionManager_Implement::DamageObjects(struct ExplosionInfo &)
+protected: virtual void __thiscall wExplosionManager_Implement::DebugPrint(struct ExplosionInfo &)
+protected: virtual void __thiscall wExplosionManager_Implement::Explosion(struct ExplosionInfo &)
+public: virtual void __thiscall wExplosionManager_Implement::Explosion(class E3::Vector const &,class E3::Vector const &,float,enum ExplosionType,unsigned long,enum ExplosionEnv,unsigned long,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
+protected: virtual enum ExplosionEnv __thiscall wExplosionManager_Implement::GetEnvironment(class E3::Vector const &)
+public: virtual void __thiscall ClusterExplosion::NextEvent(void)
+public: virtual void __thiscall EventExplosion::NextEvent(void)
+private: void __thiscall wExplosionManager_Implement::damageObject(struct ExplosionInfo const &)
+protected: virtual void __thiscall wExplosionManager_Implement::fillEventImpact(unsigned long,class Registered *,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+int __cdecl fnExplosions(void)
+int nExplosions
+public: static class RandomObject ClusterExplosion::randomEvenly
+public: static class RandomObject wExplosionManager_Implement::randomOrderly

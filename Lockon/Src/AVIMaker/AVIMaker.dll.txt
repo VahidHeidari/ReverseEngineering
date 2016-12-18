@@ -1,0 +1,20 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\AVIMaker.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3faa8693    Thu Nov 06 09:36:19 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x000211ba    'AVIMaker.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               5
+	NUMBER OF NAMES                   5
+	ADDRESS OF FUNCTIONS              0x00021188
+	ADDRESS OF NAMES                  0x0002119c
+	ADDRESS OF NAME ORDINALS          0x000211b0
+public: __thiscall AVIMaker::AVIMaker(class AVIMaker const &)
+public: __thiscall AVIMaker::AVIMaker(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: virtual __thiscall AVIMaker::~AVIMaker(void)
+public: class AVIMaker & __thiscall AVIMaker::operator=(class AVIMaker const &)
+const AVIMaker::`vftable'

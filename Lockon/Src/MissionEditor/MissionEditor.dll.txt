@@ -1,0 +1,1035 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\MissionEditor.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab07f4    Thu Nov 06 18:48:20 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x001d5380    'MissionEditor.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               1020
+	NUMBER OF NAMES                   1020
+	ADDRESS OF FUNCTIONS              0x001d2ba8
+	ADDRESS OF NAMES                  0x001d3b98
+	ADDRESS OF NAME ORDINALS          0x001d4b88
+`string'
+bool __cdecl clearMission(bool)
+bool __cdecl getSkillNames(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,bool)
+class Binder * globalBinder
+class GlobalMapEvoker & __cdecl getGlobalMapEvoker(void)
+class IMapLevel * globalIMisMapLevel
+class MapConverter::MissViewFilter * __cdecl getGlobalMissViewFilter(void)
+class MenuProcessor * globalMenuProcessor
+class MissionEditor * globalMissionEditor
+class PilotLogBook * globalPilotLogBook
+class StoredDifficulties & __cdecl getGlobalStoredDifficulties(void)
+const AbleToCloseMissionEditor::`vftable'
+const Bindable::`vftable'
+const Binder::`vftable'{for `ProcessorsHistoryManager'}
+const Binder::`vftable'{for `ProcessorsManager::Listener'}
+const CampaignOpenProcessor::`vbtable'
+const CampaignOpenProcessor::`vftable'{for `AbleToCloseMissionEditor'}
+const CampaignOpenProcessor::`vftable'{for `Control'}
+const CampaignOpenProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const CampaignOpenProcessor::`vftable'{for `System'}
+const CampaignOpenProcessor::`vftable'{for `TwoWayProcessor'}
+const CampaignOpenProcessor::`vftable'{for `UI::Element'}
+const CampaignProcessor::`vbtable'
+const CampaignProcessor::`vftable'
+const CampaignProcessor::`vftable'{for `Control'}
+const CampaignProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const CampaignProcessor::`vftable'{for `System'}
+const CampaignProcessor::`vftable'{for `UI::Element'}
+const CampaignProcessorWatcher::`vftable'
+const DistanceTool::`vbtable'
+const DistanceTool::`vftable'{for `Control'}
+const DistanceTool::`vftable'{for `DistanceToolEvoker'}
+const DistanceTool::`vftable'{for `MapListener'}
+const DistanceTool::`vftable'{for `UI::Element'}
+const DlgMap::`vbtable'
+const DlgMap::`vftable'
+const DlgMap::`vftable'{for `Control'}
+const DlgMap::`vftable'{for `UI::Element'}
+const GlobalMapEvoker::`vftable'
+const GroupProcessor::`vbtable'
+const GroupProcessor::`vftable'{for `Control'}
+const GroupProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const GroupProcessor::`vftable'{for `MapPlacerProcessor::Listener'}
+const GroupProcessor::`vftable'{for `Parentable'}
+const GroupProcessor::`vftable'{for `System'}
+const GroupProcessor::`vftable'{for `UI::Element'}
+const MapEvoker::`vftable'
+const MapGroupProcessor::`vftable'{for `ActiveListener'}
+const MapGroupProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const MapGroupProcessor::`vftable'{for `MapListener'}
+const MapGroupProcessor::`vftable'{for `System'}
+const MapListener::`vftable'
+const MapProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const MapProcessor::`vftable'{for `System'}
+const MenuProcessor::`vbtable'
+const MenuProcessor::`vftable'{for `Control'}
+const MenuProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const MenuProcessor::`vftable'{for `System'}
+const MenuProcessor::`vftable'{for `UI::Element'}
+const MissionEditor::`vftable'
+const OpenMissionProcessor::`vbtable'
+const OpenMissionProcessor::`vftable'{for `AbleToCloseMissionEditor'}
+const OpenMissionProcessor::`vftable'{for `Bindable'}
+const OpenMissionProcessor::`vftable'{for `Control'}
+const OpenMissionProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const OpenMissionProcessor::`vftable'{for `System'}
+const OpenMissionProcessor::`vftable'{for `TwoWayProcessor'}
+const OpenMissionProcessor::`vftable'{for `UI::Element'}
+const Parentable::`vftable'
+const PayloadProcessor::`vbtable'
+const PayloadProcessor::`vftable'{for `Control'}
+const PayloadProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const PayloadProcessor::`vftable'{for `System'}
+const PayloadProcessor::`vftable'{for `UI::Element'}
+const PilotLogBook::`vftable'
+const ProcessorsHistory::`vftable'
+const RecordAviProcessor::`vbtable'
+const RecordAviProcessor::`vftable'
+const RecordAviProcessor::`vftable'{for `Control'}
+const RecordAviProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const RecordAviProcessor::`vftable'{for `System'}
+const RecordAviProcessor::`vftable'{for `UI::Element'}
+const SaveMissionBaseProcessor::`vbtable'
+const SaveMissionBaseProcessor::`vftable'{for `Control'}
+const SaveMissionBaseProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const SaveMissionBaseProcessor::`vftable'{for `Parentable'}
+const SaveMissionBaseProcessor::`vftable'{for `System'}
+const SaveMissionBaseProcessor::`vftable'{for `TwoWayProcessor'}
+const SaveMissionBaseProcessor::`vftable'{for `UI::Element'}
+const SaveTrackProcessor::`vbtable'
+const SaveTrackProcessor::`vftable'
+const SaveTrackProcessor::`vftable'{for `Control'}
+const SaveTrackProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const SaveTrackProcessor::`vftable'{for `Parentable'}
+const SaveTrackProcessor::`vftable'{for `System'}
+const SaveTrackProcessor::`vftable'{for `TwoWayProcessor'}
+const SaveTrackProcessor::`vftable'{for `UI::Element'}
+const ToolbarProcessor::`vbtable'
+const ToolbarProcessor::`vftable'{for `CampaignProcessorWatcher'}
+const ToolbarProcessor::`vftable'{for `Control'}
+const ToolbarProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const ToolbarProcessor::`vftable'{for `ProcessorsManager::Listener'}
+const ToolbarProcessor::`vftable'{for `System'}
+const ToolbarProcessor::`vftable'{for `UI::Element'}
+const ToolsProcessor::`vbtable'
+const ToolsProcessor::`vftable'{for `Control'}
+const ToolsProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const ToolsProcessor::`vftable'{for `GroupTypeProcessor::Listener'}
+const ToolsProcessor::`vftable'{for `ProcessorsManager::Listener'}
+const ToolsProcessor::`vftable'{for `System'}
+const ToolsProcessor::`vftable'{for `TwoWayProcessor'}
+const ToolsProcessor::`vftable'{for `UI::Element'}
+const TwoWayProcessor::`vftable'
+const UnitZone::`vftable'
+const UnitZones::`vftable'
+const WarningProcessor::`vbtable'
+const WarningProcessor::`vftable'{for `Control'}
+const WarningProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const WarningProcessor::`vftable'{for `System'}
+const WarningProcessor::`vftable'{for `UI::Element'}
+private: bool __thiscall CampaignOpenProcessor::FillDescriptionWindow(void)
+private: bool __thiscall CampaignOpenProcessor::GetExtensionFromFileName(char const *,int,char * const)
+private: bool __thiscall CampaignOpenProcessor::LoadCampaignFromFile(char const *,bool)
+private: bool __thiscall CampaignOpenProcessor::LoadFromFile(void)
+private: bool __thiscall CountriesInf::InitTheDataForListBoxWithIcons(void)
+private: bool __thiscall OpenMissionProcessor::FillBriefingWindow(void)
+private: bool __thiscall OpenMissionProcessor::GetExtensionFromFileName(char const *,int,char * const)
+private: bool __thiscall OpenMissionProcessor::IsCampaignInTheFile(char *)
+private: bool __thiscall OpenMissionProcessor::LoadCampaignFromFile(char const *,bool)
+private: bool __thiscall OpenMissionProcessor::LoadFromFile(void)
+private: bool __thiscall OpenMissionProcessor::LoadMissionFromFile(char const *)
+private: bool __thiscall OpenMissionProcessor::LoadTrackFromFile(char const *)
+private: bool __thiscall PayloadProcessor::StringIsValid(char const *)
+private: bool __thiscall SaveMissionBaseProcessor::ScanFileContent(void)
+private: bool __thiscall ToolsProcessor::closeTheCampaignProcessor(void (__thiscall Control::*)(void))
+private: bool __thiscall ToolsProcessor::closeTheMissionProcessor(void (__thiscall Control::*)(void))
+private: class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall CampaignProcessor::AddStage(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+private: class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall CampaignProcessor::GetCampaign(void)
+private: int __thiscall CampaignProcessor::GetStageIndex(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+private: int __thiscall CampaignProcessor::RemoveStage(int)
+private: long __thiscall PayloadProcessor::CalcBalanceValueForSlider(long)
+private: long __thiscall PayloadProcessor::GetCaptionFromEditBox(int)
+private: static bool CampaignProcessor::m_bCampaignPassing
+private: static bool CampaignProcessor::m_bIsEditableCampaignMode
+private: static bool MissionEditor::bIsSaveMapScale
+private: static bool OpenMissionProcessor::merged
+private: static class _bstr_t __cdecl SaveMissionBaseProcessor::StringById(long,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+private: static class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > MissionEditor::m_pCampaign
+private: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > * GroupProcessor::country_index
+private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > > > CountriesInf::m_mapCountrySpecs
+private: static enum MapConverterTypes::MissSide MapGroupProcessor::storedMissSide
+private: static enum MapConverterTypes::MissSide __cdecl MapGroupProcessor::getStoredMissSide(void)
+private: static enum MapConverterTypes::MissType MapGroupProcessor::storedMissType
+private: static enum MapConverterTypes::MissType __cdecl MapGroupProcessor::getStoredMissType(void)
+private: static int CampaignProcessorWatcher::m_siVisibilityIndex
+private: static int OpenMissionProcessor::side
+private: static int __cdecl MapGroupProcessor::setStoredMissSide(enum MapConverterTypes::MissSide)
+private: static int __cdecl MapGroupProcessor::setStoredMissType(enum MapConverterTypes::MissType)
+private: static int __cdecl Utils::QuantityOfLeadingZeroes(long,long)
+private: static struct MSGTABLE_ENTRY const * const CampaignOpenProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const CampaignProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const DistanceTool::messageEntries
+private: static struct MSGTABLE_ENTRY const * const DlgMap::messageEntries
+private: static struct MSGTABLE_ENTRY const * const GroupProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const MenuProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const OpenMissionProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const PayloadProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const RecordAviProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const SaveMissionBaseProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const SaveTrackProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const ToolbarProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const ToolsProcessor::messageEntries
+private: static struct MSGTABLE_ENTRY const * const WarningProcessor::messageEntries
+private: void __thiscall CampaignOpenProcessor::CloseAll(void)
+private: void __thiscall CampaignOpenProcessor::SetStateOfButton(enum CampaignOpenProcessor::CampaignOpenProcessorTags,bool)
+private: void __thiscall CampaignOpenProcessor::SetStateOfButtons(void)
+private: void __thiscall CampaignOpenProcessor::SetStateOfGroupButtons(bool)
+private: void __thiscall CampaignProcessor::RefreshCampaignWindow(void)
+private: void __thiscall CampaignProcessor::RefreshStageWindow(int)
+private: void __thiscall CampaignProcessor::RefreshStateOfResultButton(void)
+private: void __thiscall CampaignProcessor::SetStageAsActive(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+private: void __thiscall CampaignProcessor::SetStageIndexSpinEditRange(void)
+private: void __thiscall CampaignProcessorWatcher::SetState(bool)
+private: void __thiscall GroupProcessor::editCoalition(class _com_ptr_t<class _com_IIID<struct ICountry,&struct __s_GUID _GUID_3704fc6b_41cc_408a_b5f0_d962d92ed09f> >,class _com_ptr_t<class _com_IIID<struct ICountry,&struct __s_GUID _GUID_3704fc6b_41cc_408a_b5f0_d962d92ed09f> >)
+private: void __thiscall GroupProcessor::fillSubgroupComboBox(void)
+private: void __thiscall GroupProcessor::fillUnitComboBoxAndSetSelectedRow(void)
+private: void __thiscall GroupProcessor::onHeading(class UI::Tuner *)
+private: void __thiscall GroupProcessor::setClientButton(int)
+private: void __thiscall GroupProcessor::setColorToHumanPlane(class _com_ptr_t<class _com_IIID<struct IUnitSpecification,&struct __s_GUID _GUID_282f8931_af69_44df_87f5_c6bb8dcaf7f9> >,int)
+private: void __thiscall GroupProcessor::setGroupName(void)
+private: void __thiscall GroupProcessor::setLeaderButton(long)
+private: void __thiscall MissionEditor::loadSettings(void)
+private: void __thiscall MissionEditor::saveSettings(void)
+private: void __thiscall OpenMissionProcessor::CloseAll(void)
+private: void __thiscall OpenMissionProcessor::SetStateOfButton(enum OpenMissionProcessor::OpenMissionProcessorTags,bool)
+private: void __thiscall OpenMissionProcessor::SetStateOfButtons(void)
+private: void __thiscall PayloadProcessor::FuelSlider(void)
+private: void __thiscall PayloadProcessor::TotalWeightPercentSlider(void)
+private: void __thiscall SaveMissionBaseProcessor::Finalize(void)
+private: void __thiscall ToolbarProcessor::buttonState(enum ToolbarProcessor::Elements const &,bool)
+private: void __thiscall ToolbarProcessor::closeAll(void)
+private: void __thiscall ToolbarProcessor::notify(enum ToolbarProcessor::Elements)
+private: void __thiscall ToolbarProcessor::setButtonState(class Processor *,bool)
+private: void __thiscall ToolbarProcessor::setStateOfButton(enum ToolbarProcessor::Elements,bool)
+private: void __thiscall ToolbarProcessor::setStateOfMenuButton(enum ToolbarProcessor::Elements,int,bool)
+private: void __thiscall ToolbarProcessor::showButton(enum ToolbarProcessor::Elements,bool)
+private: void __thiscall ToolsProcessor::beginNetwork(enum ToolsProcessor::ToolsElements)
+private: void __thiscall ToolsProcessor::clearTheMissionAndCampaign(void)
+private: void __thiscall ToolsProcessor::endNetwork(void)
+private: void __thiscall ToolsProcessor::onPress(unsigned long)
+private: void __thiscall ToolsProcessor::onUnpress(void)
+private: void __thiscall ToolsProcessor::setStateOfButton(class Static *,bool)
+private: void __thiscall ToolsProcessor::showButton(class Static *,bool)
+protected: __thiscall AbleToCloseMissionEditor::AbleToCloseMissionEditor(void)
+protected: __thiscall CampaignProcessorWatcher::CampaignProcessorWatcher(void)
+protected: bool __thiscall GroupProcessor::getHumanCurrentSkillAllowedMode(void)const 
+protected: bool __thiscall GroupProcessor::isPermittedType(class _com_ptr_t<class _com_IIID<struct IUnitSpecification,&struct __s_GUID _GUID_282f8931_af69_44df_87f5_c6bb8dcaf7f9> > const &)
+protected: class MapDragger * __thiscall MapGroupProcessor::getDragger(class IMapObjInfo *)
+protected: class _bstr_t __thiscall SaveMissionBaseProcessor::StringById(long)const 
+protected: enum MapGroupProcessor::DrawMode __thiscall MapGroupProcessor::getDrawMode(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long)
+protected: int __thiscall MapGroupProcessor::GetRouteMode(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+protected: static bool AbleToCloseMissionEditor::m_bMustCloseItselfOnly
+protected: static bool ToolbarProcessor::closeStatus
+protected: static class ActiveInfo MapGroupProcessor::theActiveInfo
+protected: static class _com_ptr_t<class _com_IIID<struct ITask,&struct __s_GUID _GUID_0d65cbd5_1a48_4db6_b773_d1e05023263d> > __cdecl GroupProcessor::getPreferedTask(class std::map<long,class _com_ptr_t<class _com_IIID<struct ITask,&struct __s_GUID _GUID_0d65cbd5_1a48_4db6_b773_d1e05023263d> >,struct std::less<long>,class std::allocator<class _com_ptr_t<class _com_IIID<struct ITask,&struct __s_GUID _GUID_0d65cbd5_1a48_4db6_b773_d1e05023263d> > > > const &)
+protected: static class std::list<class IMapObjInfo *,class std::allocator<class IMapObjInfo *> > MapProcessor::objInfoToDelete
+protected: static class std::list<struct IMapImage *,class std::allocator<struct IMapImage *> > MapProcessor::imagesToDelete
+protected: static int MapGroupProcessor::imageAttribId
+protected: static long * GroupProcessor::categoriesID
+protected: static struct MSGTABLE const CampaignOpenProcessor::messageTable
+protected: static struct MSGTABLE const CampaignProcessor::messageTable
+protected: static struct MSGTABLE const DistanceTool::messageTable
+protected: static struct MSGTABLE const DlgMap::messageTable
+protected: static struct MSGTABLE const GroupProcessor::messageTable
+protected: static struct MSGTABLE const MenuProcessor::messageTable
+protected: static struct MSGTABLE const OpenMissionProcessor::messageTable
+protected: static struct MSGTABLE const PayloadProcessor::messageTable
+protected: static struct MSGTABLE const RecordAviProcessor::messageTable
+protected: static struct MSGTABLE const SaveMissionBaseProcessor::messageTable
+protected: static struct MSGTABLE const SaveTrackProcessor::messageTable
+protected: static struct MSGTABLE const ToolbarProcessor::messageTable
+protected: static struct MSGTABLE const ToolsProcessor::messageTable
+protected: static struct MSGTABLE const WarningProcessor::messageTable
+protected: struct MapGroupProcessor::ImageInfo * __thiscall MapGroupProcessor::getInfo(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+protected: struct MapGroupProcessor::ImageInfo * __thiscall MapGroupProcessor::getRoot(struct MapGroupProcessor::ImageInfo *)
+protected: virtual __thiscall AbleToCloseMissionEditor::~AbleToCloseMissionEditor(void)
+protected: virtual __thiscall CampaignProcessorWatcher::~CampaignProcessorWatcher(void)
+protected: virtual bool __thiscall Binder::createProcessorsFactory(void)
+protected: virtual bool __thiscall Binder::removeProcessorsFactory(void)
+protected: virtual struct MSGTABLE const * __thiscall CampaignOpenProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall CampaignProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall DistanceTool::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall DlgMap::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall GroupProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall MenuProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall OpenMissionProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall PayloadProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall RecordAviProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall SaveMissionBaseProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall SaveTrackProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall ToolbarProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall ToolsProcessor::getMessageTable(void)const 
+protected: virtual struct MSGTABLE const * __thiscall WarningProcessor::getMessageTable(void)const 
+protected: virtual void __thiscall DlgMap::onActivate(int,class Control *)
+protected: virtual void __thiscall DlgMap::onCreate(void)
+protected: virtual void __thiscall DlgMap::onLButtonDblclk(int,int,int)
+protected: virtual void __thiscall DlgMap::onLButtonDown(int,int,int)
+protected: virtual void __thiscall DlgMap::onMouseMove(int,int,int)
+protected: virtual void __thiscall DlgMap::onPaint(void)
+protected: void __thiscall DlgMap::onLButtonUp(int,int,int)
+protected: void __thiscall DlgMap::onMouseWheel(short,short,int,int)
+protected: void __thiscall DlgMap::onRButtonDown(int,int,int)
+protected: void __thiscall DlgMap::onWindowSet(struct DlgMap::Rect &,bool)
+protected: void __thiscall DlgMap::saveMapPosition(struct DlgMap::Rect &)
+protected: void __thiscall DlgMap::showCursor(int)
+protected: void __thiscall GroupProcessor::changeCategory(int,bool)
+protected: void __thiscall GroupProcessor::fillTypeComboBox(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,int)
+protected: void __thiscall GroupProcessor::onCategory(void)
+protected: void __thiscall GroupProcessor::onClient(void)
+protected: void __thiscall GroupProcessor::onClose(void)
+protected: void __thiscall GroupProcessor::onCountry(void)
+protected: void __thiscall GroupProcessor::onDelete(void)
+protected: void __thiscall GroupProcessor::onDialogs(void)
+protected: void __thiscall GroupProcessor::onGroup(void)
+protected: void __thiscall GroupProcessor::onGroupName(void)
+protected: void __thiscall GroupProcessor::onGroupNameChange(void)
+protected: void __thiscall GroupProcessor::onHeadingHeader(void)
+protected: void __thiscall GroupProcessor::onHeadingSpinEdit(void)
+protected: void __thiscall GroupProcessor::onIntellect(void)
+protected: void __thiscall GroupProcessor::onLeader(void)
+protected: void __thiscall GroupProcessor::onPayload(void)
+protected: void __thiscall GroupProcessor::onRoute(void)
+protected: void __thiscall GroupProcessor::onSkill(void)
+protected: void __thiscall GroupProcessor::onSubgroup(void)
+protected: void __thiscall GroupProcessor::onSubgroupName(void)
+protected: void __thiscall GroupProcessor::onSubgroups(void)
+protected: void __thiscall GroupProcessor::onSummary(void)
+protected: void __thiscall GroupProcessor::onTarget(void)
+protected: void __thiscall GroupProcessor::onTask(void)
+protected: void __thiscall GroupProcessor::onType(void)
+protected: void __thiscall GroupProcessor::onUnit(void)
+protected: void __thiscall GroupProcessor::onUnitName(void)
+protected: void __thiscall GroupProcessor::onUnitNameChange(void)
+protected: void __thiscall GroupProcessor::onUnits(void)
+protected: void __thiscall GroupProcessor::setForReadOnlyMission(bool)
+protected: void __thiscall GroupProcessor::setHumanCurrentSkillAllowedMode(bool)
+protected: void __thiscall GroupProcessor::setMissionDirtyFlag(bool)
+protected: void __thiscall MapGroupProcessor::addUpdate(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long)
+protected: void __thiscall MapGroupProcessor::buildNumberDraw(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,double const &,double const &,struct MapGroupProcessor::ImageInfo *)
+protected: void __thiscall MapGroupProcessor::buildRouteDraw(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long,struct MapGroupProcessor::ImageInfo *)
+protected: void __thiscall MapGroupProcessor::buildUnitsDraw(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long,struct MapGroupProcessor::ImageInfo *)
+protected: void __thiscall MapGroupProcessor::drawGroups(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+protected: void __thiscall MapGroupProcessor::drawGroups(void)
+protected: void __thiscall MapGroupProcessor::flushDraw(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+protected: void __thiscall MapGroupProcessor::flushDraw(struct MapGroupProcessor::ImageInfo *,bool)
+protected: void __thiscall MapGroupProcessor::isActive(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+protected: void __thiscall MapGroupProcessor::isActive(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long)
+protected: void __thiscall MapGroupProcessor::removeUpdate(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+protected: void __thiscall MapGroupProcessor::setActive(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long,int,bool)
+protected: void __thiscall MapGroupProcessor::setActiveGroup(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long,bool)
+protected: void __thiscall MapGroupProcessor::setActiveWayPoint(int,bool)
+protected: void __thiscall MapGroupProcessor::updateDragPos(double const &,double const &)
+protected: void __thiscall SaveMissionBaseProcessor::SetParentProcessor(class TwoWayProcessor const *)
+protected: void __thiscall SaveMissionBaseProcessor::shiftProcessor(float,float)
+public: __thiscall AbleToCloseMissionEditor::AbleToCloseMissionEditor(class AbleToCloseMissionEditor const &)
+public: __thiscall Bindable::Bindable(class Bindable const &)
+public: __thiscall Bindable::Bindable(void)
+public: __thiscall Binder::Binder(class Binder const &)
+public: __thiscall Binder::Binder(void)
+public: __thiscall CampaignOpenProcessor::CampaignOpenProcessor(class CampaignOpenProcessor const &)
+public: __thiscall CampaignOpenProcessor::CampaignOpenProcessor(void)
+public: __thiscall CampaignProcessor::CampaignProcessor(class CampaignProcessor const &)
+public: __thiscall CampaignProcessor::CampaignProcessor(void)
+public: __thiscall CampaignProcessorWatcher::CampaignProcessorWatcher(class CampaignProcessorWatcher const &)
+public: __thiscall CountriesInf::CountriesInf(void)
+public: __thiscall CountriesInf::~CountriesInf(void)
+public: __thiscall DistanceTool::DistanceTool(class DistanceTool const &)
+public: __thiscall DistanceTool::DistanceTool(class DlgMap *)
+public: __thiscall DlgMap::DlgMap(char const *)
+public: __thiscall DlgMap::DlgMap(class DlgMap const &)
+public: __thiscall GlobalMapEvoker::GlobalMapEvoker(class GlobalMapEvoker const &)
+public: __thiscall GlobalMapEvoker::GlobalMapEvoker(void)
+public: __thiscall GroupProcessor::GroupProcessor(class GroupProcessor const &)
+public: __thiscall GroupProcessor::GroupProcessor(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned long,int)
+public: __thiscall MapEvoker::MapEvoker(class MapEvoker const &)
+public: __thiscall MapEvoker::MapEvoker(void)
+public: __thiscall MapGroupProcessor::MapGroupProcessor(class MapGroupProcessor const &)
+public: __thiscall MapGroupProcessor::MapGroupProcessor(void)
+public: __thiscall MapListener::MapListener(class MapListener const &)
+public: __thiscall MapListener::MapListener(void)
+public: __thiscall MapProcessor::MapProcessor(class MapProcessor const &)
+public: __thiscall MapProcessor::MapProcessor(void)
+public: __thiscall MenuProcessor::MenuProcessor(class MenuProcessor const &)
+public: __thiscall MenuProcessor::MenuProcessor(void)
+public: __thiscall MissionEditor::MissionEditor(class MissionEditor const &)
+public: __thiscall MissionEditor::MissionEditor(unsigned long const &)
+public: __thiscall OpenMissionProcessor::OpenMissionProcessor(class OpenMissionProcessor const &)
+public: __thiscall OpenMissionProcessor::OpenMissionProcessor(void)
+public: __thiscall Parentable::Parentable(class Parentable const &)
+public: __thiscall Parentable::Parentable(void)
+public: __thiscall PayloadProcessor::PayloadProcessor(class PayloadProcessor const &)
+public: __thiscall PayloadProcessor::PayloadProcessor(void)
+public: __thiscall PilotLogBook::PilotLogBook(class PilotLogBook const &)
+public: __thiscall PilotLogBook::PilotLogBook(void)
+public: __thiscall ProcessorsHistory::ProcessorsHistory(class ProcessorsHistory const &)
+public: __thiscall ProcessorsHistory::ProcessorsHistory(void)
+public: __thiscall RecordAviProcessor::RecordAviProcessor(class RecordAviProcessor const &)
+public: __thiscall RecordAviProcessor::RecordAviProcessor(void)
+public: __thiscall SaveMissionBaseProcessor::SaveMissionBaseProcessor(class SaveMissionBaseProcessor const &)
+public: __thiscall SaveMissionBaseProcessor::SaveMissionBaseProcessor(enum UI_STRINGS,char const *,char const *)
+public: __thiscall SaveTrackProcessor::SaveTrackProcessor(class SaveTrackProcessor const &)
+public: __thiscall SaveTrackProcessor::SaveTrackProcessor(void)
+public: __thiscall ToolbarProcessor::ToolbarProcessor(class ToolbarProcessor const &)
+public: __thiscall ToolbarProcessor::ToolbarProcessor(void)
+public: __thiscall ToolsProcessor::ToolsProcessor(class ToolsProcessor const &)
+public: __thiscall ToolsProcessor::ToolsProcessor(void)
+public: __thiscall TwoWayProcessor::TwoWayProcessor(class TwoWayProcessor const &)
+public: __thiscall TwoWayProcessor::TwoWayProcessor(void)
+public: __thiscall UnitZone::UnitZone(class UnitZone const &)
+public: __thiscall UnitZone::UnitZone(float)
+public: __thiscall UnitZone::UnitZone(float,unsigned long)
+public: __thiscall UnitZone::UnitZone(void)
+public: __thiscall UnitZones::UnitZones(class UnitZones const &)
+public: __thiscall UnitZones::UnitZones(void)
+public: __thiscall Utils::Utils(void)
+public: __thiscall Utils::~Utils(void)
+public: __thiscall WarningProcessor::WarningProcessor(char const *)
+public: __thiscall WarningProcessor::WarningProcessor(class WarningProcessor const &)
+public: bool __thiscall CampaignProcessor::IsAStageReadyToFly(void)
+public: bool __thiscall FileProcessor::getUsingCurrentDirs(void)
+public: bool __thiscall GroupProcessor::switchTargeting(bool)
+public: bool __thiscall GroupProcessor::zoom100(void)
+public: bool __thiscall GroupProcessor::zoomBackward(void)
+public: bool __thiscall GroupProcessor::zoomForward(void)
+public: bool __thiscall GroupProcessor::zoomModeOff(bool)
+public: bool __thiscall GroupProcessor::zoomModeOn(bool)
+public: bool __thiscall MapGroupProcessor::findClosestTarget(struct TargetData &,float,float,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: bool __thiscall MapGroupProcessor::groupTypeOrSideFiltered(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: bool __thiscall MapGroupProcessor::setEnableDrag(bool)
+public: bool __thiscall MissionEditor::getStateOfCoalitionButton(void)
+public: bool __thiscall MissionEditor::getStateOfFlyReadiness(void)
+public: bool __thiscall MissionEditor::isMetricSystem(void)
+public: bool __thiscall OpenMissionProcessor::isMerged(void)const 
+public: bool __thiscall PayloadProcessor::CalcAndSetTankFuelWeight(void)
+public: bool __thiscall PayloadProcessor::SetBalance(long)
+public: bool __thiscall PayloadProcessor::SetBaseWeights(float,float,float)
+public: bool __thiscall PayloadProcessor::SetFuelWeight(float)
+public: bool __thiscall PayloadProcessor::SetPlaneAndTask(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: bool __thiscall PayloadProcessor::SetTotalWeight(float)
+public: bool __thiscall PayloadProcessor::SetWeaponsWeight(float)
+public: bool __thiscall PayloadProcessor::Zoom100Percent(void)
+public: bool __thiscall PayloadProcessor::ZoomBackward(void)
+public: bool __thiscall PayloadProcessor::ZoomForward(void)
+public: bool __thiscall PayloadProcessor::ZoomModeOff(bool)
+public: bool __thiscall PayloadProcessor::ZoomModeOn(bool)
+public: bool __thiscall PilotLogBook::AddMissionRecords(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::vector<struct MissionRecord,class std::allocator<struct MissionRecord> > &)
+public: bool __thiscall PilotLogBook::GetPilotData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct PilotRecord *)
+public: bool __thiscall SaveMissionBaseProcessor::InitTheData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std:
+public: bool __thiscall SaveMissionBaseProcessor::SaveCampaign(char const *,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: bool __thiscall SaveMissionBaseProcessor::SaveMission(char const *)
+public: bool __thiscall SaveMissionBaseProcessor::SaveTrack(char const *)
+public: bool __thiscall ToolbarProcessor::getStateOfButton(enum ToolbarProcessor::Elements)
+public: bool __thiscall ToolbarProcessor::getStateOfCoalitionButton(void)
+public: bool __thiscall ToolbarProcessor::getStateOfFlyReadiness(void)
+public: bool __thiscall ToolsProcessor::isNetworkMode(void)
+public: bool const __thiscall DlgMap::isDragMode(void)const 
+public: bool const __thiscall MapGroupProcessor::isEnableDrag(void)const 
+public: class AbleToCloseMissionEditor & __thiscall AbleToCloseMissionEditor::operator=(class AbleToCloseMissionEditor const &)
+public: class Bindable & __thiscall Bindable::operator=(class Bindable const &)
+public: class Binder & __thiscall Binder::operator=(class Binder const &)
+public: class CampaignOpenProcessor & __thiscall CampaignOpenProcessor::operator=(class CampaignOpenProcessor const &)
+public: class CampaignProcessor & __thiscall CampaignProcessor::operator=(class CampaignProcessor const &)
+public: class CampaignProcessorWatcher & __thiscall CampaignProcessorWatcher::operator=(class CampaignProcessorWatcher const &)
+public: class CountriesInf & __thiscall CountriesInf::operator=(class CountriesInf const &)
+public: class DistanceTool & __thiscall DistanceTool::operator=(class DistanceTool const &)
+public: class DlgMap & __thiscall DlgMap::operator=(class DlgMap const &)
+public: class DlgMap * __thiscall MapProcessor::getDlgMap(void)
+public: class EagleDynamics::Common::Identifier const * __thiscall ProcessorsHistory::GetIdentifierPtrAfterSettingPositionToValidValue(void)
+public: class GlobalMapEvoker & __thiscall GlobalMapEvoker::operator=(class GlobalMapEvoker const &)
+public: class GroupProcessor & __thiscall GroupProcessor::operator=(class GroupProcessor const &)
+public: class IMixDrawMap * __thiscall DlgMap::getIMixDrawMap(void)
+public: class MapEvoker & __thiscall MapEvoker::operator=(class MapEvoker const &)
+public: class MapEvoker * __thiscall MapProcessor::getMapEvoker(void)
+public: class MapGroupProcessor & __thiscall MapGroupProcessor::operator=(class MapGroupProcessor const &)
+public: class MapListener & __thiscall MapListener::operator=(class MapListener const &)
+public: class MapListener * __thiscall MapGroupProcessor::getCapture(void)const 
+public: class MapProcessor & __thiscall MapProcessor::operator=(class MapProcessor const &)
+public: class MenuProcessor & __thiscall MenuProcessor::operator=(class MenuProcessor const &)
+public: class MissionEditor & __thiscall MissionEditor::operator=(class MissionEditor const &)
+public: class OpenMissionProcessor & __thiscall OpenMissionProcessor::operator=(class OpenMissionProcessor const &)
+public: class Parentable & __thiscall Parentable::operator=(class Parentable const &)
+public: class PayloadProcessor & __thiscall PayloadProcessor::operator=(class PayloadProcessor const &)
+public: class PilotLogBook & __thiscall PilotLogBook::operator=(class PilotLogBook const &)
+public: class ProcessorsHistory & __thiscall ProcessorsHistory::operator=(class ProcessorsHistory const &)
+public: class RecordAviProcessor & __thiscall RecordAviProcessor::operator=(class RecordAviProcessor const &)
+public: class SaveMissionBaseProcessor & __thiscall SaveMissionBaseProcessor::operator=(class SaveMissionBaseProcessor const &)
+public: class SaveTrackProcessor & __thiscall SaveTrackProcessor::operator=(class SaveTrackProcessor const &)
+public: class ToolbarProcessor & __thiscall ToolbarProcessor::operator=(class ToolbarProcessor const &)
+public: class ToolbarProcessor::ToolbarListener * __thiscall ToolbarProcessor::getCapture(void)const 
+public: class ToolsProcessor & __thiscall ToolsProcessor::operator=(class ToolsProcessor const &)
+public: class ToolsProcessor::ToolsListener * __thiscall ToolsProcessor::getCapture(void)const 
+public: class TwoWayProcessor & __thiscall TwoWayProcessor::operator=(class TwoWayProcessor const &)
+public: class UnitZone & __thiscall UnitZone::operator=(class UnitZone const &)
+public: class UnitZones & __thiscall UnitZones::operator=(class UnitZones const &)
+public: class Utils & __thiscall Utils::operator=(class Utils const &)
+public: class WarningProcessor & __thiscall WarningProcessor::operator=(class WarningProcessor const &)
+public: class _bstr_t __thiscall MissionEditor::stringById(long)const 
+public: class _com_ptr_t<class _com_IIID<struct ICountry,&struct __s_GUID _GUID_3704fc6b_41cc_408a_b5f0_d962d92ed09f> > __thiscall GroupProcessor::getCountry(void)
+public: class _com_ptr_t<class _com_IIID<struct IGroup,&struct __s_GUID _GUID_5db2dc56_6086_430b_bab5_89e7f2713e3c> > __thiscall GroupProcessor::addGroup(double const &,double const &,double const &)
+public: class _com_ptr_t<class _com_IIID<struct IGroup,&struct __s_GUID _GUID_5db2dc56_6086_430b_bab5_89e7f2713e3c> > __thiscall GroupProcessor::addGroup(void)
+public: class _com_ptr_t<class _com_IIID<struct IGroup,&struct __s_GUID _GUID_5db2dc56_6086_430b_bab5_89e7f2713e3c> > __thiscall GroupProcessor::getGroup(void)
+public: class _com_ptr_t<class _com_IIID<struct IGroups,&struct __s_GUID _GUID_fd7ee3df_b013_495e_b14d_3127b9c04ec7> > __thiscall GroupProcessor::getGroups(void)
+public: class _com_ptr_t<class _com_IIID<struct ISkill,&struct __s_GUID _GUID_0c811ed3_3c8b_4386_995d_186bc080eb2e> > __thiscall GroupProcessor::getSkill(void)
+public: class _com_ptr_t<class _com_IIID<struct ISubGroup,&struct __s_GUID _GUID_1412e78f_49a3_48dd_b837_06f96aebeeb5> > __thiscall GroupProcessor::addSubgroup(void)
+public: class _com_ptr_t<class _com_IIID<struct ISubGroup,&struct __s_GUID _GUID_1412e78f_49a3_48dd_b837_06f96aebeeb5> > __thiscall GroupProcessor::getSubgroup(void)
+public: class _com_ptr_t<class _com_IIID<struct ISubGroups,&struct __s_GUID _GUID_757afdc9_daf6_4d84_9611_b34975aa0f9d> > __thiscall GroupProcessor::getSubgroups(void)
+public: class _com_ptr_t<class _com_IIID<struct ITask,&struct __s_GUID _GUID_0d65cbd5_1a48_4db6_b773_d1e05023263d> > __thiscall GroupProcessor::getTask(void)
+public: class _com_ptr_t<class _com_IIID<struct IUnit,&struct __s_GUID _GUID_b201985d_cc3e_4aa1_aca6_5b77c761821a> > __thiscall GroupProcessor::addUnit(int,long)
+public: class _com_ptr_t<class _com_IIID<struct IUnit,&struct __s_GUID _GUID_b201985d_cc3e_4aa1_aca6_5b77c761821a> > __thiscall GroupProcessor::getUnit(void)
+public: class _com_ptr_t<class _com_IIID<struct IUnit,&struct __s_GUID _GUID_b201985d_cc3e_4aa1_aca6_5b77c761821a> > __thiscall GroupProcessor::replaceUnit(int,bool)
+public: class _com_ptr_t<class _com_IIID<struct IUnitSpecification,&struct __s_GUID _GUID_282f8931_af69_44df_87f5_c6bb8dcaf7f9> > __thiscall GroupProcessor::getType(void)
+public: class _com_ptr_t<class _com_IIID<struct IUnits,&struct __s_GUID _GUID_ab20b8c0_0c75_4691_9814_59196b9b8792> > __thiscall GroupProcessor::getUnits(void)
+public: class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall MapGroupProcessor::findGroup(double const &,double const &)
+public: class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall MapGroupProcessor::getGroup(long,long)
+public: class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall MissionEditor::getApplication(void)
+public: class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall MissionEditor::getCampaign(void)
+public: class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall OpenMissionProcessor::getMergedMission(void)
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall PilotLogBook::GetCurrentPilotName(void)
+public: class std::vector<class std::auto_ptr<class UnitZone>,class std::allocator<class std::auto_ptr<class UnitZone> > > & __thiscall UnitZones::getAllZones(void)
+public: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __thiscall PilotLogBook::GetPilotNames(void)
+public: double __thiscall GroupProcessor::getRouteAngle(void)
+public: enum MapConverterTypes::MissSide const __thiscall MapGroupProcessor::getMissSideMask(void)const 
+public: enum MapConverterTypes::MissType const __thiscall MapGroupProcessor::getMissTypeMask(void)const 
+public: enum MapGroupProcessor::Mode const __thiscall MapGroupProcessor::getMode(void)const 
+public: enum OpenMissionProcessor::FileType const & __thiscall OpenMissionProcessor::GetFileType(void)const 
+public: enum ProcessorsHistory::Position __thiscall ProcessorsHistory::Add(class EagleDynamics::Common::Identifier const &)
+public: enum ProcessorsHistory::Position __thiscall ProcessorsHistory::Backward(void)
+public: enum ProcessorsHistory::Position __thiscall ProcessorsHistory::Forward(void)
+public: enum ProcessorsHistory::Position __thiscall ProcessorsHistory::GetPosition(void)
+public: float __thiscall UnitZone::getRadius(void)
+public: int __thiscall DistanceTool::getMode(void)const 
+public: int __thiscall DlgMap::getCursor(void)
+public: int __thiscall GroupProcessor::getEnemyType(void)
+public: int __thiscall GroupProcessor::getGroupsQuantity(void)
+public: int __thiscall MapProcessor::getCursor(void)
+public: long __thiscall MapGroupProcessor::findWayPoint(double const &,double const &)
+public: static bool __cdecl CampaignProcessor::GetCampaignPassing(void)
+public: static bool __cdecl CampaignProcessor::GetEditableCampaignMode(void)
+public: static bool __cdecl MapGroupProcessor::findClosestPoint(struct IMapImage::Point &,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,struct IMapImage::Point &)
+public: static bool __cdecl SaveMissionBaseProcessor::SaveMissionInFile(char const *,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static bool __cdecl ToolbarProcessor::getCloseStatus(void)
+public: static bool __cdecl Utils::CatBlanks(char * const,int,int)
+public: static bool __cdecl Utils::CatString(char * const,char const *,int)
+public: static bool __cdecl Utils::ConvertDayHourMinuteSecondToTime(long,long,long,long,long *)
+public: static bool __cdecl Utils::ConvertTimeToDayString(long,long,long,char *,long *)
+public: static bool __cdecl Utils::ConvertTimeToHourString(long,long,long,char *,long *)
+public: static bool __cdecl Utils::ConvertTimeToMinuteString(long,long,long,char *,long *)
+public: static bool __cdecl Utils::ConvertTimeToSecondString(long,long,long,char *,long *)
+public: static bool __cdecl Utils::GetTimeString(long,long,char * const)
+public: static bool __cdecl Utils::IsAnyCoalitionExist(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static bool __cdecl Utils::IsCampaignStageCompleted(int)
+public: static bool __cdecl Utils::IsHumanExist(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static bool __cdecl Utils::PrintSystemTime(char const *)
+public: static bool __cdecl Utils::checkUnitCategory(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,class _bstr_t)
+public: static bool __cdecl Utils::getForceUseMissionOptions(void)
+public: static bool __cdecl Utils::getSetGlobal(void)
+public: static bool __cdecl Utils::isMissionReadOnly(void)
+public: static char * __cdecl StringsHolder::GetString(unsigned long)
+public: static class ActiveInfo & __cdecl MapGroupProcessor::getActiveInfo(void)
+public: static class GroupProcessor * __cdecl GroupProcessor::find(void)
+public: static class GroupProcessor * __cdecl GroupProcessor::open(unsigned long)
+public: static class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __cdecl Utils::GetAlliesCoalition(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __cdecl Utils::GetEnemyCoalition(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __cdecl Utils::getCurrentMissionOptions(void)
+public: static class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __cdecl Utils::getMissionOptions(int)
+public: static class _com_ptr_t<class _com_IIID<struct MSXML::IXMLDOMDocument,&struct __s_GUID _GUID_2933bf81_7b36_11d2_b20e_00c04f983e60> > __cdecl Utils::OpenXMLDoc(class _bstr_t)
+public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl MapCoordsSpace::MapCoords::ConvertLatitudeToString(float,float)
+public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl MapCoordsSpace::MapCoords::ConvertLongitudeToString(float,float)
+public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Utils::createMeasureString(float)
+public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl MapProcessor::getObjName(void)
+public: static double __cdecl MapGroupProcessor::dist(struct IMapImage::Point &,struct IMapImage::Point &)
+public: static enum UI_STRINGS const * const WarningProcessor::m_escWarning
+public: static float __cdecl Utils::convertCentigradeToCentigradeOrFahrenheit(float)
+public: static float __cdecl Utils::convertKmsOrNMilesToKms(float)
+public: static float __cdecl Utils::convertKmsToKmsOrNMiles(float)
+public: static float __cdecl Utils::convertMetersOrFeetToMeters(float)
+public: static float __cdecl Utils::convertMetersToMetersOrFeet(float)
+public: static float __cdecl Utils::convertMetersToUserUnits(float)
+public: static float __cdecl Utils::revertAngle(float)
+public: static int __cdecl UnitZone::getNumberOfSegments(float)
+public: static int __cdecl Utils::getUnitPictureID(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static long __cdecl Utils::GetLongFromString(char const *)
+public: static long __cdecl Utils::convertCategory(long,bool)
+public: static long __cdecl Utils::convertTask(long,bool)
+public: static unsigned long __cdecl ColorsProcessor::getColorFor(enum ColorsProcessor::ColorSet)
+public: static unsigned long __cdecl UnitZone::getFindingZoneColor(unsigned long)
+public: static unsigned long __cdecl UnitZone::getKillingZoneColor(unsigned long)
+public: static void __cdecl AbleToCloseMissionEditor::SetFlagOfClosingItselfOnly(bool)
+public: static void __cdecl AboutProcessor::Finish(void)
+public: static void __cdecl CampaignProcessor::SetCampaignPassing(bool)
+public: static void __cdecl CampaignProcessor::SetEditableCampaignMode(bool)
+public: static void __cdecl CampaignProcessorWatcher::Init(void)
+public: static void __cdecl CampaignProcessorWatcher::InitInsideDerived(void)
+public: static void __cdecl CountriesInf::Finish(void)
+public: static void __cdecl GroupProcessor::syncAllAircraftCarrierInGroup(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,bool)
+public: static void __cdecl GroupProcessor::syncWithAircraftCarrier(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,bool)
+public: static void __cdecl MapProcessor::deleteImage(struct IMapImage *)
+public: static void __cdecl MapProcessor::deleteMapObjInfo(class IMapObjInfo *)
+public: static void __cdecl MapProcessor::deleteObjects(void)
+public: static void __cdecl OpenMissionProcessor::setMerged(int)
+public: static void __cdecl StringsHolder::Clear(void)
+public: static void __cdecl ToolbarProcessor::disableMenu(void)
+public: static void __cdecl ToolbarProcessor::enableMenu(bool)
+public: static void __cdecl TrainingProcessor::Finish(void)
+public: static void __cdecl Utils::AddStringWithDivision(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,int,int,bool)
+public: static void __cdecl Utils::CatBlanks_T(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,int)
+public: static void __cdecl Utils::SetProperReadOnlyStateForControls(class std::vector<class UI::Element *,class std::allocator<class UI::Element *> > const &)
+public: static void __cdecl Utils::copyPlayerOptions(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static void __cdecl Utils::focusOnEditBox(class Control *)
+public: static void __cdecl Utils::loadSetGlobal(void)
+public: static void __cdecl Utils::overrideMissionOptions(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static void __cdecl Utils::reinitializeScenes(void)
+public: static void __cdecl Utils::saveSetGlobal(void)
+public: static void __cdecl Utils::selectAndFocusOnEditBox(class Control *)
+public: static void __cdecl Utils::setCountryToStaticWithIcon(class StaticWithIcon *,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static void __cdecl Utils::setForceUseMissionOptions(bool)
+public: static void __cdecl Utils::setReadOnlyForControls(class Control * *,class Control *,bool)
+public: static void __cdecl Utils::setReadOnlyForControls(class Control *,int *,int,bool)
+public: static void __cdecl Utils::setSetGlobal(bool)
+public: static void __cdecl Utils::setToDefaultMissionOptions(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static void __cdecl Utils::trySetPilotFromLogBookCamp(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static void __cdecl Utils::trySetPilotFromLogBookMiss(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: static void __cdecl Utils::windowSizeChangedMessage(void)
+public: struct MapProcessor::ControlInfo & __thiscall MapProcessor::getControlInfo(void)
+public: unsigned long __thiscall ToolsProcessor::getGroupSelectorPosition(unsigned long)
+public: unsigned long __thiscall ToolsProcessor::setGroupSelectorPosition(unsigned long)
+public: unsigned long const & __thiscall MissionEditor::getVersion(void)const 
+public: virtual __thiscall Bindable::~Bindable(void)
+public: virtual __thiscall Binder::~Binder(void)
+public: virtual __thiscall CampaignOpenProcessor::~CampaignOpenProcessor(void)
+public: virtual __thiscall CampaignProcessor::~CampaignProcessor(void)
+public: virtual __thiscall DistanceTool::~DistanceTool(void)
+public: virtual __thiscall DlgMap::~DlgMap(void)
+public: virtual __thiscall GlobalMapEvoker::~GlobalMapEvoker(void)
+public: virtual __thiscall GroupProcessor::~GroupProcessor(void)
+public: virtual __thiscall MapEvoker::~MapEvoker(void)
+public: virtual __thiscall MapGroupProcessor::~MapGroupProcessor(void)
+public: virtual __thiscall MapListener::~MapListener(void)
+public: virtual __thiscall MapProcessor::~MapProcessor(void)
+public: virtual __thiscall MenuProcessor::~MenuProcessor(void)
+public: virtual __thiscall MissionEditor::~MissionEditor(void)
+public: virtual __thiscall OpenMissionProcessor::~OpenMissionProcessor(void)
+public: virtual __thiscall Parentable::~Parentable(void)
+public: virtual __thiscall PayloadProcessor::~PayloadProcessor(void)
+public: virtual __thiscall PilotLogBook::~PilotLogBook(void)
+public: virtual __thiscall ProcessorsHistory::~ProcessorsHistory(void)
+public: virtual __thiscall RecordAviProcessor::~RecordAviProcessor(void)
+public: virtual __thiscall SaveMissionBaseProcessor::~SaveMissionBaseProcessor(void)
+public: virtual __thiscall SaveTrackProcessor::~SaveTrackProcessor(void)
+public: virtual __thiscall ToolbarProcessor::~ToolbarProcessor(void)
+public: virtual __thiscall ToolsProcessor::~ToolsProcessor(void)
+public: virtual __thiscall TwoWayProcessor::~TwoWayProcessor(void)
+public: virtual __thiscall UnitZone::~UnitZone(void)
+public: virtual __thiscall UnitZones::~UnitZones(void)
+public: virtual __thiscall WarningProcessor::~WarningProcessor(void)
+public: virtual bool __thiscall CampaignOpenProcessor::FileWasChoosed(char const *,char const *,char const *,enum TwoWayProcessor::TwoWayProcessorFlags)
+public: virtual bool __thiscall CampaignOpenProcessor::initialize(void)
+public: virtual bool __thiscall CampaignOpenProcessor::uninitialize(void)
+public: virtual bool __thiscall CampaignProcessor::initialize(void)
+public: virtual bool __thiscall CampaignProcessor::uninitialize(void)
+public: virtual bool __thiscall DistanceTool::canAcceptPoint(class TPoint<float> const &)const 
+public: virtual bool __thiscall GroupProcessor::initialize(void)
+public: virtual bool __thiscall GroupProcessor::process(void)
+public: virtual bool __thiscall GroupProcessor::uninitialize(void)
+public: virtual bool __thiscall MapGroupProcessor::initialize(void)
+public: virtual bool __thiscall MapGroupProcessor::process(void)
+public: virtual bool __thiscall MapGroupProcessor::uninitialize(void)
+public: virtual bool __thiscall MapProcessor::initialize(void)
+public: virtual bool __thiscall MapProcessor::process(void)
+public: virtual bool __thiscall MapProcessor::uninitialize(void)
+public: virtual bool __thiscall MenuProcessor::initialize(void)
+public: virtual bool __thiscall MenuProcessor::uninitialize(void)
+public: virtual bool __thiscall MissionEditor::initialize(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: virtual bool __thiscall MissionEditor::process(void)
+public: virtual bool __thiscall MissionEditor::uninitialize(void)
+public: virtual bool __thiscall OpenMissionProcessor::FileWasChoosed(char const *,char const *,char const *,enum TwoWayProcessor::TwoWayProcessorFlags)
+public: virtual bool __thiscall OpenMissionProcessor::initialize(void)
+public: virtual bool __thiscall OpenMissionProcessor::uninitialize(void)
+public: virtual bool __thiscall PayloadProcessor::initialize(void)
+public: virtual bool __thiscall PayloadProcessor::uninitialize(void)
+public: virtual bool __thiscall PilotLogBook::initialize(void)
+public: virtual bool __thiscall PilotLogBook::process(void)
+public: virtual bool __thiscall PilotLogBook::uninitialize(void)
+public: virtual bool __thiscall RecordAviProcessor::initialize(void)
+public: virtual bool __thiscall RecordAviProcessor::uninitialize(void)
+public: virtual bool __thiscall SaveMissionBaseProcessor::FileWasChoosed(char const *,char const *,char const *,enum TwoWayProcessor::TwoWayProcessorFlags)
+public: virtual bool __thiscall SaveMissionBaseProcessor::initialize(void)
+public: virtual bool __thiscall SaveMissionBaseProcessor::uninitialize(void)
+public: virtual bool __thiscall SaveTrackProcessor::Notify(bool,char const *,char const *)
+public: virtual bool __thiscall ToolbarProcessor::initialize(void)
+public: virtual bool __thiscall ToolbarProcessor::process(void)
+public: virtual bool __thiscall ToolbarProcessor::uninitialize(void)
+public: virtual bool __thiscall ToolsProcessor::initialize(void)
+public: virtual bool __thiscall ToolsProcessor::uninitialize(void)
+public: virtual bool __thiscall TwoWayProcessor::FileWasChoosed(char const *,char const *,char const *,enum TwoWayProcessor::TwoWayProcessorFlags)
+public: virtual bool __thiscall TwoWayProcessor::Notify(bool,char const *,char const *)
+public: virtual bool __thiscall WarningProcessor::initialize(void)
+public: virtual bool __thiscall WarningProcessor::uninitialize(void)
+public: virtual class EagleDynamics::Common::Identifier __thiscall MissionEditor::getAutoActivatedProcessor(void)
+public: virtual enum Mode const & __thiscall MissionEditor::getMode(void)const 
+public: virtual enum Status __thiscall MissionEditor::getStatus(void)const 
+public: virtual enum Status __thiscall PilotLogBook::getStatus(void)const 
+public: virtual enum SubStatus __thiscall MissionEditor::getSubStatus(void)const 
+public: virtual void __thiscall Binder::add(class EagleDynamics::Common::Identifier const &)
+public: virtual void __thiscall Binder::add(class Processor const *)
+public: virtual void __thiscall Binder::clear(void)
+public: virtual void __thiscall Binder::close(void)
+public: virtual void __thiscall Binder::onClose(class Processor *)
+public: virtual void __thiscall Binder::onOpen(class Processor *)
+public: virtual void __thiscall Binder::open(void)
+public: virtual void __thiscall Binder::remove(class EagleDynamics::Common::Identifier const &)
+public: virtual void __thiscall Binder::remove(class Processor const *)
+public: virtual void __thiscall CampaignOpenProcessor::hide(void)
+public: virtual void __thiscall CampaignOpenProcessor::onClose(void)
+public: virtual void __thiscall CampaignOpenProcessor::onCreate(void)
+public: virtual void __thiscall CampaignOpenProcessor::onPaint(void)
+public: virtual void __thiscall CampaignOpenProcessor::show(bool)
+public: virtual void __thiscall CampaignProcessor::onClose(void)
+public: virtual void __thiscall CampaignProcessor::onCreate(void)
+public: virtual void __thiscall CampaignProcessor::show(bool)
+public: virtual void __thiscall DistanceTool::onMapEvent(struct MapListener::MapEvent *)
+public: virtual void __thiscall DistanceTool::onPaint(void)
+public: virtual void __thiscall GroupProcessor::onPaint(void)
+public: virtual void __thiscall GroupProcessor::place(long,long,long)
+public: virtual void __thiscall GroupProcessor::setGroupType(unsigned long)
+public: virtual void __thiscall MapGroupProcessor::onActiveEvent(struct ActiveListener::ActiveEvent *)
+public: virtual void __thiscall MapGroupProcessor::onMapEvent(struct MapListener::MapEvent *)
+public: virtual void __thiscall MapListener::onMapEvent(struct MapListener::MapEvent *)
+public: virtual void __thiscall MenuProcessor::onCreate(void)
+public: virtual void __thiscall MissionEditor::missionChanged(enum MissionDisplay const &,bool)
+public: virtual void __thiscall MissionEditor::setAutoActivatedProcessor(class EagleDynamics::Common::Identifier const &)
+public: virtual void __thiscall MissionEditor::setHistory(class ProcessorsHistory const *,bool,int *)
+public: virtual void __thiscall MissionEditor::setMode(enum Mode const &)
+public: virtual void __thiscall MissionEditor::setStatus(enum Status const &)
+public: virtual void __thiscall MissionEditor::setSubStatus(enum SubStatus const &)
+public: virtual void __thiscall OpenMissionProcessor::Notify(bool)
+public: virtual void __thiscall OpenMissionProcessor::onCreate(void)
+public: virtual void __thiscall OpenMissionProcessor::onPaint(void)
+public: virtual void __thiscall Parentable::OnClose(void)
+public: virtual void __thiscall Parentable::SetParent(class TwoWayProcessor const *,bool)
+public: virtual void __thiscall PayloadProcessor::onCreate(void)
+public: virtual void __thiscall PayloadProcessor::onPaint(void)
+public: virtual void __thiscall PilotLogBook::setStatus(enum Status const &)
+public: virtual void __thiscall RecordAviProcessor::onCreate(void)
+public: virtual void __thiscall RecordAviProcessor::onPaint(void)
+public: virtual void __thiscall SaveMissionBaseProcessor::Notify(bool)
+public: virtual void __thiscall SaveMissionBaseProcessor::OnClose(void)
+public: virtual void __thiscall SaveMissionBaseProcessor::onCreate(void)
+public: virtual void __thiscall SaveMissionBaseProcessor::onPaint(void)
+public: virtual void __thiscall SaveTrackProcessor::Notify(void)
+public: virtual void __thiscall SaveTrackProcessor::onCreate(void)
+public: virtual void __thiscall ToolbarProcessor::onClose(class Processor *)
+public: virtual void __thiscall ToolbarProcessor::onCreate(void)
+public: virtual void __thiscall ToolbarProcessor::onOpen(class Processor *)
+public: virtual void __thiscall ToolsProcessor::Notify(bool)
+public: virtual void __thiscall ToolsProcessor::onClose(class Processor *)
+public: virtual void __thiscall ToolsProcessor::onCreate(void)
+public: virtual void __thiscall ToolsProcessor::onGroupType(class GroupTypeProcessor *)
+public: virtual void __thiscall ToolsProcessor::onOpen(class Processor *)
+public: virtual void __thiscall TwoWayProcessor::Add(class Parentable *)
+public: virtual void __thiscall TwoWayProcessor::Notify(bool)
+public: virtual void __thiscall TwoWayProcessor::Notify(bool,class Parentable *)
+public: virtual void __thiscall TwoWayProcessor::Notify(void)
+public: virtual void __thiscall TwoWayProcessor::Remove(class Parentable *)
+public: virtual void __thiscall WarningProcessor::onCreate(void)
+public: void __thiscall AbleToCloseMissionEditor::OnClose(void)
+public: void __thiscall CampaignOpenProcessor::OnCancel(void)
+public: void __thiscall CampaignOpenProcessor::OnClose(void)
+public: void __thiscall CampaignOpenProcessor::OnOpen(void)
+public: void __thiscall CampaignOpenProcessor::SetParentProcessor(class TwoWayProcessor const *)
+public: void __thiscall CampaignOpenProcessor::`vbase destructor'(void)
+public: void __thiscall CampaignProcessor::ClearTheCampaign(void)
+public: void __thiscall CampaignProcessor::OnCampaignTitleEdit(void)
+public: void __thiscall CampaignProcessor::OnClose(void)
+public: void __thiscall CampaignProcessor::OnExit(void)
+public: void __thiscall CampaignProcessor::OnReset(void)
+public: void __thiscall CampaignProcessor::OnResult(void)
+public: void __thiscall CampaignProcessor::OnSelChangeStagesList(void)
+public: void __thiscall CampaignProcessor::OnStageDescriptionEdit(void)
+public: void __thiscall CampaignProcessor::OnStageSpinEdit(void)
+public: void __thiscall CampaignProcessor::OnStageTitleEdit(void)
+public: void __thiscall CampaignProcessor::OnStagesQuantitySpinEdit(void)
+public: void __thiscall CampaignProcessor::Refresh(bool *)
+public: void __thiscall CampaignProcessor::RefreshCoalitions(void)
+public: void __thiscall CampaignProcessor::`vbase destructor'(void)
+public: void __thiscall CampaignProcessor::setFirstStageActive(void)
+public: void __thiscall CampaignProcessor::setToolbarButtonsState(void)
+public: void __thiscall CountriesInf::AddStringWithIconToListBox(class MultiColumnListBox *,char const *,int,int)
+public: void __thiscall DistanceTool::`vbase destructor'(void)
+public: void __thiscall DistanceTool::deleteFirstPoint(void)
+public: void __thiscall DistanceTool::deleteMeasureLine(void)
+public: void __thiscall DistanceTool::deleteSecondPoint(void)
+public: void __thiscall DistanceTool::init(void)
+public: void __thiscall DistanceTool::onLButtonDblclk(int,float,float)
+public: void __thiscall DistanceTool::onMouseMove(int,float,float)
+public: void __thiscall DistanceTool::onRButtonDown(int,float,float)
+public: void __thiscall DistanceTool::setFirstPoint(float,float)
+public: void __thiscall DistanceTool::setMeasureLine(class TPoint<float> *,class TPoint<float> *)
+public: void __thiscall DistanceTool::setMode(int)
+public: void __thiscall DistanceTool::setSecondPoint(float,float)
+public: void __thiscall DlgMap::`vbase destructor'(void)
+public: void __thiscall DlgMap::restoreMapPosFromCurrMiss(void)
+public: void __thiscall DlgMap::setCursor(int)
+public: void __thiscall DlgMap::setDragMode(bool)
+public: void __thiscall DlgMap::setMapProcessor(class MapProcessor *)
+public: void __thiscall DlgMap::setNextWindow(void)
+public: void __thiscall DlgMap::setPrevWindow(void)
+public: void __thiscall DlgMap::windowSizeChangedMessage(void)
+public: void __thiscall DlgMap::zoom100(void)
+public: void __thiscall DlgMap::zoomIn(void)
+public: void __thiscall DlgMap::zoomOut(void)
+public: void __thiscall FileProcessor::setUsingCurrentDirs(bool)
+public: void __thiscall GlobalMapEvoker::evoke(struct MapListener::MapEvent *)
+public: void __thiscall GroupProcessor::`vbase destructor'(void)
+public: void __thiscall GroupProcessor::clearRouteAngle(void)
+public: void __thiscall GroupProcessor::hideGroup(class _com_ptr_t<class _com_IIID<struct IGroup,&struct __s_GUID _GUID_5db2dc56_6086_430b_bab5_89e7f2713e3c> >)
+public: void __thiscall GroupProcessor::hideGroup(void)
+public: void __thiscall GroupProcessor::onHideTheGroup(void)
+public: void __thiscall GroupProcessor::removeGroup(class _com_ptr_t<class _com_IIID<struct IGroup,&struct __s_GUID _GUID_5db2dc56_6086_430b_bab5_89e7f2713e3c> >)
+public: void __thiscall GroupProcessor::removeGroup(void)
+public: void __thiscall GroupProcessor::removeSubgroup(class _com_ptr_t<class _com_IIID<struct ISubGroup,&struct __s_GUID _GUID_1412e78f_49a3_48dd_b837_06f96aebeeb5> >)
+public: void __thiscall GroupProcessor::removeSubgroup(void)
+public: void __thiscall GroupProcessor::removeUnit(class _com_ptr_t<class _com_IIID<struct IUnit,&struct __s_GUID _GUID_b201985d_cc3e_4aa1_aca6_5b77c761821a> >)
+public: void __thiscall GroupProcessor::removeUnit(void)
+public: void __thiscall GroupProcessor::setAllGroups(void)
+public: void __thiscall GroupProcessor::setCountry(class _com_ptr_t<class _com_IIID<struct ICountry,&struct __s_GUID _GUID_3704fc6b_41cc_408a_b5f0_d962d92ed09f> >)
+public: void __thiscall GroupProcessor::setCurrentSkill(class _com_ptr_t<class _com_IIID<struct ISkill,&struct __s_GUID _GUID_0c811ed3_3c8b_4386_995d_186bc080eb2e> >)
+public: void __thiscall GroupProcessor::setEnemyType(int)
+public: void __thiscall GroupProcessor::setExistingGroup(class _com_ptr_t<class _com_IIID<struct IGroup,&struct __s_GUID _GUID_5db2dc56_6086_430b_bab5_89e7f2713e3c> >)
+public: void __thiscall GroupProcessor::setGroup(class _com_ptr_t<class _com_IIID<struct IGroup,&struct __s_GUID _GUID_5db2dc56_6086_430b_bab5_89e7f2713e3c> >,bool)
+public: void __thiscall GroupProcessor::setGroups(class _com_ptr_t<class _com_IIID<struct IGroups,&struct __s_GUID _GUID_fd7ee3df_b013_495e_b14d_3127b9c04ec7> >)
+public: void __thiscall GroupProcessor::setSkill(class _com_ptr_t<class _com_IIID<struct ISkill,&struct __s_GUID _GUID_0c811ed3_3c8b_4386_995d_186bc080eb2e> >)
+public: void __thiscall GroupProcessor::setSubgroup(class _com_ptr_t<class _com_IIID<struct ISubGroup,&struct __s_GUID _GUID_1412e78f_49a3_48dd_b837_06f96aebeeb5> >)
+public: void __thiscall GroupProcessor::setSubgroups(class _com_ptr_t<class _com_IIID<struct ISubGroups,&struct __s_GUID _GUID_757afdc9_daf6_4d84_9611_b34975aa0f9d> >)
+public: void __thiscall GroupProcessor::setTask(class _com_ptr_t<class _com_IIID<struct ITask,&struct __s_GUID _GUID_0d65cbd5_1a48_4db6_b773_d1e05023263d> >)
+public: void __thiscall GroupProcessor::setType(class _com_ptr_t<class _com_IIID<struct IUnitSpecification,&struct __s_GUID _GUID_282f8931_af69_44df_87f5_c6bb8dcaf7f9> >)
+public: void __thiscall GroupProcessor::setUnit(class _com_ptr_t<class _com_IIID<struct IUnit,&struct __s_GUID _GUID_b201985d_cc3e_4aa1_aca6_5b77c761821a> >)
+public: void __thiscall GroupProcessor::setUnits(class _com_ptr_t<class _com_IIID<struct IUnits,&struct __s_GUID _GUID_ab20b8c0_0c75_4691_9814_59196b9b8792> >)
+public: void __thiscall GroupProcessor::updateCountry(void)
+public: void __thiscall GroupProcessor::updateCountryList(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: void __thiscall GroupProcessor::updateGroup(void)
+public: void __thiscall GroupProcessor::updateGroupType(void)
+public: void __thiscall GroupProcessor::updateGroups(void)
+public: void __thiscall GroupProcessor::updateSkill(class _com_ptr_t<class _com_IIID<struct ISkill,&struct __s_GUID _GUID_0c811ed3_3c8b_4386_995d_186bc080eb2e> >)
+public: void __thiscall GroupProcessor::updateSubgroup(void)
+public: void __thiscall GroupProcessor::updateSubgroups(void)
+public: void __thiscall GroupProcessor::updateTask(void)
+public: void __thiscall GroupProcessor::updateType(void)
+public: void __thiscall GroupProcessor::updateUnit(void)
+public: void __thiscall GroupProcessor::updateUnits(void)
+public: void __thiscall MapEvoker::evoke(struct MapListener::MapEvent *)
+public: void __thiscall MapGroupProcessor::SetParentProcessor(class TwoWayProcessor const *)
+public: void __thiscall MapGroupProcessor::addDraw(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long)
+public: void __thiscall MapGroupProcessor::changeRouteDraw(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long,bool)
+public: void __thiscall MapGroupProcessor::flushMaps(void)
+public: void __thiscall MapGroupProcessor::recreateAllZones(void)
+public: void __thiscall MapGroupProcessor::removeDraw(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: void __thiscall MapGroupProcessor::setCapture(class MapListener *)
+public: void __thiscall MapGroupProcessor::setMode(enum MapGroupProcessor::Mode)
+public: void __thiscall MapGroupProcessor::setSideFilter(enum MapConverterTypes::MissSide)
+public: void __thiscall MapGroupProcessor::setTypeFilter(enum MapConverterTypes::MissType,bool)
+public: void __thiscall MapGroupProcessor::setTypeMask(enum MapConverterTypes::MissType)
+public: void __thiscall MapGroupProcessor::setViewKillingAndFindingZonesState(enum MapConverterTypes::MissType)
+public: void __thiscall MapGroupProcessor::setViewKillingAndFindingZonesState(enum MapConverterTypes::MissType,bool)
+public: void __thiscall MapGroupProcessor::updateAll(void)
+public: void __thiscall MapGroupProcessor::updateDraw(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,unsigned long,bool)
+public: void __thiscall MapProcessor::changeStyle(int,bool)
+public: void __thiscall MapProcessor::setCursor(int)
+public: void __thiscall MapProcessor::zoom100(void)
+public: void __thiscall MapProcessor::zoomBack(void)
+public: void __thiscall MapProcessor::zoomForward(void)
+public: void __thiscall MapProcessor::zoomIn(void)
+public: void __thiscall MapProcessor::zoomOut(void)
+public: void __thiscall MenuProcessor::`vbase destructor'(void)
+public: void __thiscall MenuProcessor::onClose(void)
+public: void __thiscall MenuProcessor::onExit(void)
+public: void __thiscall MenuProcessor::setName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
+public: void __thiscall MissionEditor::createWaitDialog(void)
+public: void __thiscall MissionEditor::destroyWaitDialog(void)
+public: void __thiscall MissionEditor::dontSetMapScaleToDefaultAtNextInitializing(void)
+public: void __thiscall MissionEditor::finish(void)
+public: void __thiscall MissionEditor::freeApplication(void)
+public: void __thiscall MissionEditor::freeCampaign(void)
+public: void __thiscall MissionEditor::setCampaign(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: void __thiscall MissionEditor::setDisabledStateOfAllButtons(void)
+public: void __thiscall MissionEditor::setFileName(char const *,char const *,char const *,enum TwoWayProcessor::TwoWayProcessorFlags)
+public: void __thiscall MissionEditor::setMetricSystem(bool)
+public: void __thiscall MissionEditor::setProperStateOfButtons(void)
+public: void __thiscall MissionEditor::setStateOfAnyGroupSelection(bool)
+public: void __thiscall MissionEditor::setStateOfButtons(bool)
+public: void __thiscall MissionEditor::setStateOfButtons(class std::vector<enum MEButton,class std::allocator<enum MEButton> >,bool)
+public: void __thiscall MissionEditor::setStateOfFlyReadiness(bool)
+public: void __thiscall MissionEditor::showToolbar(bool)
+public: void __thiscall MissionEditor::showTools(bool)
+public: void __thiscall MissionEditor::updateMap(void)
+public: void __thiscall NewMissionProcessor::Add(class MissionListener *)
+public: void __thiscall NewMissionProcessor::Remove(class MissionListener *)
+public: void __thiscall OpenMissionProcessor::Add(class MissionListener *)
+public: void __thiscall OpenMissionProcessor::OnCancel(void)
+public: void __thiscall OpenMissionProcessor::OnClose(void)
+public: void __thiscall OpenMissionProcessor::OnDelete(void)
+public: void __thiscall OpenMissionProcessor::OnEdit(void)
+public: void __thiscall OpenMissionProcessor::OnMouseWheel(void)
+public: void __thiscall OpenMissionProcessor::OnScrollThePage(void)
+public: void __thiscall OpenMissionProcessor::Remove(class MissionListener *)
+public: void __thiscall OpenMissionProcessor::SetParentProcessor(class TwoWayProcessor const *)
+public: void __thiscall OpenMissionProcessor::`vbase destructor'(void)
+public: void __thiscall OpenMissionProcessor::onClose(void)
+public: void __thiscall PayloadProcessor::OnBalanceSlider(void)
+public: void __thiscall PayloadProcessor::OnEmptyWeightEdit(void)
+public: void __thiscall PayloadProcessor::OnFuelEdit(void)
+public: void __thiscall PayloadProcessor::OnFuelSlider(void)
+public: void __thiscall PayloadProcessor::OnFuelWeightEdit(void)
+public: void __thiscall PayloadProcessor::OnMaxTotalWeightEdit(void)
+public: void __thiscall PayloadProcessor::OnTotalWeightEdit(void)
+public: void __thiscall PayloadProcessor::OnTotalWeightPercentEdit(void)
+public: void __thiscall PayloadProcessor::OnTotalWeightPercentSlider(void)
+public: void __thiscall PayloadProcessor::OnWeaponsWeightEdit(void)
+public: void __thiscall PayloadProcessor::SetArtificalEventValue(bool)
+public: void __thiscall PayloadProcessor::`vbase destructor'(void)
+public: void __thiscall PayloadProcessor::onClose(void)
+public: void __thiscall PlayDemoProcessor::Add(class ToolbarProcessor::ToolbarListener *)
+public: void __thiscall PlayDemoProcessor::Remove(class ToolbarProcessor::ToolbarListener *)
+public: void __thiscall RecordAviProcessor::`vbase destructor'(void)
+public: void __thiscall RecordAviProcessor::onClose(void)
+public: void __thiscall RecordAviProcessor::onRate(void)
+public: void __thiscall RecordAviProcessor::onRateEdit(void)
+public: void __thiscall RecordAviProcessor::onStart(void)
+public: void __thiscall SaveMissionBaseProcessor::OnCancel(void)
+public: void __thiscall SaveMissionBaseProcessor::OnDelete(void)
+public: void __thiscall SaveMissionBaseProcessor::OnSave(void)
+public: void __thiscall SaveMissionBaseProcessor::`vbase destructor'(void)
+public: void __thiscall SaveMissionBaseProcessor::onClose(void)
+public: void __thiscall SaveMissionBaseProcessor::onKeyDown(int,int)
+public: void __thiscall SaveTrackProcessor::`vbase destructor'(void)
+public: void __thiscall ToolbarProcessor::Notify(bool)
+public: void __thiscall ToolbarProcessor::OnClose(void)
+public: void __thiscall ToolbarProcessor::`vbase destructor'(void)
+public: void __thiscall ToolbarProcessor::add(class ToolbarProcessor::ToolbarListener *)
+public: void __thiscall ToolbarProcessor::doNotify(enum ToolbarProcessor::Elements)
+public: void __thiscall ToolbarProcessor::locking(class std::bitset<24> const &)
+public: void __thiscall ToolbarProcessor::onAbout(void)
+public: void __thiscall ToolbarProcessor::onBackward(void)
+public: void __thiscall ToolbarProcessor::onBriefing(void)
+public: void __thiscall ToolbarProcessor::onClassify(void)
+public: void __thiscall ToolbarProcessor::onClockMode(void)
+public: void __thiscall ToolbarProcessor::onClose(void)
+public: void __thiscall ToolbarProcessor::onCoalitions(void)
+public: void __thiscall ToolbarProcessor::onColors(void)
+public: void __thiscall ToolbarProcessor::onCopy(void)
+public: void __thiscall ToolbarProcessor::onCut(void)
+public: void __thiscall ToolbarProcessor::onDebriefing(void)
+public: void __thiscall ToolbarProcessor::onDeclassify(void)
+public: void __thiscall ToolbarProcessor::onDelete(void)
+public: void __thiscall ToolbarProcessor::onEncyclopedia(void)
+public: void __thiscall ToolbarProcessor::onFailures(void)
+public: void __thiscall ToolbarProcessor::onForward(void)
+public: void __thiscall ToolbarProcessor::onHide(void)
+public: void __thiscall ToolbarProcessor::onLoopTrack(void)
+public: void __thiscall ToolbarProcessor::onMEScript(void)
+public: void __thiscall ToolbarProcessor::onMapOptions(void)
+public: void __thiscall ToolbarProcessor::onMenuItemSelect(int,int)
+public: void __thiscall ToolbarProcessor::onMerge(void)
+public: void __thiscall ToolbarProcessor::onNetChat(void)
+public: void __thiscall ToolbarProcessor::onNetPlay(void)
+public: void __thiscall ToolbarProcessor::onNew(void)
+public: void __thiscall ToolbarProcessor::onOpen(void)
+public: void __thiscall ToolbarProcessor::onOptions(void)
+public: void __thiscall ToolbarProcessor::onPaste(void)
+public: void __thiscall ToolbarProcessor::onPilotLogBook(void)
+public: void __thiscall ToolbarProcessor::onPlayTrack(void)
+public: void __thiscall ToolbarProcessor::onPrintScreen(void)
+public: void __thiscall ToolbarProcessor::onRecordAvi(void)
+public: void __thiscall ToolbarProcessor::onRecordTrack(void)
+public: void __thiscall ToolbarProcessor::onRedo(void)
+public: void __thiscall ToolbarProcessor::onSave(void)
+public: void __thiscall ToolbarProcessor::onSaveAs(void)
+public: void __thiscall ToolbarProcessor::onStart(void)
+public: void __thiscall ToolbarProcessor::onTraining(void)
+public: void __thiscall ToolbarProcessor::onUndo(void)
+public: void __thiscall ToolbarProcessor::onVideoEdit(void)
+public: void __thiscall ToolbarProcessor::onWeather(void)
+public: void __thiscall ToolbarProcessor::remove(class ToolbarProcessor::ToolbarListener *)
+public: void __thiscall ToolbarProcessor::setButtonState(enum ToolbarProcessor::Elements,bool)
+public: void __thiscall ToolbarProcessor::setButtonsPassingCampaign(void)
+public: void __thiscall ToolbarProcessor::setCapture(class ToolbarProcessor::ToolbarListener *)
+public: void __thiscall ToolbarProcessor::setDisabledStateOfAllButtons(void)
+public: void __thiscall ToolbarProcessor::setStateOfAnyGroupSelection(bool)
+public: void __thiscall ToolbarProcessor::setStateOfButton(enum MEButton,bool)
+public: void __thiscall ToolbarProcessor::setStateOfButtons(bool)
+public: void __thiscall ToolbarProcessor::setStateOfFlyReadiness(bool)
+public: void __thiscall ToolbarProcessor::setStateOfMenuButtons(bool)
+public: void __thiscall ToolbarProcessor::startRecordAvi(void)
+public: void __thiscall ToolsProcessor::`vbase destructor'(void)
+public: void __thiscall ToolsProcessor::add(class ToolsProcessor::ToolsListener *)
+public: void __thiscall ToolsProcessor::locking(void)
+public: void __thiscall ToolsProcessor::onCamp(void)
+public: void __thiscall ToolsProcessor::onFastBattlePlanner(void)
+public: void __thiscall ToolsProcessor::onGroupSelector(void)
+public: void __thiscall ToolsProcessor::onMissionEditor(void)
+public: void __thiscall ToolsProcessor::onMissionGoal(void)
+public: void __thiscall ToolsProcessor::onNetMode(void)
+public: void __thiscall ToolsProcessor::onNetworkPlay(void)
+public: void __thiscall ToolsProcessor::onStartSelector(void)
+public: void __thiscall ToolsProcessor::onZoom100(void)
+public: void __thiscall ToolsProcessor::onZoomBack(void)
+public: void __thiscall ToolsProcessor::onZoomForward(void)
+public: void __thiscall ToolsProcessor::onZoomInOff(void)
+public: void __thiscall ToolsProcessor::onZoomInOn(void)
+public: void __thiscall ToolsProcessor::onZoomOutOff(void)
+public: void __thiscall ToolsProcessor::onZoomOutOn(void)
+public: void __thiscall ToolsProcessor::press(enum ToolsProcessor::ToolsElements const &)
+public: void __thiscall ToolsProcessor::remove(class ToolsProcessor::ToolsListener *)
+public: void __thiscall ToolsProcessor::resetAllZoomButtonsToUnpushedState(void)
+public: void __thiscall ToolsProcessor::setButtonsPassingCampaign(void)
+public: void __thiscall ToolsProcessor::setCapture(class ToolsProcessor::ToolsListener *)
+public: void __thiscall ToolsProcessor::setCorrectStartSelectorPosition(void)
+public: void __thiscall ToolsProcessor::setDisabledStateOfAllButtons(void)
+public: void __thiscall ToolsProcessor::setNetwork(bool)
+public: void __thiscall ToolsProcessor::setStateOfButton(enum MEButton,bool)
+public: void __thiscall ToolsProcessor::setStateOfButtons(bool)
+public: void __thiscall ToolsProcessor::unlocking(void)
+public: void __thiscall ToolsProcessor::unpress(enum ToolsProcessor::ToolsElements const &)
+public: void __thiscall ToolsProcessor::zoomIn(void)
+public: void __thiscall ToolsProcessor::zoomOut(void)
+public: void __thiscall TrainingProcessor::Add(class ToolbarProcessor::ToolbarListener *)
+public: void __thiscall TrainingProcessor::Remove(class ToolbarProcessor::ToolbarListener *)
+public: void __thiscall UnitZone::onPaint(void)
+public: void __thiscall UnitZone::setColor(int,int,int,int,bool)
+public: void __thiscall UnitZone::setColor(unsigned long,bool)
+public: void __thiscall UnitZone::setRadius(float)
+public: void __thiscall UnitZone::setZone(float,float,float)
+public: void __thiscall UnitZones::onPaint(void)
+public: void __thiscall WarningProcessor::OnCancel(void)
+public: void __thiscall WarningProcessor::OnNo(void)
+public: void __thiscall WarningProcessor::OnOk(void)
+public: void __thiscall WarningProcessor::SetParentProcessor(class TwoWayProcessor const *)
+public: void __thiscall WarningProcessor::SetText(char const *)
+public: void __thiscall WarningProcessor::`vbase destructor'(void)
+public: void __thiscall WarningProcessor::onClose(void)
+public: void __thiscall WarningProcessor::onKeyDown(int,int)
+void __cdecl fly(void)
+void __cdecl goToMEsection(enum MissionEditorSections)
+void __cdecl removeGroupsFromDraw(void)
+void __cdecl restoreMapPositionFromMission(void)
+void __cdecl setGroupPoint(class _com_ptr_t<class _com_IIID<struct IGroup,&struct __s_GUID _GUID_5db2dc56_6086_430b_bab5_89e7f2713e3c> >,int,long,long,long)
+void __cdecl setMapDragging(class DlgMap *,bool)
+void __cdecl setSideFilter(enum MapConverterTypes::MissSide)
+void __cdecl setTypeFilter(enum MapConverterTypes::MissType,bool)
+void __cdecl setTypeMask(enum MapConverterTypes::MissType)

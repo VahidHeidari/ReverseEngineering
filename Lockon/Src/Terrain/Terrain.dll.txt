@@ -1,0 +1,812 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\Terrain.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab07ec    Thu Nov 06 18:48:12 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00057c5a    'Terrain.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               797
+	NUMBER OF NAMES                   797
+	ADDRESS OF FUNCTIONS              0x00055d38
+	ADDRESS OF NAMES                  0x000569ac
+	ADDRESS OF NAME ORDINALS          0x00057620
+bool __cdecl MyFillet(class E3::Vector,class E3::Vector,class E3::Vector,class E3::Vector,float,class FRoadSegment *,float &,float &)
+bool __cdecl ReadRailStayPointsFromFile(struct _iobuf *)
+char * ROAD_TEXTURE_PATH
+class FRoad * __cdecl CreatePathConnection(class E3::Vector,class E3::Vector,class E3::Vector,class E3::Vector)
+class FRoad * __cdecl GetPath(class E3::Vector *,class E3::Vector *,float,class E3::Vector *,class E3::Vector *)
+class FRoad * __cdecl GetRailPath(class E3::Vector *,class E3::Vector *,bool)
+class FRoad * __cdecl JoinRoads(class FRoad *,class FRoad *)
+class FRoadSegment * __cdecl Offset(class FRoad *,unsigned short,float,unsigned short,float,float,int &,int)
+class FRoadSegment * __cdecl ThroughCrossWay(int,float,int,float,int,int &)
+class FRoadSegment * __cdecl ThroughRailwaySwitchWay(int,float,int,float,int,int &)
+class lRoadManager * pRoadManager
+class lRoadManagerImpl theRoadManager
+class lRunTimeLoader scenePreloader
+const BridgeListener::`vftable'
+const FRoad::`vftable'
+const FRoadSegment::`vftable'
+const lBaseObject::`vftable'{for `Graphics::ModelInstance'}
+const lBaseObject::`vftable'{for `IwNetObject'}
+const lBaseObject::`vftable'{for `lLandObject'}
+const lBaseObject::`vftable'{for `viObject'}
+const lBoilerHouse::`vftable'
+const lBoilerHouse::`vftable'{for `Graphics::ModelInstance'}
+const lBoilerHouse::`vftable'{for `IwNetObject'}
+const lBoilerHouse::`vftable'{for `lLandObject'}
+const lBoilerHouse::`vftable'{for `viObject'}
+const lBridge::`vftable'{for `Graphics::ModelInstance'}
+const lBridge::`vftable'{for `IwNetObject'}
+const lBridge::`vftable'{for `lLandObject'}
+const lBridge::`vftable'{for `viObject'}
+const lCableDynData::`vftable'
+const lCrater::`vftable'
+const lCrater::`vftable'{for `Graphics::ModelInstance'}
+const lCrater::`vftable'{for `viObject'}
+const lCrossing::`vftable'{for `Graphics::ModelInstance'}
+const lCrossing::`vftable'{for `IwNetObject'}
+const lCrossing::`vftable'{for `lLandObject'}
+const lCrossing::`vftable'{for `viObject'}
+const lCrossingActivity::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const lCrossingActivity::`vftable'{for `Suicide'}
+const lDanceFloor::`vftable'{for `Graphics::ModelInstance'}
+const lDanceFloor::`vftable'{for `IwNetObject'}
+const lDanceFloor::`vftable'{for `lLandObject'}
+const lDanceFloor::`vftable'{for `viObject'}
+const lETL::`vftable'{for `Graphics::ModelInstance'}
+const lETL::`vftable'{for `IwNetObject'}
+const lETL::`vftable'{for `lLandObject'}
+const lETL::`vftable'{for `viObject'}
+const lETL_Cables::`vftable'
+const lETL_Cables::`vftable'{for `Graphics::ModelInstance'}
+const lETL_Cables::`vftable'{for `viObject'}
+const lETL_Farm::`vftable'{for `Graphics::ModelInstance'}
+const lETL_Farm::`vftable'{for `IwNetObject'}
+const lETL_Farm::`vftable'{for `lLandObject'}
+const lETL_Farm::`vftable'{for `viObject'}
+const lETL_Substation::`vftable'{for `Graphics::ModelInstance'}
+const lETL_Substation::`vftable'{for `IwNetObject'}
+const lETL_Substation::`vftable'{for `lLandObject'}
+const lETL_Substation::`vftable'{for `viObject'}
+const lForest::`vftable'{for `Graphics::ModelInstance'}
+const lForest::`vftable'{for `IwNetObject'}
+const lForest::`vftable'{for `lLandObject'}
+const lForest::`vftable'{for `viObject'}
+const lLandPlane::`vftable'{for `Graphics::ModelInstance'}
+const lLandPlane::`vftable'{for `IwNetObject'}
+const lLandPlane::`vftable'{for `lLandObject'}
+const lLandPlane::`vftable'{for `viObject'}
+const lLandShip::`vftable'{for `Graphics::ModelInstance'}
+const lLandShip::`vftable'{for `IwNetObject'}
+const lLandShip::`vftable'{for `lLandObject'}
+const lLandShip::`vftable'{for `viObject'}
+const lLandscape::`vftable'
+const lLandscapeImpl::`vftable'{for `lLandscape'}
+const lLandscapeImpl::`vftable'{for `landscape::lSurfaceDataManager'}
+const lLighthouse::`vftable'{for `Graphics::ModelInstance'}
+const lLighthouse::`vftable'{for `IwNetObject'}
+const lLighthouse::`vftable'{for `lLandObject'}
+const lLighthouse::`vftable'{for `viObject'}
+const lLockOnObjectFactory::`vftable'
+const lObjWithLights::`vftable'{for `Graphics::ModelInstance'}
+const lObjWithLights::`vftable'{for `IwNetObject'}
+const lObjWithLights::`vftable'{for `lLandObject'}
+const lObjWithLights::`vftable'{for `viObject'}
+const lObjectFire::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const lObjectFire::`vftable'{for `Suicide'}
+const lOilTank::`vftable'{for `Graphics::ModelInstance'}
+const lOilTank::`vftable'{for `IwNetObject'}
+const lOilTank::`vftable'{for `lLandObject'}
+const lOilTank::`vftable'{for `viObject'}
+const lPortCrane::`vftable'{for `Graphics::ModelInstance'}
+const lPortCrane::`vftable'{for `IwNetObject'}
+const lPortCrane::`vftable'{for `lLandObject'}
+const lPortCrane::`vftable'{for `viObject'}
+const lRadarQuery::`vftable'{for `Graphics::ModelInstance'}
+const lRadarQuery::`vftable'{for `IwNetObject'}
+const lRadarQuery::`vftable'{for `lLandObject'}
+const lRadarQuery::`vftable'{for `viObject'}
+const lRadarRLS37::`vftable'{for `Graphics::ModelInstance'}
+const lRadarRLS37::`vftable'{for `IwNetObject'}
+const lRadarRLS37::`vftable'{for `lLandObject'}
+const lRadarRLS37::`vftable'{for `viObject'}
+const lRadarRSP7::`vftable'{for `Graphics::ModelInstance'}
+const lRadarRSP7::`vftable'{for `IwNetObject'}
+const lRadarRSP7::`vftable'{for `lLandObject'}
+const lRadarRSP7::`vftable'{for `viObject'}
+const lRoadManager::`vftable'
+const lRoadManagerImpl::`vftable'
+const lShelter::`vftable'{for `Graphics::ModelInstance'}
+const lShelter::`vftable'{for `IwNetObject'}
+const lShelter::`vftable'{for `lLandObject'}
+const lShelter::`vftable'{for `viObject'}
+const lSimpleRadar::`vftable'{for `Graphics::ModelInstance'}
+const lSimpleRadar::`vftable'{for `IwNetObject'}
+const lSimpleRadar::`vftable'{for `lLandObject'}
+const lSimpleRadar::`vftable'{for `viObject'}
+const lSinkActivity::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const lSinkActivity::`vftable'{for `Suicide'}
+const lSmoker::`vftable'
+const lSmoker::`vftable'{for `Graphics::ModelInstance'}
+const lSmoker::`vftable'{for `IwNetObject'}
+const lSmoker::`vftable'{for `lLandObject'}
+const lSmoker::`vftable'{for `viObject'}
+const lStandartStructure::`vftable'{for `Graphics::ModelInstance'}
+const lStandartStructure::`vftable'{for `IwNetObject'}
+const lStandartStructure::`vftable'{for `lLandObject'}
+const lStandartStructure::`vftable'{for `viObject'}
+const lSystem::`vftable'
+const lTowerCrane::`vftable'{for `Graphics::ModelInstance'}
+const lTowerCrane::`vftable'{for `IwNetObject'}
+const lTowerCrane::`vftable'{for `lLandObject'}
+const lTowerCrane::`vftable'{for `viObject'}
+const nl::lRegion::`vftable'
+const nl::lSquare::`vftable'
+float __cdecl GetRailGraphPath(int,int,unsigned short *,unsigned short &,int)
+float __cdecl GetRoadPath(int,int,unsigned short *,unsigned short &,int)
+int ROAD_TEXTURE_PATH_LENGTH
+private: bool __thiscall lLandShip::ShipSink(float)
+private: static class FCrossRoad * * FCrossRoad::cArray
+private: static class FCrossRoad * * FCrossRoad::cwArray
+private: static class FRoad * * FRoad::rArray
+private: static class FRoad * * FRoad::rwArray
+private: static class Graphics::Material * lETL_Cables::material
+private: static class HeapVector<struct Graphics::DynamicParam> lLandShip::globalArgs
+private: static class lLandPlane::ArgumentController lLandPlane::drawArgsController
+private: static double const lCrossing::OpenTime
+private: static double const lDanceFloor::timeRotate180
+private: static double const lDanceFloor::total_time
+private: static double const lPortCrane::timeRotate180
+private: static double const lPortCrane::timeStrelaDown
+private: static double const lPortCrane::total_time
+private: static double const lTowerCrane::timePolzunMove
+private: static double const lTowerCrane::timeRotate180
+private: static double const lTowerCrane::total_time
+private: static float const lETL_Cables::lowering_factor
+private: static int FCrossRoad::NumCrossRoads
+private: static int FCrossRoad::NumRailwaySwitches
+private: static int FRoad::NumRailways
+private: static int FRoad::NumRoads
+private: static int const lETL_Cables::segment_count
+private: virtual bool __thiscall lBaseObject::netGetCreate(class Mail::Message &)const 
+private: void __thiscall lBaseObject::netUpdate(short,class Mail::Reader)
+private: void __thiscall lDanceFloor::RecalculateArgs(double)
+private: void __thiscall lLandShip::ShipStartSink(double)
+private: void __thiscall lPortCrane::RecalculateArgs(double)
+private: void __thiscall lTowerCrane::RecalculateArgs(double)
+protected: static class HeapVector<struct Graphics::DynamicParam> lLighthouse::dayArgs
+protected: static class HeapVector<struct Graphics::DynamicParam> lStandartStructure::globalArgs
+protected: static double lStandartStructure::argsTime
+protected: static void __cdecl lETL_Cables::CreateMaterial(void)
+protected: static void __cdecl lStandartStructure::RecalculateArgs(double)
+protected: unsigned long __thiscall lRunTimeLoader::ParseViType(class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const &)
+protected: virtual float __thiscall lETL_Cables::WireHeight(int,float)
+protected: virtual float __thiscall lETL_Cables::WireLowering(float,float)
+protected: virtual float __thiscall lRadarRSP7::CalculateArg(float)
+protected: virtual void __thiscall lBaseObject::netReadUpdate(class Mail::Reader &)
+protected: virtual void __thiscall lBaseObject::netWriteUpdate(class Mail::Writer &)const 
+protected: virtual void __thiscall lBoilerHouse::CreateSmokes(void)
+protected: virtual void __thiscall lETL_Cables::CreateDynamicData(void)
+protected: virtual void __thiscall lETL_Cables::CreateWire(class std::vector<class Vector3,class std::allocator<class Vector3> > &,class Vector3 const &,class Vector3 const &)
+protected: virtual void __thiscall lETL_Farm::CreateFires(void)
+protected: virtual void __thiscall lRadarRSP7::RecalculateArgs(double)
+protected: virtual void __thiscall lSimpleRadar::RecalculateArgs(double)
+protected: virtual void __thiscall lSmoker::AddSmoke(float,class Vector3 const &)
+protected: virtual void __thiscall lSmoker::CreateSmokes(void)
+protected: virtual void __thiscall lSmoker::DestroySmokes(void)
+protected: virtual void __thiscall lStandartStructure::CreateDynamicData(void)
+protected: virtual void __thiscall lStandartStructure::CreateFires(void)
+protected: virtual void __thiscall lStandartStructure::CreateSmokeCloud(void)
+protected: void __thiscall lObjWithLights::AddLight(class Position3 const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+protected: void __thiscall lSmoker::CreateSmokesBase(void)
+public: __thiscall AirfieldCameraDeclare::AirfieldCameraDeclare(struct AirfieldCameraDeclare const &)
+public: __thiscall AirfieldCameraDeclare::AirfieldCameraDeclare(void)
+public: __thiscall AirfieldCameraDeclare::~AirfieldCameraDeclare(void)
+public: __thiscall BridgeListener::BridgeListener(class BridgeListener const &)
+public: __thiscall BridgeListener::BridgeListener(void)
+public: __thiscall FCrossRoad::FCrossRoad(void)
+public: __thiscall FCrossRoad::~FCrossRoad(void)
+public: __thiscall FRoad::FRoad(class FRoad const &)
+public: __thiscall FRoad::FRoad(class FRoadSegment *,int)
+public: __thiscall FRoad::FRoad(void)
+public: __thiscall FRoadSegment::FRoadSegment(class FRoadSegment const &)
+public: __thiscall FRoadSegment::FRoadSegment(unsigned char,class E3::Vector const *,class E3::Vector const *,class E3::Vector const *,float,bool)
+public: __thiscall FRoadSegment::FRoadSegment(unsigned char,class E3::Vector const *,class E3::Vector const *,class E3::Vector const *,float,float,float,bool)
+public: __thiscall FRoadSegment::FRoadSegment(void)
+public: __thiscall VPPDeclare::VPPDeclare(struct VPPDeclare const &)
+public: __thiscall VPPDeclare::VPPDeclare(void)
+public: __thiscall VPPDeclare::~VPPDeclare(void)
+public: __thiscall lBaseObject::lBaseObject(class lBaseObject const &)
+public: __thiscall lBaseObject::lBaseObject(void)
+public: __thiscall lBoilerHouse::lBoilerHouse(class lBoilerHouse const &)
+public: __thiscall lBoilerHouse::lBoilerHouse(void)
+public: __thiscall lBridge::lBridge(class lBridge const &)
+public: __thiscall lBridge::lBridge(void)
+public: __thiscall lCableDynData::lCableDynData(class lCableDynData const &)
+public: __thiscall lCableDynData::lCableDynData(void)
+public: __thiscall lCrater::lCrater(class lCrater const &)
+public: __thiscall lCrater::lCrater(void)
+public: __thiscall lCrossing::lCrossing(class lCrossing const &)
+public: __thiscall lCrossing::lCrossing(void)
+public: __thiscall lCrossingActivity::lCrossingActivity(class lCrossing *)
+public: __thiscall lCrossingActivity::lCrossingActivity(class lCrossingActivity const &)
+public: __thiscall lDanceFloor::lDanceFloor(class lDanceFloor const &)
+public: __thiscall lDanceFloor::lDanceFloor(void)
+public: __thiscall lETL::lETL(class lETL const &)
+public: __thiscall lETL::lETL(void)
+public: __thiscall lETL_Cables::lETL_Cables(class lETL_Cables const &)
+public: __thiscall lETL_Cables::lETL_Cables(void)
+public: __thiscall lETL_Farm::lETL_Farm(class lETL_Farm const &)
+public: __thiscall lETL_Farm::lETL_Farm(void)
+public: __thiscall lETL_Substation::lETL_Substation(class lETL_Substation const &)
+public: __thiscall lETL_Substation::lETL_Substation(void)
+public: __thiscall lForest::lForest(class lForest const &)
+public: __thiscall lForest::lForest(void)
+public: __thiscall lLandPlane::lLandPlane(class lLandPlane const &)
+public: __thiscall lLandPlane::lLandPlane(void)
+public: __thiscall lLandShip::lLandShip(class lLandShip const &)
+public: __thiscall lLandShip::lLandShip(void)
+public: __thiscall lLandscape::lLandscape(class lLandscape const &)
+public: __thiscall lLandscape::lLandscape(void)
+public: __thiscall lLandscapeImpl::lLandscapeImpl(class lLandscapeImpl const &)
+public: __thiscall lLandscapeImpl::lLandscapeImpl(void)
+public: __thiscall lLandscapeImpl::~lLandscapeImpl(void)
+public: __thiscall lLighthouse::lLighthouse(class lLighthouse const &)
+public: __thiscall lLighthouse::lLighthouse(void)
+public: __thiscall lLockOnObjectFactory::lLockOnObjectFactory(class lLockOnObjectFactory const &)
+public: __thiscall lLockOnObjectFactory::lLockOnObjectFactory(void)
+public: __thiscall lObjWithLights::lObjWithLights(class lObjWithLights const &)
+public: __thiscall lObjWithLights::lObjWithLights(void)
+public: __thiscall lObjectFire::lObjectFire(class lObjectFire const &)
+public: __thiscall lObjectFire::lObjectFire(class lStandartStructure *,class E3::Vector const &,float)
+public: __thiscall lObjectFireHolder::lObjectFireHolder(class lObjectFireHolder const &)
+public: __thiscall lObjectFireHolder::lObjectFireHolder(void)
+public: __thiscall lObjectFireHolder::~lObjectFireHolder(void)
+public: __thiscall lOilTank::lOilTank(class lOilTank const &)
+public: __thiscall lOilTank::lOilTank(void)
+public: __thiscall lPortCrane::lPortCrane(class lPortCrane const &)
+public: __thiscall lPortCrane::lPortCrane(void)
+public: __thiscall lRadarQuery::lRadarQuery(class lRadarQuery const &)
+public: __thiscall lRadarQuery::lRadarQuery(void)
+public: __thiscall lRadarRLS37::lRadarRLS37(class lRadarRLS37 const &)
+public: __thiscall lRadarRLS37::lRadarRLS37(void)
+public: __thiscall lRadarRSP7::lRadarRSP7(class lRadarRSP7 const &)
+public: __thiscall lRadarRSP7::lRadarRSP7(void)
+public: __thiscall lRoadManager::lRoadManager(class lRoadManager const &)
+public: __thiscall lRoadManager::lRoadManager(void)
+public: __thiscall lRoadManagerImpl::lRoadManagerImpl(class lRoadManagerImpl const &)
+public: __thiscall lRoadManagerImpl::lRoadManagerImpl(void)
+public: __thiscall lRoadManagerImpl::~lRoadManagerImpl(void)
+public: __thiscall lRunTimeLoader::lRunTimeLoader(void)
+public: __thiscall lShelter::lShelter(class lShelter const &)
+public: __thiscall lShelter::lShelter(void)
+public: __thiscall lSimpleRadar::lSimpleRadar(class lSimpleRadar const &)
+public: __thiscall lSimpleRadar::lSimpleRadar(float)
+public: __thiscall lSinkActivity::lSinkActivity(class lLandShip *,double)
+public: __thiscall lSinkActivity::lSinkActivity(class lSinkActivity const &)
+public: __thiscall lSmoker::lSmoker(class lSmoker const &)
+public: __thiscall lSmoker::lSmoker(void)
+public: __thiscall lStandartStructure::lStandartStructure(class lStandartStructure const &)
+public: __thiscall lStandartStructure::lStandartStructure(void)
+public: __thiscall lSystem::lSystem(class lSystem const &)
+public: __thiscall lSystem::lSystem(void)
+public: __thiscall lTowerCrane::lTowerCrane(class lTowerCrane const &)
+public: __thiscall lTowerCrane::lTowerCrane(void)
+public: __thiscall nl::lRegion::lRegion(class nl::lRegion const &)
+public: __thiscall nl::lRegion::lRegion(void)
+public: __thiscall nl::lSquare::lSquare(class nl::lSquare const &)
+public: __thiscall nl::lSquare::lSquare(void)
+public: bool __thiscall FCrossRoad::AlignPointToRailwaySwitch(class E3::Vector &,class E3::Vector &,int)
+public: bool __thiscall FCrossRoad::IsDisplayable(void)
+public: bool __thiscall FRoad::AddObjectOnRoad(int)
+public: bool __thiscall FRoad::ComputeStayPointsForRailwayOffset(float)
+public: bool __thiscall FRoad::FindFilletCenter(class E3::Vector &,class E3::Vector &,float,float,bool,class E3::Vector &,float &,float &,bool &)
+public: bool __thiscall FRoad::GetEndPoint(class E3::Vector &)
+public: bool __thiscall FRoad::GetPointByIndex(int,class E3::Vector *)
+public: bool __thiscall FRoad::GetStartPoint(class E3::Vector &)
+public: bool __thiscall FRoad::GetStayPointParam(int,float *)
+public: bool __thiscall FRoad::Offset(float)
+public: bool __thiscall FRoad::isBigRoad(void)
+public: bool __thiscall FRoad::isValid(void)
+public: bool __thiscall FRoadSegment::GetSide(class E3::Vector const &,class E3::Vector const &)const 
+public: bool __thiscall FRoadSegment::OffsetSegment(float)
+public: bool __thiscall lCrossing::IsOpen(void)
+public: bool __thiscall lETL_Cables::CheckCableShapeIntersection(int,class Graphics::ModelInstance &,struct wsCollisionData &)
+public: bool __thiscall lETL_Cables::CheckGroundIntersection(void)
+public: bool __thiscall lObjWithLights::IsLightOn(int)const 
+public: bool __thiscall lRoadManagerImpl::IsOnRoad(float,float,bool)
+public: bool __thiscall lRoadManagerImpl::Open(char const *,char const *)
+public: bool __thiscall lShelter::Close(float)
+public: bool __thiscall lShelter::IsOpen(void)
+public: bool __thiscall lShelter::Open(float)
+public: bool __thiscall lStandartStructure::IsFallInProgress(void)
+public: bool const __thiscall ShelterActivate::operator==(struct ShelterActivate const &)const 
+public: char * __thiscall FRoad::GetRoadName(void)
+public: class BridgeListener & __thiscall BridgeListener::operator=(class BridgeListener const &)
+public: class E3::Vector __thiscall FRoadSegment::GetArcPointByAngle(float)
+public: class E3::Vector const * __thiscall FRoadSegment::GetArcCenter(void)const 
+public: class E3::Vector const * __thiscall FRoadSegment::GetEndPoint(void)const 
+public: class E3::Vector const * __thiscall FRoadSegment::GetStartPoint(void)const 
+public: class FCrossRoad & __thiscall FCrossRoad::operator=(class FCrossRoad const &)
+public: class FCrossRoad * __thiscall lRoadManagerImpl::GetCrossRoadOnAirfield(int,int)
+public: class FRoad & __thiscall FRoad::operator=(class FRoad const &)
+public: class FRoad * __thiscall FRoad::Copy(float,float)
+public: class FRoad * __thiscall FRoad::Copy(void)
+public: class FRoad * __thiscall lRoadManagerImpl::GetPathOnAirfiled(int,int,int,bool)
+public: class FRoad * __thiscall lRoadManagerImpl::GetRoadOnAirfield(int,int)
+public: class FRoadSegment & __thiscall FRoadSegment::operator=(class FRoadSegment const &)
+public: class FRoadSegment * __thiscall FRoad::GetSegment(float)
+public: class FRoadSegment * __thiscall FRoad::GetSegment(int)
+public: class FRoadSegment __thiscall FRoad::CreateFinish(int,float)const 
+public: class FRoadSegment __thiscall FRoad::CreateStart(int,float)const 
+public: class RoadDestructionData & __thiscall RoadDestructionData::operator=(class RoadDestructionData const &)
+public: class RoadReference & __thiscall RoadReference::operator=(class RoadReference const &)
+public: class RoadToSquare * __thiscall lRoadManagerImpl::getSquareRoad(struct intpoint,bool)
+public: class cPosition * __thiscall FCrossRoad::GetPos(void)
+public: class cPosition const & __thiscall nl::lSquare::GetPos(void)
+public: class lBaseObject & __thiscall lBaseObject::operator=(class lBaseObject const &)
+public: class lBoilerHouse & __thiscall lBoilerHouse::operator=(class lBoilerHouse const &)
+public: class lBridge & __thiscall lBridge::operator=(class lBridge const &)
+public: class lCableDynData & __thiscall lCableDynData::operator=(class lCableDynData const &)
+public: class lCrater & __thiscall lCrater::operator=(class lCrater const &)
+public: class lCrossing & __thiscall lCrossing::operator=(class lCrossing const &)
+public: class lCrossingActivity & __thiscall lCrossingActivity::operator=(class lCrossingActivity const &)
+public: class lDanceFloor & __thiscall lDanceFloor::operator=(class lDanceFloor const &)
+public: class lETL & __thiscall lETL::operator=(class lETL const &)
+public: class lETL_Cables & __thiscall lETL_Cables::operator=(class lETL_Cables const &)
+public: class lETL_Farm & __thiscall lETL_Farm::operator=(class lETL_Farm const &)
+public: class lETL_Substation & __thiscall lETL_Substation::operator=(class lETL_Substation const &)
+public: class lForest & __thiscall lForest::operator=(class lForest const &)
+public: class lLandPlane & __thiscall lLandPlane::operator=(class lLandPlane const &)
+public: class lLandShip & __thiscall lLandShip::operator=(class lLandShip const &)
+public: class lLandscape & __thiscall lLandscape::operator=(class lLandscape const &)
+public: class lLandscapeImpl & __thiscall lLandscapeImpl::operator=(class lLandscapeImpl const &)
+public: class lLighthouse & __thiscall lLighthouse::operator=(class lLighthouse const &)
+public: class lLockOnObjectFactory & __thiscall lLockOnObjectFactory::operator=(class lLockOnObjectFactory const &)
+public: class lObjWithLights & __thiscall lObjWithLights::operator=(class lObjWithLights const &)
+public: class lObjectFire & __thiscall lObjectFire::operator=(class lObjectFire const &)
+public: class lObjectFireHolder & __thiscall lObjectFireHolder::operator=(class lObjectFireHolder const &)
+public: class lOilTank & __thiscall lOilTank::operator=(class lOilTank const &)
+public: class lPortCrane & __thiscall lPortCrane::operator=(class lPortCrane const &)
+public: class lRadarQuery & __thiscall lRadarQuery::operator=(class lRadarQuery const &)
+public: class lRadarRLS37 & __thiscall lRadarRLS37::operator=(class lRadarRLS37 const &)
+public: class lRadarRSP7 & __thiscall lRadarRSP7::operator=(class lRadarRSP7 const &)
+public: class lRoadManager & __thiscall lRoadManager::operator=(class lRoadManager const &)
+public: class lRoadManagerImpl & __thiscall lRoadManagerImpl::operator=(class lRoadManagerImpl const &)
+public: class lRunTimeLoader & __thiscall lRunTimeLoader::operator=(class lRunTimeLoader const &)
+public: class lShelter & __thiscall lShelter::operator=(class lShelter const &)
+public: class lSimpleRadar & __thiscall lSimpleRadar::operator=(class lSimpleRadar const &)
+public: class lSinkActivity & __thiscall lSinkActivity::operator=(class lSinkActivity const &)
+public: class lSmoker & __thiscall lSmoker::operator=(class lSmoker const &)
+public: class lStandartStructure & __thiscall lStandartStructure::operator=(class lStandartStructure const &)
+public: class lSystem & __thiscall lSystem::operator=(class lSystem const &)
+public: class lTowerCrane & __thiscall lTowerCrane::operator=(class lTowerCrane const &)
+public: class nl::lRegion & __thiscall nl::lRegion::operator=(class nl::lRegion const &)
+public: class nl::lRegion * __thiscall lLandscapeImpl::getRegion(struct intpoint)
+public: class nl::lSquare & __thiscall nl::lRegion::getSubSquare(int)
+public: class nl::lSquare & __thiscall nl::lRegion::getSubSquare(int,int)
+public: class nl::lSquare & __thiscall nl::lSquare::operator=(class nl::lSquare const &)
+public: class nl::lSquare * __thiscall lLandscapeImpl::getSquare(struct intpoint)
+public: class std::list<struct intpoint,class std::allocator<struct intpoint> > * __thiscall lRoadManagerImpl::GetAirfieldSquares(int)
+public: float __thiscall FRoad::FindFilletCenter(class E3::Vector &,float,float,float,bool,bool,class E3::Vector &)
+public: float __thiscall FRoad::GetPathParam(float)const 
+public: float __thiscall FRoad::GetProjection(class E3::Vector &,float,float,class E3::Vector *)
+public: float __thiscall FRoad::GetRoadLength(void)const 
+public: float __thiscall FRoad::GetRoadOffset(void)
+public: float __thiscall FRoad::GetRoadSegmentLength(void)const 
+public: float __thiscall FRoad::GetRoadWidth(float)
+public: float __thiscall FRoad::GetRoadWidth(void)
+public: float __thiscall FRoad::GetSegmentParam(float)const 
+public: float __thiscall FRoadSegment::ArcAngle(void)const 
+public: float __thiscall FRoadSegment::DistanceFromPoint(class E3::Vector *)
+public: float __thiscall FRoadSegment::GetArcEndAngle(void)const 
+public: float __thiscall FRoadSegment::GetArcRadius(void)const 
+public: float __thiscall FRoadSegment::GetArcStartAngle(void)const 
+public: float __thiscall FRoadSegment::GetLength(void)
+public: float __thiscall FRoadSegment::GetSegmentLinearLength(void)
+public: float __thiscall FRoadSegment::GetSelfLength(void)
+public: float __thiscall FRoadSegment::SegmentParam(void)const 
+public: float __thiscall nl::lRegion::Distance2(class cPosition *)
+public: float __thiscall nl::lSquare::GetMaxY(void)
+public: int __thiscall FCrossRoad::CheckFlag(unsigned int)
+public: int __thiscall FCrossRoad::CloseShelterDoor(int,int)
+public: int __thiscall FCrossRoad::GetNumRoadsInCross(void)
+public: int __thiscall FCrossRoad::GetRoad(int)
+public: int __thiscall FCrossRoad::GetTextureIndex(void)
+public: int __thiscall FCrossRoad::IsBigParking(void)
+public: int __thiscall FCrossRoad::IsDead(void)
+public: int __thiscall FCrossRoad::IsInTown(void)
+public: int __thiscall FCrossRoad::IsOnRunway(void)
+public: int __thiscall FCrossRoad::IsShelter(void)
+public: int __thiscall FCrossRoad::IsSmallParking(void)
+public: int __thiscall FCrossRoad::OpenShelterDoor(int,int)
+public: int __thiscall FRoad::BoxIntersection(class E3::Vector &,class E3::Vector &,class cPosition &,float,float,float *,float *)
+public: int __thiscall FRoad::CheckFlag(unsigned int)
+public: int __thiscall FRoad::CircleIntersection(class E3::Vector &,float,float,float,float *,float *,bool *)
+public: int __thiscall FRoad::GetEndCross(void)
+public: int __thiscall FRoad::GetNumPoints(void)
+public: int __thiscall FRoad::GetNumSegments(void)
+public: int __thiscall FRoad::GetNumStayPoints(void)
+public: int __thiscall FRoad::GetPoint(float,class E3::Vector *,class E3::Vector *)
+public: int __thiscall FRoad::GetSegmentIndex(float)const 
+public: int __thiscall FRoad::GetSegmentIndexBySegmentParam(float)const 
+public: int __thiscall FRoad::GetStartCross(void)
+public: int __thiscall FRoad::HaveGirders(void)
+public: int __thiscall FRoad::IsDead(void)
+public: int __thiscall FRoad::IsForBigAircraft(void)
+public: int __thiscall FRoad::Restore(struct _iobuf *)
+public: int __thiscall FRoad::Save(struct _iobuf *)
+public: int __thiscall FRoadSegment::BoxIntersection(class E3::Vector *,float *,float *)
+public: int __thiscall FRoadSegment::CheckFlag(unsigned int)
+public: int __thiscall FRoadSegment::CircleIntersection(class E3::Vector &,float,float *,float *,bool *)
+public: int __thiscall FRoadSegment::GetArcIndex(void)
+public: int __thiscall FRoadSegment::GetNumberOfApproxSegments(void)
+public: int __thiscall FRoadSegment::GetRefRoadIndex(void)
+public: int __thiscall FRoadSegment::GetRefSegmentIndex(void)
+public: int __thiscall FRoadSegment::IsArcInverted(void)const 
+public: int __thiscall FRoadSegment::IsBridge(void)
+public: int __thiscall FRoadSegment::IsInTown(void)
+public: int __thiscall FRoadSegment::IsVisible(void)
+public: int __thiscall FRoadSegment::SegmentIntersection(class E3::Vector const &,class E3::Vector const &,float *,float *)const 
+public: int __thiscall lETL_Cables::CheckShapeIntersection(class Graphics::ModelInstance &,bool)
+public: int __thiscall lObjWithLights::GetLightCount(void)const 
+public: int __thiscall lRoadManagerImpl::GetAirfieldBySquare(struct intpoint)
+public: int __thiscall lRoadManagerImpl::GetClosestRoad(class E3::Vector const &,float &,int &,float *,class E3::Vector *,bool)
+public: int __thiscall lRoadManagerImpl::GetClosestRoad(class E3::Vector const &,float &,int &,float *,class E3::Vector *,bool,struct intpoint)
+public: int __thiscall lRoadManagerImpl::GetNumRoadsOnAirfield(int)
+public: int __thiscall nl::lRegion::getSubSquareCount(void)
+public: static bool __cdecl FCrossRoad::GetAirfieldCrossPoint(int,int,class E3::Vector *)
+public: static bool __cdecl lLandscape::CheckBoxVisibility(struct gBox &,class E3::Vector &,class E3::Vector &,class E3::Vector &)
+public: static bool lLandscape::FlagRebuildTree
+public: static bool lLandscape::bMajakLight
+public: static bool lLandscape::sign_psi
+public: static bool lLandscape::sign_tet
+public: static class FCrossRoad * __cdecl FCrossRoad::GetCrossRoadByIndex(int)
+public: static class FCrossRoad * __cdecl FCrossRoad::GetCrossRoadOnAirfield(int,int)
+public: static class FCrossRoad * __cdecl FCrossRoad::GetRailwaySwitchByIndex(int)
+public: static class FRoad * __cdecl FRoad::CreatePathConnection(class E3::Vector const &,class E3::Vector const &,class E3::Vector const &,class E3::Vector const &,float,float)
+public: static class FRoad * __cdecl FRoad::GetPathOnAirfiled(int,int,int,bool)
+public: static class FRoad * __cdecl FRoad::GetRailByIndex(int)
+public: static class FRoad * __cdecl FRoad::GetRoadByIndex(int)
+public: static class FRoad * __cdecl FRoad::GetRoadOnAirfield(int,int)
+public: static class FRoad * __cdecl FRoad::StraightPath(class E3::Vector const &,class E3::Vector const &)
+public: static class RandomObject lCrater::randomEvenly
+public: static class RandomObject lStandartStructure::randomEvenly
+public: static class lLandObject * __cdecl lBoilerHouse::CreateObject(void)
+public: static class lLandObject * __cdecl lBridge::CreateObject(void)
+public: static class lLandObject * __cdecl lCrater::CreateObject(void)
+public: static class lLandObject * __cdecl lCrossing::CreateObject(void)
+public: static class lLandObject * __cdecl lDanceFloor::CreateObject(void)
+public: static class lLandObject * __cdecl lETL_Cables::CreateObject(void)
+public: static class lLandObject * __cdecl lETL_Farm::CreateObject(void)
+public: static class lLandObject * __cdecl lETL_Substation::CreateObject(void)
+public: static class lLandObject * __cdecl lForest::CreateObject(void)
+public: static class lLandObject * __cdecl lLandPlane::CreateObject(void)
+public: static class lLandObject * __cdecl lLandShip::CreateObject(void)
+public: static class lLandObject * __cdecl lLighthouse::CreateObject(void)
+public: static class lLandObject * __cdecl lObjWithLights::CreateObject(void)
+public: static class lLandObject * __cdecl lOilTank::CreateObject(void)
+public: static class lLandObject * __cdecl lPortCrane::CreateObject(void)
+public: static class lLandObject * __cdecl lRadarQuery::CreateObject(void)
+public: static class lLandObject * __cdecl lRadarRLS37::CreateObject(void)
+public: static class lLandObject * __cdecl lRadarRSP7::CreateObject(void)
+public: static class lLandObject * __cdecl lShelter::CreateObject(void)
+public: static class lLandObject * __cdecl lSmoker::CreateObject(void)
+public: static class lLandObject * __cdecl lStandartStructure::CreateObject(void)
+public: static class lLandObject * __cdecl lTowerCrane::CreateObject(void)
+public: static class lLandscape * lLandscape::land
+public: static class lLandscapeImpl * lLandscapeImpl::land
+public: static class lLockOnObjectFactory * lLockOnObjectFactory::instance
+public: static float __cdecl lLandscape::MaxDistGet(float)
+public: static float lCrater::Time_of_Repair
+public: static float lLandscape::d2Level0
+public: static float lLandscape::d2Level1
+public: static float lLandscape::d2ObjectsCoeff
+public: static int __cdecl FCrossRoad::GetNumCrossRoadsOnAirfield(int)
+public: static int __cdecl FCrossRoad::GetNumCrosses(void)
+public: static int __cdecl FCrossRoad::GetNumRailwaySwitches(void)
+public: static int __cdecl FRoad::GetClosestRail(class E3::Vector *,unsigned short &,float &,float *,class E3::Vector *)
+public: static int __cdecl FRoad::GetClosestRoad(class E3::Vector *,unsigned short &,float &,float *,class E3::Vector *,bool)
+public: static int __cdecl FRoad::GetNumRails(void)
+public: static int __cdecl FRoad::GetNumRoads(void)
+public: static int __cdecl FRoad::GetNumRoadsOnAirfield(int)
+public: static void __cdecl FRoad::ClearRoadDestruction(void)
+public: static void __cdecl FRoadSegment::InvertSegmentArray(class FRoadSegment *,int)
+public: static void __cdecl lLandscape::DrawArgument_(void)
+public: static void __cdecl lLandscape::SetDrawArg(float *,unsigned int,float,bool &,unsigned char,unsigned char)
+public: struct AirfieldCameraDeclare & __thiscall AirfieldCameraDeclare::operator=(struct AirfieldCameraDeclare const &)
+public: struct ShelterActivate & __thiscall ShelterActivate::operator=(struct ShelterActivate const &)
+public: struct VPPDeclare & __thiscall VPPDeclare::operator=(struct VPPDeclare const &)
+public: struct gBox const & __thiscall nl::lRegion::getWorldBox(void)const 
+public: unsigned char __thiscall FRoadSegment::GetType(void)const 
+public: unsigned int __thiscall FRoadSegment::GetFlags(void)
+public: virtual __thiscall FRoad::~FRoad(void)
+public: virtual __thiscall lBaseObject::~lBaseObject(void)
+public: virtual __thiscall lBoilerHouse::~lBoilerHouse(void)
+public: virtual __thiscall lBridge::~lBridge(void)
+public: virtual __thiscall lCableDynData::~lCableDynData(void)
+public: virtual __thiscall lCrater::~lCrater(void)
+public: virtual __thiscall lCrossing::~lCrossing(void)
+public: virtual __thiscall lCrossingActivity::~lCrossingActivity(void)
+public: virtual __thiscall lDanceFloor::~lDanceFloor(void)
+public: virtual __thiscall lETL::~lETL(void)
+public: virtual __thiscall lETL_Cables::~lETL_Cables(void)
+public: virtual __thiscall lETL_Farm::~lETL_Farm(void)
+public: virtual __thiscall lETL_Substation::~lETL_Substation(void)
+public: virtual __thiscall lForest::~lForest(void)
+public: virtual __thiscall lLandPlane::~lLandPlane(void)
+public: virtual __thiscall lLandShip::~lLandShip(void)
+public: virtual __thiscall lLighthouse::~lLighthouse(void)
+public: virtual __thiscall lObjWithLights::~lObjWithLights(void)
+public: virtual __thiscall lObjectFire::~lObjectFire(void)
+public: virtual __thiscall lOilTank::~lOilTank(void)
+public: virtual __thiscall lPortCrane::~lPortCrane(void)
+public: virtual __thiscall lRadarQuery::~lRadarQuery(void)
+public: virtual __thiscall lRadarRLS37::~lRadarRLS37(void)
+public: virtual __thiscall lRadarRSP7::~lRadarRSP7(void)
+public: virtual __thiscall lShelter::~lShelter(void)
+public: virtual __thiscall lSimpleRadar::~lSimpleRadar(void)
+public: virtual __thiscall lSinkActivity::~lSinkActivity(void)
+public: virtual __thiscall lSmoker::~lSmoker(void)
+public: virtual __thiscall lStandartStructure::~lStandartStructure(void)
+public: virtual __thiscall lSystem::~lSystem(void)
+public: virtual __thiscall lTowerCrane::~lTowerCrane(void)
+public: virtual __thiscall nl::lRegion::~lRegion(void)
+public: virtual __thiscall nl::lSquare::~lSquare(void)
+public: virtual bool __thiscall lCableDynData::CableExists(int)
+public: virtual bool __thiscall lETL::FallDown(void)
+public: virtual bool __thiscall lETL_Cables::CableExists(int)
+public: virtual bool __thiscall lLandscapeImpl::InitSurface(void)
+public: virtual bool __thiscall lLandscapeImpl::IsOnAirfield(float,float)
+public: virtual bool __thiscall lLandscapeImpl::IsOnLake(float,float)
+public: virtual bool __thiscall lLandscapeImpl::IsOnRail(float,float)
+public: virtual bool __thiscall lLandscapeImpl::IsOnRiver(float,float)
+public: virtual bool __thiscall lLandscapeImpl::IsOnRoad(float,float)
+public: virtual bool __thiscall lLandscapeImpl::WhereNearestGroundObject(class E3::Vector &,class E3::Vector &)
+public: virtual bool __thiscall lLandscapeImpl::isVisible(class E3::Vector &,class E3::Vector &)
+public: virtual bool __thiscall lRoadManagerImpl::GetAirfieldCrossPoint(int,int,class E3::Vector *)
+public: virtual bool __thiscall lRoadManagerImpl::IsAirfieldValid(int)
+public: virtual bool __thiscall lRoadManagerImpl::IsOnRail(float,float)
+public: virtual bool __thiscall lRoadManagerImpl::IsOnRoad(float,float)
+public: virtual bool __thiscall lStandartStructure::FallDown(void)
+public: virtual bool __thiscall lSystem::IsOnAirfield(float,float)
+public: virtual bool __thiscall lSystem::IsOnLake(float,float)
+public: virtual bool __thiscall lSystem::IsOnRoad(float,float)
+public: virtual bool __thiscall lSystem::WhereNearestGroundObject(class E3::Vector &,class E3::Vector &)
+public: virtual bool __thiscall lSystem::isVisible(class E3::Vector &,class E3::Vector &)
+public: virtual class E3::Vector * __thiscall lLandscapeImpl::SegmentGroundIntersection(class E3::Vector,class E3::Vector,class E3::Vector &)
+public: virtual class E3::Vector * __thiscall lLandscapeImpl::VectorGroundIntersection(class E3::Vector &,class E3::Vector &,float,class E3::Vector &)
+public: virtual class E3::Vector * __thiscall lLandscapeImpl::groundIntersection(class E3::Vector &,class E3::Vector &)
+public: virtual class E3::Vector * __thiscall lSystem::VectorGroundIntersection(class E3::Vector &,class E3::Vector &,float)
+public: virtual class E3::Vector * __thiscall lSystem::VectorGroundIntersectionNormal(class E3::Vector &,class E3::Vector &,float,class E3::Vector &)
+public: virtual class E3::Vector * __thiscall lSystem::groundIntersection(class E3::Vector &,class E3::Vector &)
+public: virtual class FCrossRoad * __thiscall lRoadManagerImpl::GetCrossRoadByIndex(int)
+public: virtual class FCrossRoad * __thiscall lRoadManagerImpl::GetRailwaySwitchByIndex(int)
+public: virtual class FRoad * __thiscall lRoadManagerImpl::GetRailByIndex(int)
+public: virtual class FRoad * __thiscall lRoadManagerImpl::GetRoadByIndex(int)
+public: virtual class Graphics::Model * __thiscall lStandartStructure::GetModel(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lCrossing::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lDanceFloor::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lLandPlane::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lLandShip::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lLighthouse::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lPortCrane::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lShelter::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lSimpleRadar::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lStandartStructure::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall lTowerCrane::GetDrawArguments(void)
+public: virtual class Position3 const & __thiscall lStandartStructure::GetPosition(void)
+public: virtual class Vector3 const & __thiscall lSmoker::GetKillerPos(void)
+public: virtual class cPosition & __thiscall lStandartStructure::Position(double)
+public: virtual class gShapeObject * __thiscall lStandartStructure::Shape(double)
+public: virtual class lLandObject * __thiscall lLandscapeImpl::NearestGroundObject(class E3::Vector &,class E3::Vector &,float,float)
+public: virtual class lLandObject * __thiscall lSystem::GetObjectByIndex(unsigned int,bool)
+public: virtual class lLandObject * __thiscall lSystem::NearestGroundObject(class E3::Vector &,class E3::Vector &,float,float)
+public: virtual class landscape::lSurface::lRegion * __thiscall lLandscapeImpl::CreateLRegion(void)
+public: virtual class landscape::lSurface::lShape * __thiscall lLandscapeImpl::CreateLShape(void)
+public: virtual class landscape::lSurface::lSquare * __thiscall lLandscapeImpl::CreateLSquare(void)
+public: virtual class viObject * __thiscall lLockOnObjectFactory::CreateObject(struct wShape *,class cPosition &,unsigned long,void *)
+public: virtual double __thiscall lLandscapeImpl::GetXMax(void)
+public: virtual double __thiscall lLandscapeImpl::GetXMin(void)
+public: virtual double __thiscall lLandscapeImpl::GetZMax(void)
+public: virtual double __thiscall lLandscapeImpl::GetZMin(void)
+public: virtual double __thiscall lSystem::GetXMax(void)
+public: virtual double __thiscall lSystem::GetXMin(void)
+public: virtual double __thiscall lSystem::GetZMax(void)
+public: virtual double __thiscall lSystem::GetZMin(void)
+public: virtual float __thiscall lLandscapeImpl::heightBox(float,float)
+public: virtual float __thiscall lLandscapeImpl::heightSurface(float,float)
+public: virtual float __thiscall lSystem::Get_d2ObjectsCoeff(void)
+public: virtual float __thiscall lSystem::heightBox(float,float)
+public: virtual float __thiscall lSystem::heightSurface(float,float)
+public: virtual float __thiscall lSystem::heightSurfaceNew(unsigned short &,float,float)
+public: virtual int __thiscall lETL_Cables::CableCount(void)
+public: virtual int __thiscall lETL_Farm::CableCount(void)
+public: virtual int __thiscall lETL_Substation::CableCount(void)
+public: virtual int __thiscall lLandscapeImpl::Envelope(class E3::Vector &,class E3::Vector &,class E3::Vector *,int)
+public: virtual int __thiscall lLandscapeImpl::EnvelopeNew(class E3::Vector &,class E3::Vector &,class E3::Vector *,int,int)
+public: virtual int __thiscall lLandscapeImpl::GetObjects(class E3::Vector &,class E3::Vector &,class lLandObject * *,int,bool)
+public: virtual int __thiscall lLandscapeImpl::GetObjects(float,float,float,float,class lLandObject * *,int,bool,unsigned int)
+public: virtual int __thiscall lLandscapeImpl::GetWObjects(class E3::Vector &,float,class cPointerTemplate<class MovingObject> *,int,unsigned int)
+public: virtual int __thiscall lLandscapeImpl::Init(void)
+public: virtual int __thiscall lLandscapeImpl::InitScenes(void)
+public: virtual int __thiscall lLandscapeImpl::Restore(struct _iobuf *,bool,int)
+public: virtual int __thiscall lLandscapeImpl::Save(struct _iobuf *,bool)
+public: virtual int __thiscall lLandscapeImpl::surfaceTriangle(float,float,class E3::Vector &,class E3::Vector &,class E3::Vector &,class E3::Vector &,class E3::Vector &)
+public: virtual int __thiscall lRoadManagerImpl::GetAirfieldCameras(int,class std::list<struct AirfieldCameraDeclare,class std::allocator<struct AirfieldCameraDeclare> > &)
+public: virtual int __thiscall lRoadManagerImpl::GetAirfieldRunWay(int,class std::list<struct VPPDeclare,class std::allocator<struct VPPDeclare> > &)
+public: virtual int __thiscall lRoadManagerImpl::GetAirfieldTech(int,class std::list<class lSimpleRadar *,class std::allocator<class lSimpleRadar *> > &)
+public: virtual int __thiscall lRoadManagerImpl::GetClosestRail(class E3::Vector const &,float &,int &,float *,class E3::Vector *)
+public: virtual int __thiscall lRoadManagerImpl::GetClosestRoad(class E3::Vector const &,float &,int &,float *,class E3::Vector *)
+public: virtual int __thiscall lRoadManagerImpl::GetNumCrossRoadsOnAirfield(int)
+public: virtual int __thiscall lRoadManagerImpl::GetNumCrosses(void)
+public: virtual int __thiscall lRoadManagerImpl::GetNumRails(void)
+public: virtual int __thiscall lRoadManagerImpl::GetNumRailwaySwitches(void)
+public: virtual int __thiscall lRoadManagerImpl::GetNumRoads(void)
+public: virtual int __thiscall lSystem::Envelope(class E3::Vector &,class E3::Vector &,class E3::Vector *,int)
+public: virtual int __thiscall lSystem::GetObjects(float,float,float,float,class lLandObject * *,int,bool,unsigned int)
+public: virtual int __thiscall lSystem::GetRectObjects(float,float,float,float,class lLandObject * *,int)
+public: virtual int __thiscall lSystem::GetWObjects(class E3::Vector &,float,class cPointerTemplate<class MovingObject> *,int,unsigned int)
+public: virtual int __thiscall lSystem::Init(void)
+public: virtual int __thiscall lSystem::Restore(struct _iobuf *,short,bool)
+public: virtual int __thiscall lSystem::Save(struct _iobuf *,bool)
+public: virtual int __thiscall lSystem::surfaceTriangle(float,float,class E3::Vector &,class E3::Vector &,class E3::Vector &,class E3::Vector &,class E3::Vector &,unsigned int)
+public: virtual int __thiscall lSystem::surfaceTrianglePlus(float,float,class E3::Vector &,class E3::Vector &,class E3::Vector &,class E3::Vector &,class E3::Vector &)
+public: virtual struct SemanticDef * __thiscall lLandscapeImpl::GetSemanticDecl(char const *)
+public: virtual struct gBox const & __thiscall lETL_Cables::LocalBox(double)
+public: virtual struct nl::airdromeshape * __thiscall lLandscapeImpl::GetAirdromeDecl(int)
+public: virtual struct nl::airdromeshape * __thiscall lLandscapeImpl::GetAirdromeDecl(struct intpoint)
+public: virtual unsigned char __thiscall lSystem::surfType(float,float)
+public: virtual unsigned char __thiscall lSystem::surfTypePlus(float,float)
+public: virtual unsigned long __thiscall lLandscapeImpl::surfType(float,float)
+public: virtual void __thiscall FRoad::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall FRoadSegment::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall lBaseObject::CreateDynamicData(void)
+public: virtual void __thiscall lBridge::Degrade(void)
+public: virtual void __thiscall lCableDynData::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall lCrater::Init(struct wShape *,class cPosition const &,unsigned long,void *)
+public: virtual void __thiscall lCrossingActivity::NextEvent(void)
+public: virtual void __thiscall lETL::CreateCable(void)
+public: virtual void __thiscall lETL::Init(struct wShape *,class cPosition const &,unsigned long,void *)
+public: virtual void __thiscall lETL::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall lETL_Cables::AttachPos(bool,int,class Vector3 &)
+public: virtual void __thiscall lETL_Cables::ConstructFlatShape(void)
+public: virtual void __thiscall lETL_Cables::CreateGShape(void)
+public: virtual void __thiscall lETL_Cables::CutCable(int)
+public: virtual void __thiscall lETL_Cables::Init(struct wShape *,class cPosition const &,unsigned long,void *)
+public: virtual void __thiscall lETL_Cables::Parse(class Graphics::ModelParser &,class Position3 const &,class HeapVector<class Graphics::VolumeEffect *> *)
+public: virtual void __thiscall lETL_Cables::ReinitState(void)
+public: virtual void __thiscall lETL_Cables::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall lETL_Farm::AttachPos(bool,int,class E3::Vector &)
+public: virtual void __thiscall lETL_Substation::AttachPos(bool,int,class E3::Vector &)
+public: virtual void __thiscall lForest::Degrade(void)
+public: virtual void __thiscall lForest::PostCollisionProcessing(struct wsCollisionData *,unsigned long)
+public: virtual void __thiscall lLandPlane::BindToMEObject(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > &)
+public: virtual void __thiscall lLandPlane::Degrade(void)
+public: virtual void __thiscall lLandPlane::Init(struct wShape *,class cPosition const &,unsigned long,void *)
+public: virtual void __thiscall lLandPlane::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall lLandShip::TakeDamage(int)
+public: virtual void __thiscall lLandscapeImpl::CleanScenes(void)
+public: virtual void __thiscall lLandscapeImpl::ClearScenes(void)
+public: virtual void __thiscall lLandscapeImpl::ClusterExplosion(class cPosition *,float,bool,bool,bool,bool,class cPointerTemplate<class MovingObject>,float,float,int,bool,bool)
+public: virtual void __thiscall lLandscapeImpl::CoordFromGeographic(double,double,float &,float &)
+public: virtual void __thiscall lLandscapeImpl::CoordToGeographic(float,float,double &,double &)
+public: virtual void __thiscall lLandscapeImpl::Explosion(class E3::Vector *,float)
+public: virtual void __thiscall lLandscapeImpl::Explosion(class cPosition *,float,int,int,bool,bool,bool,bool,class cPointerTemplate<class MovingObject>,bool,bool)
+public: virtual void __thiscall lLandscapeImpl::Explosion(class cPosition *,float,int,int,int,bool,int,bool,bool,bool,class cPointerTemplate<class MovingObject>,bool,void *,int)
+public: virtual void __thiscall lLandscapeImpl::Finish(void)
+public: virtual void __thiscall lLandscapeImpl::InitOptions(void)
+public: virtual void __thiscall lLandscapeImpl::LoadOnDemand(struct intpoint,int,bool)
+public: virtual void __thiscall lLandscapeImpl::NapalmExplosion(class cPosition *,float,float,bool,bool,bool,class cPointerTemplate<class MovingObject>,bool)
+public: virtual void __thiscall lLandscapeImpl::NextTime(float)
+public: virtual void __thiscall lLandscapeImpl::ObjectExplosion(class lLandObject &,float,bool,bool,class cPointerTemplate<class MovingObject>)
+public: virtual void __thiscall lLandscapeImpl::OilExplosion(class cPosition *,float,bool,bool,bool,class cPointerTemplate<class MovingObject>,bool,unsigned long)
+public: virtual void __thiscall lLandscapeImpl::ProjectXandZonFacetPlane(class cPosition &)
+public: virtual void __thiscall lLandscapeImpl::ProjectXandZonFacetPlane(class cPosition &,class E3::Vector const *)
+public: virtual void __thiscall lLandscapeImpl::RotateAroundSmallerAxis(class cPosition &,int,int)
+public: virtual void __thiscall lLandscapeImpl::SetAirfieldLights(int,bool)
+public: virtual void __thiscall lLandscapeImpl::SetCommand(int)
+public: virtual void __thiscall lLandscapeImpl::Start(void)
+public: virtual void __thiscall lLandscapeImpl::Stop(void)
+public: virtual void __thiscall lLandscapeImpl::VolumeExplosion(class cPosition *,float,bool,bool,bool,class cPointerTemplate<class MovingObject>,bool)
+public: virtual void __thiscall lObjWithLights::Degrade(void)
+public: virtual void __thiscall lObjWithLights::Init(struct wShape *,class cPosition const &,unsigned long,void *)
+public: virtual void __thiscall lObjectFire::NextEvent(void)
+public: virtual void __thiscall lOilTank::Degrade(void)
+public: virtual void __thiscall lOilTank::ReinitState(void)
+public: virtual void __thiscall lRoadManagerImpl::GetSourceVersion(struct _FILETIME &)
+public: virtual void __thiscall lShelter::Degrade(void)
+public: virtual void __thiscall lSinkActivity::NextEvent(void)
+public: virtual void __thiscall lSmoker::Degrade(void)
+public: virtual void __thiscall lSmoker::OnKillByDistance(void)
+public: virtual void __thiscall lSmoker::Parse(class Graphics::ModelParser &,class Position3 const &,class HeapVector<class Graphics::VolumeEffect *> *)
+public: virtual void __thiscall lSmoker::ReinitState(void)
+public: virtual void __thiscall lStandartStructure::Degrade(void)
+public: virtual void __thiscall lStandartStructure::PostCollisionProcessing(struct wsCollisionData *,unsigned long)
+public: virtual void __thiscall lSystem::AddWObject(float,float,class cPointerTemplate<class MovingObject>)
+public: virtual void __thiscall lSystem::ChangeRegion(float,float,class cPointerTemplate<class MovingObject>)
+public: virtual void __thiscall lSystem::CleanScenes(void)
+public: virtual void __thiscall lSystem::ClusterExplosion(class cPosition *,float,bool,bool,bool,bool,class cPointerTemplate<class MovingObject>,float,float,int,bool)
+public: virtual void __thiscall lSystem::Draw(bool)
+public: virtual void __thiscall lSystem::Draw2(float,float,float,float)
+public: virtual void __thiscall lSystem::Explosion(class cPosition *,float,int,int,bool,bool,bool,bool,class cPointerTemplate<class MovingObject>,bool)
+public: virtual void __thiscall lSystem::Explosion(class cPosition *,float,int,int,int,bool,int,bool,bool,bool,class cPointerTemplate<class MovingObject>,void *,int)
+public: virtual void __thiscall lSystem::Finish(void)
+public: virtual void __thiscall lSystem::InitOptions(void)
+public: virtual void __thiscall lSystem::InitScenes(void)
+public: virtual void __thiscall lSystem::NapalmExplosion(class cPosition *,float,float,bool,bool,bool,class cPointerTemplate<class MovingObject>)
+public: virtual void __thiscall lSystem::NextTime(float)
+public: virtual void __thiscall lSystem::ObjectExplosion(class lLandObject &,float,bool,bool,class cPointerTemplate<class MovingObject>)
+public: virtual void __thiscall lSystem::OilExplosion(class cPosition *,float,bool,bool,bool,class cPointerTemplate<class MovingObject>)
+public: virtual void __thiscall lSystem::RemoveWObject(class cPointerTemplate<class MovingObject>)
+public: virtual void __thiscall lSystem::SetAirfieldLights(int,bool)
+public: virtual void __thiscall lSystem::SetCameraType(unsigned char)
+public: virtual void __thiscall lSystem::SetCommand(int)
+public: virtual void __thiscall lSystem::Start(void)
+public: virtual void __thiscall lSystem::Stop(void)
+public: virtual void __thiscall lSystem::VolumeExplosion(class cPosition *,float,bool,bool,bool,class cPointerTemplate<class MovingObject>)
+public: virtual void __thiscall nl::lRegion::Init(void)
+public: virtual void __thiscall nl::lSquare::Init(void)
+public: void __thiscall FCrossRoad::AlignPointToCross(class E3::Vector *,class E3::Vector &,float)
+public: void __thiscall FCrossRoad::ClearUserFlagsOnAirfileld(int)
+public: void __thiscall FCrossRoad::ClearUserFlagsOnAirfileldAll(void)
+public: void __thiscall FCrossRoad::ResetFlag(unsigned int)
+public: void __thiscall FCrossRoad::SetFlag(unsigned int)
+public: void __thiscall FRoad::AttachLineSegment(float)
+public: void __thiscall FRoad::AttachRoad(class FRoad *,float)
+public: void __thiscall FRoad::CutLeading(float)
+public: void __thiscall FRoad::CutRoad(float,float)
+public: void __thiscall FRoad::CutTrailing(float)
+public: void __thiscall FRoad::InsertRoad(class FRoad *,float,float)
+public: void __thiscall FRoad::Invert(void)
+public: void __thiscall FRoad::ResetFlag(unsigned int)
+public: void __thiscall FRoad::ResetSegmentsFlag(unsigned int)
+public: void __thiscall FRoad::SetFlag(unsigned int)
+public: void __thiscall FRoad::SetRoad(class FRoadSegment *,int)
+public: void __thiscall FRoad::SetSegmentsFlag(unsigned int)
+public: void __thiscall FRoad::SetStartPathParam(float)
+public: void __thiscall FRoad::SetStartSegmParam(float)
+public: void __thiscall FRoadSegment::GetArcCenter(class E3::Vector &)const 
+public: void __thiscall FRoadSegment::GetEndPoint(class E3::Vector &)const 
+public: void __thiscall FRoadSegment::GetEndTangent(class E3::Vector &)
+public: void __thiscall FRoadSegment::GetEndTangentForApprox(class E3::Vector &)
+public: void __thiscall FRoadSegment::GetPointByParam(float,class E3::Vector *,class E3::Vector *)const 
+public: void __thiscall FRoadSegment::GetStartPoint(class E3::Vector &)const 
+public: void __thiscall FRoadSegment::GetStartTangent(class E3::Vector &)
+public: void __thiscall FRoadSegment::GetStartTangentForApprox(class E3::Vector &)
+public: void __thiscall FRoadSegment::InvertArc(void)
+public: void __thiscall FRoadSegment::Load(struct RoadsSection::Road::RoadSegment *,int,int)
+public: void __thiscall FRoadSegment::ProjectPoint(class E3::Vector *,class E3::Vector &,float &)const 
+public: void __thiscall FRoadSegment::ResetFlag(unsigned int)
+public: void __thiscall FRoadSegment::SegmentParam(float)
+public: void __thiscall FRoadSegment::SetEndHeight(float)
+public: void __thiscall FRoadSegment::SetFlag(unsigned int)
+public: void __thiscall FRoadSegment::SetLength(float)
+public: void __thiscall FRoadSegment::SetRefRoadIndex(int)
+public: void __thiscall FRoadSegment::SetRefSegmentIndex(int)
+public: void __thiscall FRoadSegment::SetStartHeight(float)
+public: void __thiscall lCableDynData::CutCable(int)
+public: void __thiscall lCrossing::Close(void)
+public: void __thiscall lCrossing::Open(void)
+public: void __thiscall lETL::ResetCable(void)
+public: void __thiscall lETL::SetNextETL(class lETL *)
+public: void __thiscall lETL::SetPrevETL(class lETL *)
+public: void __thiscall lETL_Cables::SetFinishETL(class lETL *)
+public: void __thiscall lETL_Cables::SetStartETL(class lETL *)
+public: void __thiscall lObjWithLights::TurnLight(int,bool)
+public: void __thiscall lObjWithLights::TurnLights(bool)
+public: void __thiscall lObjectFireHolder::delete_all(void)
+public: void __thiscall lRoadManagerImpl::ClearUserFlagsOnAirfileld(int)
+public: void __thiscall lRoadManagerImpl::ClearUserFlagsOnAirfileldAll(void)
+public: void __thiscall lRoadManagerImpl::InitRoadsOnAirfield(class RoadnetworkFile *,int)
+public: void __thiscall lRoadManagerImpl::InitSceneObjects(void)
+public: void __thiscall lRoadManagerImpl::ReadRoadsFromFile(class RoadnetworkFile &,class std::vector<class FRoad *,class std::allocator<class FRoad *> > &,class std::vector<class FCrossRoad *,class std::allocator<class FCrossRoad *> > &,class std::map<struct intpoint,class RoadToSquare,struct std::less<struct intpoint>,class std::allocator<class RoadToSquare> > *)
+public: void __thiscall lRoadManagerImpl::ShelterOperation(float)
+public: void __thiscall lRoadManagerImpl::StartShelterDoorOperation(unsigned long,bool)
+public: void __thiscall lRunTimeLoader::FillParams(void)
+public: void __thiscall lRunTimeLoader::PrecacheAroundObject(class E3::Vector const &)
+public: void __thiscall lRunTimeLoader::PrecacheScene(void)
+public: void __thiscall lRunTimeLoader::UpdateCache(void)

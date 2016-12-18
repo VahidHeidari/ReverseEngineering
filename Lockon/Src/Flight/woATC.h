@@ -1,0 +1,68 @@
+#ifndef WOATC_H_
+#define WOATC_H_
+
+class woATC
+{
+public: __thiscall woATC::woATC(class woATC const &)
+public: __thiscall woATC::woATC(void)
+public: virtual __thiscall woATC::~woATC(void)
+public: class woATC & __thiscall woATC::operator=(class woATC const &)
+public: struct TaxiPoint * __thiscall woATC::Get_Taxi(unsigned long)
+public: unsigned long __thiscall woATC::getLastLandingPlaneID(void)
+public: double __thiscall woATC::getTime_Dest(void)
+public: bool __thiscall woATC::Get_BirthValid(void)
+public: bool __thiscall woATC::Get_HelBirthValid(void)
+public: bool __thiscall woATC::Glide_Slope(void)
+public: bool __thiscall woATC::isPlanesOnStart(class cPointerTemplate<class MovingObject>)
+public: bool __thiscall woATC::isRunWayOpen(void)
+public: class FRoad * __thiscall woATC::Get_AdrLandingTaxi(unsigned long)
+public: class FRoad * __thiscall woATC::Get_AdrTakeOffTaxi(unsigned long,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: class FRoad * __thiscall woATC::Get_Curr_ToTakeOff(unsigned long)
+public: class FRoad * __thiscall woATC::Get_Curr_ToTerminal(unsigned long)
+public: class FRoad * __thiscall woATC::Get_RestoreLandingTaxi(unsigned long)
+public: class FRoad * __thiscall woATC::Get_RestoreTakeOffTaxi(unsigned long)
+public: virtual void __thiscall woATC::serialize(class EagleDynamics::Common::Serializer &)
+public: void __thiscall woATC::Clean_Taxi(unsigned long)
+public: void __thiscall woATC::Control(void)
+public: void __thiscall woATC::Get_Landing_Point(class cPosition *,unsigned long)
+public: void __thiscall woATC::Get_TakeOff_Point(class cPosition *,unsigned char)
+public: void __thiscall woATC::OffProjector(unsigned long)
+public: void __thiscall woATC::Reset_BirthValid(void)
+public: void __thiscall woATC::Reset_HelBirthValid(void)
+public: void __thiscall woATC::Set_BirthValid(void)
+public: void __thiscall woATC::Set_HelBirthValid(void)
+public: void __thiscall woATC::closeDoor(unsigned long)
+public: void __thiscall woATC::doCloseDoor(unsigned long)
+public: void __thiscall woATC::doGlideLock(unsigned long)
+public: void __thiscall woATC::doLanding(unsigned long,unsigned char)
+public: void __thiscall woATC::doOpenDoor(unsigned long)
+public: void __thiscall woATC::doTakeOff(unsigned long)
+public: void __thiscall woATC::fillIDbyTerminalNumber(unsigned long,int)
+public: void __thiscall woATC::glideSlopeMessage(unsigned long)
+public: void __thiscall woATC::landing(unsigned long,unsigned char)
+public: void __thiscall woATC::openDoor(unsigned long)
+public: void __thiscall woATC::setATC(class cPointerTemplate<class MovingObject>)
+public: void __thiscall woATC::setGlideSlope(bool)
+public: void __thiscall woATC::setHAI_ID(int,unsigned long)
+public: void __thiscall woATC::setLastLandingPlaneID(unsigned long)
+public: void __thiscall woATC::setN_L_HAI(int)
+public: void __thiscall woATC::setTime_Dest(double)
+public: void __thiscall woATC::setTime_GS(double)
+public: void __thiscall woATC::takeOff(unsigned long)
+private: void __thiscall woATC::AddTerminalPoint(int,enum wsTermTypes)
+private: void __thiscall woATC::Clean_Terminals(unsigned char)
+private: void __thiscall woATC::Control_Airdrome_Door(unsigned long,bool)
+private: void __thiscall woATC::DistributePlaneGates(void)
+private: void __thiscall woATC::Init0(void)
+private: void __thiscall woATC::Init_Terminals(void)
+private: bool __thiscall woATC::IsHereOutsider(class E3::Vector,bool)
+private: int __thiscall woATC::Get_Landing_RW_Point(void)
+private: int __thiscall woATC::Get_TOTerminal(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,int)
+private: int __thiscall woATC::Get_TO_RW_Point(void)
+const woATC::`vftable'
+
+private: static struct woAirMail woATC::mail
+};
+
+#endif
+

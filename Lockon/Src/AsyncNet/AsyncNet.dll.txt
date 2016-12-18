@@ -1,0 +1,32 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\AsyncNet.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab083a    Thu Nov 06 18:49:30 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00045882    'AsyncNet.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               17
+	NUMBER OF NAMES                   17
+	ADDRESS OF FUNCTIONS              0x000457d8
+	ADDRESS OF NAMES                  0x0004581c
+	ADDRESS OF NAME ORDINALS          0x00045860
+public: __thiscall AsyncNet::AsyncNet(class AsyncNet const &)
+public: __thiscall AsyncNet::AsyncNet(void)
+public: __thiscall ISimControl::ISimControl(class ISimControl const &)
+public: __thiscall ISimControl::ISimControl(void)
+public: virtual __thiscall AsyncNet::~AsyncNet(void)
+public: virtual __thiscall ISimControl::~ISimControl(void)
+public: class AsyncNet & __thiscall AsyncNet::operator=(class AsyncNet const &)
+public: class ISimControl & __thiscall ISimControl::operator=(class ISimControl const &)
+const AsyncNet::`vftable'
+const ISimControl::`vftable'
+public: static void __cdecl AsyncNet::chat(void)
+class AsyncNet * globalAsyncNet
+public: static void __cdecl AsyncNet::shutdown(void)
+public: static void __cdecl AsyncNet::startClient(char const *,char const *)
+public: static void __cdecl AsyncNet::startServer(char const *,int)
+public: static void __cdecl AsyncNet::startup(class ISimControl *)
+public: static void __cdecl AsyncNet::work(void)

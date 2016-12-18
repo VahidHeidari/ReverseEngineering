@@ -1,0 +1,85 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\WRadio.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab07fe    Thu Nov 06 18:48:30 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x000097f4    'WRadio.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               70
+	NUMBER OF NAMES                   70
+	ADDRESS OF FUNCTIONS              0x00009538
+	ADDRESS OF NAMES                  0x00009650
+	ADDRESS OF NAME ORDINALS          0x00009768
+const wRadioListener::`vftable'
+const wRadioMessage::`vftable'
+const wRadioReceiver::`vftable'
+const wRadioReceiver::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const wRadioReceiver::`vftable'{for `Suicide'}
+const wRadioTransmitter::`vftable'
+const wRadioTransmitter::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const wRadioTransmitter::`vftable'{for `Suicide'}
+public: __thiscall wRadioListener::wRadioListener(class wRadioListener const &)
+public: __thiscall wRadioListener::wRadioListener(void)
+public: __thiscall wRadioManager::wRadioManager(class wRadioManager const &)
+public: __thiscall wRadioManager::wRadioManager(void)
+public: __thiscall wRadioManager::~wRadioManager(void)
+public: __thiscall wRadioMessage::wRadioMessage(class wRadioMessage const &)
+public: __thiscall wRadioMessage::wRadioMessage(class wRadioReceiver *,class wRadioTransmitter *,unsigned long,int,int,int,int,int,int,int,bool,int,int)
+public: __thiscall wRadioMessage::wRadioMessage(void)
+public: __thiscall wRadioReceiver::wRadioReceiver(class wObject *)
+public: __thiscall wRadioReceiver::wRadioReceiver(class wRadioReceiver const &)
+public: __thiscall wRadioReceiver::wRadioReceiver(void)
+public: __thiscall wRadioTransmitter::wRadioTransmitter(class wObject *)
+public: __thiscall wRadioTransmitter::wRadioTransmitter(class wRadioTransmitter const &)
+public: __thiscall wRadioTransmitter::wRadioTransmitter(void)
+public: bool __thiscall wRadioMessage::get_humanLeader(void)
+public: class wObject * __thiscall wRadioTransmitter::getOwner(void)
+public: class wRadioListener & __thiscall wRadioListener::operator=(class wRadioListener const &)
+public: class wRadioManager & __thiscall wRadioManager::operator=(class wRadioManager const &)
+public: class wRadioMessage const & __thiscall wRadioMessage::operator=(class wRadioMessage const &)
+public: class wRadioReceiver & __thiscall wRadioReceiver::operator=(class wRadioReceiver const &)
+public: class wRadioReceiver * __thiscall wRadioMessage::getReceiver(void)
+public: class wRadioTransmitter & __thiscall wRadioTransmitter::operator=(class wRadioTransmitter const &)
+public: class wRadioTransmitter * __thiscall wRadioMessage::getTransmitter(void)
+public: int __thiscall wRadioMessage::get_RW_Number(void)
+public: int __thiscall wRadioMessage::get_altitude(void)
+public: int __thiscall wRadioMessage::get_bearing(void)
+public: int __thiscall wRadioMessage::get_boardNumber(void)
+public: int __thiscall wRadioMessage::get_call_sign_number(void)
+public: int __thiscall wRadioMessage::get_country(void)
+public: int __thiscall wRadioMessage::get_distance(void)
+public: int __thiscall wRadioMessage::get_state(void)
+public: int __thiscall wRadioMessage::get_wingmanNumber(void)
+public: unsigned long __thiscall wRadioMessage::get_event(void)
+public: virtual __thiscall wRadioMessage::~wRadioMessage(void)
+public: virtual __thiscall wRadioReceiver::~wRadioReceiver(void)
+public: virtual __thiscall wRadioTransmitter::~wRadioTransmitter(void)
+public: virtual class wObject * __thiscall wRadioReceiver::getOwner(void)
+public: virtual void __thiscall wRadioListener::onRadioMessage(class wRadioMessage *)
+public: virtual void __thiscall wRadioReceiver::addRadioListener(class wRadioListener *)
+public: virtual void __thiscall wRadioReceiver::receiveMessage(class wRadioMessage *)
+public: virtual void __thiscall wRadioReceiver::removeRadioListener(class wRadioListener *)
+public: virtual void __thiscall wRadioReceiver::setOwner(class wObject *)
+public: void __thiscall wRadioManager::addReceiver(class wRadioReceiver *)
+public: void __thiscall wRadioManager::addTransmitter(class wRadioTransmitter *)
+public: void __thiscall wRadioManager::removeReceiver(class wRadioReceiver *)
+public: void __thiscall wRadioManager::removeTransmitter(class wRadioTransmitter *)
+public: void __thiscall wRadioManager::transmitMessage(class wRadioMessage *)
+public: void __thiscall wRadioMessage::setReceiver(class wRadioReceiver *)
+public: void __thiscall wRadioMessage::setTransmitter(class wRadioTransmitter *)
+public: void __thiscall wRadioMessage::set_RW_Number(int)
+public: void __thiscall wRadioMessage::set_altitude(int)
+public: void __thiscall wRadioMessage::set_bearing(int)
+public: void __thiscall wRadioMessage::set_boardNumber(int)
+public: void __thiscall wRadioMessage::set_call_sign_number(int)
+public: void __thiscall wRadioMessage::set_country(int)
+public: void __thiscall wRadioMessage::set_distance(int)
+public: void __thiscall wRadioMessage::set_event(unsigned long)
+public: void __thiscall wRadioMessage::set_humanLeader(bool)
+public: void __thiscall wRadioMessage::set_state(int)
+public: void __thiscall wRadioMessage::set_wingmanNumber(int)
+public: void __thiscall wRadioTransmitter::setOwner(class wObject *)
+public: void __thiscall wRadioTransmitter::transmitMessage(unsigned long,int,int,int,int,int,int,int,bool,int,int)

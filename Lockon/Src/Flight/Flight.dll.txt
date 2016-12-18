@@ -1,0 +1,186 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\Flight.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab0823    Thu Nov 06 18:49:07 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00017ea6    'Flight.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               171
+	NUMBER OF NAMES                   171
+	ADDRESS OF FUNCTIONS              0x000177f8
+	ADDRESS OF NAMES                  0x00017aa4
+	ADDRESS OF NAME ORDINALS          0x00017d50
+public: __thiscall wAirdrome::wAirdrome(class wAirdrome const &)
+public: __thiscall wAirdrome::wAirdrome(void)
+public: __thiscall wAirdromeActivity::wAirdromeActivity(class wAirdromeActivity const &)
+public: __thiscall wAirdromeActivity::wAirdromeActivity(void)
+public: __thiscall woATC::woATC(class woATC const &)
+public: __thiscall woATC::woATC(void)
+public: __thiscall woRunWay::woRunWay(class woRunWay const &)
+public: __thiscall woRunWay::woRunWay(void)
+public: __thiscall wsAdrTerminal::wsAdrTerminal(void)
+public: virtual __thiscall wAirdrome::~wAirdrome(void)
+public: virtual __thiscall wAirdromeActivity::~wAirdromeActivity(void)
+public: virtual __thiscall woATC::~woATC(void)
+public: virtual __thiscall woRunWay::~woRunWay(void)
+public: virtual __thiscall wsAdrTerminal::~wsAdrTerminal(void)
+public: struct RunWay & __thiscall RunWay::operator=(struct RunWay const &)
+public: class wAirdrome & __thiscall wAirdrome::operator=(class wAirdrome const &)
+public: class wAirdromeActivity & __thiscall wAirdromeActivity::operator=(class wAirdromeActivity const &)
+public: class woATC & __thiscall woATC::operator=(class woATC const &)
+public: class woRunWay & __thiscall woRunWay::operator=(class woRunWay const &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,struct RunWay &)
+const wAirdrome::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const wAirdrome::`vftable'
+const wAirdrome::`vftable'{for `IwNetObject'}
+const wAirdrome::`vftable'{for `Graphics::ModelInstance'}
+const wAirdrome::`vftable'{for `Suicide'}
+const wAirdrome::`vftable'{for `viMovingObject'}
+const wAirdrome::`vftable'{for `viObject'}
+const wAirdrome::`vftable'{for `wVulnerable'}
+const wAirdromeActivity::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const wAirdromeActivity::`vftable'{for `Suicide'}
+const woATC::`vftable'
+const woRunWay::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const woRunWay::`vftable'{for `IwNetObject'}
+const woRunWay::`vftable'{for `Graphics::ModelInstance'}
+const woRunWay::`vftable'{for `Suicide'}
+const woRunWay::`vftable'{for `viMovingObject'}
+const woRunWay::`vftable'{for `viObject'}
+const woRunWay::`vftable'{for `wVulnerable'}
+const wsAdrTerminal::`vftable'
+private: void __thiscall wAirdrome::AddATC(void)
+private: class woRunWay * __thiscall wAirdrome::AddRunWay(class cPosition &,float,float,class wsType)
+private: void __thiscall woATC::AddTerminalPoint(int,enum wsTermTypes)
+private: bool __thiscall wAirdrome::Check_RunWayHit(class cPosition &,int)
+public: virtual int __thiscall wAirdrome::Class(void)
+public: virtual int __thiscall woRunWay::Class(void)
+public: void __thiscall wAirdrome::Clean_Taxi(unsigned long)
+public: void __thiscall woATC::Clean_Taxi(unsigned long)
+private: void __thiscall woATC::Clean_Terminals(unsigned char)
+public: void __thiscall wAirdrome::Control(void)
+public: void __thiscall woATC::Control(void)
+private: void __thiscall woATC::Control_Airdrome_Door(unsigned long,bool)
+private: void __thiscall wAirdrome::Control_Light(void)
+private: void __thiscall wAirdrome::Control_Radar_Mail(void)
+public: virtual float const __thiscall wAirdrome::Course(void)
+public: virtual float const __thiscall woRunWay::Course(void)
+public: static void __cdecl wAirdrome::Create(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > &)
+private: void __thiscall wAirdrome::CreateRunWay(void)
+private: void __thiscall wAirdrome::DeleteRunWay(int)
+private: void __thiscall woATC::DistributePlaneGates(void)
+protected: void __thiscall wAirdrome::FillProjectorList(class E3::Vector const &)
+public: static char const * __cdecl wAirdrome::GetAdName(unsigned char)
+private: int __thiscall wAirdrome::GetAirdromePlaceData(int)
+public: virtual class cPosition & __thiscall wAirdrome::GetFirstRunwayPosition(void)
+public: unsigned long __thiscall wAirdrome::GetRunWayID(int)
+public: virtual class cPosition & __thiscall wAirdrome::GetRunwayPosition(int)
+public: static char const * __cdecl wAirdrome::GetRussianAdrName(unsigned char)
+public: class FRoad * __thiscall wAirdrome::Get_AdrLandingTaxi(unsigned long)
+public: class FRoad * __thiscall woATC::Get_AdrLandingTaxi(unsigned long)
+public: class FRoad * __thiscall wAirdrome::Get_AdrTakeOffTaxi(unsigned long,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: class FRoad * __thiscall woATC::Get_AdrTakeOffTaxi(unsigned long,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: bool __thiscall wAirdrome::Get_BirthValid(void)
+public: bool __thiscall woATC::Get_BirthValid(void)
+public: struct RunWay * __thiscall wAirdrome::Get_ClosestRW(float,class E3::Vector &)
+public: class FRoad * __thiscall wAirdrome::Get_Curr_ToTakeOff(unsigned long)
+public: class FRoad * __thiscall woATC::Get_Curr_ToTakeOff(unsigned long)
+public: class FRoad * __thiscall wAirdrome::Get_Curr_ToTerminal(unsigned long)
+public: class FRoad * __thiscall woATC::Get_Curr_ToTerminal(unsigned long)
+public: bool __thiscall wAirdrome::Get_HelBirthValid(void)
+public: bool __thiscall woATC::Get_HelBirthValid(void)
+public: struct RunWay * __thiscall wAirdrome::Get_LandingRW(void)
+public: void __thiscall wAirdrome::Get_Landing_Point(class cPosition *,unsigned long)
+public: void __thiscall woATC::Get_Landing_Point(class cPosition *,unsigned long)
+private: int __thiscall woATC::Get_Landing_RW_Point(void)
+public: int __thiscall wAirdrome::Get_RW_Course_Number(bool)
+public: int __thiscall wAirdrome::Get_RW_Number(bool)
+public: class FRoad * __thiscall wAirdrome::Get_RestoreLandingTaxi(unsigned long)
+public: class FRoad * __thiscall woATC::Get_RestoreLandingTaxi(unsigned long)
+public: class FRoad * __thiscall wAirdrome::Get_RestoreTakeOffTaxi(unsigned long)
+public: class FRoad * __thiscall woATC::Get_RestoreTakeOffTaxi(unsigned long)
+private: int __thiscall woATC::Get_TOTerminal(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,int)
+private: int __thiscall woATC::Get_TO_RW_Point(void)
+public: void __thiscall wAirdrome::Get_TakeOff_Point(class cPosition *,unsigned char)
+public: void __thiscall woATC::Get_TakeOff_Point(class cPosition *,unsigned char)
+public: struct RunWay * __thiscall wAirdrome::Get_TakeOff_RW(void)
+public: struct TaxiPoint * __thiscall woATC::Get_Taxi(unsigned long)
+public: bool __thiscall wAirdrome::Glide_Slope(void)
+public: bool __thiscall woATC::Glide_Slope(void)
+public: virtual float const __thiscall woRunWay::Hrad(void)
+private: void __thiscall woATC::Init0(void)
+private: void __thiscall wAirdrome::Init(int)
+private: void __thiscall wAirdrome::InitRunWayData(void)
+private: void __thiscall woATC::Init_Terminals(void)
+private: bool __thiscall woATC::IsHereOutsider(class E3::Vector,bool)
+public: bool __thiscall wAirdrome::Is_SP_Valid(void)
+public: virtual void __thiscall wAirdromeActivity::NextEvent(void)
+public: void __thiscall wAirdrome::OffProjector(unsigned long)
+public: void __thiscall woATC::OffProjector(unsigned long)
+public: void __thiscall wAirdrome::OnOffProjector(bool)
+public: int __thiscall wAirdrome::On_RunWay(class cPosition &)
+public: virtual void __thiscall wAirdrome::PostCollisionProcessing(struct wsCollisionData *,unsigned long)
+public: virtual void __thiscall woRunWay::PostCollisionProcessing(struct wsCollisionData *,unsigned long)
+public: void __thiscall wAirdrome::Reset_BirthValid(void)
+public: void __thiscall woATC::Reset_BirthValid(void)
+public: void __thiscall wAirdrome::Reset_HelBirthValid(void)
+public: void __thiscall woATC::Reset_HelBirthValid(void)
+public: void __thiscall wAirdrome::Set_BirthValid(void)
+public: void __thiscall woATC::Set_BirthValid(void)
+public: void __thiscall wAirdrome::Set_HelBirthValid(void)
+public: void __thiscall woATC::Set_HelBirthValid(void)
+public: static class std::vector<class wAirdrome *,class std::allocator<class wAirdrome *> > wAirdrome::airdromes
+public: void __thiscall woATC::closeDoor(unsigned long)
+private: void __thiscall wAirdrome::createAirdromeActivity(void)
+protected: void __thiscall wAirdrome::doCloseDoor(unsigned long)
+public: void __thiscall woATC::doCloseDoor(unsigned long)
+protected: void __thiscall wAirdrome::doDamage(float,unsigned short)
+protected: void __thiscall wAirdrome::doGlideLock(unsigned long)
+public: void __thiscall woATC::doGlideLock(unsigned long)
+protected: void __thiscall wAirdrome::doLanding(unsigned long,unsigned char)
+public: void __thiscall woATC::doLanding(unsigned long,unsigned char)
+protected: void __thiscall wAirdrome::doOpenDoor(unsigned long)
+public: void __thiscall woATC::doOpenDoor(unsigned long)
+protected: void __thiscall wAirdrome::doTakeOff(unsigned long)
+public: void __thiscall woATC::doTakeOff(unsigned long)
+public: void __thiscall woATC::fillIDbyTerminalNumber(unsigned long,int)
+private: int __thiscall wAirdrome::formVPPName(float)
+public: class woATC * __thiscall wAirdrome::getATC(void)
+public: struct RunWay * __thiscall wAirdrome::getAirdromeRWs(void)
+public: class woRunWay * __thiscall wAirdrome::getFirstRunWay(void)
+double __cdecl getFogDensity(double,double,double)
+public: unsigned long __thiscall woATC::getLastLandingPlaneID(void)
+public: double __thiscall woATC::getTime_Dest(void)
+public: class wRadioTransmitter * __thiscall wAirdrome::getTransmitter(void)
+double __cdecl getTurbulence(double,double,double)
+void __cdecl getWind(double,double,double,double *,double *)
+public: void __thiscall woATC::glideSlopeMessage(unsigned long)
+private: void __thiscall wAirdrome::initialize(void)
+public: bool __thiscall wAirdrome::isAirdromeRadarValid(void)
+public: bool __thiscall woATC::isPlanesOnStart(class cPointerTemplate<class MovingObject>)
+public: bool __thiscall wAirdrome::isRunWayOpen(void)
+public: bool __thiscall woATC::isRunWayOpen(void)
+public: bool __thiscall woRunWay::isRunWayOpen(void)
+public: void __thiscall woATC::landing(unsigned long,unsigned char)
+private: static struct woAirMail woATC::mail
+public: void __thiscall woATC::openDoor(unsigned long)
+public: virtual void __thiscall wAirdrome::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall woATC::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall woRunWay::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall wsAdrTerminal::serialize(class EagleDynamics::Common::Serializer &)
+public: void __thiscall woATC::setATC(class cPointerTemplate<class MovingObject>)
+public: void __thiscall wAirdrome::setCountry(unsigned char)
+public: void __thiscall wAirdrome::setGlideSlope(bool)
+public: void __thiscall woATC::setGlideSlope(bool)
+public: void __thiscall woATC::setHAI_ID(int,unsigned long)
+public: void __thiscall woRunWay::setIDAirdrome(unsigned long)
+public: void __thiscall woATC::setLastLandingPlaneID(unsigned long)
+public: void __thiscall woATC::setN_L_HAI(int)
+public: void __thiscall wAirdrome::setNewMissionObject(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > &)
+public: void __thiscall woRunWay::setRunWay(class cPosition &,float,float,class wsType)
+public: void __thiscall woATC::setTime_Dest(double)
+public: void __thiscall woATC::setTime_GS(double)
+public: void __thiscall woATC::takeOff(unsigned long)

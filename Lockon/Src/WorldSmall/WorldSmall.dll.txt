@@ -1,0 +1,181 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\WorldSmall.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab0823    Thu Nov 06 18:49:07 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x000190d4    'WorldSmall.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               166
+	NUMBER OF NAMES                   166
+	ADDRESS OF FUNCTIONS              0x00018a58
+	ADDRESS OF NAMES                  0x00018cf0
+	ADDRESS OF NAME ORDINALS          0x00018f88
+const wDownfall::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const wDownfall::`vftable'{for `Suicide'}
+const waChair::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const waChair::`vftable'{for `Graphics::ModelInstance'}
+const waChair::`vftable'{for `IwNetObject'}
+const waChair::`vftable'{for `Suicide'}
+const waChair::`vftable'{for `viMovingObject'}
+const waChair::`vftable'{for `viObject'}
+const waChair::`vftable'{for `wVulnerable'}
+const waChairActivity::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const waChairActivity::`vftable'{for `Suicide'}
+const waParachute::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const waParachute::`vftable'{for `Graphics::ModelInstance'}
+const waParachute::`vftable'{for `IwNetObject'}
+const waParachute::`vftable'{for `Suicide'}
+const waParachute::`vftable'{for `viMovingObject'}
+const waParachute::`vftable'{for `viObject'}
+const waParachute::`vftable'{for `wVulnerable'}
+const waParachuteLife::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const waParachuteLife::`vftable'{for `Suicide'}
+const waParts::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const waParts::`vftable'{for `Graphics::ModelInstance'}
+const waParts::`vftable'{for `IwNetObject'}
+const waParts::`vftable'{for `Suicide'}
+const waParts::`vftable'{for `viMovingObject'}
+const waParts::`vftable'{for `viObject'}
+const waParts::`vftable'{for `wVulnerable'}
+const waPartsActivity::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const waPartsActivity::`vftable'{for `Suicide'}
+const woFreeFall::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const woFreeFall::`vftable'{for `Graphics::ModelInstance'}
+const woFreeFall::`vftable'{for `IwNetObject'}
+const woFreeFall::`vftable'{for `Suicide'}
+const woFreeFall::`vftable'{for `viMovingObject'}
+const woFreeFall::`vftable'{for `viObject'}
+const woFreeFall::`vftable'{for `wVulnerable'}
+const woPoint::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const woPoint::`vftable'{for `Graphics::ModelInstance'}
+const woPoint::`vftable'{for `IwNetObject'}
+const woPoint::`vftable'{for `Suicide'}
+const woPoint::`vftable'{for `viMovingObject'}
+const woPoint::`vftable'{for `viObject'}
+const woPoint::`vftable'{for `wVulnerable'}
+const woSnare::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const woSnare::`vftable'{for `Graphics::ModelInstance'}
+const woSnare::`vftable'{for `IwNetObject'}
+const woSnare::`vftable'{for `Suicide'}
+const woSnare::`vftable'{for `viMovingObject'}
+const woSnare::`vftable'{for `viObject'}
+const woSnare::`vftable'{for `wVulnerable'}
+const woSnareActivity::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const woSnareActivity::`vftable'{for `Suicide'}
+private: void __thiscall waChair::Control_Attitude(void)
+private: void __thiscall waChair::Control_Gamma_Req(void)
+private: void __thiscall waChair::Control_Vel(void)
+private: void __thiscall waChair::Disconnection(void)
+private: void __thiscall waChair::Set_Draw_Args(void)
+private: void __thiscall waChair::Status_Quo(double)
+private: void __thiscall waParachute::Init(void)
+private: void __thiscall waParts::Init(void)
+private: void __thiscall waParts::SpaceRegister(double)
+private: void __thiscall waParts::Status_Quo(double)
+private: void __thiscall waParts::setShape(void)
+private: void __thiscall woFreeFall::Init(void)
+private: void __thiscall woFreeFall::SetShape(class wsType)
+private: void __thiscall woFreeFall::SpaceRegister(double)
+private: void __thiscall woFreeFall::Status_Quo(double)
+private: void __thiscall woPoint::initialize(void)
+private: void __thiscall woSnare::CreateLight(void)
+private: void __thiscall woSnare::createSnareActivity(void)
+private: void __thiscall woSnare::initialize(void)
+public: __thiscall wDownfall::wDownfall(class wDownfall const &)
+public: __thiscall wDownfall::wDownfall(class woFreeFall *,double)
+public: __thiscall waChair::waChair(class waChair const &)
+public: __thiscall waChair::waChair(void)
+public: __thiscall waChairActivity::waChairActivity(class waChair *,double)
+public: __thiscall waChairActivity::waChairActivity(class waChairActivity const &)
+public: __thiscall waParachute::waParachute(class waParachute const &)
+public: __thiscall waParachute::waParachute(void)
+public: __thiscall waParachuteLife::waParachuteLife(class waParachute *,double)
+public: __thiscall waParachuteLife::waParachuteLife(class waParachuteLife const &)
+public: __thiscall waParts::waParts(class waParts const &)
+public: __thiscall waParts::waParts(void)
+public: __thiscall waPartsActivity::waPartsActivity(class waParts *,double)
+public: __thiscall waPartsActivity::waPartsActivity(class waPartsActivity const &)
+public: __thiscall woFreeFall::woFreeFall(class woFreeFall const &)
+public: __thiscall woFreeFall::woFreeFall(void)
+public: __thiscall woPoint::woPoint(class woPoint const &)
+public: __thiscall woPoint::woPoint(void)
+public: __thiscall woSnare::woSnare(class woSnare const &)
+public: __thiscall woSnare::woSnare(void)
+public: __thiscall woSnareActivity::woSnareActivity(class woSnareActivity const &)
+public: __thiscall woSnareActivity::woSnareActivity(void)
+public: bool __thiscall waChair::IsLocalUser(void)
+public: class Effects::ObjectLight * __thiscall woSnare::get_pLight(void)
+public: class lLandObject * __thiscall woPoint::Get_pMap(void)
+public: class wDownfall & __thiscall wDownfall::operator=(class wDownfall const &)
+public: class waChair & __thiscall waChair::operator=(class waChair const &)
+public: class waChairActivity & __thiscall waChairActivity::operator=(class waChairActivity const &)
+public: class waParachute & __thiscall waParachute::operator=(class waParachute const &)
+public: class waParachuteLife & __thiscall waParachuteLife::operator=(class waParachuteLife const &)
+public: class waParts & __thiscall waParts::operator=(class waParts const &)
+public: class waPartsActivity & __thiscall waPartsActivity::operator=(class waPartsActivity const &)
+public: class woFreeFall & __thiscall woFreeFall::operator=(class woFreeFall const &)
+public: class woPoint & __thiscall woPoint::operator=(class woPoint const &)
+public: class woSnare & __thiscall woSnare::operator=(class woSnare const &)
+public: class woSnareActivity & __thiscall woSnareActivity::operator=(class woSnareActivity const &)
+public: static class RandomObject waParts::randomOrderly
+public: static class RandomObject woSnare::randomOrderly
+public: static unsigned long __cdecl woFreeFall::Create(unsigned long,class cPosition,class wsType,int)
+public: static unsigned long __cdecl woPoint::Create(class E3::Vector &)
+public: static unsigned long __cdecl woPoint::Create(class lLandObject *)
+public: static void __cdecl waChair::Create(class cPosition &,class E3::Vector &,unsigned char,bool)
+public: static void __cdecl waParachute::Create(class cPosition &,class wsType)
+public: static void __cdecl waParts::Create(class cPosition &,class E3::Vector &,class wsType,class cPointerTemplate<class MovingObject>)
+public: virtual __thiscall wDownfall::~wDownfall(void)
+public: virtual __thiscall waChair::~waChair(void)
+public: virtual __thiscall waChairActivity::~waChairActivity(void)
+public: virtual __thiscall waParachute::~waParachute(void)
+public: virtual __thiscall waParachuteLife::~waParachuteLife(void)
+public: virtual __thiscall waParts::~waParts(void)
+public: virtual __thiscall waPartsActivity::~waPartsActivity(void)
+public: virtual __thiscall woFreeFall::~woFreeFall(void)
+public: virtual __thiscall woPoint::~woPoint(void)
+public: virtual __thiscall woSnare::~woSnare(void)
+public: virtual __thiscall woSnareActivity::~woSnareActivity(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall waChair::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall waParts::GetDrawArguments(void)
+public: virtual class HeapVector<struct Graphics::DynamicParam> const & __thiscall woFreeFall::GetDrawArguments(void)
+public: virtual class cPosition & __thiscall waChair::Position(double)
+public: virtual class cPosition & __thiscall waParachute::Position(double)
+public: virtual class cPosition & __thiscall waParts::Position(double)
+public: virtual class cPosition & __thiscall woFreeFall::Position(double)
+public: virtual class cPosition & __thiscall woSnare::Position(double)
+public: virtual float const __thiscall waChair::Hrad(void)
+public: virtual float const __thiscall woSnare::Hrad(void)
+public: virtual int __thiscall woFreeFall::Class(void)
+public: virtual int __thiscall woPoint::Class(void)
+public: virtual int __thiscall woSnare::Class(void)
+public: virtual struct gBox const & __thiscall waParts::LocalBox(double)
+public: virtual struct gBox const & __thiscall woFreeFall::LocalBox(double)
+public: virtual void __thiscall wDownfall::NextEvent(void)
+public: virtual void __thiscall waChair::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall waChairActivity::NextEvent(void)
+public: virtual void __thiscall waParachute::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall waParachuteLife::NextEvent(void)
+public: virtual void __thiscall waParts::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall waPartsActivity::NextEvent(void)
+public: virtual void __thiscall woFreeFall::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall woPoint::PostCollisionProcessing(struct wsCollisionData *,unsigned long)
+public: virtual void __thiscall woPoint::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall woSnare::Parse(class Graphics::ModelParser &,class Position3 const &,class HeapVector<class Graphics::VolumeEffect *> *)
+public: virtual void __thiscall woSnare::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall woSnareActivity::NextEvent(void)
+public: void __thiscall waChair::Control(void)
+public: void __thiscall waChair::Next_Step(void)
+public: void __thiscall waChair::setChair(class cPosition &,class E3::Vector &,unsigned char,bool)
+public: void __thiscall waParachute::setParachute(class cPosition &,class wsType)
+public: void __thiscall waParts::setPart(class cPosition &,class E3::Vector &,class wsType,class cPointerTemplate<class MovingObject>)
+public: void __thiscall woFreeFall::resetActivityPointer(void)
+public: void __thiscall woFreeFall::setFreeFall(unsigned long,class cPosition &,class wsType)
+public: void __thiscall woPoint::controlPoint(double &)
+public: void __thiscall woPoint::setLandObject(class lLandObject *)
+public: void __thiscall woPoint::setVector(class E3::Vector &)
+public: void __thiscall woSnare::Status_Quo(double)
+public: void __thiscall woSnare::setSnare(class cPosition &,class E3::Vector &,class wsType,float)

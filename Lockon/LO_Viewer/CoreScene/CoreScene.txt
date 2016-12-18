@@ -1,0 +1,80 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\LO_Viewer\CoreScene.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x41ac646e    Tue Nov 30 04:15:42 2004
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00005722    'CoreScene.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               65
+	NUMBER OF NAMES                   65
+	ADDRESS OF FUNCTIONS              0x00005498
+	ADDRESS OF NAMES                  0x0000559c
+	ADDRESS OF NAME ORDINALS          0x000056a0
+public: __thiscall misc::CoreObject::CoreObject(class misc::CoreObject const &)
+public: __thiscall misc::CoreObject::CoreObject(void)
+public: __thiscall misc::Export::Export(class misc::Export const &)
+public: __thiscall misc::Export::Export(void)
+private: __thiscall misc::Node::Node(class misc::CoreObject *)
+private: __thiscall misc::Node::Node(void)
+public: __thiscall misc::Node::Node(class misc::Node const &)
+public: __thiscall misc::Scene::Scene(class misc::Scene const &)
+public: __thiscall misc::Scene::Scene(void)
+public: virtual __thiscall misc::CoreObject::~CoreObject(void)
+public: virtual __thiscall misc::Export::~Export(void)
+public: virtual __thiscall misc::Node::~Node(void)
+public: virtual __thiscall misc::Scene::~Scene(void)
+public: class misc::CoreObject & __thiscall misc::CoreObject::operator=(class misc::CoreObject const &)
+public: class misc::Export & __thiscall misc::Export::operator=(class misc::Export const &)
+public: class misc::Node & __thiscall misc::Node::operator=(class misc::Node const &)
+public: class misc::Scene & __thiscall misc::Scene::operator=(class misc::Scene const &)
+const misc::CoreObject::`vftable'
+const misc::Export::`vftable'
+const misc::Node::`vftable'
+const misc::Scene::`vftable'
+public: bool __thiscall misc::Node::attach(class misc::Node *,class misc::Node *)
+public: bool __thiscall misc::Node::attachChild(class misc::Node *,class misc::Node *)
+private: bool __thiscall misc::Scene::attachNode(class misc::Node *,class misc::Node *,class misc::Node *)
+private: void __thiscall misc::Export::buildValidity(void)
+public: void __thiscall misc::Export::cancel(void)
+public: class misc::Node * __thiscall misc::Node::child(void)
+protected: virtual class misc::CoreObject * __thiscall misc::Export::convert(class misc::CoreObject *)
+protected: void __thiscall misc::Scene::deleteNode(class misc::Node *)
+public: bool __thiscall misc::Node::detach(void)
+public: bool __thiscall misc::Node::detachChild(class misc::Node *)
+private: bool __thiscall misc::Scene::detachNode(class misc::Node *)
+public: bool __thiscall misc::Export::export(class misc::Scene *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+protected: virtual bool __thiscall misc::Export::exportNode(class misc::Node *,class misc::Node *,class misc::Node *)
+public: class misc::Node * __thiscall misc::Scene::getLastTreeNode(void)
+public: class misc::Node * __thiscall misc::CoreObject::getNode(void)
+public: int __thiscall misc::Node::getNumberOfChildren(void)
+public: class misc::CoreObject * __thiscall misc::Node::getObject(void)
+public: class misc::Node * __thiscall misc::Node::getParent(void)
+public: class misc::Node * __thiscall misc::Scene::getRootNode(void)
+public: class misc::Scene * __thiscall misc::Export::getScene(void)
+public: class misc::Scene * __thiscall misc::Node::getScene(void)
+public: int __thiscall misc::Node::index(void)
+public: void __thiscall misc::Scene::init(void)
+public: bool __thiscall misc::Export::isCancel(void)
+public: bool __thiscall misc::Node::isInHierarchy(void)
+private: bool __thiscall misc::Scene::isInitialized(void)
+public: bool __thiscall misc::Node::isRoot(void)
+protected: virtual bool __thiscall misc::Export::isValidInputData(class misc::Scene *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: class misc::Node * __thiscall misc::Node::next(void)
+public: class misc::Node * __thiscall misc::Scene::nextBranchNode(class misc::Node *)
+protected: virtual void __thiscall misc::Export::postExport(void)
+protected: virtual void __thiscall misc::Export::preExport(void)
+protected: virtual void __thiscall misc::Export::preSave(void)
+public: class misc::Node * __thiscall misc::Scene::prevBranchNode(class misc::Node *)
+public: class misc::Node * __thiscall misc::Scene::registerNode(class misc::CoreObject *)
+private: void __thiscall misc::Export::reset(void)
+public: virtual void __thiscall misc::Scene::reset(void)
+private: void __thiscall misc::CoreObject::setNode(class misc::Node *)
+public: class misc::CoreObject * __thiscall misc::Node::setObject(class misc::CoreObject *)
+private: void __thiscall misc::Node::setScene(class misc::Scene *)
+public: class misc::CoreObject * __thiscall misc::Scene::unregisterNode(class misc::Node *,class std::set<class misc::Node *,struct std::less<class misc::Node *>,class std::allocator<class misc::Node *> > *)
+protected: virtual bool __thiscall misc::CoreObject::update(class misc::CoreObject *)
+public: bool __thiscall misc::Node::update(class misc::Node *)
+public: bool __thiscall misc::Scene::update(void)

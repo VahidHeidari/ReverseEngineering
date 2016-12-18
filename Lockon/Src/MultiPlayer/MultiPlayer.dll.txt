@@ -1,0 +1,223 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\MultiPlayer.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab07fc    Thu Nov 06 18:48:28 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00084ac8    'MultiPlayer.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               208
+	NUMBER OF NAMES                   208
+	ADDRESS OF FUNCTIONS              0x000842a8
+	ADDRESS OF NAMES                  0x000845e8
+	ADDRESS OF NAME ORDINALS          0x00084928
+public: __thiscall ActionListener::ActionListener(class ActionListener const &)
+public: __thiscall ActionListener::ActionListener(void)
+public: __thiscall ChatListener::ChatListener(class ChatListener const &)
+public: __thiscall ChatListener::ChatListener(void)
+public: __thiscall Chatter::Chatter(class Chatter const &)
+public: __thiscall Chatter::Chatter(void)
+public: __thiscall ControlListener::ControlListener(class ControlListener const &)
+public: __thiscall ControlListener::ControlListener(void)
+public: __thiscall FactTuner::FactTuner(void)
+public: __thiscall HotJoiner::HotJoiner(struct HotJoiner const &)
+public: __thiscall HotJoiner::HotJoiner(void)
+public: __thiscall MultiActionProcessor::MultiActionProcessor(class MultiActionProcessor const &)
+public: __thiscall MultiActionProcessor::MultiActionProcessor(class Net::Worker *)
+protected: __thiscall MultiPlayerProcessor::MultiPlayerProcessor(void)
+public: __thiscall MultiPlayerProcessor::MultiPlayerProcessor(class MultiPlayerProcessor const &)
+public: __thiscall NetGeneralProcessor::NetGeneralProcessor(class NetGeneralProcessor const &)
+public: __thiscall NetGeneralProcessor::NetGeneralProcessor(void)
+public: __thiscall NetMessageBox::NetMessageBox(class NetMessageBox const &)
+public: __thiscall NetMessageBox::NetMessageBox(void)
+public: __thiscall Packet::Packet(void)
+public: __thiscall PlayerListener::PlayerListener(class PlayerListener const &)
+public: __thiscall PlayerListener::PlayerListener(void)
+public: __thiscall Press::Press(void)
+public: __thiscall Reaction::Reaction(void)
+public: __thiscall Rewinder::Rewinder(class Rewinder const &)
+public: __thiscall Rewinder::Rewinder(void)
+public: __thiscall Track::Track(class Track const &)
+public: __thiscall Track::Track(void)
+public: __thiscall TrackManager::TrackManager(class TrackManager const &)
+public: __thiscall TrackManager::TrackManager(void)
+public: __thiscall TrackRewinder::TrackRewinder(class TrackRewinder const &)
+public: __thiscall TrackRewinder::TrackRewinder(void)
+public: __thiscall UpdateListener::UpdateListener(class UpdateListener const &)
+public: __thiscall UpdateListener::UpdateListener(void)
+public: virtual __thiscall Chatter::~Chatter(void)
+public: __thiscall HotJoiner::~HotJoiner(void)
+public: virtual __thiscall MultiActionProcessor::~MultiActionProcessor(void)
+protected: virtual __thiscall MultiPlayerProcessor::~MultiPlayerProcessor(void)
+public: virtual __thiscall NetGeneralProcessor::~NetGeneralProcessor(void)
+public: virtual __thiscall NetMessageBox::~NetMessageBox(void)
+public: virtual __thiscall Rewinder::~Rewinder(void)
+public: virtual __thiscall Track::~Track(void)
+public: virtual __thiscall TrackManager::~TrackManager(void)
+public: virtual __thiscall TrackRewinder::~TrackRewinder(void)
+public: class ActionListener & __thiscall ActionListener::operator=(class ActionListener const &)
+public: class ChatListener & __thiscall ChatListener::operator=(class ChatListener const &)
+public: class Chatter & __thiscall Chatter::operator=(class Chatter const &)
+public: class ControlListener & __thiscall ControlListener::operator=(class ControlListener const &)
+public: struct FactTuner & __thiscall FactTuner::operator=(struct FactTuner const &)
+public: struct HotJoiner & __thiscall HotJoiner::operator=(struct HotJoiner const &)
+public: class MultiActionProcessor & __thiscall MultiActionProcessor::operator=(class MultiActionProcessor const &)
+public: class MultiPlayerProcessor & __thiscall MultiPlayerProcessor::operator=(class MultiPlayerProcessor const &)
+public: class NetGeneralProcessor & __thiscall NetGeneralProcessor::operator=(class NetGeneralProcessor const &)
+public: class NetMessageBox & __thiscall NetMessageBox::operator=(class NetMessageBox const &)
+public: struct Packet & __thiscall Packet::operator=(struct Packet const &)
+public: class PlayerListener & __thiscall PlayerListener::operator=(class PlayerListener const &)
+public: struct Press & __thiscall Press::operator=(struct Press const &)
+public: struct Reaction & __thiscall Reaction::operator=(struct Reaction const &)
+public: class Rewinder & __thiscall Rewinder::operator=(class Rewinder const &)
+public: class Track & __thiscall Track::operator=(class Track const &)
+public: class TrackManager & __thiscall TrackManager::operator=(class TrackManager const &)
+public: class TrackRewinder & __thiscall TrackRewinder::operator=(class TrackRewinder const &)
+public: class UpdateListener & __thiscall UpdateListener::operator=(class UpdateListener const &)
+public: bool __thiscall Reaction::operator<(struct Reaction const &)const 
+const ActionListener::`vftable'
+const ChatListener::`vftable'
+const Chatter::`vftable'
+const ControlListener::`vftable'
+const MultiActionProcessor::`vftable'{for `HotJoinListener'}
+const MultiActionProcessor::`vftable'{for `Rewinder'}
+const MultiActionProcessor::`vftable'{for `Net::SamplingListener'}
+const MultiActionProcessor::`vftable'{for `System'}
+const MultiActionProcessor::`vftable'{for `EagleDynamics::Common::TimeKeeper::TimeListener'}
+const MultiPlayerProcessor::`vftable'
+const NetGeneralProcessor::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Identifiable>'}
+const NetGeneralProcessor::`vftable'
+const NetGeneralProcessor::`vftable'{for `Control'}
+const NetGeneralProcessor::`vftable'{for `UI::Element'}
+const NetGeneralProcessor::`vftable'{for `System'}
+const NetMessageBox::`vftable'
+const PlayerListener::`vftable'
+const Rewinder::`vftable'
+const Track::`vftable'
+const TrackManager::`vftable'
+const TrackRewinder::`vftable'
+const UpdateListener::`vftable'
+const NetGeneralProcessor::`vbtable'
+public: void __thiscall NetGeneralProcessor::`vbase destructor'(void)
+public: virtual void __thiscall TrackManager::CloseTrack(void)
+public: virtual bool __thiscall TrackManager::DeleteTrack(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: virtual bool __thiscall TrackManager::OpenTrack(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct IStream * *,bool)
+public: virtual bool __thiscall TrackManager::SaveTrack(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+protected: void __thiscall TrackManager::abnormal(void)
+public: virtual void __thiscall MultiActionProcessor::accomplish(void)
+public: void __thiscall Chatter::add(class ChatListener *)
+public: void __thiscall Rewinder::add(class ActionListener *)
+public: virtual bool __thiscall TrackManager::append(enum TrackPart const &,struct IStream *)
+public: virtual void __thiscall MultiActionProcessor::applyActions(void)
+public: virtual bool __thiscall MultiActionProcessor::applyReactions(class std::vector<struct Reaction,class std::allocator<struct Reaction> > const &)
+public: virtual bool __thiscall TrackRewinder::applyReactions(class std::vector<struct Reaction,class std::allocator<struct Reaction> > const &)
+public: virtual struct Reaction const & __thiscall TrackManager::bottom(void)const 
+public: virtual void __thiscall TrackManager::cancelInterrupt(void)
+public: void __thiscall NetGeneralProcessor::chatOn(void)
+public: virtual bool __thiscall MultiActionProcessor::checkControlAction(double const &,struct Press *,bool)
+public: virtual bool __thiscall MultiActionProcessor::checkPromptitude(double const &)
+public: virtual void __thiscall MultiActionProcessor::checkSyncRequest(void)
+public: virtual void __thiscall TrackManager::clear(enum TrackPart const &)
+public: void __thiscall MultiActionProcessor::clearQuantQueue(double const &)
+protected: void __thiscall Track::closing(void)
+public: virtual void __thiscall MultiActionProcessor::complete(void)
+public: virtual void __thiscall TrackRewinder::complete(void)
+public: virtual bool __thiscall MultiActionProcessor::completePart(void)
+public: virtual bool __thiscall TrackRewinder::completePart(void)
+public: static class MultiPlayerProcessor * __cdecl MultiPlayerProcessor::create(void)
+public: virtual bool __thiscall TrackManager::derive(enum TrackPart const &,struct IStream * *)
+public: static void __cdecl MultiPlayerProcessor::destroy(class MultiPlayerProcessor *)
+public: virtual void __thiscall TrackManager::displayCursor(bool)
+public: virtual void __thiscall TrackManager::displayIcon(enum TrackIcon const &,bool)
+protected: void __thiscall MultiActionProcessor::displayLatentObject(double const &,unsigned long const &)
+public: virtual void __thiscall TrackManager::edit(void)
+public: virtual bool __thiscall TrackManager::empty(enum TrackPart const &)const 
+public: virtual bool __thiscall MultiActionProcessor::engine(class Net::BaseSamplingNotifier *,class Net::BaseEvent *,class EagleDynamics::Common::Identifier const *)
+protected: void __thiscall TrackManager::eraseDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: virtual bool __thiscall MultiActionProcessor::eraseUnanswers(double const &)
+public: virtual bool __thiscall TrackManager::finish(bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: virtual bool __thiscall TrackManager::flush(enum TrackPart const &)
+protected: unsigned long __thiscall TrackRewinder::formID(int const &,int const &)
+public: virtual bool __thiscall TrackManager::get(enum TrackPart const &,struct IStream * *)
+public: enum CallTarget const & __thiscall Chatter::getCallTarget(void)const 
+public: virtual double const & __thiscall TrackManager::getFinishTime(void)const 
+public: virtual bool __thiscall TrackManager::getFitFileName(int const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)
+public: unsigned long const & __thiscall MultiActionProcessor::getLocalID(void)const 
+protected: virtual struct MSGTABLE const * __thiscall NetGeneralProcessor::getMessageTable(void)const 
+public: enum TrackMode const & __thiscall Track::getMode(void)const 
+public: virtual double const & __thiscall Rewinder::getModelTime(void)
+public: virtual int __thiscall TrackManager::getNextFileName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)
+public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall TrackManager::getQuitStr(void)const 
+public: virtual class Track * __thiscall TrackManager::getTrackPart(enum TrackPart const &)
+public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall TrackManager::getTrackPath(void)const 
+public: virtual enum TrackType const & __thiscall TrackManager::getType(void)const 
+public: virtual long __thiscall TrackManager::getVersion(void)const 
+class NetMessageBox * globalMessageBox
+class MultiPlayerProcessor * globalMultiPlayerProcessor
+public: virtual void __thiscall NetMessageBox::hide(void)
+public: virtual bool __thiscall MultiActionProcessor::initialize(void)
+public: virtual bool __thiscall NetGeneralProcessor::initialize(void)
+public: virtual bool __thiscall TrackRewinder::initialize(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > const &,class std::vector<unsigned long,class std::allocator<unsigned long> > const &,enum TrackType const &)
+public: virtual void __thiscall TrackManager::interruptTracking(class ControlListener *,bool,bool)
+public: virtual bool __thiscall TrackManager::isCycled(void)const 
+public: virtual bool __thiscall TrackManager::isEditing(void)const 
+public: virtual bool __thiscall TrackManager::isFullRedact(void)const 
+public: virtual bool __thiscall TrackManager::isInvariabled(void)const 
+public: virtual bool __thiscall TrackManager::isReading(void)const 
+public: virtual bool __thiscall TrackManager::isStarted(void)const 
+public: virtual bool __thiscall TrackManager::isWasEdited(void)const 
+public: virtual bool __thiscall TrackManager::isWriting(void)const 
+public: void __thiscall NetGeneralProcessor::joinOnOff(bool)
+public: void __thiscall NetGeneralProcessor::lockButtons(void)
+private: static struct MSGTABLE_ENTRY const * const NetGeneralProcessor::messageEntries
+protected: static struct MSGTABLE const NetGeneralProcessor::messageTable
+public: virtual void __thiscall MultiActionProcessor::onAppendHotJoin(struct HotJoiner *)
+public: virtual void __thiscall MultiActionProcessor::onAppendJoin(struct HotJoiner *)
+public: virtual void __thiscall MultiActionProcessor::onCheckHotJoin(struct HotJoiner *)
+protected: void __thiscall NetGeneralProcessor::onCloseAll(void)
+protected: void __thiscall NetGeneralProcessor::onConnectChat(void)
+public: virtual void __thiscall MultiActionProcessor::onEveryTimeJoin(struct HotJoiner *)
+public: virtual void __thiscall MultiActionProcessor::onHotJoin(struct HotJoiner *)
+protected: void __thiscall NetGeneralProcessor::onJoinPool(void)
+public: virtual void __thiscall MultiActionProcessor::onTime(void)
+public: virtual void __thiscall MultiActionProcessor::onUnJoin(struct HotJoiner *)
+protected: bool __thiscall Track::open(struct IStorage *,enum TrackMode const &,unsigned short const *)
+public: void __thiscall NetGeneralProcessor::poolOn(void)
+public: virtual void __thiscall TrackManager::pop(void)
+public: virtual bool __thiscall MultiActionProcessor::prepareActions(double const &,class std::vector<struct Press,class std::allocator<struct Press> > const &)
+public: virtual bool __thiscall TrackManager::printSubtitle(bool,unsigned long const &,double const &)
+public: virtual bool __thiscall MultiActionProcessor::process(void)
+public: virtual bool __thiscall NetGeneralProcessor::process(void)
+public: virtual void __thiscall TrackManager::push(struct Reaction const &)
+public: virtual void __thiscall TrackManager::pushRedact(struct Reaction const &)
+public: virtual bool __thiscall TrackManager::pushSubtitle(bool,double const &)
+public: virtual bool __thiscall TrackManager::put(enum TrackPart const &,struct IStream *)
+public: void __thiscall Chatter::remove(class ChatListener *)
+public: void __thiscall Rewinder::remove(class ActionListener *)
+public: virtual bool __thiscall TrackManager::reopen(void)
+public: virtual bool __thiscall MultiActionProcessor::sendControlAction(double const &,struct Press const &)
+public: virtual void __thiscall Rewinder::setActionFilter(bool,long const &)
+public: void __thiscall MultiActionProcessor::setActivator(bool)
+public: void __thiscall Chatter::setCallTarget(enum CallTarget const &)
+public: virtual void __thiscall TrackManager::setCycled(bool)
+public: virtual void __thiscall TrackManager::setInvariabled(bool)
+public: void __thiscall MultiActionProcessor::setJoinersMap(class std::map<unsigned long,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >,struct std::less<unsigned long>,class std::allocator<class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > > > const &,long const &,bool)
+public: void __thiscall MultiActionProcessor::setLocalID(unsigned long const &)
+public: virtual void __thiscall Track::setMode(enum TrackMode const &)
+public: virtual void __thiscall Rewinder::setModelTime(double const &)
+protected: void __thiscall MultiActionProcessor::setNewJoiner(unsigned long const &,class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> >)
+public: void __thiscall MultiActionProcessor::setQuantor(bool)
+protected: bool __thiscall MultiActionProcessor::setReJoiner(unsigned long const &)
+public: virtual void __thiscall TrackManager::setSuspended(bool)
+public: void __thiscall MultiActionProcessor::setTracker(void)
+public: void __thiscall TrackRewinder::setTracker(void)
+public: virtual void __thiscall NetMessageBox::show(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Align const &)
+public: virtual bool __thiscall TrackManager::start(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum TrackMode const &,enum TrackType *,bool)
+public: virtual void __thiscall MultiActionProcessor::syncActions(double const &)
+public: virtual struct Reaction const & __thiscall TrackManager::top(void)const 
+public: virtual bool __thiscall MultiActionProcessor::uninitialize(void)
+public: virtual bool __thiscall NetGeneralProcessor::uninitialize(void)
+public: void __thiscall NetGeneralProcessor::unlockButtons(bool)
+protected: bool __thiscall MultiActionProcessor::updateJoiner(double const &,unsigned long const &,bool)

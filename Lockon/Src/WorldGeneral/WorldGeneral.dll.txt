@@ -1,0 +1,380 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\WorldGeneral.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab07e9    Thu Nov 06 18:48:09 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x0001b53a    'WorldGeneral.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               365
+	NUMBER OF NAMES                   365
+	ADDRESS OF FUNCTIONS              0x0001a6f8
+	ADDRESS OF NAMES                  0x0001acac
+	ADDRESS OF NAME ORDINALS          0x0001b260
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class wFloat &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class wPosition &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class wQuaternion &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class wSignaller &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class wVector &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class wsFlags &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class wsPilonLoad &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,class wsType &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,struct TaxiPoint &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,struct Waypoint &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,struct wCamera &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,struct wsInitData &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,struct wsTargetState &)
+class EagleDynamics::Common::Serializer & __cdecl operator<<(class EagleDynamics::Common::Serializer &,struct wsTargetStateSAM &)
+class ITerrain * globalLand
+class IView * globalView
+class IwHumanPlane * globalHumanPlane
+class IwInfo * globalInfo
+class IwWorld * globalWorld
+class WorldManager * globalWorldManager
+const ITerrain::`vftable'
+const IView::`vftable'
+const IwAirdrome::`vftable'
+const IwHumanPlane::`vftable'
+const IwInfo::`vftable'
+const IwWorld::`vftable'
+const IwoLA::`vftable'
+const ListTargetManager::`vftable'
+const MovingObject::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const MovingObject::`vftable'{for `Graphics::ModelInstance'}
+const MovingObject::`vftable'{for `IwNetObject'}
+const MovingObject::`vftable'{for `Suicide'}
+const MovingObject::`vftable'{for `viMovingObject'}
+const MovingObject::`vftable'{for `viObject'}
+const MovingObject::`vftable'{for `wVulnerable'}
+const WorldManager::`vftable'{for `EagleDynamics::Common::FakeUnknown<class EagleDynamics::Common::FactoryManager>'}
+const WorldManager::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const WorldManager::`vftable'{for `Suicide'}
+const WorldManager::`vftable'{for `System'}
+const wActivityManager::`vftable'
+const wCamera::`vftable'
+const wControl::`vftable'{for `EagleDynamics::Common::FakeUnknown<class EagleDynamics::Common::Serializable>'}
+const wControl::`vftable'{for `Suicide'}
+const wControl::`vftable'{for `wListener'}
+const wFloat::`vftable'
+const wNetObject::`vftable'
+const wObject::`vftable'{for `Evoker<class wListener,class Link<class wListener> >'}
+const wObject::`vftable'{for `Suicide'}
+const wPosition::`vftable'
+const wQuaternion::`vftable'
+const wVector::`vftable'
+int __cdecl GetCellIndex(struct GridInfo const &,class Box const &,class Vector3 const &)
+private: __thiscall wMOMApplication::wMOMApplication(void)
+private: static class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > wMOMApplication::m_pApplication
+protected: virtual void __thiscall MovingObject::calculateYawPitchRoll(void)
+protected: virtual void __thiscall MovingObject::formOrientation(class cPosition &,float,float,float)
+protected: virtual void __thiscall MovingObject::setOrientation(void)
+protected: void __thiscall MovingObject::createCrashEvent(void)
+protected: void __thiscall MovingObject::createKillEvent(void)
+protected: void __thiscall wActivityManager::deleteActivity(void)
+public: __thiscall ITerrain::ITerrain(class ITerrain const &)
+public: __thiscall ITerrain::ITerrain(void)
+public: __thiscall IView::IView(class IView const &)
+public: __thiscall IView::IView(void)
+public: __thiscall IwAirdrome::IwAirdrome(class IwAirdrome const &)
+public: __thiscall IwAirdrome::IwAirdrome(void)
+public: __thiscall IwHumanPlane::IwHumanPlane(class IwHumanPlane const &)
+public: __thiscall IwHumanPlane::IwHumanPlane(void)
+public: __thiscall IwInfo::IwInfo(class IwInfo const &)
+public: __thiscall IwInfo::IwInfo(void)
+public: __thiscall IwWorld::IwWorld(class IwWorld const &)
+public: __thiscall IwWorld::IwWorld(void)
+public: __thiscall IwoLA::IwoLA(class IwoLA const &)
+public: __thiscall IwoLA::IwoLA(void)
+public: __thiscall ListTargetManager::ListTargetManager(class ListTargetManager const &)
+public: __thiscall ListTargetManager::ListTargetManager(void)
+public: __thiscall MovingObject::MovingObject(bool)
+public: __thiscall MovingObject::MovingObject(class MovingObject const &)
+public: __thiscall MovingObject::MovingObject(void)
+public: __thiscall WorldManager::WorldManager(class WorldManager const &)
+public: __thiscall WorldManager::WorldManager(void)
+public: __thiscall wActivityManager::wActivityManager(class wActivityManager const &)
+public: __thiscall wActivityManager::wActivityManager(void)
+public: __thiscall wCamera::wCamera(struct wCamera const &)
+public: __thiscall wCamera::wCamera(void)
+public: __thiscall wControl::wControl(class wControl const &)
+public: __thiscall wControl::wControl(void)
+public: __thiscall wEventBase::wEventBase(enum wEventDescription const &,bool,class wObject *)
+public: __thiscall wEventBase::wEventBase(enum wEventDescription const &,class cPosition,void *)
+public: __thiscall wEventBase::wEventBase(enum wEventDescription const &,class wObject *,bool,void *)
+public: __thiscall wEventBase::wEventBase(struct wEventBase const &)
+public: __thiscall wFloat::wFloat(class wFloat const &)
+public: __thiscall wFloat::wFloat(void)
+public: __thiscall wLauncher::wLauncher(unsigned char,int,float,float,float,float,float,int,char *)
+public: __thiscall wLauncher::wLauncher(void)
+public: __thiscall wLauncherLoad::wLauncherLoad(class wsType,int,float)
+public: __thiscall wLauncherLoad::wLauncherLoad(struct wLauncherLoad const &)
+public: __thiscall wNetObject::wNetObject(class wNetObject const &)
+public: __thiscall wNetObject::wNetObject(void)
+public: __thiscall wNetPos::Path::Path(class wNetPos::Path const &)
+public: __thiscall wNetPos::Path::Path(float,class E3::Vector const &,class E3::Vector const &,float,class E3::Vector const &,class E3::Vector const &)
+public: __thiscall wNetPos::Path::Path(void)
+public: __thiscall wNetPos::wNetPos(class wNetPos const &)
+public: __thiscall wNetPos::wNetPos(void)
+public: __thiscall wNetRot::Rot::Rot(class wNetRot::Rot const &)
+public: __thiscall wNetRot::Rot::Rot(float,class Quaternion const &,float,class Quaternion const &)
+public: __thiscall wNetRot::Rot::Rot(void)
+public: __thiscall wNetRot::wNetRot(class wNetRot const &)
+public: __thiscall wNetRot::wNetRot(void)
+public: __thiscall wObject::wObject(class wObject const &)
+public: __thiscall wObject::wObject(void)
+public: __thiscall wPosition::wPosition(class wPosition const &)
+public: __thiscall wPosition::wPosition(void)
+public: __thiscall wQuaternion::wQuaternion(class wQuaternion const &)
+public: __thiscall wQuaternion::wQuaternion(void)
+public: __thiscall wSignaller::wSignaller(void)
+public: __thiscall wSignaller::~wSignaller(void)
+public: __thiscall wVector::wVector(class wVector const &)
+public: __thiscall wVector::wVector(void)
+public: __thiscall wsFlags::wsFlags(__int32)
+public: __thiscall wsFlags::wsFlags(void)
+public: __thiscall wsInitData::wsInitData(void)
+public: __thiscall wsInitData::~wsInitData(void)
+public: __thiscall wsPilonLoad::wsPilonLoad(class wsPilonLoad const &)
+public: __thiscall wsPilonLoad::wsPilonLoad(void)
+public: __thiscall wsTargetState::wsTargetState(struct wsTargetState const &)
+public: __thiscall wsTargetState::wsTargetState(void)
+public: __thiscall wsTargetState::~wsTargetState(void)
+public: __thiscall wsTargetStateSAM::wsTargetStateSAM(struct wsTargetStateSAM const &)
+public: __thiscall wsTargetStateSAM::wsTargetStateSAM(void)
+public: __thiscall wsTargetStateSAM::~wsTargetStateSAM(void)
+public: __thiscall wsType::wsType(class wsType const &)
+public: __thiscall wsType::wsType(unsigned char,unsigned char,unsigned char,unsigned char)
+public: __thiscall wsType::wsType(unsigned long)
+public: __thiscall wsType::wsType(void)
+public: bool __thiscall IwWorld::netIsRunning(void)const 
+public: bool __thiscall IwWorld::netIsServer(void)const 
+public: bool __thiscall MovingObject::getFlag_Disturbance(void)
+public: bool __thiscall MovingObject::getFlag_HumanPlane(void)
+public: bool __thiscall MovingObject::getFlag_MissionTarget(void)
+public: bool __thiscall MovingObject::getFlag_RadarActive(void)
+public: bool __thiscall MovingObject::isMaster(void)const 
+public: bool __thiscall MovingObject::netIsMaster(void)const 
+public: bool __thiscall wSignaller::getState(void)
+public: bool __thiscall wSignaller::processBegin(void)
+public: bool __thiscall wSignaller::processEnd(void)
+public: bool const __thiscall MovingObject::IsFlag(__int32)const 
+public: bool const __thiscall wsFlags::IsSet(__int32)const 
+public: bool const __thiscall wsType::operator!=(class wsType const &)const 
+public: bool const __thiscall wsType::operator==(class wsType const &)const 
+public: class E3::Vector const & __thiscall MovingObject::VectorVelocity(class E3::Vector const &)
+public: class ITerrain & __thiscall ITerrain::operator=(class ITerrain const &)
+public: class IView & __thiscall IView::operator=(class IView const &)
+public: class IwAirdrome & __thiscall IwAirdrome::operator=(class IwAirdrome const &)
+public: class IwHumanPlane & __thiscall IwHumanPlane::operator=(class IwHumanPlane const &)
+public: class IwInfo & __thiscall IwInfo::operator=(class IwInfo const &)
+public: class IwWorld & __thiscall IwWorld::operator=(class IwWorld const &)
+public: class IwoLA & __thiscall IwoLA::operator=(class IwoLA const &)
+public: class ListTargetManager & __thiscall ListTargetManager::operator=(class ListTargetManager const &)
+public: class MovingObject & __thiscall MovingObject::operator=(class MovingObject const &)
+public: class WorldManager & __thiscall WorldManager::operator=(class WorldManager const &)
+public: class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __thiscall MovingObject::getMEObject(void)
+public: class cPointerTemplate<class MovingObject> __thiscall WorldManager::Get_woPointer(unsigned long)
+public: class cPointerTemplate<class MovingObject> __thiscall WorldManager::HumanPtr(void)
+public: class wActivityManager & __thiscall wActivityManager::operator=(class wActivityManager const &)
+public: class wControl & __thiscall wControl::operator=(class wControl const &)
+public: class wFloat & __thiscall wFloat::operator=(class wFloat const &)
+public: class wMOMApplication & __thiscall wMOMApplication::operator=(class wMOMApplication const &)
+public: class wNetObject & __thiscall wNetObject::operator=(class wNetObject const &)
+public: class wNetPos & __thiscall wNetPos::operator=(class wNetPos const &)
+public: class wNetPos::Path & __thiscall wNetPos::Path::operator=(class wNetPos::Path const &)
+public: class wNetRot & __thiscall wNetRot::operator=(class wNetRot const &)
+public: class wNetRot::Rot & __thiscall wNetRot::Rot::operator=(class wNetRot::Rot const &)
+public: class wObject & __thiscall wObject::operator=(class wObject const &)
+public: class wPosition & __thiscall wPosition::operator=(class wPosition const &)
+public: class wQuaternion & __thiscall wQuaternion::operator=(class wQuaternion const &)
+public: class wSignaller & __thiscall wSignaller::operator=(class wSignaller const &)
+public: class wVector & __thiscall wVector::operator=(class wVector const &)
+public: class wsFlags & __thiscall wsFlags::operator=(class wsFlags const &)
+public: class wsFlags const __thiscall MovingObject::Flags(void)const 
+public: class wsPilonLoad & __thiscall wsPilonLoad::operator=(class wsPilonLoad const &)
+public: class wsType const __thiscall MovingObject::Type(class wsType &)
+public: class wsType const __thiscall MovingObject::Type(void)const 
+public: double const __thiscall MovingObject::NetTime(double)
+public: double const __thiscall MovingObject::NetTime(void)const 
+public: float __thiscall wNetObject::formNextStep(class cPosition &,double)
+public: float __thiscall wNetPos::lastUpdate(void)const 
+public: float const __thiscall MovingObject::Vy(void)const 
+public: int __thiscall MovingObject::netPeer(void)const 
+public: int const __thiscall wsType::size(void)const 
+public: static class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > __cdecl wMOMApplication::getInstance(void)
+public: static void __cdecl wMOMApplication::Finish(void)
+public: static void __cdecl wMOMApplication::Init(void)
+public: struct Fara_Position & __thiscall Fara_Position::operator=(struct Fara_Position const &)
+public: struct Fire_Position & __thiscall Fire_Position::operator=(struct Fire_Position const &)
+public: struct Helicopter_Const & __thiscall Helicopter_Const::operator=(struct Helicopter_Const const &)
+public: struct Mach_H & __thiscall Mach_H::operator=(struct Mach_H const &)
+public: struct Pilot_Pos & __thiscall Pilot_Pos::operator=(struct Pilot_Pos const &)
+public: struct Plane_Const & __thiscall Plane_Const::operator=(struct Plane_Const const &)
+public: struct Ship_Const & __thiscall Ship_Const::operator=(struct Ship_Const const &)
+public: struct Snare_Position & __thiscall Snare_Position::operator=(struct Snare_Position const &)
+public: struct Soplo_Pos & __thiscall Soplo_Pos::operator=(struct Soplo_Pos const &)
+public: struct TankTurret_Const & __thiscall TankTurret_Const::operator=(struct TankTurret_Const const &)
+public: struct TaxiPoint & __thiscall TaxiPoint::operator=(struct TaxiPoint const &)
+public: struct TaxiRoute & __thiscall TaxiRoute::operator=(struct TaxiRoute const &)
+public: struct Vehicle_Const & __thiscall Vehicle_Const::operator=(struct Vehicle_Const const &)
+public: struct Waypoint & __thiscall Waypoint::operator=(struct Waypoint const &)
+public: struct wCamera & __thiscall wCamera::operator=(struct wCamera const &)
+public: struct wCamera * __thiscall MovingObject::Camera(void)
+public: struct wEventBase & __thiscall wEventBase::operator=(struct wEventBase const &)
+public: struct wLauncher & __thiscall wLauncher::operator=(struct wLauncher const &)
+public: struct wLauncherLoad & __thiscall wLauncherLoad::operator=(struct wLauncherLoad const &)
+public: struct woTank_WPU & __thiscall woTank_WPU::operator=(struct woTank_WPU const &)
+public: struct wsContainer & __thiscall wsContainer::operator=(struct wsContainer const &)
+public: struct wsFuel_Tank & __thiscall wsFuel_Tank::operator=(struct wsFuel_Tank const &)
+public: struct wsInitData & __thiscall wsInitData::operator=(struct wsInitData const &)
+public: struct wsInitPos & __thiscall wsInitPos::operator=(struct wsInitPos const &)
+public: struct wsInitShip & __thiscall wsInitShip::operator=(struct wsInitShip const &)
+public: struct wsInit_ShipSys & __thiscall wsInit_ShipSys::operator=(struct wsInit_ShipSys const &)
+public: struct wsShipSys_pos & __thiscall wsShipSys_pos::operator=(struct wsShipSys_pos const &)
+public: struct wsTargetState & __thiscall wsTargetState::operator=(struct wsTargetState const &)
+public: struct wsTargetStateSAM & __thiscall wsTargetStateSAM::operator=(struct wsTargetStateSAM const &)
+public: unsigned char const __thiscall MovingObject::Country(unsigned char)
+public: unsigned char const __thiscall MovingObject::Country(void)const 
+public: unsigned char const __thiscall MovingObject::State(unsigned char)
+public: unsigned char const __thiscall MovingObject::State(void)
+public: unsigned char const __thiscall wsType::Level1(void)const 
+public: unsigned char const __thiscall wsType::Level2(void)const 
+public: unsigned char const __thiscall wsType::Level3(void)const 
+public: unsigned char const __thiscall wsType::Level4(void)const 
+public: unsigned long __thiscall IwWorld::netLocalID(void)const 
+public: unsigned long __thiscall IwWorld::netServerID(void)const 
+public: unsigned long __thiscall WorldManager::GetNearestAirdrome(class cPosition &,float &)
+public: unsigned long __thiscall WorldManager::ID_OF_Human(void)
+public: unsigned long const __thiscall wsType::Level1_3(void)const 
+public: unsigned long const __thiscall wsType::Type(class wsType const &)
+public: unsigned long const __thiscall wsType::Type(void)const 
+public: unsigned long const __thiscall wsType::operator=(class wsType const &)
+public: virtual __thiscall ITerrain::~ITerrain(void)
+public: virtual __thiscall IView::~IView(void)
+public: virtual __thiscall IwAirdrome::~IwAirdrome(void)
+public: virtual __thiscall IwHumanPlane::~IwHumanPlane(void)
+public: virtual __thiscall IwInfo::~IwInfo(void)
+public: virtual __thiscall IwWorld::~IwWorld(void)
+public: virtual __thiscall IwoLA::~IwoLA(void)
+public: virtual __thiscall ListTargetManager::~ListTargetManager(void)
+public: virtual __thiscall MovingObject::~MovingObject(void)
+public: virtual __thiscall WorldManager::~WorldManager(void)
+public: virtual __thiscall wActivityManager::~wActivityManager(void)
+public: virtual __thiscall wCamera::~wCamera(void)
+public: virtual __thiscall wControl::~wControl(void)
+public: virtual __thiscall wFloat::~wFloat(void)
+public: virtual __thiscall wNetObject::~wNetObject(void)
+public: virtual __thiscall wObject::~wObject(void)
+public: virtual __thiscall wPosition::~wPosition(void)
+public: virtual __thiscall wQuaternion::~wQuaternion(void)
+public: virtual __thiscall wVector::~wVector(void)
+public: virtual bool __thiscall ListTargetManager::checkPresenceObjectInList(unsigned long)
+public: virtual bool __thiscall MovingObject::ForceID(unsigned long,unsigned long)
+public: virtual bool __thiscall MovingObject::IsDead(void)const 
+public: virtual bool __thiscall MovingObject::Is_Target(void)
+public: virtual bool __thiscall MovingObject::netGetBaseline(class Mail::Message &)const 
+public: virtual bool __thiscall MovingObject::netGetCreate(class Mail::Message &)const 
+public: virtual bool __thiscall MovingObject::netGetStatus(class Mail::Message &)const 
+public: virtual bool __thiscall MovingObject::netGetUpdate(class Mail::Message &)const 
+public: virtual bool const __thiscall MovingObject::Dead(void)const 
+public: virtual bool const __thiscall MovingObject::In_Air_(void)
+public: virtual bool const __thiscall MovingObject::LinkToTarget(unsigned long,unsigned long)
+public: virtual class E3::Vector const & __thiscall MovingObject::VectorVelocity(void)const 
+public: virtual class Position3 const & __thiscall MovingObject::GetPosition(void)
+public: virtual class Quaternion __thiscall wQuaternion::GetValue(double)
+public: virtual class cPosition & __thiscall MovingObject::Position(double)
+public: virtual class cPosition & __thiscall MovingObject::Position(void)
+public: virtual class cPosition const & __thiscall MovingObject::Position(class cPosition &)
+public: virtual class wControl * __thiscall MovingObject::GetCommander(void)
+public: virtual class wControl * __thiscall wControl::GetCommander(void)
+public: virtual float __thiscall MovingObject::GetKillRadius(class E3::Vector,class wsType)
+public: virtual float __thiscall MovingObject::Life(void)const 
+public: virtual float __thiscall MovingObject::Life0(void)const 
+public: virtual float __thiscall MovingObject::ScalarVelocity(void)const 
+public: virtual float __thiscall MovingObject::getFindingDistance(void)
+public: virtual float __thiscall MovingObject::getKillingDistance(void)
+public: virtual float const __thiscall MovingObject::Course(void)
+public: virtual float const __thiscall MovingObject::Hbar(void)
+public: virtual float const __thiscall MovingObject::Hrad(void)
+public: virtual float const __thiscall MovingObject::Ny(void)
+public: virtual float const __thiscall MovingObject::Omx(void)
+public: virtual float const __thiscall MovingObject::Omy(void)
+public: virtual float const __thiscall MovingObject::Omz(void)
+public: virtual float const __thiscall MovingObject::Roll(void)
+public: virtual float const __thiscall MovingObject::Tang(void)
+public: virtual int __thiscall MovingObject::Class(void)
+public: virtual int __thiscall wControl::Life(void)
+public: virtual int const __thiscall MovingObject::Life(int)
+public: virtual int const __thiscall MovingObject::Task_Number(void)
+public: virtual unsigned long __thiscall MovingObject::GunId(void)
+public: virtual unsigned long const __thiscall MovingObject::Target_ID(void)
+public: virtual void __thiscall ListTargetManager::addTarget(unsigned long)
+public: virtual void __thiscall ListTargetManager::initializeTargetManager(void)
+public: virtual void __thiscall ListTargetManager::removeTarget(unsigned long)
+public: virtual void __thiscall ListTargetManager::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall ListTargetManager::uninitializeTargetManager(void)
+public: virtual void __thiscall MovingObject::ChangePos(class cPosition const &)
+public: virtual void __thiscall MovingObject::PostCollisionProcessing(struct wsCollisionData *,unsigned long)
+public: virtual void __thiscall MovingObject::Print(class EagleDynamics::Common::AsyncLogFile *)
+public: virtual void __thiscall MovingObject::TakeDamage(class DamageInfo const &)
+public: virtual void __thiscall MovingObject::formPositionOnSurface(class cPosition *,class E3::Vector *,class E3::Vector *)
+public: virtual void __thiscall MovingObject::netDiscard(void)
+public: virtual void __thiscall MovingObject::putMEObject(class _com_ptr_t<class _com_IIID<struct IUnknown,&struct __s_GUID _GUID_00000000_0000_0000_c000_000000000046> > &)
+public: virtual void __thiscall MovingObject::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall MovingObject::setDrawArgumentValue(int,float)
+public: virtual void __thiscall WorldManager::create(class EagleDynamics::Common::Identifier const &,class EagleDynamics::Common::Identifiable * *)
+public: virtual void __thiscall WorldManager::notifyBirth(class wObject *)
+public: virtual void __thiscall WorldManager::notifyDeath(class wObject *)
+public: virtual void __thiscall WorldManager::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall wControl::ProcessCommand(unsigned long,unsigned long,void *)
+public: virtual void __thiscall wControl::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall wNetObject::serialize(class EagleDynamics::Common::Serializer &)
+public: virtual void __thiscall wObject::addListener(class wListener *)
+public: virtual void __thiscall wObject::notifyBirth(class wObject *)
+public: virtual void __thiscall wObject::notifyDeath(class wObject *)
+public: virtual void __thiscall wObject::notifyEvent(struct wEventBase const &)
+public: virtual void __thiscall wObject::removeListener(class wListener *)
+public: virtual void __thiscall wObject::serialize(class EagleDynamics::Common::Serializer &)
+public: void __thiscall IwWorld::netSend(unsigned long,class Mail::Message const &)
+public: void __thiscall MovingObject::ResetFlag(__int32)
+public: void __thiscall MovingObject::ResetFlag(void)
+public: void __thiscall MovingObject::SetFlag(__int32)
+public: void __thiscall MovingObject::netSetMaster(bool)
+public: void __thiscall MovingObject::setFlag_Disturbance(bool)
+public: void __thiscall MovingObject::setFlag_HumanPlane(bool)
+public: void __thiscall MovingObject::setFlag_MissionTarget(bool)
+public: void __thiscall MovingObject::setFlag_RadarActive(bool)
+public: void __thiscall MovingObject::setMaster(bool)
+public: void __thiscall WorldManager::ResetHuman(class cPointerTemplate<class MovingObject>)
+public: void __thiscall WorldManager::SetHuman(class cPointerTemplate<class MovingObject>)
+public: void __thiscall wActivityManager::addActivity(class cPointerTemplate<class wTime>)
+public: void __thiscall wActivityManager::removeActivity(class cPointerTemplate<class wTime>)
+public: void __thiscall wNetObject::initialize(class MovingObject *,float,float)
+public: void __thiscall wNetObject::setMeasurement(double,class E3::Vector &)
+public: void __thiscall wNetObject::setMeasurement(double,class E3::Vector &,class E3::Vector &)
+public: void __thiscall wNetPos::Path::init(float,class E3::Vector const &,class E3::Vector const &,float,class E3::Vector const &,class E3::Vector const &)
+public: void __thiscall wNetPos::Path::value(float,class E3::Vector &,class E3::Vector &)
+public: void __thiscall wNetPos::addPos(float,float,class E3::Vector const &,class E3::Vector const &)
+public: void __thiscall wNetPos::getPos(float,class E3::Vector &,class E3::Vector &)
+public: void __thiscall wNetPos::init(float,class E3::Vector const &,class E3::Vector const &)
+public: void __thiscall wNetRot::Rot::init(float,class Quaternion const &,float,class Quaternion const &)
+public: void __thiscall wNetRot::Rot::value(float,class Quaternion &)
+public: void __thiscall wNetRot::addRot(float,float,class Quaternion const &)
+public: void __thiscall wNetRot::getRot(float,class Quaternion &)
+public: void __thiscall wNetRot::init(float,class Quaternion const &)
+public: void __thiscall wSignaller::setState(bool)
+public: void __thiscall wSignaller::updateState(void)
+public: void __thiscall wsFlags::Reset(__int32)
+public: void __thiscall wsFlags::Reset(void)
+public: void __thiscall wsFlags::Set(__int32)
+public: void __thiscall wsType::Level1(unsigned char)
+public: void __thiscall wsType::Level2(unsigned char)
+public: void __thiscall wsType::Level3(unsigned char)
+public: void __thiscall wsType::Level4(unsigned char)
+struct GridInfo planeGrid
+struct GridInfo shipGrid
+void __cdecl GetCellIndices(struct GridInfo const &,class Box const &,class Vector3 const &,float,class std::vector<int,class std::allocator<int> > &)
+void __cdecl getWorldManager(class WorldManager * *)
+void __cdecl getWorldRegistry(class EagleDynamics::Common::FactoryManager * *)

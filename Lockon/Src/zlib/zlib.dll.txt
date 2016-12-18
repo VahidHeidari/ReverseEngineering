@@ -1,0 +1,56 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\zlib.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3db7ecf5    Thu Oct 24 05:52:05 2002
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x0000e552    'zlib.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               41
+	NUMBER OF NAMES                   41
+	ADDRESS OF FUNCTIONS              0x0000e3b8
+	ADDRESS OF NAMES                  0x0000e45c
+	ADDRESS OF NAME ORDINALS          0x0000e500
+adler32
+compress
+compress2
+crc32
+deflate
+deflateCopy
+deflateEnd
+deflateInit2_
+deflateInit_
+deflateParams
+deflateReset
+deflateSetDictionary
+get_crc_table
+gzclose
+gzdopen
+gzeof
+gzerror
+gzflush
+gzgetc
+gzgets
+gzopen
+gzprintf
+gzputc
+gzputs
+gzread
+gzrewind
+gzseek
+gzsetparams
+gztell
+gzwrite
+inflate
+inflateEnd
+inflateInit2_
+inflateInit_
+inflateReset
+inflateSetDictionary
+inflateSync
+inflateSyncPoint
+uncompress
+zError
+zlibVersion

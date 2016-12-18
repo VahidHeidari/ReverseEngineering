@@ -1,0 +1,187 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\LO_Viewer\LOMScene.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x41ac64df    Tue Nov 30 04:17:35 2004
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00012000    'LOMScene.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               172
+	NUMBER OF NAMES                   172
+	ADDRESS OF FUNCTIONS              0x00011948
+	ADDRESS OF NAMES                  0x00011bf8
+	ADDRESS OF NAME ORDINALS          0x00011ea8
+public: __thiscall LOMAnimTransform::LOMAnimTransform(class LOMAnimTransform const &)
+public: __thiscall LOMAnimTransform::LOMAnimTransform(void)
+public: __thiscall LOMBillboardTransform::LOMBillboardTransform(class LOMBillboardTransform const &)
+public: __thiscall LOMBillboardTransform::LOMBillboardTransform(void)
+public: __thiscall LOMData::LOMData(class LOMData const &)
+public: __thiscall LOMData::LOMData(void)
+public: __thiscall LOMGeometry::LOMGeometry(class LOMGeometry const &)
+public: __thiscall LOMGeometry::LOMGeometry(void)
+public: __thiscall LOMHelper::LOMHelper(class LOMHelper const &)
+public: __thiscall LOMHelper::LOMHelper(void)
+public: __thiscall LOMLod::LOMLod(class LOMLod const &)
+public: __thiscall LOMLod::LOMLod(void)
+public: __thiscall LOMModelNode::LOMModelNode(class LOMModelNode const &)
+public: __thiscall LOMModelNode::LOMModelNode(void)
+public: __thiscall LOMMultiMaterialGeometry::LOMMultiMaterialGeometry(class LOMMultiMaterialGeometry const &)
+public: __thiscall LOMMultiMaterialGeometry::LOMMultiMaterialGeometry(void)
+public: __thiscall LOMObject::LOMObject(class LOMObject const &)
+public: __thiscall LOMObject::LOMObject(void)
+public: __thiscall LOMRoot::LOMRoot(class LOMRoot const &)
+public: __thiscall LOMRoot::LOMRoot(void)
+public: __thiscall LOMScene::LOMScene(class LOMScene const &)
+public: __thiscall LOMScene::LOMScene(void)
+public: __thiscall LOMSegment::LOMSegment(class LOMSegment const &)
+public: __thiscall LOMSegment::LOMSegment(void)
+public: __thiscall LOMSelector::LOMSelector(class LOMSelector const &)
+public: __thiscall LOMSelector::LOMSelector(void)
+public: __thiscall LOMTransform::LOMTransform(class LOMTransform const &)
+public: __thiscall LOMTransform::LOMTransform(void)
+public: __thiscall LOMUserBox::LOMUserBox(class LOMUserBox const &)
+public: __thiscall LOMUserBox::LOMUserBox(void)
+public: __thiscall LOMGeometry::Normal::Normal(float,float,float)
+public: __thiscall LOMGeometry::Normal::Normal(float * const)
+public: __thiscall LOMGeometry::Normal::Normal(void)
+public: __thiscall LOMGeometry::Position::Position(float,float,float)
+public: __thiscall LOMGeometry::Position::Position(float * const)
+public: __thiscall LOMGeometry::Position::Position(void)
+public: __thiscall LOMGeometry::TexCoord::TexCoord(float,float)
+public: __thiscall LOMGeometry::TexCoord::TexCoord(float * const)
+public: __thiscall LOMGeometry::TexCoord::TexCoord(void)
+public: virtual __thiscall LOMAnimTransform::~LOMAnimTransform(void)
+public: virtual __thiscall LOMBillboardTransform::~LOMBillboardTransform(void)
+public: virtual __thiscall LOMData::~LOMData(void)
+public: virtual __thiscall LOMGeometry::~LOMGeometry(void)
+public: virtual __thiscall LOMHelper::~LOMHelper(void)
+public: virtual __thiscall LOMLod::~LOMLod(void)
+public: virtual __thiscall LOMModelNode::~LOMModelNode(void)
+public: virtual __thiscall LOMMultiMaterialGeometry::~LOMMultiMaterialGeometry(void)
+public: virtual __thiscall LOMObject::~LOMObject(void)
+public: virtual __thiscall LOMRoot::~LOMRoot(void)
+public: virtual __thiscall LOMScene::~LOMScene(void)
+public: virtual __thiscall LOMSegment::~LOMSegment(void)
+public: virtual __thiscall LOMSelector::~LOMSelector(void)
+public: virtual __thiscall LOMTransform::~LOMTransform(void)
+public: virtual __thiscall LOMUserBox::~LOMUserBox(void)
+public: class LOMAnimTransform & __thiscall LOMAnimTransform::operator=(class LOMAnimTransform const &)
+public: class LOMBillboardTransform & __thiscall LOMBillboardTransform::operator=(class LOMBillboardTransform const &)
+public: class LOMData & __thiscall LOMData::operator=(class LOMData const &)
+public: class LOMGeometry & __thiscall LOMGeometry::operator=(class LOMGeometry const &)
+public: class LOMHelper & __thiscall LOMHelper::operator=(class LOMHelper const &)
+public: class LOMLod & __thiscall LOMLod::operator=(class LOMLod const &)
+public: class LOMModelNode & __thiscall LOMModelNode::operator=(class LOMModelNode const &)
+public: class LOMMultiMaterialGeometry & __thiscall LOMMultiMaterialGeometry::operator=(class LOMMultiMaterialGeometry const &)
+public: class LOMObject & __thiscall LOMObject::operator=(class LOMObject const &)
+public: class LOMRoot & __thiscall LOMRoot::operator=(class LOMRoot const &)
+public: class LOMScene & __thiscall LOMScene::operator=(class LOMScene const &)
+public: class LOMSegment & __thiscall LOMSegment::operator=(class LOMSegment const &)
+public: class LOMSelector & __thiscall LOMSelector::operator=(class LOMSelector const &)
+public: class LOMTransform & __thiscall LOMTransform::operator=(class LOMTransform const &)
+public: class LOMUserBox & __thiscall LOMUserBox::operator=(class LOMUserBox const &)
+public: struct LOMGeometry::Normal & __thiscall LOMGeometry::Normal::operator=(struct LOMGeometry::Normal const &)
+public: struct LOMGeometry::Position & __thiscall LOMGeometry::Position::operator=(struct LOMGeometry::Position const &)
+public: struct LOMGeometry::TexCoord & __thiscall LOMGeometry::TexCoord::operator=(struct LOMGeometry::TexCoord const &)
+const LOMAnimTransform::`vftable'{for `Graphics::AnimTransformNode'}
+const LOMAnimTransform::`vftable'{for `LOMObject'}
+const LOMBillboardTransform::`vftable'{for `Graphics::BillboardNode'}
+const LOMBillboardTransform::`vftable'{for `LOMObject'}
+const LOMData::`vftable'
+const LOMGeometry::`vftable'
+const LOMHelper::`vftable'
+const LOMHelper::`vftable'{for `Graphics::ModelConnector'}
+const LOMHelper::`vftable'{for `Graphics::TransformNode'}
+const LOMLod::`vftable'{for `LOMObject'}
+const LOMLod::`vftable'{for `Graphics::LodModelNode'}
+const LOMModelNode::`vftable'{for `LOMObject'}
+const LOMModelNode::`vftable'{for `Graphics::ModelNode'}
+const LOMMultiMaterialGeometry::`vftable'
+const LOMObject::`vftable'
+const LOMRoot::`vftable'
+const LOMScene::`vftable'
+const LOMSegment::`vftable'{for `LOMObject'}
+const LOMSegment::`vftable'{for `Graphics::SegmentNode'}
+const LOMSelector::`vftable'{for `LOMObject'}
+const LOMSelector::`vftable'{for `Graphics::SelectorNode'}
+const LOMTransform::`vftable'{for `LOMObject'}
+const LOMTransform::`vftable'{for `Graphics::TransformNode'}
+const LOMUserBox::`vftable'{for `LOMObject'}
+const LOMUserBox::`vftable'{for `Graphics::UserBoxNode'}
+public: void __thiscall LOMGeometry::addIndex(unsigned short)
+public: void __thiscall LOMMultiMaterialGeometry::addMaterial(class Graphics::Material *)
+public: void __thiscall LOMGeometry::addNormal(struct LOMGeometry::Normal &)
+public: void __thiscall LOMGeometry::addPos(struct LOMGeometry::Position &)
+public: void __thiscall LOMGeometry::addS(struct LOMGeometry::Position &)
+public: void __thiscall LOMGeometry::addSxT(struct LOMGeometry::Position &)
+public: void __thiscall LOMGeometry::addT(struct LOMGeometry::Position &)
+public: void __thiscall LOMGeometry::addTCoord(int,struct LOMGeometry::TexCoord &)
+protected: bool __thiscall LOMGeometry::buildBounding(class Vector3 &,class Vector3 &,class Vector3 &,float &)
+protected: bool __thiscall LOMGeometry::createData(void)
+protected: virtual class misc::CoreObject * __thiscall LOMScene::createRootObject(void)
+public: virtual enum LOMData::Data __thiscall LOMData::dataType(void)
+public: virtual enum LOMData::Data __thiscall LOMGeometry::dataType(void)
+public: virtual enum LOMData::Data __thiscall LOMMultiMaterialGeometry::dataType(void)
+public: virtual void * __thiscall LOMGeometry::getData(void)
+public: unsigned long & __thiscall LOMGeometry::getFlags(void)
+public: class Graphics::Geometry const * __thiscall LOMGeometry::getGeometry(void)
+public: class Graphics::Material const * __thiscall LOMGeometry::getMaterial(void)
+public: class Graphics::Material const * __thiscall LOMMultiMaterialGeometry::getMaterial(int)
+public: virtual class Graphics::ModelNode * __thiscall LOMAnimTransform::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMBillboardTransform::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMGeometry::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMHelper::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMLod::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMModelNode::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMMultiMaterialGeometry::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMRoot::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMSegment::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMSelector::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMTransform::getModelNode(void)
+public: virtual class Graphics::ModelNode * __thiscall LOMUserBox::getModelNode(void)
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall LOMObject::getName(void)
+public: virtual unsigned int __thiscall LOMGeometry::getSize(void)
+public: class std::vector<unsigned short,class std::allocator<unsigned short> > const & __thiscall LOMGeometry::indexArray(void)
+public: class std::vector<class Graphics::Material *,class std::allocator<class Graphics::Material *> > const & __thiscall LOMMultiMaterialGeometry::mats(void)
+public: class std::vector<struct LOMGeometry::Normal,class std::allocator<struct LOMGeometry::Normal> > const & __thiscall LOMGeometry::normalArray(void)
+public: class std::vector<struct LOMGeometry::Position,class std::allocator<struct LOMGeometry::Position> > const & __thiscall LOMGeometry::positionArray(void)
+public: enum LOMGeometry::PrimitiveType & __thiscall LOMGeometry::primType(void)
+public: virtual void __thiscall LOMScene::reset(void)
+protected: void __thiscall LOMScene::resetLocal(void)
+public: class std::vector<struct LOMGeometry::Position,class std::allocator<struct LOMGeometry::Position> > const & __thiscall LOMGeometry::sArray(void)
+public: bool __thiscall LOMScene::save(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: void __thiscall LOMGeometry::setGeometry(class Graphics::Geometry *)
+public: void __thiscall LOMGeometry::setIndex(int,unsigned short)
+public: void __thiscall LOMGeometry::setMaterial(class Graphics::Material *)
+public: void __thiscall LOMMultiMaterialGeometry::setMaterial(int,class Graphics::Material *)
+public: void __thiscall LOMObject::setName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: void __thiscall LOMGeometry::setNormal(int,struct LOMGeometry::Normal &)
+public: virtual void __thiscall LOMData::setOffset(unsigned int)
+public: virtual void __thiscall LOMGeometry::setOffset(unsigned int)
+public: virtual void __thiscall LOMMultiMaterialGeometry::setOffset(unsigned int)
+public: void __thiscall LOMGeometry::setPos(int,struct LOMGeometry::Position &)
+public: void __thiscall LOMGeometry::setS(int,struct LOMGeometry::Position &)
+public: void __thiscall LOMGeometry::setSxT(int,struct LOMGeometry::Position &)
+public: void __thiscall LOMGeometry::setT(int,struct LOMGeometry::Position &)
+public: void __thiscall LOMGeometry::setTCoord(int,int,struct LOMGeometry::TexCoord &)
+public: class std::vector<struct LOMGeometry::Position,class std::allocator<struct LOMGeometry::Position> > const & __thiscall LOMGeometry::sxtArray(void)
+public: class std::vector<struct LOMGeometry::Position,class std::allocator<struct LOMGeometry::Position> > const & __thiscall LOMGeometry::tArray(void)
+public: class std::vector<class std::map<int,struct LOMGeometry::TexCoord,struct std::less<int>,class std::allocator<struct LOMGeometry::TexCoord> >,class std::allocator<class std::map<int,struct LOMGeometry::TexCoord,struct std::less<int>,class std::allocator<struct LOMGeometry::TexCoord> > > > const & __thiscall LOMGeometry::tcoordsArray(void)
+public: virtual enum LOMObject::Type __thiscall LOMAnimTransform::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMBillboardTransform::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMData::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMHelper::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMLod::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMModelNode::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMObject::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMRoot::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMSegment::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMSelector::type(void)
+public: virtual enum LOMObject::Type __thiscall LOMTransform::type(void)
+public: virtual bool __thiscall LOMGeometry::update(class misc::CoreObject *)
+public: virtual bool __thiscall LOMLod::update(class misc::CoreObject *)
+public: virtual bool __thiscall LOMMultiMaterialGeometry::update(class misc::CoreObject *)
+public: virtual bool __thiscall LOMObject::update(class misc::CoreObject *)
+public: virtual bool __thiscall LOMRoot::update(class misc::CoreObject *)

@@ -1,0 +1,294 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\LO_Viewer\Common.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x41ac6496    Tue Nov 30 04:16:22 2004
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00056de6    'Common.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               707
+	NUMBER OF NAMES                   707
+	ADDRESS OF FUNCTIONS              0x00055248
+	ADDRESS OF NAMES                  0x00055d54
+	ADDRESS OF NAME ORDINALS          0x00056860
+public: __thiscall CBaseRingBuffer::CBaseRingBuffer(class CBaseRingBuffer const &)
+public: __thiscall CBaseRingBuffer::CBaseRingBuffer(void)
+public: __thiscall CRingBuffer::CRingBuffer(class CRingBuffer const &)
+public: __thiscall CRingBuffer::CRingBuffer(void)
+public: __thiscall CRingMessageBuffer::CRingMessageBuffer(class CRingMessageBuffer const &)
+public: __thiscall CRingMessageBuffer::CRingMessageBuffer(void)
+public: __thiscall CUNIRingBuffer::CUNIRingBuffer(class CUNIRingBuffer const &)
+public: __thiscall CUNIRingBuffer::CUNIRingBuffer(void)
+public: __thiscall ConfigParser::ConfigParser(class ConfigParser const &)
+public: __thiscall ConfigParser::ConfigParser(void)
+public: __thiscall ConfigParser::Error::Error(class ConfigParser::Error const &)
+public: __thiscall ConfigParser::Error::Error(void)
+public: __thiscall Signal::Evoker::Evoker(void)
+public: __thiscall FPS_Controller::FPS_Controller(float,float)
+public: __thiscall FrequencyMeasurer::FrequencyMeasurer(void)
+public: __thiscall LinkBase::LinkBase(void)
+public: __thiscall LinkHost::LinkHost(class LinkHost const &)
+public: __thiscall LinkHost::LinkHost(void)
+public: __thiscall RandomManager::RandomManager(class RandomManager const &)
+public: __thiscall RandomManager::RandomManager(void)
+public: __thiscall RandomObject::RandomObject(class RandomObject &)
+public: __thiscall RandomObject::RandomObject(class std::vector<float,class std::allocator<float> > &,unsigned int,unsigned int)
+public: __thiscall RandomObject::RandomObject(unsigned int,unsigned int)
+public: __thiscall RandomObject::RandomObject(void)
+public: __thiscall hightimer::RealTimer::RealTimer(void)
+public: __thiscall newtimer::RealTimer::RealTimer(void)
+public: __thiscall oldtimer::RealTimer::RealTimer(void)
+public: __thiscall misc::SmallFiles2OneFile::SmallFiles2OneFile(class misc::SmallFiles2OneFile const &)
+public: __thiscall misc::SmallFiles2OneFile::SmallFiles2OneFile(void)
+public: __thiscall System::System(class System const &)
+public: __thiscall System::System(void)
+public: __thiscall TaskManager::TaskManager(class TaskManager const &)
+public: __thiscall TaskManager::TaskManager(void)
+public: __thiscall ConfigParser::iterator::iterator(class ConfigParser::iterator const &)
+public: __thiscall ConfigParser::iterator::iterator(class std::tree<class Token *> *,class std::tree<class Token *>::iterator,bool)
+public: __thiscall ConfigParser::iterator::iterator(void)
+public: __thiscall xmlitem::xmlitem(struct xmlitem const &)
+public: __thiscall xmlitem::xmlitem(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *)
+public: virtual __thiscall CBaseRingBuffer::~CBaseRingBuffer(void)
+public: virtual __thiscall CRingBuffer::~CRingBuffer(void)
+public: virtual __thiscall CRingMessageBuffer::~CRingMessageBuffer(void)
+public: virtual __thiscall CUNIRingBuffer::~CUNIRingBuffer(void)
+public: virtual __thiscall ConfigParser::~ConfigParser(void)
+public: __thiscall ConfigParser::Error::~Error(void)
+public: __thiscall Signal::Evoker::~Evoker(void)
+public: __thiscall LinkBase::~LinkBase(void)
+protected: __thiscall LinkHost::~LinkHost(void)
+public: virtual __thiscall RandomManager::~RandomManager(void)
+public: virtual __thiscall RandomObject::~RandomObject(void)
+public: __thiscall hightimer::RealTimer::~RealTimer(void)
+public: __thiscall newtimer::RealTimer::~RealTimer(void)
+public: __thiscall oldtimer::RealTimer::~RealTimer(void)
+public: __thiscall misc::SmallFiles2OneFile::~SmallFiles2OneFile(void)
+public: virtual __thiscall System::~System(void)
+public: __thiscall xmlitem::~xmlitem(void)
+public: class CBaseRingBuffer & __thiscall CBaseRingBuffer::operator=(class CBaseRingBuffer const &)
+public: class CRingBuffer & __thiscall CRingBuffer::operator=(class CRingBuffer const &)
+public: class CRingMessageBuffer & __thiscall CRingMessageBuffer::operator=(class CRingMessageBuffer const &)
+public: class CUNIRingBuffer & __thiscall CUNIRingBuffer::operator=(class CUNIRingBuffer const &)
+public: struct CommonStarter & __thiscall CommonStarter::operator=(struct CommonStarter const &)
+public: class ConfigParser & __thiscall ConfigParser::operator=(class ConfigParser const &)
+public: class ConfigParser::Error & __thiscall ConfigParser::Error::operator=(class ConfigParser::Error const &)
+public: class FPS_Controller & __thiscall FPS_Controller::operator=(class FPS_Controller const &)
+public: class FrequencyMeasurer & __thiscall FrequencyMeasurer::operator=(class FrequencyMeasurer const &)
+public: class LinkBase & __thiscall LinkBase::operator=(class LinkBase const &)
+public: class LinkHost & __thiscall LinkHost::operator=(class LinkHost const &)
+public: class RandomManager & __thiscall RandomManager::operator=(class RandomManager const &)
+public: class RandomObject & __thiscall RandomObject::operator=(class RandomObject const &)
+public: class hightimer::RealTimer & __thiscall hightimer::RealTimer::operator=(class hightimer::RealTimer const &)
+public: class newtimer::RealTimer & __thiscall newtimer::RealTimer::operator=(class newtimer::RealTimer const &)
+public: class oldtimer::RealTimer & __thiscall oldtimer::RealTimer::operator=(class oldtimer::RealTimer const &)
+public: class misc::SmallFiles2OneFile & __thiscall misc::SmallFiles2OneFile::operator=(class misc::SmallFiles2OneFile const &)
+public: class System & __thiscall System::operator=(class System const &)
+public: class TaskManager & __thiscall TaskManager::operator=(class TaskManager const &)
+public: class ConfigParser::iterator & __thiscall ConfigParser::iterator::operator=(class ConfigParser::iterator const &)
+public: struct xmlitem & __thiscall xmlitem::operator=(struct xmlitem const &)
+public: bool __thiscall LinkBase::operator==(class LinkBase const &)const 
+public: bool __thiscall ConfigParser::iterator::operator==(class ConfigParser::iterator const &)const 
+public: bool __thiscall xmlitem::operator==(struct xmlitem const &)const 
+public: bool __thiscall xmlitem::operator==(char const *)const 
+public: bool __thiscall LinkBase::operator!=(class LinkBase const &)const 
+public: bool __thiscall ConfigParser::iterator::operator!=(class ConfigParser::iterator const &)const 
+public: bool __thiscall xmlitem::operator!=(struct xmlitem const &)const 
+public: bool __thiscall xmlitem::operator!=(char const *)const 
+public: class Token * __thiscall ConfigParser::iterator::operator*(void)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::operator++(int)
+public: class ConfigParser::iterator & __thiscall ConfigParser::iterator::operator++(void)
+public: bool __thiscall LinkBase::operator<(class LinkBase const &)const 
+public: bool __thiscall LinkBase::operator>(class LinkBase const &)const 
+const CBaseRingBuffer::`vftable'
+const CRingBuffer::`vftable'
+const CRingMessageBuffer::`vftable'
+const CUNIRingBuffer::`vftable'
+const ConfigParser::`vftable'
+const RandomManager::`vftable'
+const RandomObject::`vftable'
+const System::`vftable'
+const TaskManager::`vftable'
+`string'
+public: void __thiscall FPS_Controller::`default constructor closure'(void)
+public: int __cdecl CRingMessageBuffer::AddFormatMessage(char const *,...)
+public: int __thiscall CRingMessageBuffer::AddMessage(char const * const,unsigned long)
+public: static bool __cdecl misc::SmallFiles2OneFile::BuildFile(char *,class std::list<struct misc::SmallFiles2OneFile::FileDecl *,class std::allocator<struct misc::SmallFiles2OneFile::FileDecl *> > &)
+public: static bool __cdecl misc::SmallFiles2OneFile::BuildFile(char *,class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)
+public: int __thiscall CRingMessageBuffer::Close(int)
+protected: void __thiscall CBaseRingBuffer::CorrectReadPosition(int *)
+protected: virtual int __thiscall CBaseRingBuffer::DiscardNextRecord(void)
+protected: virtual int __thiscall CRingBuffer::DiscardNextRecord(void)
+protected: virtual int __thiscall CRingMessageBuffer::DiscardNextRecord(void)
+protected: virtual int __thiscall CUNIRingBuffer::DiscardNextRecord(void)
+public: struct misc::SmallFiles2OneFile::FileDecl * __thiscall misc::SmallFiles2OneFile::FindFile(char const *)
+public: int __thiscall CUNIRingBuffer::Get(char const *,unsigned long,int *)
+public: int __thiscall CRingBuffer::GetAddCount(void)
+public: void __thiscall CBaseRingBuffer::GetBlock(char *,unsigned long,unsigned long,unsigned long *,unsigned long *)
+protected: unsigned long __thiscall CBaseRingBuffer::GetBusySize(void)
+public: int __thiscall CRingBuffer::GetDelCount(void)
+protected: unsigned long __thiscall CBaseRingBuffer::GetFreeSize(void)
+public: virtual unsigned long __thiscall CBaseRingBuffer::GetHeaderSize(void)
+public: virtual unsigned long __thiscall CRingBuffer::GetHeaderSize(void)
+public: int __thiscall CRingMessageBuffer::GetMessageA(unsigned long &,unsigned long &,unsigned long &,long &,char const *,unsigned long)
+public: int __thiscall CRingBuffer::GetTotalCount(void)
+public: virtual int __thiscall CBaseRingBuffer::Init(char *,unsigned long)
+protected: virtual void __thiscall CBaseRingBuffer::InitHeader(unsigned long)
+protected: virtual void __thiscall CRingBuffer::InitHeader(unsigned long)
+public: virtual int __thiscall CBaseRingBuffer::InitNew(unsigned long)
+public: bool __thiscall FPS_Controller::IsFrameInTime(void)
+protected: int __thiscall CBaseRingBuffer::IsFree(void)
+protected: int __thiscall CBaseRingBuffer::IsReadOverwritten(void)
+public: virtual void __thiscall CBaseRingBuffer::Open(char *)
+public: virtual void __thiscall CRingBuffer::Open(char *)
+public: int __thiscall CRingMessageBuffer::Open(char const * const,unsigned long,struct _SECURITY_ATTRIBUTES *)
+public: static class misc::SmallFiles2OneFile * __cdecl misc::SmallFiles2OneFile::Open(char *,class misc::mmf &)
+public: static class CRingMessageBuffer * __cdecl CRingMessageBuffer::OpenNew(char const * const,unsigned long,struct _SECURITY_ATTRIBUTES *)
+public: int __thiscall CRingBuffer::PopData(char const *,unsigned long,unsigned long)
+public: unsigned long __thiscall CRingBuffer::PopStart(int *)
+public: void __thiscall CRingBuffer::PopStop(void)
+public: void __thiscall FPS_Controller::PrintStats(void)
+public: int __thiscall CRingBuffer::PushData(char const *,unsigned long)
+public: int __thiscall CRingBuffer::PushStart(unsigned long)
+public: int __thiscall CRingBuffer::PushStop(void)
+public: int __thiscall CUNIRingBuffer::Put(struct tag_TUNIHeader const *,char const * const,unsigned short)
+public: void __thiscall CBaseRingBuffer::PutBlock(char const *,unsigned long,unsigned long)
+public: int __thiscall CUNIRingBuffer::ReadHeader(struct tag_TUNIHeader *,int *)
+public: void __thiscall LinkHost::ResetLinks(void)
+protected: void __thiscall LinkBase::Set(class LinkHost *)
+public: void __thiscall FPS_Controller::SetMaxFPS(float)
+public: void __thiscall FPS_Controller::SetThreshold(float)
+public: void __thiscall FPS_Controller::StartFrame(void)
+protected: virtual int __thiscall CBaseRingBuffer::TrySearchMemory(unsigned long)
+public: void __thiscall RandomManager::add(class std::vector<float,class std::allocator<float> > *)
+private: void __thiscall ConfigParser::appendBuffer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)
+public: class ConfigParser::iterator __thiscall ConfigParser::begin(void)const 
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::begin(void)const 
+public: void __thiscall Signal::Evoker::clear(void)
+class FrequencyMeasurer cpuTickPeriod
+public: class std::vector<float,class std::allocator<float> > * __thiscall RandomManager::createCustom(class std::vector<float,class std::allocator<float> > *,float (__cdecl*)(float))
+public: class std::vector<float,class std::allocator<float> > * __thiscall RandomManager::createNormal(class std::vector<float,class std::allocator<float> > *)
+public: class std::vector<float,class std::allocator<float> > * __thiscall RandomManager::createUniform(unsigned int,unsigned int,unsigned int,float)
+void __cdecl dprintf(char const *,...)
+private: void __thiscall ConfigParser::dump(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)
+public: class ConfigParser::iterator __thiscall ConfigParser::end(void)const 
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::end(void)const 
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::erase(void)
+public: void __thiscall Signal::Evoker::evoke(void *)
+public: class ConfigParser::iterator __thiscall ConfigParser::find(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)const 
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::find(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)const 
+public: void __thiscall hightimer::RealTimer::freeze(void)
+public: void __thiscall newtimer::RealTimer::freeze(void)
+public: double __thiscall FrequencyMeasurer::get(void)
+public: float __thiscall RandomObject::get(void)
+public: bool __thiscall ConfigParser::iterator::get(int &)const 
+public: bool __thiscall ConfigParser::iterator::get(float &)const 
+public: bool __thiscall ConfigParser::iterator::get(double &)const 
+public: bool __thiscall ConfigParser::iterator::get(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)const 
+public: bool __thiscall ConfigParser::iterator::get(bool &)const 
+public: bool __thiscall ConfigParser::iterator::getBool(bool &)const 
+public: bool __thiscall ConfigParser::iterator::getBool(void)const 
+public: double __thiscall ConfigParser::iterator::getDouble(void)const 
+public: bool __thiscall ConfigParser::iterator::getDouble(double &)const 
+public: int __thiscall ConfigParser::getErrorColumn(void)
+public: int __thiscall ConfigParser::getErrorLine(void)
+public: float __thiscall ConfigParser::iterator::getFloat(void)const 
+public: int __thiscall ConfigParser::iterator::getInt(void)const 
+public: bool __thiscall ConfigParser::iterator::getInt(int &)const 
+public: bool __thiscall ConfigParser::getLastError(class ConfigParser::Error &)
+public: bool __thiscall ConfigParser::iterator::getList(class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)const 
+public: unsigned int __thiscall RandomObject::getOffset(void)
+private: bool __thiscall ConfigParser::getRowAndTextFromOffset(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned long,unsigned long,unsigned long *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall ConfigParser::iterator::getString(void)const 
+public: bool __thiscall ConfigParser::iterator::getString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)const 
+protected: static void __cdecl oldtimer::RealTimer::getTicks(__int64 *)
+protected: static void __cdecl oldtimer::RealTimer::getTicksFrequency(double *)
+public: double __thiscall hightimer::RealTimer::getTime(void)
+public: double __thiscall newtimer::RealTimer::getTime(void)
+public: double __thiscall oldtimer::RealTimer::getTime(void)
+public: unsigned int __thiscall RandomObject::getType(void)
+public: enum ConfigParser::iterator::Type __thiscall ConfigParser::iterator::getType(void)const 
+public: bool __thiscall ConfigParser::iterator::getVector(class std::vector<int,class std::allocator<int> > &)const 
+class FPS_Controller * globalFpsController
+class std::vector<float,class std::allocator<float> > * globalNormalRandom
+class RandomManager * globalRandomManager
+class hightimer::RealTimer * hightimer::globalRealTimer
+class newtimer::RealTimer * newtimer::globalRealTimer
+class oldtimer::RealTimer * oldtimer::globalRealTimer
+class std::vector<float,class std::allocator<float> > * globalUniformRandom
+public: void __thiscall RandomObject::init(unsigned int,unsigned int)
+public: static void __cdecl CommonStarter::initialize(void)
+public: void __thiscall hightimer::RealTimer::initialize(double const &)
+public: void __thiscall newtimer::RealTimer::initialize(double const &)
+protected: void __thiscall oldtimer::RealTimer::initialize(void)
+public: virtual bool __thiscall System::initialize(void)
+public: virtual bool __thiscall System::initialized(void)
+public: void __thiscall Signal::Evoker::insert(void (__cdecl*)(void *,void *),void *,void (__cdecl*)(void *))
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insert(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insert(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insert(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,float)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insert(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,double)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insert(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertBlock(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertBool(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertBool(bool)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertDouble(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,double)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertDouble(double)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertFloat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,float)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertFloat(float)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertInt(int)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: class ConfigParser::iterator __thiscall ConfigParser::iterator::insertString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: static class TaskManager * TaskManager::instance
+public: bool __thiscall ConfigParser::iterator::isEnd(void)const 
+public: bool __thiscall ConfigParser::isInitialized(void)
+public: bool __thiscall ConfigParser::iterator::isLast(void)const 
+class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl makePath(char const *,char const *)
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall ConfigParser::iterator::name(void)const 
+void (__cdecl* pDPrintOutputProc)(char const *)
+public: bool __thiscall ConfigParser::parse(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: bool __thiscall ConfigParser::parse(char const *,long)
+public: virtual bool __thiscall System::process(unsigned long)
+public: virtual bool __thiscall System::process(void)
+public: virtual bool __thiscall System::reinitialize(void)
+public: int __thiscall Signal::Evoker::remove(void (__cdecl*)(void *,void *),void *,int)
+public: void __thiscall RandomManager::remove(class std::vector<float,class std::allocator<float> > *)
+public: void __thiscall ConfigParser::reset(void)
+public: void __thiscall ConfigParser::Error::reset(void)
+public: bool __thiscall ConfigParser::save(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: bool __thiscall ConfigParser::save(char * *,long &)
+public: bool __thiscall ConfigParser::save(void)
+private: bool __thiscall ConfigParser::saveItem(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class ConfigParser::iterator,int &)
+public: bool __thiscall ConfigParser::iterator::set(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: bool __thiscall ConfigParser::iterator::set(int)
+public: bool __thiscall ConfigParser::iterator::set(float)
+public: bool __thiscall ConfigParser::iterator::set(double)
+public: bool __thiscall ConfigParser::iterator::set(bool)
+public: bool __thiscall ConfigParser::iterator::setBool(bool)
+public: void __thiscall hightimer::RealTimer::setDebugMode(double const &)
+public: void __thiscall newtimer::RealTimer::setDebugMode(double const &)
+public: void __thiscall oldtimer::RealTimer::setDebugMode(double const &)
+public: bool __thiscall ConfigParser::iterator::setDouble(double)
+public: bool __thiscall ConfigParser::iterator::setFloat(float)
+public: bool __thiscall ConfigParser::iterator::setInt(int)
+public: bool __thiscall ConfigParser::iterator::setName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: void __thiscall RandomObject::setOffset(unsigned int)
+public: bool __thiscall ConfigParser::iterator::setString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: void __thiscall RandomObject::setType(unsigned int)
+private: static double oldtimer::RealTimer::theFrequency
+public: void __thiscall hightimer::RealTimer::unfreeze(void)
+public: void __thiscall newtimer::RealTimer::unfreeze(void)
+public: static void __cdecl CommonStarter::uninitialize(void)
+public: virtual bool __thiscall System::uninitialize(void)
+void __cdecl xmlparse(char const *,long,class std::tree<struct xmlitem> &)
+void __cdecl xmlsave(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::tree<struct xmlitem> const &)
+trace_get_string
+trace_leave
+trace_set_string
+trace_shutdown
+trace_startup
+trace_venter
+trace_vprintf

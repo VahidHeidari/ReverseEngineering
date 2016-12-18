@@ -1,0 +1,58 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\MitkaGraphics.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab07f9    Thu Nov 06 18:48:25 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x000af926    'MitkaGraphics.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               43
+	NUMBER OF NAMES                   43
+	ADDRESS OF FUNCTIONS              0x000af778
+	ADDRESS OF NAMES                  0x000af824
+	ADDRESS OF NAME ORDINALS          0x000af8d0
+protected: __thiscall Function_LightRenderer::Function_LightRenderer(class ConfigParser *)
+public: __thiscall Function_LightRenderer::Function_LightRenderer(class Function_LightRenderer const &)
+protected: __thiscall Function_SurfaceRenderer::Function_SurfaceRenderer(void)
+public: __thiscall Function_SurfaceRenderer::Function_SurfaceRenderer(class Function_SurfaceRenderer const &)
+public: __thiscall MipLevelGenerator::MipLevelGenerator(void)
+protected: virtual __thiscall Function_LightRenderer::~Function_LightRenderer(void)
+protected: virtual __thiscall Function_SurfaceRenderer::~Function_SurfaceRenderer(void)
+public: class Function_LightRenderer & __thiscall Function_LightRenderer::operator=(class Function_LightRenderer const &)
+public: class Function_SurfaceRenderer & __thiscall Function_SurfaceRenderer::operator=(class Function_SurfaceRenderer const &)
+public: class MipLevelGenerator & __thiscall MipLevelGenerator::operator=(class MipLevelGenerator const &)
+const Function_LightRenderer::`vftable'{for `Function'}
+const Function_LightRenderer::`vftable'{for `ILightRenderer'}
+const Function_LightRenderer::`vftable'{for `Graphics::RendererCallback'}
+const Function_SurfaceRenderer::`vftable'{for `Function'}
+const Function_SurfaceRenderer::`vftable'{for `Graphics::RendererCallback'}
+public: virtual bool __thiscall Function_LightRenderer::Apply(class Graphics::RenderObject *)
+public: virtual bool __thiscall Function_SurfaceRenderer::Apply(class Graphics::RenderObject *)
+public: virtual bool __thiscall Function_LightRenderer::CanApply(void)
+struct IDirect3DTexture8 * __cdecl CreateTexture(struct IDirect3DDevice8 *,struct cdds::Texture *,int)
+public: void __thiscall MipLevelGenerator::Exit(void)
+public: void __thiscall MipLevelGenerator::Generate(struct IDirect3DTexture8 *)
+protected: struct D3DXMATRIX __thiscall Function_LightRenderer::GetTTFMatrix(struct D3DXMATRIX *)
+protected: struct D3DXMATRIX __thiscall Function_SurfaceRenderer::GetTTFMatrix(struct D3DXMATRIX *)
+public: bool __thiscall MipLevelGenerator::Init(void)
+bool __cdecl LoadSurface(struct IDirect3DDevice8 *,struct cdds::Texture *,int,struct IDirect3DTexture8 *,int)
+public: virtual void __thiscall Function_LightRenderer::OnUpdate(void)
+public: virtual void __thiscall Function_SurfaceRenderer::OnUpdate(void)
+protected: void __thiscall Function_LightRenderer::ParseCloudShadow(class viObject *)
+protected: void __thiscall Function_LightRenderer::ParseVolumeEffect(class Graphics::VolumeEffect *)
+protected: virtual class Graphics::Camera __thiscall Function_LightRenderer::PrepareCamera(class Graphics::Camera const &)
+protected: virtual class Graphics::Camera __thiscall Function_SurfaceRenderer::PrepareCamera(class Graphics::Camera const &)
+public: virtual void __thiscall Function_LightRenderer::Register(void)
+public: virtual void __thiscall Function_SurfaceRenderer::Register(void)
+protected: virtual bool __thiscall Function_LightRenderer::Render(enum eDrawRoutines,class Graphics::Camera &,class HeapVector<class Graphics::VolumeEffect *> *,bool)
+protected: virtual bool __thiscall Function_SurfaceRenderer::Render(class Graphics::Camera &)
+protected: void __thiscall Function_LightRenderer::RenderSurface(enum eDrawRoutines,class Position3 const &)
+protected: void __thiscall Function_SurfaceRenderer::RenderSurface(enum eDrawRoutines,class Position3 const &)
+protected: static bool __cdecl Function_LightRenderer::SelectCloud(class viObject *,class viSearch *,void *)
+protected: static bool __cdecl Function_LightRenderer::SelectProjLight(class viObject *,class viSearch *,void *)
+public: virtual void __thiscall Function_LightRenderer::Update(enum eDrawRoutines,class Position3 const &,float,class HeapVector<class Graphics::VolumeEffect *> *,bool)
+public: virtual void __thiscall Function_LightRenderer::UsedThisFrame(void)
+public: virtual void __thiscall Function_SurfaceRenderer::UsedThisFrame(void)
+public: static class std::list<struct lSuperficialFile *,class std::allocator<struct lSuperficialFile *> > & __cdecl LSuperficialFile::getFiles(void)

@@ -1,0 +1,157 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\LO_Viewer\Common.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x41ac6496    Tue Nov 30 04:16:22 2004
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00056de6    'Common.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               707
+	NUMBER OF NAMES                   707
+	ADDRESS OF FUNCTIONS              0x00055248
+	ADDRESS OF NAMES                  0x00055d54
+	ADDRESS OF NAME ORDINALS          0x00056860
+public: __thiscall CRingMessageBuffer::CRingMessageBuffer(class CRingMessageBuffer const &)
+public: __thiscall CRingMessageBuffer::CRingMessageBuffer(void)
+public: __thiscall CUNIRingBuffer::CUNIRingBuffer(class CUNIRingBuffer const &)
+public: __thiscall CUNIRingBuffer::CUNIRingBuffer(void)
+public: __thiscall Signal::Evoker::Evoker(void)
+public: __thiscall FPS_Controller::FPS_Controller(float,float)
+public: __thiscall FrequencyMeasurer::FrequencyMeasurer(void)
+public: __thiscall LinkBase::LinkBase(void)
+public: __thiscall LinkHost::LinkHost(class LinkHost const &)
+public: __thiscall LinkHost::LinkHost(void)
+public: __thiscall RandomManager::RandomManager(class RandomManager const &)
+public: __thiscall RandomManager::RandomManager(void)
+public: __thiscall hightimer::RealTimer::RealTimer(void)
+public: __thiscall newtimer::RealTimer::RealTimer(void)
+public: __thiscall oldtimer::RealTimer::RealTimer(void)
+public: __thiscall misc::SmallFiles2OneFile::SmallFiles2OneFile(class misc::SmallFiles2OneFile const &)
+public: __thiscall misc::SmallFiles2OneFile::SmallFiles2OneFile(void)
+public: __thiscall System::System(class System const &)
+public: __thiscall System::System(void)
+public: __thiscall TaskManager::TaskManager(class TaskManager const &)
+public: __thiscall TaskManager::TaskManager(void)
+public: __thiscall xmlitem::xmlitem(struct xmlitem const &)
+public: __thiscall xmlitem::xmlitem(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *)
+public: virtual __thiscall CRingMessageBuffer::~CRingMessageBuffer(void)
+public: virtual __thiscall CUNIRingBuffer::~CUNIRingBuffer(void)
+public: __thiscall Signal::Evoker::~Evoker(void)
+public: __thiscall LinkBase::~LinkBase(void)
+protected: __thiscall LinkHost::~LinkHost(void)
+public: virtual __thiscall RandomManager::~RandomManager(void)
+public: __thiscall hightimer::RealTimer::~RealTimer(void)
+public: __thiscall newtimer::RealTimer::~RealTimer(void)
+public: __thiscall oldtimer::RealTimer::~RealTimer(void)
+public: __thiscall misc::SmallFiles2OneFile::~SmallFiles2OneFile(void)
+public: virtual __thiscall System::~System(void)
+public: __thiscall xmlitem::~xmlitem(void)
+public: class CRingMessageBuffer & __thiscall CRingMessageBuffer::operator=(class CRingMessageBuffer const &)
+public: class CUNIRingBuffer & __thiscall CUNIRingBuffer::operator=(class CUNIRingBuffer const &)
+public: struct CommonStarter & __thiscall CommonStarter::operator=(struct CommonStarter const &)
+public: class FPS_Controller & __thiscall FPS_Controller::operator=(class FPS_Controller const &)
+public: class FrequencyMeasurer & __thiscall FrequencyMeasurer::operator=(class FrequencyMeasurer const &)
+public: class LinkBase & __thiscall LinkBase::operator=(class LinkBase const &)
+public: class LinkHost & __thiscall LinkHost::operator=(class LinkHost const &)
+public: class RandomManager & __thiscall RandomManager::operator=(class RandomManager const &)
+public: class hightimer::RealTimer & __thiscall hightimer::RealTimer::operator=(class hightimer::RealTimer const &)
+public: class newtimer::RealTimer & __thiscall newtimer::RealTimer::operator=(class newtimer::RealTimer const &)
+public: class oldtimer::RealTimer & __thiscall oldtimer::RealTimer::operator=(class oldtimer::RealTimer const &)
+public: class misc::SmallFiles2OneFile & __thiscall misc::SmallFiles2OneFile::operator=(class misc::SmallFiles2OneFile const &)
+public: class System & __thiscall System::operator=(class System const &)
+public: class TaskManager & __thiscall TaskManager::operator=(class TaskManager const &)
+public: struct xmlitem & __thiscall xmlitem::operator=(struct xmlitem const &)
+public: bool __thiscall LinkBase::operator==(class LinkBase const &)const 
+public: bool __thiscall xmlitem::operator==(struct xmlitem const &)const 
+public: bool __thiscall xmlitem::operator==(char const *)const 
+public: bool __thiscall LinkBase::operator!=(class LinkBase const &)const 
+public: bool __thiscall xmlitem::operator!=(struct xmlitem const &)const 
+public: bool __thiscall xmlitem::operator!=(char const *)const 
+public: bool __thiscall LinkBase::operator<(class LinkBase const &)const 
+public: bool __thiscall LinkBase::operator>(class LinkBase const &)const 
+const CRingMessageBuffer::`vftable'
+const CUNIRingBuffer::`vftable'
+const RandomManager::`vftable'
+const System::`vftable'
+const TaskManager::`vftable'
+`string'
+public: void __thiscall FPS_Controller::`default constructor closure'(void)
+public: int __cdecl CRingMessageBuffer::AddFormatMessage(char const *,...)
+public: int __thiscall CRingMessageBuffer::AddMessage(char const * const,unsigned long)
+public: static bool __cdecl misc::SmallFiles2OneFile::BuildFile(char *,class std::list<struct misc::SmallFiles2OneFile::FileDecl *,class std::allocator<struct misc::SmallFiles2OneFile::FileDecl *> > &)
+public: static bool __cdecl misc::SmallFiles2OneFile::BuildFile(char *,class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)
+public: int __thiscall CRingMessageBuffer::Close(int)
+protected: virtual int __thiscall CRingMessageBuffer::DiscardNextRecord(void)
+protected: virtual int __thiscall CUNIRingBuffer::DiscardNextRecord(void)
+public: struct misc::SmallFiles2OneFile::FileDecl * __thiscall misc::SmallFiles2OneFile::FindFile(char const *)
+public: int __thiscall CUNIRingBuffer::Get(char const *,unsigned long,int *)
+public: int __thiscall CRingMessageBuffer::GetMessageA(unsigned long &,unsigned long &,unsigned long &,long &,char const *,unsigned long)
+public: bool __thiscall FPS_Controller::IsFrameInTime(void)
+public: int __thiscall CRingMessageBuffer::Open(char const * const,unsigned long,struct _SECURITY_ATTRIBUTES *)
+public: static class misc::SmallFiles2OneFile * __cdecl misc::SmallFiles2OneFile::Open(char *,class misc::mmf &)
+public: static class CRingMessageBuffer * __cdecl CRingMessageBuffer::OpenNew(char const * const,unsigned long,struct _SECURITY_ATTRIBUTES *)
+public: void __thiscall FPS_Controller::PrintStats(void)
+public: int __thiscall CUNIRingBuffer::Put(struct tag_TUNIHeader const *,char const * const,unsigned short)
+public: int __thiscall CUNIRingBuffer::ReadHeader(struct tag_TUNIHeader *,int *)
+public: void __thiscall LinkHost::ResetLinks(void)
+protected: void __thiscall LinkBase::Set(class LinkHost *)
+public: void __thiscall FPS_Controller::SetMaxFPS(float)
+public: void __thiscall FPS_Controller::SetThreshold(float)
+public: void __thiscall FPS_Controller::StartFrame(void)
+public: void __thiscall RandomManager::add(class std::vector<float,class std::allocator<float> > *)
+public: void __thiscall Signal::Evoker::clear(void)
+class FrequencyMeasurer cpuTickPeriod
+public: class std::vector<float,class std::allocator<float> > * __thiscall RandomManager::createCustom(class std::vector<float,class std::allocator<float> > *,float (__cdecl*)(float))
+public: class std::vector<float,class std::allocator<float> > * __thiscall RandomManager::createNormal(class std::vector<float,class std::allocator<float> > *)
+public: class std::vector<float,class std::allocator<float> > * __thiscall RandomManager::createUniform(unsigned int,unsigned int,unsigned int,float)
+void __cdecl dprintf(char const *,...)
+public: void __thiscall Signal::Evoker::evoke(void *)
+public: void __thiscall hightimer::RealTimer::freeze(void)
+public: void __thiscall newtimer::RealTimer::freeze(void)
+public: double __thiscall FrequencyMeasurer::get(void)
+protected: static void __cdecl oldtimer::RealTimer::getTicks(__int64 *)
+protected: static void __cdecl oldtimer::RealTimer::getTicksFrequency(double *)
+public: double __thiscall hightimer::RealTimer::getTime(void)
+public: double __thiscall newtimer::RealTimer::getTime(void)
+public: double __thiscall oldtimer::RealTimer::getTime(void)
+class FPS_Controller * globalFpsController
+class std::vector<float,class std::allocator<float> > * globalNormalRandom
+class RandomManager * globalRandomManager
+class hightimer::RealTimer * hightimer::globalRealTimer
+class newtimer::RealTimer * newtimer::globalRealTimer
+class oldtimer::RealTimer * oldtimer::globalRealTimer
+class std::vector<float,class std::allocator<float> > * globalUniformRandom
+public: static void __cdecl CommonStarter::initialize(void)
+public: void __thiscall hightimer::RealTimer::initialize(double const &)
+public: void __thiscall newtimer::RealTimer::initialize(double const &)
+protected: void __thiscall oldtimer::RealTimer::initialize(void)
+public: virtual bool __thiscall System::initialize(void)
+public: virtual bool __thiscall System::initialized(void)
+public: void __thiscall Signal::Evoker::insert(void (__cdecl*)(void *,void *),void *,void (__cdecl*)(void *))
+public: static class TaskManager * TaskManager::instance
+class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl makePath(char const *,char const *)
+void (__cdecl* pDPrintOutputProc)(char const *)
+public: virtual bool __thiscall System::process(unsigned long)
+public: virtual bool __thiscall System::process(void)
+public: virtual bool __thiscall System::reinitialize(void)
+public: int __thiscall Signal::Evoker::remove(void (__cdecl*)(void *,void *),void *,int)
+public: void __thiscall RandomManager::remove(class std::vector<float,class std::allocator<float> > *)
+public: void __thiscall hightimer::RealTimer::setDebugMode(double const &)
+public: void __thiscall newtimer::RealTimer::setDebugMode(double const &)
+public: void __thiscall oldtimer::RealTimer::setDebugMode(double const &)
+private: static double oldtimer::RealTimer::theFrequency
+public: void __thiscall hightimer::RealTimer::unfreeze(void)
+public: void __thiscall newtimer::RealTimer::unfreeze(void)
+public: static void __cdecl CommonStarter::uninitialize(void)
+public: virtual bool __thiscall System::uninitialize(void)
+void __cdecl xmlparse(char const *,long,class std::tree<struct xmlitem> &)
+void __cdecl xmlsave(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::tree<struct xmlitem> const &)
+trace_get_string
+trace_leave
+trace_set_string
+trace_shutdown
+trace_startup
+trace_venter
+trace_vprintf

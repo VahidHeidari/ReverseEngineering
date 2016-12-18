@@ -1,0 +1,40 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\vorbisfile.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3d37f974    Fri Jul 19 04:35:16 2002
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x000046c2    'vorbisfile.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               25
+	NUMBER OF NAMES                   25
+	ADDRESS OF FUNCTIONS              0x000045c8
+	ADDRESS OF NAMES                  0x0000462c
+	ADDRESS OF NAME ORDINALS          0x00004690
+ov_bitrate
+ov_bitrate_instant
+ov_clear
+ov_comment
+ov_info
+ov_open
+ov_open_callbacks
+ov_pcm_seek
+ov_pcm_seek_page
+ov_pcm_tell
+ov_pcm_total
+ov_raw_seek
+ov_raw_tell
+ov_raw_total
+ov_read
+ov_seekable
+ov_serialnumber
+ov_streams
+ov_test
+ov_test_callbacks
+ov_test_open
+ov_time_seek
+ov_time_seek_page
+ov_time_tell
+ov_time_total

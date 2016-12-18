@@ -1,0 +1,121 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\Cosmos.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3fab07eb    Thu Nov 06 18:48:11 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x0001fc8c    'Cosmos.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               106
+	NUMBER OF NAMES                   106
+	ADDRESS OF FUNCTIONS              0x0001f868
+	ADDRESS OF NAMES                  0x0001fa10
+	ADDRESS OF NAME ORDINALS          0x0001fbb8
+public: __thiscall Mat3D::Mat3D(class Vec3D const &,class Vec3D const &,class Vec3D const &)
+public: __thiscall Mat3D::Mat3D(void)
+public: __thiscall Polar::Polar(double,double,double)
+public: __thiscall Polar::Polar(void)
+public: __thiscall Vec3D::Vec3D(struct Polar const &)
+public: __thiscall Vec3D::Vec3D(double,double,double)
+public: __thiscall Vec3D::Vec3D(void)
+public: __thiscall wSunMove::wSunMove(class wSunMove const &)
+public: __thiscall wSunMove::wSunMove(void)
+public: __thiscall waSky::waSky(class waSky const &)
+public: __thiscall waSky::waSky(void)
+public: __thiscall waSun::waSun(class waSun const &)
+public: __thiscall waSun::waSun(void)
+public: virtual __thiscall wSunMove::~wSunMove(void)
+public: __thiscall waSky::~waSky(void)
+public: __thiscall waSun::~waSun(void)
+public: class Mat3D & __thiscall Mat3D::operator=(class Mat3D const &)
+public: struct Polar & __thiscall Polar::operator=(struct Polar const &)
+public: struct Stars_Const & __thiscall Stars_Const::operator=(struct Stars_Const const &)
+public: class Vec3D & __thiscall Vec3D::operator=(class Vec3D const &)
+public: class wSunMove & __thiscall wSunMove::operator=(class wSunMove const &)
+public: class waSky & __thiscall waSky::operator=(class waSky const &)
+public: class waSun & __thiscall waSun::operator=(class waSun const &)
+public: double __thiscall Vec3D::operator[](enum pol_index)
+public: double __thiscall Vec3D::operator[](enum index)const 
+class Mat3D __cdecl operator*(class Mat3D const &,class Mat3D const &)
+class Mat3D __cdecl operator*(class Mat3D const &,double)
+class Mat3D __cdecl operator*(double,class Mat3D const &)
+class Vec3D __cdecl operator*(class Vec3D const &,class Mat3D const &)
+class Vec3D __cdecl operator*(class Vec3D const &,double)
+class Vec3D __cdecl operator*(class Mat3D const &,class Vec3D const &)
+class Vec3D __cdecl operator*(double,class Vec3D const &)
+class Mat3D __cdecl operator-(class Mat3D const &,class Mat3D const &)
+class Mat3D __cdecl operator-(class Mat3D const &)
+class Vec3D __cdecl operator-(class Vec3D const &,class Vec3D const &)
+class Vec3D __cdecl operator-(class Vec3D const &)
+class Mat3D __cdecl operator+(class Mat3D const &,class Mat3D const &)
+class Vec3D __cdecl operator+(class Vec3D const &,class Vec3D const &)
+class Mat3D __cdecl operator/(class Mat3D const &,double)
+class Vec3D __cdecl operator/(class Vec3D const &,double)
+public: void __thiscall Vec3D::operator+=(class Vec3D const &)
+public: void __thiscall Vec3D::operator-=(class Vec3D const &)
+const wSunMove::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
+const wSunMove::`vftable'{for `Suicide'}
+const waSun::`vftable'
+`string'
+`string'
+void __cdecl AddThe(double,double,double,double,double &,double &)
+public: void __thiscall waSun::AddToEffects(class HeapVector<class Graphics::VolumeEffect *> *)
+private: void __thiscall Vec3D::CalcPolarAngles(void)
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall waSky::ClassName(void)
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall waSun::ClassName(void)
+class Vec3D __cdecl Col(class Mat3D const &,enum index)
+class Vec3D __cdecl Cross(class Vec3D const &,class Vec3D const &)
+double __cdecl Ddd(int,int,double)
+double __cdecl Dot(class Vec3D const &,class Vec3D const &)
+public: void __thiscall waSky::Draw(void)
+public: void __thiscall waSun::Draw(unsigned int)
+private: void __thiscall waSun::DrawStars(class Vector3 const &,float)
+public: void __thiscall waSun::FillOutputObjects(void)
+public: void __thiscall waSky::Finish(void)
+public: void __thiscall waSun::Finish(void)
+double __cdecl Frac(double)
+private: void __thiscall waSun::GetAstR0(double *,int const *,double)
+private: void __thiscall waSun::GetMoon(double *,int const *,double)
+private: float __thiscall waSun::GetMoonPhase(void)
+private: void __thiscall waSun::GetPlanetDirection(class Vector3 &,float,float)
+private: void __thiscall waSun::GetPlanetRA_Dec(int,int,int,double)
+public: virtual class Position3 const & __thiscall waSun::GetPosition(void)
+private: class Vector3 __thiscall waSun::GetSkyColor(class Vector3 const &,class Vector3 const &,float)
+public: class Vector3 const & __thiscall waSun::GetSun(void)
+private: void __thiscall waSun::GetSunColor(class Vector3 const &)
+public: float __thiscall waSun::Get_Sun_Zenit(void)
+private: int __thiscall waSun::Get_n_day(void)
+class Mat3D __cdecl Id3D(void)
+public: void __thiscall waSky::Init(void)
+public: void __thiscall waSun::Init(void)
+private: void __thiscall waSun::InitMoonFace(void)
+private: void __thiscall waSun::InitMoonLight(void)
+private: void __thiscall waSun::InitSphereClipPlane(void)
+private: void __thiscall waSun::InitStars(void)
+private: void __thiscall waSun::InitSunFace(void)
+private: void __thiscall waSun::InitSunLight(void)
+private: void __thiscall waSun::Lat_Long(class cPosition &)
+double __cdecl Mjd(int,int,int,int,int,double)
+double __cdecl Modulo(double,double)
+class Vec3D __cdecl MoonPos(double)
+public: virtual void __thiscall wSunMove::NextEvent(void)
+double __cdecl Norm(class Vec3D const &)
+class Mat3D __cdecl R_x(double)
+class Mat3D __cdecl R_y(double)
+class Mat3D __cdecl R_z(double)
+private: void __thiscall waSun::ReadSkyObjects(struct StarData * &,int *,char const *)
+class Vec3D __cdecl Row(class Mat3D const &,enum index)
+public: void __thiscall waSky::SetFogColor(void)
+public: void __thiscall waSky::SetSkyColor(void)
+private: void __thiscall waSun::SetSunColorAndHaloSize(void)
+class Vec3D __cdecl SunPos(double)
+private: void __thiscall waSun::Sun_Psi_h(void)
+private: void __thiscall waSun::TransformStarRA_Dec(void)
+class Mat3D __cdecl Transp(class Mat3D const &)
+private: void __thiscall waSun::getMoonPos(int,int,int,double,double &,double &)
+private: double __thiscall waSun::getStarTime(double)
+private: double __thiscall waSun::getUT_sec(void)
+class waSky theSky
+class waSun theSun

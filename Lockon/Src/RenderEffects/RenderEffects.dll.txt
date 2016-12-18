@@ -1,0 +1,36 @@
+ The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\RenderEffects.dll' is:
+--------------------------------------------------------
+Export symbols:
+---------------------------------------------
+	CHARACTERISTICS                   0x00000000
+	TIME DATE STAMP                   0x3faa8bf8    Thu Nov 06 09:59:20 2003
+	MAJOR VERSION                     0x0000
+	MINOR VERSION                     0x0000
+	NAME                              0x00021aea    'RenderEffects.dll'
+	BASE                              0x00000001
+	NUMBER OF FUNCTIONS               21
+	NUMBER OF NAMES                   21
+	ADDRESS OF FUNCTIONS              0x00021a18
+	ADDRESS OF NAMES                  0x00021a6c
+	ADDRESS OF NAME ORDINALS          0x00021ac0
+public: __thiscall SmokePartSystem::SmokePartSystem(class SmokePartSystem const &)
+public: __thiscall SmokePartSystem::SmokePartSystem(void)
+public: virtual __thiscall SmokePartSystem::~SmokePartSystem(void)
+public: class SmokePartSystem & __thiscall SmokePartSystem::operator=(class SmokePartSystem const &)
+const SmokePartSystem::`vftable'
+public: virtual bool __thiscall SmokePartSystem::AllowProjLights(void)
+public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall SmokePartSystem::ClassName(void)
+private: long __thiscall SmokePartSystem::CreateShaders(void)
+public: virtual void __thiscall SmokePartSystem::DrawGeometry(class Graphics::RenderObject *)
+public: virtual void __thiscall SmokePartSystem::FreeToStep(int)
+public: virtual unsigned int __thiscall SmokePartSystem::GetKey(void)
+public: virtual float __thiscall SmokePartSystem::GetLoadPriority(void)
+public: virtual int __thiscall SmokePartSystem::GetLoadStep(void)
+public: virtual int __thiscall SmokePartSystem::GetLoadStepCount(void)
+public: virtual class Graphics::DXTexture * __thiscall SmokePartSystem::GetMainDiffuseMap(void)
+public: virtual class Graphics::Texture * __thiscall SmokePartSystem::GetTexture(int)
+public: virtual int __thiscall SmokePartSystem::GetTextureCount(void)
+private: void __thiscall SmokePartSystem::InitParticle(struct SmokePartSystem::PARTICLEVERTEX *,struct D3DXVECTOR2 const &,float,float)
+public: virtual void __thiscall SmokePartSystem::LoadToStep(int)
+private: void __thiscall SmokePartSystem::ReleaseResources(void)
+private: void __thiscall SmokePartSystem::SetupConstants(class Graphics::RenderObject *)

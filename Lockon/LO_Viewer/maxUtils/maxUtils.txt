@@ -1,5 +1,7 @@
  The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\LO_Viewer\maxUtils.dll' is:
 --------------------------------------------------------
+Start time : 11:38 AM
+End time   : 12:18 PM
 Export symbols:
 ---------------------------------------------
 	CHARACTERISTICS                   0x00000000

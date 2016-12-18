@@ -1,5 +1,7 @@
  The information information of 'C:\FlightDream\Debug\Tools\ExeInfo\lockon\Terrain.dll' is:
 --------------------------------------------------------
+Start time : 20:38 PM
+End time   : 21:27 PM
 Export symbols:
 ---------------------------------------------
 	CHARACTERISTICS                   0x00000000

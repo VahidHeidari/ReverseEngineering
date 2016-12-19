@@ -20,13 +20,17 @@ enum ModelParsePurpose {};
 struct DynamicParam {};
 struct SystemDescriptor {};
 
+class RenderParser * immediateParser
+class Renderer * renderer
+
 float __cdecl DParamScale(class ModelInstance *,int,float)
 int __cdecl FindAllParts(class ModelInstance &,class Vector3 const &,float,class std::vector<float,class std::allocator<float> > &,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)
 float __cdecl FindClosestPart(class ModelInstance &,class Vector3 const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
 bool __cdecl IntersectModel(class ModelInstance &,class ModelInstance &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class Vector3 *,class Vector3 *)
 bool __cdecl IntersectSegment(class ModelInstance &,class Vector3 const &,class Vector3 const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,float *,class Vector3 *)
 
-class Animation
+template <>
+class Animation<int>
 {
 	struct Key {};
 
@@ -46,15 +50,16 @@ public: struct Key * __thiscall GetPrevKey(float)
 public: virtual float __thiscall GetStart(void)
 public: int __thiscall GetValue(class HeapVector<struct DynamicParam> const &)
 public: int __thiscall GetValue(float)
-protected: int __thiscall Interpolate(struct Key const &,struct Key const &,float)
 public: virtual int __thiscall KeyCount(void)
 public: virtual void __thiscall SetParamIndex(int)
 public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
+protected: int __thiscall Interpolate(struct Key const &,struct Key const &,float)
 const Graphics::Animation<int>::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
 const Graphics::Animation<int>::`vftable'{for `Graphics::AnimationBase'}
 };
 
-class Animation
+template <>
+class Animation<float>
 {
 	struct Key {};
 
@@ -74,15 +79,16 @@ public: struct Key * __thiscall GetPrevKey(float)
 public: virtual float __thiscall GetStart(void)
 public: float __thiscall GetValue(class HeapVector<struct DynamicParam> const &)
 public: float __thiscall GetValue(float)
-protected: float __thiscall Interpolate(struct Key const &,struct Key const &,float)
 public: virtual int __thiscall KeyCount(void)
 public: virtual void __thiscall SetParamIndex(int)
 public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
+protected: float __thiscall Interpolate(struct Key const &,struct Key const &,float)
 const Graphics::Animation<float>::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
 const Graphics::Animation<float>::`vftable'{for `Graphics::AnimationBase'}
 };
 
-class Animation
+template <>
+class Animation<Quaternion>
 {
 	struct Key {};
 
@@ -102,15 +108,16 @@ public: struct Key * __thiscall GetPrevKey(float)
 public: virtual float __thiscall GetStart(void)
 public: class Quaternion __thiscall GetValue(class HeapVector<struct DynamicParam> const &)
 public: class Quaternion __thiscall GetValue(float)
-protected: class Quaternion __thiscall Interpolate(struct Key const &,struct Key const &,float)
 public: virtual int __thiscall KeyCount(void)
 public: virtual void __thiscall SetParamIndex(int)
 public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
+protected: class Quaternion __thiscall Interpolate(struct Key const &,struct Key const &,float)
 const Graphics::Animation<class Quaternion>::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
 const Graphics::Animation<class Quaternion>::`vftable'{for `Graphics::AnimationBase'}
 };
 
-class Animation
+template <>
+class Animation<Vector3>
 {
 	struct Key {};
 
@@ -130,10 +137,10 @@ public: struct Key * __thiscall GetPrevKey(float)
 public: virtual float __thiscall GetStart(void)
 public: class Vector3 __thiscall GetValue(class HeapVector<struct DynamicParam> const &)
 public: class Vector3 __thiscall GetValue(float)
-protected: class Vector3 __thiscall Interpolate(struct Key const &,struct Key const &,float)
 public: virtual int __thiscall KeyCount(void)
 public: virtual void __thiscall SetParamIndex(int)
 public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
+protected: class Vector3 __thiscall Interpolate(struct Key const &,struct Key const &,float)
 const Graphics::Animation<class Vector3>::`vftable'{for `EagleDynamics::Common::Unknown<class EagleDynamics::Common::Serializable>'}
 const Graphics::Animation<class Vector3>::`vftable'{for `Graphics::AnimationBase'}
 };
@@ -154,6 +161,7 @@ class RendererCallback
 public: __thiscall RendererCallback(class RendererCallback const &)
 public: __thiscall RendererCallback(void)
 public: virtual __thiscall ~RendererCallback(void)
+public: class Graphics::RendererCallback & __thiscall Graphics::RendererCallback::operator=(class Graphics::RendererCallback const &)
 public: virtual void __thiscall OnAfterDrawObject(class RenderObject *)
 public: virtual void __thiscall OnAfterPresent(void)
 public: virtual void __thiscall OnBeforeDrawObject(class RenderObject *)
@@ -171,7 +179,6 @@ public: virtual void __thiscall OnSetParams(class ConfigParser *)
 public: virtual void __thiscall OnSetRenderTarget(class Texture *,class Texture *)
 public: virtual void __thiscall OnUninitialize(void)
 public: virtual void __thiscall OnUpdate(void)
-public: class Graphics::RendererCallback & __thiscall Graphics::RendererCallback::operator=(class Graphics::RendererCallback const &)
 const Graphics::RendererCallback::`vftable'
 };
 
@@ -209,21 +216,10 @@ public: __thiscall DefModel(class DefModel const &)
 public: __thiscall DefModel(void)
 public: virtual __thiscall ~DefModel(void)
 public: class DefModel & __thiscall operator=(class DefModel const &)
-protected: void __thiscall AddConnector(class Graphics::HelperNode *)
 public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall ClassName(void)
-protected: virtual void __thiscall ClearStats(void)
 public: virtual class Model * __thiscall Clone(void)
 public: static class Resource * __cdecl Create(enum ResourceType,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual bool __thiscall CreateByName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-protected: virtual void __thiscall FillStats(class ModelNode *)
-protected: virtual void __thiscall FillStatsAnimNode(class AnimTransformNode *)
-protected: virtual void __thiscall FillStatsAnimation(class AnimationBase *)
-protected: virtual void __thiscall FillStatsGeometry(class GeometryNode *)
-protected: virtual void __thiscall FillStatsMultiMatNode(class MultiMaterialNode *)
-protected: virtual void __thiscall FillStatsNop(class FastNopNode *)
-protected: virtual void __thiscall FillStatsSelector(class SelectorNode *)
-protected: virtual void __thiscall FillStatsUserBox(class UserBoxNode *)
-protected: class ModelNode * __thiscall FindNode(class ModelNode *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual void __thiscall FreeToStep(int)
 public: virtual class Box const & __thiscall GetBoundingBox(void)
 public: virtual class Vector3 const & __thiscall GetCenter(void)
@@ -247,6 +243,17 @@ public: virtual void __thiscall LoadWithDependents(int)
 public: virtual void __thiscall Parse(class ModelInstance &,class ModelParser &,class Position3 const &,class HeapVector<class VolumeEffect *> *)
 public: virtual void __thiscall ReplaceMaterial(class Material *,class Material *)
 public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
+protected: void __thiscall AddConnector(class Graphics::HelperNode *)
+protected: virtual void __thiscall ClearStats(void)
+protected: virtual void __thiscall FillStats(class ModelNode *)
+protected: virtual void __thiscall FillStatsAnimNode(class AnimTransformNode *)
+protected: virtual void __thiscall FillStatsAnimation(class AnimationBase *)
+protected: virtual void __thiscall FillStatsGeometry(class GeometryNode *)
+protected: virtual void __thiscall FillStatsMultiMatNode(class MultiMaterialNode *)
+protected: virtual void __thiscall FillStatsNop(class FastNopNode *)
+protected: virtual void __thiscall FillStatsSelector(class SelectorNode *)
+protected: virtual void __thiscall FillStatsUserBox(class UserBoxNode *)
+protected: class ModelNode * __thiscall FindNode(class ModelNode *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 const Graphics::DefModel::`vftable'
 };
 
@@ -266,7 +273,6 @@ public: __thiscall BillboardNode(class ModelNode *)
 public: virtual __thiscall ~BillboardNode(void)
 public: class BillboardNode & __thiscall operator=(class BillboardNode const &)
 public: virtual void __thiscall CalculateBox(void)
-protected: virtual void __thiscall CameraTransform(class Position3 &,class Position3 const &)
 public: virtual class ModelNode * __thiscall CloneEmpty(void)
 public: virtual void __thiscall CopyFrom(class ModelNode *)
 public: virtual class Position3 * __thiscall CreateCurTransform(class ModelInstance &,class Position3 const &)
@@ -276,6 +282,7 @@ public: virtual bool __thiscall Parse(class ModelInstance *,class ModelParser *,
 public: void __thiscall SetBillboardAxis(enum BillboardAxis)
 public: void __thiscall SetBillboardType(enum BillboardType)
 public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
+protected: virtual void __thiscall CameraTransform(class Position3 &,class Position3 const &)
 public: void __thiscall Graphics::BillboardNode::`default constructor closure'(void)
 const Graphics::BillboardNode::`vftable'
 };
@@ -286,15 +293,22 @@ public: __thiscall CMD_Node(class CMD_Node const &)
 public: __thiscall CMD_Node(class ModelNode *)
 public: virtual __thiscall ~CMD_Node(void)
 public: class CMD_Node & __thiscall operator=(class CMD_Node const &)
+public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl GetGeometryClass(void)
+public: static float __cdecl GetGlossiness(void)
+public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl GetMaterialClass(void)
+public: bool __thiscall LoadFromCMD(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: bool __thiscall SaveToCMD(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: static void __cdecl SetForcedColors(class Vector3 *,class Vector3 *,class Vector3 *)
+public: static void __cdecl SetGeometryClass(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: static void __cdecl SetGlossiness(float)
+public: static void __cdecl SetMaterialClass(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
+public: static void __cdecl setLandTextureMode(bool)
 protected: void __thiscall CheckForCollision(class ModelNode *)
 protected: virtual bool __thiscall CreateMaterial(class Material * &,class gDrawCommand *)
 protected: void __thiscall CreateSegments(class gShapeObject *)
 protected: class ModelNode * __thiscall FindCollisionScene(void)
-public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl GetGeometryClass(void)
-public: static float __cdecl GetGlossiness(void)
-public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl GetMaterialClass(void)
 protected: int __thiscall GetTriangleCount(class Graphics::ModelNode *,int)
-public: bool __thiscall LoadFromCMD(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 protected: virtual class ModelNode * __thiscall ParseCE(class ModelNode *,class gDrawCommand *)
 protected: virtual bool __thiscall ParseCMD(class GeometryNode *,class gDrawCommand *)
 protected: virtual class ModelNode * __thiscall ParseCeNop(class ModelNode *,struct kinematicsV *)
@@ -305,21 +319,15 @@ protected: virtual bool __thiscall ParseGeometry(class GeometryNode *,class gDra
 protected: virtual bool __thiscall ParseLD(class LodModelNode *,class gDrawCommand *)
 protected: virtual bool __thiscall ParseMaterial(class GeometryNode *,class gDrawCommand *)
 protected: virtual bool __thiscall ParseSC(class ModelNode *,class gDrawCommand *)
-public: bool __thiscall SaveToCMD(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: static void __cdecl SetForcedColors(class Vector3 *,class Vector3 *,class Vector3 *)
-public: static void __cdecl SetGeometryClass(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: static void __cdecl SetGlossiness(float)
-public: static void __cdecl SetMaterialClass(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
-public: static void __cdecl setLandTextureMode(bool)
-protected: static class Vector3 * Graphics::CMD_Node::c_amb
-protected: static class Vector3 * Graphics::CMD_Node::c_diff
-protected: static class Vector3 * Graphics::CMD_Node::c_spec
-protected: static float glossiness
 protected: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > geomClass
 protected: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > matClass
 public: void __thiscall Graphics::CMD_Node::`default constructor closure'(void)
 const Graphics::CMD_Node::`vftable'
+
+protected: static float glossiness
+protected: static class Vector3 * Graphics::CMD_Node::c_amb
+protected: static class Vector3 * Graphics::CMD_Node::c_diff
+protected: static class Vector3 * Graphics::CMD_Node::c_spec
 };
 
 class Camera
@@ -433,12 +441,12 @@ public: class FileModelNode & __thiscall operator=(class FileModelNode const &)
 public: void * __thiscall GetDataPointer(void)
 public: class ModelHeader * __thiscall GetRenderHeader(void)
 public: unsigned int __thiscall GetSerializerPartSize(void)
-protected: virtual void __thiscall LoadData(class ModelNode *)
 public: bool __thiscall ReadFromMemory(void *,unsigned int &,unsigned int)
 public: bool __thiscall LoadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: bool __thiscall SaveToFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: bool __thiscall WriteToMemory(void *,unsigned int &,unsigned int)
 public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
+protected: virtual void __thiscall LoadData(class ModelNode *)
 public: void __thiscall Graphics::FileModelNode::`default constructor closure'(void)
 const Graphics::FileModelNode::`vftable'
 };
@@ -542,19 +550,19 @@ public: virtual __thiscall ~LOD_Model(void)
 public: class LOD_Model & __thiscall operator=(class LOD_Model const &)
 public: virtual class Model * __thiscall Clone(void)
 public: static class Resource * __cdecl Create(enum ResourceType,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-protected: class ModelNode * __thiscall CreateNode(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class ModelNode *,class ModelManager *)
-protected: void __thiscall ExpandMultiMaterialNode(class MultiMaterialNode *,class std::_Tree<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct ModelSkinInfo>,struct std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct ModelSkinInfo,class Graphics::LO				)			/// Not closed properly. I have to add ) for folding.
-protected: virtual void __thiscall FillStatsGeometry(class GeometryNode *)
-protected: virtual void __thiscall FillStatsMultiMatNode(class MultiMaterialNode *)
 public: virtual void __thiscall FreeToStep(int)
 public: virtual int __thiscall GetLoadStep(void)
 public: virtual int __thiscall GetLoadStepCount(void)
 public: bool __thiscall LoadModelConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class ModelManager *)
-protected: bool __thiscall LoadNode(class ModelNode *)
-protected: bool __thiscall LoadSkinSet(int,class ConfigParser::iterator)
 public: virtual void __thiscall LoadToStep(int)
 public: virtual void __thiscall Parse(class ModelInstance &,class ModelParser &,class Position3 const &,class HeapVector<class VolumeEffect *> *)
 public: void __thiscall SetLodDescriptions(class ConfigParser::iterator const &,class ModelManager *)
+protected: class ModelNode * __thiscall CreateNode(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class ModelNode *,class ModelManager *)
+protected: void __thiscall ExpandMultiMaterialNode(class MultiMaterialNode *,class std::_Tree<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct ModelSkinInfo>,struct std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct ModelSkinInfo,class Graphics::LO				)			/// Not closed properly. I have to add ) for folding.
+protected: virtual void __thiscall FillStatsGeometry(class GeometryNode *)
+protected: virtual void __thiscall FillStatsMultiMatNode(class MultiMaterialNode *)
+protected: bool __thiscall LoadNode(class ModelNode *)
+protected: bool __thiscall LoadSkinSet(int,class ConfigParser::iterator)
 const Graphics::LOD_Model::`vftable'
 };
 
@@ -581,9 +589,10 @@ public: virtual bool __thiscall Parse(class ModelInstance *,class ModelParser *,
 public: static void __cdecl SetDistanceMultiplier(float)
 public: void __thiscall SetLodDistance(int,float)
 public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
-protected: static float multSq
 public: void __thiscall Graphics::LodModelNode::`default constructor closure'(void)
 const Graphics::LodModelNode::`vftable'
+
+protected: static float multSq
 };
 
 class Material
@@ -665,11 +674,11 @@ public: virtual __thiscall ~ModelManager(void)
 public: class ModelManager & __thiscall operator=(class ModelManager const &)
 public: virtual class Resource * __thiscall CreateByName(enum ResourceType,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall FindFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-protected: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall FindInPaths(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-protected: class Resource * __thiscall LoadAsLodModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual void __thiscall OnInitialize(class ConfigParser *)
 public: virtual bool __thiscall initialize(void)
 public: virtual void __thiscall uninitialize(void)
+protected: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall FindInPaths(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
+protected: class Resource * __thiscall LoadAsLodModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: void __thiscall Graphics::ModelManager::`default constructor closure'(void)
 const Graphics::ModelManager::`vftable'{for `DefResourceManager'}
 const Graphics::ModelManager::`vftable'{for `Graphics::RendererCallback'}
@@ -704,9 +713,9 @@ public: void __thiscall SetName(class std::basic_string<char,struct std::char_tr
 public: void __thiscall SetNodePurposes(enum ModelParsePurpose)
 public: void __thiscall UpdatePurpose(void)
 public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Graphics::ModelNode::GetName(void)
+public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
 private: int __thiscall AddChild(class ModelNode *)
 private: void __thiscall RemoveChild(class ModelNode *)
-public: virtual void __thiscall serialize(class EagleDynamics::Common::Serializer &)
 public: void __thiscall Graphics::ModelNode::`default constructor closure'(void)
 const Graphics::ModelNode::`vftable'
 };
@@ -753,7 +762,6 @@ public: __thiscall RenderParser(class RenderParser const &)
 public: __thiscall RenderParser(void)
 public: virtual __thiscall ~RenderParser(void)
 public: class RenderParser & __thiscall operator=(class RenderParser const &)
-class RenderParser * immediateParser
 const Graphics::RenderParser::`vftable'
 };
 
@@ -771,7 +779,6 @@ public: __thiscall Renderer(class Renderer const &)
 public: __thiscall Renderer(void)
 public: virtual __thiscall ~Renderer(void)
 public: class Renderer & __thiscall operator=(class Renderer const &)
-class Renderer * renderer
 const Graphics::Renderer::`vftable'
 };
 

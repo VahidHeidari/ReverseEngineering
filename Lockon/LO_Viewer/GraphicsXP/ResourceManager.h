@@ -1,13 +1,14 @@
 #ifndef RESOURCEMANAGER_H_
 #define RESOURCEMANAGER_H_
 
+class ResourceManager * resourcer
+
 class ResourceManager
 {
 public: __thiscall ResourceManager(class ResourceManager const &)
 public: __thiscall ResourceManager(void)
 public: virtual __thiscall ~ResourceManager(void)
 public: class ResourceManager & __thiscall operator=(class ResourceManager const &)
-class ResourceManager * resourcer
 const ResourceManager::`vftable'
 };
 

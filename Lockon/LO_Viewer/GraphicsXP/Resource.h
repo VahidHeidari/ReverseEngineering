@@ -3,12 +3,12 @@
 
 #include "Common.h"
 
+enum ResourceType {};
+
+`string'
 class Resource * __cdecl GetResourceReference(class Resource *)
 void __cdecl SetResourceReference(class Resource *,class Resource *)
 void __cdecl SetResourceReference(enum ResourceType,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-`string'
-
-enum ResourceType {};
 
 class Resource
 {
@@ -17,7 +17,7 @@ public: __thiscall Resource(void)
 public: virtual __thiscall ~Resource(void)
 public: class Resource & __thiscall operator=(class Resource const &)
 public: virtual bool __thiscall CreateByName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Resource::GetDebugString(void)
+public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall GetDebugString(void)
 public: virtual int __thiscall GetDependentsLoadStep(void)
 public: virtual unsigned int __thiscall GetLastFrame(void)
 public: virtual bool __thiscall IsRegistered(void)

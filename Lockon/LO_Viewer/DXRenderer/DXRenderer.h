@@ -303,12 +303,13 @@ public: virtual void __thiscall Graphics::DXFadeOutMaterial::SetGlossiness(float
 public: virtual void __thiscall Graphics::DXFadeOutMaterial::SetOpacity(float)
 public: virtual void __thiscall Graphics::DXFadeOutMaterial::SetSpecularColor(class Vector3 const &)
 public: virtual void __thiscall Graphics::DXFadeOutMaterial::serialize(class EagleDynamics::Common::Serializer &)
-protected: static struct _D3DMATERIAL8 Graphics::DXFadeOutMaterial::DXWhiteMaterial
 protected: void __thiscall Graphics::DXFadeOutMaterial::FillDXMat(void)
 public: void __thiscall Graphics::DXFadeOutMaterial::`vbase destructor'(void)
 const Graphics::DXFadeOutMaterial::`vbtable'
 const Graphics::DXFadeOutMaterial::`vftable'{for `Graphics::CustomMaterial'}
 const Graphics::DXFadeOutMaterial::`vftable'{for `Graphics::DXBrushedMaterial'}
+
+protected: static struct _D3DMATERIAL8 Graphics::DXFadeOutMaterial::DXWhiteMaterial
 };
 
 class DXFastMesh
@@ -365,9 +366,10 @@ class DXFixedMesh
 	class FixedVertex
 	{
 	public: __thiscall Graphics::DXFixedMesh::FixedVertex::FixedVertex(void)
-	public: static unsigned long const Graphics::DXFixedMesh::FixedVertex::fxFVF
 	public: struct Graphics::DXFixedMesh::FixedVertex & __thiscall Graphics::DXFixedMesh::FixedVertex::operator=(struct Graphics::DXFixedMesh::FixedVertex const &)
 	public: void __thiscall Graphics::DXFixedMesh::FixedVertex::Set(class Vector3,unsigned long,float,float)
+
+	public: static unsigned long const Graphics::DXFixedMesh::FixedVertex::fxFVF
 	};
 
 public: __thiscall Graphics::DXFixedMesh::DXFixedMesh(class Graphics::DXFixedMesh const &)
@@ -552,8 +554,9 @@ class DXMesh
 	{
 	public: struct Graphics::DXMesh::ScreenVertex & __thiscall Graphics::DXMesh::ScreenVertex::operator=(struct Graphics::DXMesh::ScreenVertex const &)
 	public: __thiscall Graphics::DXMesh::ScreenVertex::ScreenVertex(void)
-	public: static unsigned long const Graphics::DXMesh::ScreenVertex::svFVF
 	public: void __thiscall Graphics::DXMesh::ScreenVertex::Set(float,float,unsigned long,float,float)
+
+	public: static unsigned long const Graphics::DXMesh::ScreenVertex::svFVF
 	};
 
 public: __thiscall Graphics::DXMesh::DXMesh(class Graphics::DXMesh const &)

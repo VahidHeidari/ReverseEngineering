@@ -41,8 +41,6 @@ public: void __thiscall addS(struct Position &)
 public: void __thiscall addSxT(struct Position &)
 public: void __thiscall addT(struct Position &)
 public: void __thiscall addTCoord(int,struct TexCoord &)
-protected: bool __thiscall buildBounding(class Vector3 &,class Vector3 &,class Vector3 &,float &)
-protected: bool __thiscall createData(void)
 public: virtual enum LOMData::Data __thiscall dataType(void)
 public: virtual void * __thiscall getData(void)
 public: unsigned long & __thiscall getFlags(void)
@@ -69,6 +67,8 @@ public: class std::vector<struct Position,class std::allocator<struct Position> 
 public: class std::vector<struct Position,class std::allocator<struct Position> > const & __thiscall tArray(void)
 public: class std::vector<class std::map<int,struct TexCoord,struct std::less<int>,class std::allocator<struct TexCoord> >,class std::allocator<class std::map<int,struct TexCoord,struct std::less<int>,class std::allocator<struct TexCoord> > > > const & __thiscall tcoordsArray(void)
 public: virtual bool __thiscall update(class misc::CoreObject *)
+protected: bool __thiscall buildBounding(class Vector3 &,class Vector3 &,class Vector3 &,float &)
+protected: bool __thiscall createData(void)
 const LOMGeometry::`vftable'
 };
 

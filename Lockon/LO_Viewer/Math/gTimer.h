@@ -12,6 +12,7 @@ public: void __thiscall gTimer::start(void)
 public: void __thiscall gTimer::stop(void)
 private: __int64 __cdecl gTimer::GetTSC(void)
 private: float __cdecl gTimer::GetTSCinterval(void *)
+
 private: static float gTimer::m_constCPUfactor
 private: static float gTimer::m_constCPUspeed
 };

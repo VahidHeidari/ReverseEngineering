@@ -325,9 +325,9 @@ public: void __thiscall Graphics::CMD_Node::`default constructor closure'(void)
 const Graphics::CMD_Node::`vftable'
 
 protected: static float glossiness
-protected: static class Vector3 * Graphics::CMD_Node::c_amb
-protected: static class Vector3 * Graphics::CMD_Node::c_diff
-protected: static class Vector3 * Graphics::CMD_Node::c_spec
+protected: static class Vector3 * c_amb
+protected: static class Vector3 * c_diff
+protected: static class Vector3 * c_spec
 };
 
 class Camera

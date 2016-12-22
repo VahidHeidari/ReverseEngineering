@@ -1,6 +1,11 @@
 #ifndef MATH_H_
 #define MATH_H_
 
+gD3DInvertMatrix44d
+gD3DMultMatrix44Point3f
+gD3DMultMatrix44d
+int nMath
+
 bool __cdecl SideBySide(class E3::Vector &,class E3::Vector &,float)
 bool __fastcall BoxBoxIntersect(class Box const &,class Position3 const &,class Box const &,class Position3 const &)
 bool __fastcall BoxBoxIntersect(class Position3 const &,class Vector3 const &,class Vector3 const &)
@@ -54,12 +59,7 @@ float __cdecl Vel_of_Sound(float)
 float __cdecl splah(int,float *,float *,float,int)
 float __fastcall GetMyTime(void)
 float __fastcall PointSegmentDistance(class Vector3 const &,class Vector3 const &,class Vector3 const &)
-gD3DInvertMatrix44d
-gD3DMultMatrix44Point3f
-gD3DMultMatrix44d
 int __cdecl fnMath(void)
-int nMath
-
 class Vector3 & __fastcall operator*=(class Vector3 &,class Matrix33 const &)
 class Vector3 & __fastcall operator*=(class Vector3 &,class Position3 const &)
 class Vector3 __cdecl IntersectPlanes(class Plane const &,class Plane const &,class Plane const &)

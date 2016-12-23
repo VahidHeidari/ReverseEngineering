@@ -10,13 +10,13 @@ namespace EagleDynamics
 namespace Common
 {
 
-class AsyncLogFile * EagleDynamics::Common::globalLog
-class FactoryManager * EagleDynamics::Common::globalFactoryManager
+class AsyncLogFile * globalLog
+class FactoryManager * globalFactoryManager
 
 unsigned int __cdecl mb2uni(unsigned char const * &)
 int __cdecl uni2mb(unsigned char * &,unsigned int)
 int __cdecl mbstrlen(unsigned char const *)
-class AsyncLogFile & __cdecl EagleDynamics::Common::getSystemLog(void)
+class AsyncLogFile & __cdecl getSystemLog(void)
 void __cdecl getRegistry(class FactoryManager * *)
 
 class Activator
@@ -80,9 +80,9 @@ public: class CommonBufferizer & __thiscall operator=(class CommonBufferizer con
 public: void __thiscall Close(unsigned int &)
 public: static class CommonBufferizer * __stdcall Create(void)
 public: void __thiscall Open(enum Persistor::Mode,void *,unsigned int)
-protected: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall EagleDynamics::Common::CommonBufferizer::allocate(class Identifier const &)
+protected: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall allocate(class Identifier const &)
 protected: virtual void __thiscall deallocate(class Identifier const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-protected: virtual void __thiscall fill(class EagleDynamics::Common::Persistable *)
+protected: virtual void __thiscall fill(class Persistable *)
 protected: virtual void __thiscall serialize(void *,unsigned int)
 const EagleDynamics::Common::CommonBufferizer::`vftable'
 };
@@ -92,7 +92,7 @@ class CommonSerializer
 protected: __thiscall CommonSerializer(struct IStorage *,struct IStream *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Persistor::Mode)
 public: __thiscall CommonSerializer(class CommonSerializer const &)
 public: __thiscall CommonSerializer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: __thiscall CommonSerializer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum EagleDynamics::Common::Persistor::Mode)
+public: __thiscall CommonSerializer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Persistor::Mode)
 public: __thiscall CommonSerializer(void)
 public: virtual __thiscall ~CommonSerializer(void)
 public: class CommonSerializer & __thiscall operator=(class CommonSerializer const &)
@@ -109,10 +109,10 @@ public: virtual void __thiscall persist(class Persistable * &)
 protected: virtual void __thiscall serialize(void *,unsigned int)
 protected: void __thiscall setName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 protected: void __thiscall write(unsigned long &)
-protected: void __thiscall write(class std::map<class EagleDynamics::Common::Identifier,class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned long,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<unsigned long> >,struct std::less<class EagleDynamics::Common::Identifier>,class std::allocator<class std::map<class std::basic_string<c		> >)		/// Not closed properly. I have to add some > >) for folding!
+protected: void __thiscall write(class std::map<class Identifier,class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned long,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<unsigned long> >,struct std::less<class Identifier>,class std::allocator<class std::map<class std::basic_string<c		> >)		/// Not closed properly. I have to add some > >) for folding!
 protected: enum Persistor::Mode __thiscall GetMode(void)
 protected: void __thiscall SetMode(enum Persistor::Mode)
-protected: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall EagleDynamics::Common::CommonSerializer::allocate(class EagleDynamics::Common::Identifier const &)
+protected: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CommonSerializer::allocate(class Identifier const &)
 protected: virtual void __thiscall deallocate(class Identifier const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 protected: virtual void __thiscall fill(class Persistable *)
 protected: virtual void __thiscall openStream(enum Persistor::Mode,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct IStream * *)
@@ -128,8 +128,8 @@ public: __thiscall Customer(class Factory *)
 public: __thiscall Customer(void)
 public: virtual __thiscall ~Customer(void)
 public: class Customer & __thiscall operator=(class Customer const &)
-public: virtual void __thiscall setFactory(class EagleDynamics::Common::Factory *)
-public: virtual void __thiscall getFactory(class EagleDynamics::Common::Factory * *)
+public: virtual void __thiscall setFactory(class Factory *)
+public: virtual void __thiscall getFactory(class Factory * *)
 public: virtual class Factory * __thiscall getFactory(void)const
 const EagleDynamics::Common::Customer::`vftable'
 };
@@ -153,7 +153,7 @@ public: __thiscall Factory(void)
 public: virtual __thiscall ~Factory(void)
 public: class Factory & __thiscall operator=(class Factory const &)
 public: virtual long __stdcall CreateInstance(struct IUnknown *,struct _GUID const &,void * *)
-public: virtual long __stdcall CreateInstance(struct IUnknown *,class EagleDynamics::Common::Identifier const &,void * *)
+public: virtual long __stdcall CreateInstance(struct IUnknown *,class Identifier const &,void * *)
 public: virtual long __stdcall LockServer(int)
 public: virtual void __thiscall add(class Identifier const &)
 public: virtual class Identifiable * __thiscall clone(class Identifiable *)
@@ -161,7 +161,7 @@ public: virtual void __thiscall create(class Identifier const &,class Identifiab
 public: virtual void __thiscall destroy(class Identifiable *)
 public: virtual bool __thiscall isPresent(class Identifier const &)
 public: virtual void __thiscall remove(class Identifier const &)
-public: virtual class std::list<class Identifier,class std::allocator<class Identifier> > const & __thiscall Factory::requestIdentifiers(void)const
+public: virtual class std::list<class Identifier,class std::allocator<class Identifier> > const & __thiscall requestIdentifiers(void)const
 const EagleDynamics::Common::Factory::`vftable'
 };
 
@@ -171,15 +171,15 @@ public: __thiscall FactoryManager(class FactoryManager const &)
 public: __thiscall FactoryManager(void)
 public: virtual __thiscall ~FactoryManager(void)
 public: class FactoryManager & __thiscall operator=(class FactoryManager const &)
-public: virtual void __thiscall add(class EagleDynamics::Common::Factory *)
-public: virtual void __thiscall addFactory(class EagleDynamics::Common::Factory *)
-public: virtual void __thiscall remove(class EagleDynamics::Common::Factory *)
-public: virtual void __thiscall removeFactory(class EagleDynamics::Common::Factory *)
-public: virtual long __stdcall CreateInstance(struct IUnknown *,class EagleDynamics::Common::Identifier const &,void * *)
+public: virtual void __thiscall add(class Factory *)
+public: virtual void __thiscall addFactory(class Factory *)
+public: virtual void __thiscall remove(class Factory *)
+public: virtual void __thiscall removeFactory(class Factory *)
+public: virtual long __stdcall CreateInstance(struct IUnknown *,class Identifier const &,void * *)
 public: virtual void __thiscall clear(void)
 public: virtual class Identifiable * __thiscall create(class Identifier const &)
-public: virtual void __thiscall destroy(class EagleDynamics::Common::Identifiable *)
-public: class std::vector<class ATL::CComPtr<class Factory>,class std::allocator<class ATL::CComPtr<class Factory> > > const & __thiscall FactoryManager::getFactories(void)const
+public: virtual void __thiscall destroy(class Identifiable *)
+public: class std::vector<class ATL::CComPtr<class Factory>,class std::allocator<class ATL::CComPtr<class Factory> > > const & __thiscall getFactories(void)const
 const EagleDynamics::Common::FactoryManager::`vftable'
 
 class FactoryManager * registry
@@ -338,7 +338,7 @@ public: virtual bool __thiscall isLoading(void)
 public: virtual bool __thiscall isOpened(void)
 public: virtual void __thiscall load(class Persistable *)
 public: virtual void __thiscall open(struct IUnknown *,enum Persistor::Mode)
-public: virtual bool __thiscall open(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum EagleDynamics::Common::Persistor::Mode)
+public: virtual bool __thiscall open(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Persistor::Mode)
 public: virtual void __thiscall persist(class Persistable * &)
 public: virtual void __thiscall save(class Persistable *)
 public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall getName(void)
@@ -355,7 +355,7 @@ public: class PersistorsManager & __thiscall operator=(class PersistorsManager c
 public: virtual void __thiscall add(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class Identifier const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)
 public: virtual void __thiscall clear(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall getPath(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
-public: virtual void __thiscall query(class EagleDynamics::Common::Persistor * *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Persistor::Mode)
+public: virtual void __thiscall query(class Persistor * *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Persistor::Mode)
 public: virtual void __thiscall remove(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)
 const EagleDynamics::Common::PersistorsManager::`vftable'
 
@@ -396,7 +396,7 @@ public: void __thiscall disable(unsigned long)
 public: void __thiscall enable(unsigned long)
 public: void __thiscall end(unsigned long)
 public: void __thiscall end(void)
-public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall EagleDynamics::Common::Profiler::getName(void)const
+public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall getName(void)const
 public: double __thiscall getPercent(void)const
 public: double __thiscall getRate(void)const
 public: unsigned long __thiscall getSize(void)const
@@ -529,7 +529,7 @@ protected: void __thiscall setName(class std::basic_string<char,struct std::char
 protected: void __thiscall write(unsigned long &)
 protected: void __thiscall write(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
 protected: void __thiscall write(class std::map<struct Record,unsigned long,struct std::less<struct Record>,class std::allocator<unsigned long> > &)
-protected: virtual void __thiscall write(class EagleDynamics::Common::Persistable *,bool)
+protected: virtual void __thiscall write(class Persistable *,bool)
 const EagleDynamics::Common::StorageSerializer::`vftable'
 };
 

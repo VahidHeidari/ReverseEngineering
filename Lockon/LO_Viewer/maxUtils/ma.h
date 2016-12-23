@@ -484,12 +484,12 @@ class SplineShapeData
 	public: __thiscall ma::SplineShapeData::Primitive::Primitive(class ma::SplineShapeData::Primitive const &)
 	public: __thiscall ma::SplineShapeData::Primitive::Primitive(int,int)
 	public: __thiscall ma::SplineShapeData::Primitive::Primitive(void)
+	public: virtual __thiscall ma::SplineShapeData::Primitive::~Primitive(void)
 	public: class ma::SplineShapeData::Primitive & __thiscall ma::SplineShapeData::Primitive::operator=(class ma::SplineShapeData::Primitive const &)
 	public: class std::vector<class ma::SplineShapeData::Primitive,class std::allocator<class ma::SplineShapeData::Primitive> > & __thiscall ma::SplineShapeData::primitiveArray(void)
 	public: int & __thiscall ma::SplineShapeData::Primitive::i0(void)
 	public: int & __thiscall ma::SplineShapeData::Primitive::i1(void)
 	public: int & __thiscall ma::SplineShapeData::Primitive::index(int)
-	public: virtual __thiscall ma::SplineShapeData::Primitive::~Primitive(void)
 	};
 
 	class Spline
@@ -650,22 +650,6 @@ public: void __thiscall ma::ViewportDraw::off(void)
 public: void __thiscall ma::ViewportDraw::on(void)
 public: void __thiscall ma::ViewportDraw::refresh(void)
 const ma::ViewportDraw::`vftable'
-};
-
-class 
-{
-};
-
-class 
-{
-};
-
-class 
-{
-};
-
-class 
-{
 };
 
 }		/// namespace ma

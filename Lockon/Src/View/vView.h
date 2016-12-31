@@ -68,6 +68,7 @@ private: static bool vView::bRightMirrorOn
 private: static bool vView::bTempCockpitOn
 private: static float vView::externalZoomSpeedCurrent
 private: static int vView::curCamera
+private: static class vCamera * * vView::camera
 };
 
 #endif

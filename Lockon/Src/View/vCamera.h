@@ -62,7 +62,6 @@ public: static int vCamera::humanCameraType
 public: static int vCamera::iObjectsFilter
 public: static unsigned long vCamera::humanID
 protected: static unsigned long vCamera::fightID
-private: static class vCamera * * vView::camera
 };
 
 #endif

@@ -47,7 +47,6 @@ public: static bool __cdecl Options::Difficulties::isReadOnly(void)
 public: virtual void __thiscall Options::Difficulties::apply(void)
 public: virtual void __thiscall Options::Difficulties::display(bool)
 public: virtual void __thiscall Options::Difficulties::reset(void)
-public: void __thiscall Options::Difficulties::`vbase destructor'(void)
 public: void __thiscall Options::Difficulties::onCustom(void)
 public: void __thiscall Options::Difficulties::onSave(bool)
 private: void __thiscall Options::Difficulties::fillData(class std::vector<struct Options::OptionElement,class std::allocator<struct Options::OptionElement> > &,int)
@@ -55,6 +54,7 @@ private: void __thiscall Options::Difficulties::onSetGlobal(void)
 private: void __thiscall Options::Difficulties::readData(int)
 private: void __thiscall Options::Difficulties::saveData(int,bool)
 private: class std::vector<struct Options::OptionElement,class std::allocator<struct Options::OptionElement> > & __thiscall Options::Difficulties::getCurrentData(int)
+public: void __thiscall Options::Difficulties::`vbase destructor'(void)
 const Options::Difficulties::`vbtable'
 const Options::Difficulties::`vftable'
 const Options::Difficulties::`vftable'{for `Control'}
@@ -95,7 +95,6 @@ public: void __thiscall Options::Graphics::enabler(void)
 public: void __thiscall Options::Graphics::onDefHigh(void)
 public: void __thiscall Options::Graphics::onDefLow(void)
 public: void __thiscall Options::Graphics::onDefMedium(void)
-protected: static struct MSGTABLE const Options::Graphics::messageTable
 protected: virtual struct MSGTABLE const * __thiscall Options::Graphics::getMessageTable(void)const 
 private: class Options::Graphics::Param * __thiscall Options::Graphics::initParam(class Options::Graphics::Param * (__cdecl*)(class ConfigParser::iterator,class ComboBox *),char const *,int)
 private: void __thiscall Options::Graphics::onCivTraffic(void)
@@ -106,6 +105,7 @@ const Options::Graphics::`vftable'
 const Options::Graphics::`vftable'{for `Control'}
 const Options::Graphics::`vftable'{for `UI::Element'}
 
+protected: static struct MSGTABLE const Options::Graphics::messageTable
 private: static int * Options::Graphics::scenes
 private: static bool * Options::Graphics::civTraffic
 private: static struct MSGTABLE_ENTRY const * const Options::Graphics::messageEntries
